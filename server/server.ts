@@ -48,6 +48,24 @@ app.get('/api/characters', async (req, res, next) => {
   }
 });
 
+app.get('/api/home/characters', async (req, res, next) => {
+  try {
+    const sql = `
+      select *
+        from "characters"
+        order by random()
+        limit 10
+        `;
+    const result = await db.query(sql);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    res.json(result.rows);
+  } catch (err) {
+    next(err);
+  }
+});
+
 app.get('*', (req, res) => res.sendFile(`${reactStaticDir}/index.html`));
 
 app.use(errorMiddleware);
