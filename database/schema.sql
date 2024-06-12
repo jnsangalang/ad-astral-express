@@ -9,17 +9,13 @@ create schema "public";
 CREATE TABLE "skills" (
   "skillId" serial PRIMARY KEY,
   "skillName" text,
-  "skillDescription" text,
   "skillLevel" text
 );
 
 CREATE TABLE "characters" (
   "CharacterId" serial PRIMARY KEY,
   "characterName" text,
-  "characterTalent" text,
-  "characterLevel" integer,
-  "minorTraces" text,
-  "majorTraces" text,
+  "characterLevel" text,
   "characterImage" text,
   "characterPortrait" text,
   "characterPath" text,
@@ -28,23 +24,21 @@ CREATE TABLE "characters" (
   "skill1Id" integer,
   "skill2Id" integer,
   "skill3Id" integer,
-  "weaponId" integer,
   "talentId" integer,
   "characterStatsId" integer
 );
 
 CREATE TABLE "characterStats" (
   "characterStatsId" serial PRIMARY KEY,
-  "characterAttack" integer,
-  "characterDefense" integer,
-  "characterHealth" integer,
-  "characterSpeed" integer
+  "characterAttack" text,
+  "characterDefense" text,
+  "characterHealth" text,
+  "characterSpeed" text
 );
 
 CREATE TABLE "talent" (
   "talentId" serial PRIMARY KEY,
   "talentName" text,
-  "talentDescription" text,
   "talentLevel" text
 );
 
