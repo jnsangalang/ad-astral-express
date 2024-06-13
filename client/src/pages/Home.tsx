@@ -1,7 +1,9 @@
+import { Carousel } from '../components/Carousel';
+
 export function Home() {
   return (
     <div>
-      <div>h</div>
+      <Carousel />
     </div>
   );
 }

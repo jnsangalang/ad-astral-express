@@ -322,3 +322,152 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Silver Wolf', '[1,20,40,60,80]', '/images/characters/silver-wolf.png', '/images/characters/silver-wolf-portrait.png', 'Nihility', 'Quantum', 5, 16,17,18,6,6);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Lightning Rush', '["Deals Lightning DMG equal to 50% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 60% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 70% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 80% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 90% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 100% of Arlans ATK to a single enemy.","]'),
+      ('Shackle Breaker', '["Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 120% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 132% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 144% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 156% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 168% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 180% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 195% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 210% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 225% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 240% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low."]'),
+      ('Frenzied Punishment', '["Deals Lightning DMG equal to 192% of Arlans ATK to a single enemy and Lightning DMG equal to 96%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 204.8% of Arlans ATK to a single enemy and Lightning DMG equal to 102.4%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 217.6% of Arlans ATK to a single enemy and Lightning DMG equal to 108.8%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 230.4% of Arlans ATK to a single enemy and Lightning DMG equal to 115.2%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 243.2% of Arlans ATK to a single enemy and Lightning DMG equal to 121.6%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 256% of Arlans ATK to a single enemy and Lightning DMG equal to 128%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 272% of Arlans ATK to a single enemy and Lightning DMG equal to 136%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 288% of Arlans ATK to a single enemy and Lightning DMG equal to 144%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 304% of Arlans ATK to a single enemy and Lightning DMG equal to 152%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 320% of Arlans ATK to a single enemy and Lightning DMG equal to 160%% of Arlans ATK to any adjacent enemies."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Pain and Anger', '["Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 36% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 39.6% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 43.2% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 46.8% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 50.4% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 54% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 58.5% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 63% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 67.5% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 72% more DMG."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[163, 384, 677, 971, 1200]', '[81.6, 191.76, 338.64, 485.52, 599.76]', '[45, 105.75, 186.75, 267.75, 330.75]', '[102,102,102,102,102]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Arlan', '[1,20,40,60,80]', '/images/characters/arlan.png', '/images/characters/arlan-portrait.png', 'Destruction', 'Lightning', 4, 19,20,21,7,7);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Spectrum Beam', '["Deals Fire DMG equal to 50% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 60% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 70% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 80% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 90% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 100% of Astas ATK to a single enemy."]'),
+      ('Meteor Storm', '["Deals Fire DMG equal to 25% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 25% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 27.5% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 27.5% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 30% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 30% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 32.5% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 32.5% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 35% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 35% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 37.5% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 37.5% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 40.62% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 40.62% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 43,75% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 43,75% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 46.87% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 46.87% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 50% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 50% of Astas ATK to a random enemy.",]'),
+      ('Astral Blessing', '["Increases SPD of all allies by 36 for 2 turn(s).",
+      "Increases SPD of all allies by 37 for 2 turn(s).",
+      "Increases SPD of all allies by 39 for 2 turn(s).",
+      "Increases SPD of all allies by 40 for 2 turn(s).",
+      "Increases SPD of all allies by 42 for 2 turn(s).",
+      "Increases SPD of all allies by 43 for 2 turn(s).",
+      "Increases SPD of all allies by 45 for 2 turn(s).",
+      "Increases SPD of all allies by 46 for 2 turn(s).",
+      "Increases SPD of all allies by 48 for 2 turn(s).",
+      "Increases SPD of all allies by 50 for 2 turn(s)."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Astrometry', '["Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 7%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 7.7%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 8.4%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 9.1%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 9.8%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 10.5%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 11.37%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 12.25%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 13.12%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 14%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[139, 327, 578, 828, 1023]', '[69.6, 163.56, 288.84, 414.12, 511.56]', '[63, 148.05, 261.45, 374.85, 463.05]', '[106,106,106,106,106]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Asta', '[1,20,40,60,80]', '/images/characters/asta.png', '/images/characters/asta-portrait.png', 'Harmony', 'Fire', 4, 22,23,24,8,8);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('What Are You Looking At?', '["Deals Ice DMG equal to 50% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 60% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 70% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 80% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 90% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 100% of Hertas ATK to a single enemy."]'),
+      ('One-Time Offer', '["Deals Ice DMG equal to 50% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 55% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 60% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 65% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 70% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 75% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 81.25% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 87.5% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 93.75% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 100% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%."]'),
+      ('It’s Magic, I Added Some Magic', '["Deals Ice DMG equal to 120% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 128% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 136% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 144% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 152% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 160% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 170% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 190% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 200% of Herta’s ATK to all enemies.",]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Fine, I’ll Do It Myself', '["When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 26.5% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 28% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 29.5% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 31% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 32.5% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 34.37% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 36.25% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 38.12% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 40% of Herta’s ATK to all enemies.",]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('130, 305, 538, 771, 953]', '[79.2, 186.12, 328.68, 471.24, 582.12]', '[54, 126.9, 224.1, 321.3, 396.9]', '[100,100,100,100,100]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Herta', '[1,20,40,60,80]', '/images/characters/herta.png', '/images/characters/herta-portrait.png', 'Erudition', 'Ice', 4, 25,26,27,9,9);
