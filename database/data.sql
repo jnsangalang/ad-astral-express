@@ -55,9 +55,9 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath",
-      "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
    values('March 7th', '[1, 20, 40, 60, 80]', '/images/characters/march-7.png', '/images/characters/march-7-portrait.png', 'Preservation',
-         'Ice', 4, 1, 2, 3, 1, 1 );
+         'Ice','	A girl who once slumbered in eternal ice and knows nothing about her past. To find out the truth about her origins, she decided to travel with the Astral Express. As of right now, she has prepared about 67 different versions of her life story for herself.', 4, 1, 2, 3, 1, 1 );
 
 insert into "weapons"
          ("health", "attack", "defense", "weaponImage", "weaponName", "weaponPath")
@@ -110,8 +110,9 @@ insert into "characterStats"
    values('[120,282,498,714,882]', '[74.4, 174.84, 308.76, 442.68, 546.84]', '[54, 126.9, 224.1, 321.3, 396.9]', '[110,110,110,110,110]');
 
 insert into "characters"
-      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Dan Heng', '[1,20,40,60,80]', '/images/characters/dan-heng.png', '/images/characters/dan-heng-portrait.png', 'Hunt', 'Wind', 4,  4, 5, 6, 2, 2);
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Dan Heng', '[1,20,40,60,80]', '/images/characters/dan-heng.png', '/images/characters/dan-heng-portrait.png', 'Hunt', 'Wind','A cold and reserved young man who is reticent about his past.
+To avoid his kin, he decided to travel with the Astral Express.' , 4,  4, 5, 6, 2, 2);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -160,8 +161,8 @@ insert into "characterStats"
       values('[143, 335, 592, 848, 1048]', '[102.96, 241.96, 427.28, 612.61, 756.76]', '[59.4, 139.59, 246.51, 353.43, 436.59]', '[96,96,96,96,96]');
 
 insert into "characters"
-      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Himeko', '[1,20,40,60,80]', '/images/characters/himeko.png', '/images/characters/himeko-portrait.png', 'Erudition', 'Fire', 5, 7, 8, 9, 3, 3);
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Himeko', '[1,20,40,60,80]', '/images/characters/himeko.png', '/images/characters/himeko-portrait.png', 'Erudition', 'Fire','The one who repaired the Astral Express. To witness the vast starry sky, she decided to travel with the Astral Express. Her hobby is brewing hand-made coffee.', 5, 7, 8, 9, 3, 3);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -210,8 +211,8 @@ insert into "characterStats"
       values('[153, 360, 635, 911, 1125]', '[84.48, 198.53, 350.59, 502.66, 620.93]', '[69.3, 162.85, 350.59, 502.66, 620.93]', '[102,102,102,102,102]');
 
 insert into "characters"
-      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Welt', '[1,20,40,60,80]', '/images/characters/welt.png', '/images/characters/welt-portrait.png', 'Nihility', 'Imaginary', 5, 10, 11, 12, 4, 4);
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Welt', '[1,20,40,60,80]', '/images/characters/welt.png', '/images/characters/welt-portrait.png', 'Nihility', 'Imaginary', 'A seasoned member of the Express Crew. The passion buried in his heart burns anew as he enjoys this fresh adventure. Occasionally, he would sketch the experiences in a notebook.',5, 10, 11, 12, 4, 4);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -260,8 +261,8 @@ insert into "characterStats"
       values('[148, 347, 614, 880, 1087]', '[92.4, 217.14, 383.46, 549.78, 679.14]', '[66, 155.1, 273.9, 392.7, 485.1]', '[100,100,100,100,100]');
 
 insert into "characters"
-      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Kafka', '[1,20,40,60,80]', '/images/characters/kafka.png', '/images/characters/kafka-portrait.png', 'Nihility', 'Lightning', 5, 13, 14, 15, 5, 5 );
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Kafka', '[1,20,40,60,80]', '/images/characters/kafka.png', '/images/characters/kafka-portrait.png', 'Nihility', 'Lightning','A member of the Stellaron Hunters. A dashing, collected, and professional beauty. Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron. Her hobby is shopping for and organizing her collection of coats.', 5, 13, 14, 15, 5, 5 );
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -320,5 +321,422 @@ insert into "characterStats"
       values('143, 335, 592, 848, 1048]', '[87.12, 204.73, 361.55, 518.36, 640.33]', '[62.7, 147.34, 260.2, 373.06, 460.85]', '[107,107,107,107,107]');
 
 insert into "characters"
-      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Silver Wolf', '[1,20,40,60,80]', '/images/characters/silver-wolf.png', '/images/characters/silver-wolf-portrait.png', 'Nihility', 'Quantum', 5, 16,17,18,6,6);
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Silver Wolf', '[1,20,40,60,80]', '/images/characters/silver-wolf.png', '/images/characters/silver-wolf-portrait.png', 'Nihility', 'Quantum','A member of the Stellaron Hunters and a genius hacker. She sees the universe as a massive immersive simulation game and has fun with it. She’s mastered the skill known as "aether editing," which can be used to tamper with the data of reality.', 5, 16,17,18,6,6);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Lightning Rush', '["Deals Lightning DMG equal to 50% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 60% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 70% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 80% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 90% of Arlans ATK to a single enemy.",
+      "Deals Lightning DMG equal to 100% of Arlans ATK to a single enemy.","]'),
+      ('Shackle Breaker', '["Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 120% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 132% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 144% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 156% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 168% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 180% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 195% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 210% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 225% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
+      "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 240% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low."]'),
+      ('Frenzied Punishment', '["Deals Lightning DMG equal to 192% of Arlans ATK to a single enemy and Lightning DMG equal to 96%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 204.8% of Arlans ATK to a single enemy and Lightning DMG equal to 102.4%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 217.6% of Arlans ATK to a single enemy and Lightning DMG equal to 108.8%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 230.4% of Arlans ATK to a single enemy and Lightning DMG equal to 115.2%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 243.2% of Arlans ATK to a single enemy and Lightning DMG equal to 121.6%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 256% of Arlans ATK to a single enemy and Lightning DMG equal to 128%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 272% of Arlans ATK to a single enemy and Lightning DMG equal to 136%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 288% of Arlans ATK to a single enemy and Lightning DMG equal to 144%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 304% of Arlans ATK to a single enemy and Lightning DMG equal to 152%% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 320% of Arlans ATK to a single enemy and Lightning DMG equal to 160%% of Arlans ATK to any adjacent enemies."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Pain and Anger', '["Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 36% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 39.6% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 43.2% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 46.8% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 50.4% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 54% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 58.5% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 63% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 67.5% more DMG.",
+      "Increases Arlans DMG for every percent of HP below his Max HP, up to a max of 72% more DMG."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[163, 384, 677, 971, 1200]', '[81.6, 191.76, 338.64, 485.52, 599.76]', '[45, 105.75, 186.75, 267.75, 330.75]', '[102,102,102,102,102]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Arlan', '[1,20,40,60,80]', '/images/characters/arlan.png', '/images/characters/arlan-portrait.png', 'Destruction', 'Lightning','The head of Herta Space Station’s Security Department.
+This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.', 4, 19,20,21,7,7);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Spectrum Beam', '["Deals Fire DMG equal to 50% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 60% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 70% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 80% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 90% of Astas ATK to a single enemy.",
+      "Deals Fire DMG equal to 100% of Astas ATK to a single enemy."]'),
+      ('Meteor Storm', '["Deals Fire DMG equal to 25% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 25% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 27.5% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 27.5% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 30% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 30% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 32.5% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 32.5% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 35% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 35% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 37.5% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 37.5% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 40.62% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 40.62% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 43,75% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 43,75% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 46.87% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 46.87% of Astas ATK to a random enemy.",
+      "Deals Fire DMG equal to 50% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 50% of Astas ATK to a random enemy.",]'),
+      ('Astral Blessing', '["Increases SPD of all allies by 36 for 2 turn(s).",
+      "Increases SPD of all allies by 37 for 2 turn(s).",
+      "Increases SPD of all allies by 39 for 2 turn(s).",
+      "Increases SPD of all allies by 40 for 2 turn(s).",
+      "Increases SPD of all allies by 42 for 2 turn(s).",
+      "Increases SPD of all allies by 43 for 2 turn(s).",
+      "Increases SPD of all allies by 45 for 2 turn(s).",
+      "Increases SPD of all allies by 46 for 2 turn(s).",
+      "Increases SPD of all allies by 48 for 2 turn(s).",
+      "Increases SPD of all allies by 50 for 2 turn(s)."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Astrometry', '["Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 7%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 7.7%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 8.4%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 9.1%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 9.8%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 10.5%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 11.37%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 12.25%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 13.12%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn.",
+      "Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness. For every Charging stack Asta has, all allies ATK increases by 14%, up to 5 time(s). Starting from her second turn, Astas Charging stack count is reduced by 3 at the beginning of every turn."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[139, 327, 578, 828, 1023]', '[69.6, 163.56, 288.84, 414.12, 511.56]', '[63, 148.05, 261.45, 374.85, 463.05]', '[106,106,106,106,106]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Asta', '[1,20,40,60,80]', '/images/characters/asta.png', '/images/characters/asta-portrait.png', 'Harmony', 'Fire','The lead researcher of Herta Space Station and a lady from a renowned family. She’s an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.', 4, 22,23,24,8,8);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('What Are You Looking At?', '["Deals Ice DMG equal to 50% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 60% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 70% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 80% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 90% of Hertas ATK to a single enemy.",
+      "Deals Ice DMG equal to 100% of Hertas ATK to a single enemy."]'),
+      ('One-Time Offer', '["Deals Ice DMG equal to 50% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 55% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 60% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 65% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 70% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 75% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 81.25% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 87.5% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 93.75% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%.",
+      "Deals Ice DMG equal to 100% of Herta’s ATK to all enemies. If the enemy’s HP is at 50% of their Max HP or higher, DMG dealt to this target increases by 20%."]'),
+      ('It’s Magic, I Added Some Magic', '["Deals Ice DMG equal to 120% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 128% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 136% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 144% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 152% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 160% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 170% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 190% of Herta’s ATK to all enemies.",
+      "Deals Ice DMG equal to 200% of Herta’s ATK to all enemies.",]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Fine, I’ll Do It Myself', '["When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 26.5% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 28% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 29.5% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 31% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 32.5% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 34.37% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 36.25% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 38.12% of Herta’s ATK to all enemies.",
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 40% of Herta’s ATK to all enemies.",]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('130, 305, 538, 771, 953]', '[79.2, 186.12, 328.68, 471.24, 582.12]', '[54, 126.9, 224.1, 321.3, 396.9]', '[100,100,100,100,100]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Herta', '[1,20,40,60,80]', '/images/characters/herta.png', '/images/characters/herta-portrait.png', 'Erudition', 'Ice','Member 83 of the Genius Society. The real master of the space station.
+An incredibly intelligent yet unsympathetic scientist.', 4, 25,26,27,9,9);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Windrider Bullet', '["Deals Wind DMG equal to 50% of Bronya’s ATK to a single enemy.",
+      "Deals Wind DMG equal to 60% of Bronya’s ATK to a single enemy.",
+      "Deals Wind DMG equal to 70% of Bronya’s ATK to a single enemy.",
+      "Deals Wind DMG equal to 80% of Bronya’s ATK to a single enemy.",
+      "Deals Wind DMG equal to 90% of Bronya’s ATK to a single enemy.",
+      "Deals Wind DMG equal to 100% of Bronya’s ATK to a single enemy."]'),
+      ('Combat Redeployment', '["Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 33% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 36.3% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 39.6% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 42.9% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 46.2% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 49.5% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 53.625% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 57.75% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 61.875% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 66% for 1 turn(s).
+      When this Skill is used on Bronya herself, she cannot immediately take action again.",]'),
+      ('The Belobog March', '["Increases the ATK of all allies by 33%, and increase their CRIT DMG equal to 12% of Bronya’s CRIT DMG plus 12% for 2 turn(s).",
+      "Increases the ATK of all allies by 35.2%, and increase their CRIT DMG equal to 12.4% of Bronya’s CRIT DMG plus 12.8% for 2 turn(s).",
+      "Increases the ATK of all allies by 37.4%, and increase their CRIT DMG equal to 12.8% of Bronya’s CRIT DMG plus 13.6% for 2 turn(s).",
+      "Increases the ATK of all allies by 39.6%, and increase their CRIT DMG equal to 13.2% of Bronya’s CRIT DMG plus 14.4% for 2 turn(s).",
+      "Increases the ATK of all allies by 41.8%, and increase their CRIT DMG equal to 13.6% of Bronya’s CRIT DMG plus 15.2% for 2 turn(s).",
+      "Increases the ATK of all allies by 44%, and increase their CRIT DMG equal to 14% of Bronya’s CRIT DMG plus 16% for 2 turn(s).",
+      "Increases the ATK of all allies by 46.75%, and increase their CRIT DMG equal to 14.5% of Bronya’s CRIT DMG plus 17% for 2 turn(s).",
+      "Increases the ATK of all allies by 49.5%, and increase their CRIT DMG equal to 15% of Bronya’s CRIT DMG plus 18% for 2 turn(s).",
+      "Increases the ATK of all allies by 52.25%, and increase their CRIT DMG equal to 15.5% of Bronya’s CRIT DMG plus 19% for 2 turn(s).",
+      Increases the ATK of all allies by 55%, and increase their CRIT DMG equal to 16% of Bronya’s CRIT DMG plus 20% for 2 turn(s).]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Leading the Way', '["After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 15%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 16.5%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 18%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 19.5%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 21%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 22.5%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 24.37%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 26.25%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 28.12%",
+      "After using her Basic ATK, Bronya’s next action will be Advanced Forwardby 30%"]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[169,397,701,1005,1242]', '[79.2,186.12,328.68,471.24,582.12]', '[72.6,170.61,301.29,431.97,533.61]', '[99,99,99,99,99]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Bronya', '[1,20,40,60,80]', '/images/characters/bronya.png', '/images/characters/bronya-portrait.png', 'Harmony', 'Wind','Heir apparent to the Supreme Guardian of Belobog.
+She possesses pride befitting of a princess, but also the determination and integrity of a soldier.', 5, 28,29,30,10,10);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Thwack', '["Deals Quantum DMG equal to 50% of Seele’s ATK to a single enemy.",
+      "Deals Quantum DMG equal to 60% of Seele’s ATK to a single enemy.",
+      "Deals Quantum DMG equal to 70% of Seele’s ATK to a single enemy.",
+      "Deals Quantum DMG equal to 80% of Seele’s ATK to a single enemy.",
+      "Deals Quantum DMG equal to 90% of Seele’s ATK to a single enemy.",
+      "Deals Quantum DMG equal to 100% of Seele’s ATK to a single enemy."]'),
+      ('Sheathed Blade', '["Deals Quantum DMG equal to 110% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 121% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 132% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 143% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 154% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 165% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 178.75% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 192.5% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 206.25% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
+      "Deals Quantum DMG equal to 220% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",]'),
+      ('Butterfly Flurry', '["Seele enters the buffed state and deals Quantum DMG equal to 255% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 272% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 289% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 306% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 323% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 340% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 361.25% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 382.5% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 403.75% of Seele’s ATK to a single enemy.",
+      "Seele enters the buffed state and deals Quantum DMG equal to 425% of Seele’s ATK to a single enemy.",]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Resurgence', '["Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 40% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 44% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 48% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 52% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 56% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 60% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 65% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 75% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 80% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance.",
+      "Seele enters the buffed state upon defeating an enemy and receives an extra action. While in the buffed state, Seele increases her DMG by 70% for 1 turn(s). Enemies defeated in the extra action provided by Reappearance will not trigger another Reappearance."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense","characterSpeed")
+      values('[127,298,526,754,931]', '[87.12,204.73,361.55,518.36,640.33]', '[49.5,116.32,205.43,294.52,363.83]', '[115,115,115,115,115]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage","characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Seele', '[1,20,40,60,80]', '/images/characters/seele.png', '/images/characters/seele-portrait.png', 'Hunt', 'Quantum','A resident of the Underworld and the backbone of Wildfire. She goes by the alias "Babochka."
+She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.', 5,31,32,33,11,11);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Roaring Thunderclap', '["Deals Lightning DMG equal to 50% of Serval’s ATK to a single enemy.",
+      "Deals Lightning DMG equal to 60% of Serval’s ATK to a single enemy.",
+      "Deals Lightning DMG equal to 70% of Serval’s ATK to a single enemy.",
+      "Deals Lightning DMG equal to 80% of Serval’s ATK to a single enemy.",
+      "Deals Lightning DMG equal to 90% of Serval’s ATK to a single enemy.",
+      "Deals Lightning DMG equal to 100% of Serval’s ATK to a single enemy.",]'),
+      ('Lightning Flash', '["Deals Lightning DMG equal to 70% of Serval’s ATK to a single enemy and Lightning DMG equal to 30% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 40%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 77% of Serval’s ATK to a single enemy and Lightning DMG equal to 33% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 44%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 84% of Serval’s ATK to a single enemy and Lightning DMG equal to 36% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 48%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 91% of Serval’s ATK to a single enemy and Lightning DMG equal to 39% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 52%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 98% of Serval’s ATK to a single enemy and Lightning DMG equal to 42% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 56%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 105% of Serval’s ATK to a single enemy and Lightning DMG equal to 45% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 62%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 113.75% of Serval’s ATK to a single enemy and Lightning DMG equal to 48.75% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 70%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 122.5% of Serval’s ATK to a single enemy and Lightning DMG equal to 52.5% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 80%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 131.25% of Serval’s ATK to a single enemy and Lightning DMG equal to 56.25% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 92%% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 140% of Serval’s ATK to a single enemy and Lightning DMG equal to 60% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 104%% of Serval’s ATK at the beginning of each turn."]'),
+      ('Here Comes the Mechanical Fever', '["Deals Lightning DMG equal to 108% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 115.2% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 122.4% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 129.6% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 136.8% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 144% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 153% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 162% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 171% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
+      "Deals Lightning DMG equal to 180% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s)."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Galvanic Chords', '["After Serval attacks, deals additional Lightning DMG equal to 36% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 39.6% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 43.2% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 46.8% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 50.4% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 54% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 58.5% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 63% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 67.5% of Serval’s ATK to all Shocked enemies.",
+      "After Serval attacks, deals additional Lightning DMG equal to 72% of Serval’s ATK to all Shocked enemies."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('125,293,518,743,917]', '[88.8,208.68,368.52,528.36,652.68]','[51,119.85,211.65,303.45,374.85]', '[104,104,104,104,104]');
+
+insert into "characters"
+      ("characterName", "characterLevel","characterImage","characterPortrait","characterPath","characterType", "characterDescription","rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Serval', '[1,20,40,60,80]', '/images/characters/serval.png', '/images/characters/serval-portrait.png', 'Erudition', 'Lightning','	A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.
+As Gepard Landau’s elder sister, her personality stands in stark contrast to her brother’s. She loves an ancient form of music known as "rock 'n' roll" that was popular before the Eternal Freeze.', 4,34,35,36,12,12);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Fist of Conviction','["Deals Ice DMG equal to 50% of Gepard’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 60% of Gepard’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 70% of Gepard’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 80% of Gepard’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 90% of Gepard’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 100% of Gepard’s ATK to a single enemy.",]'),
+      ('Daunting Smite', '["Deals Ice DMG equal to 100% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 30% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 110% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 33% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 120% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 36% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 130% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 39% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 140% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 42% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 150% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 45% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 162.5% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 48.75% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 175% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 52.5% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 187.5% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 56.25% of Gepard’s ATK at the beginning of each turn.",
+      "Deals Ice DMG equal to 200% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 60% of Gepard’s ATK at the beginning of each turn.",]'),
+      ('Enduring Bulwark', '["Applies a Shield to all allies, absorbing DMG equal to 30% of Gepard’s DEF plus 150 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 31.87% of Gepard’s DEF plus 240 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 33.75% of Gepard’s DEF plus 307 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 35.62% of Gepard’s DEF plus 375 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 37.5% of Gepard’s DEF plus 420 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 39% of Gepard’s DEF plus 465 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 40.5% of Gepard’s DEF plus 499 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 42% of Gepard’s DEF plus 532 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 43.5% of Gepard’s DEF plus 566 for 3 turn(s).",
+      "Applies a Shield to all allies, absorbing DMG equal to 45% of Gepard’s DEF plus 600 for 3 turn(s)."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Unyielding Will', '["When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 25% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 27.5% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 30% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 32.5% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 35% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 37.5% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 40.62% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 43.75% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 46.87% of his Max HP. This effect can only trigger once per battle.",
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 50% of his Max HP. This effect can only trigger once per battle.",]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[190,447,789,1131,1397]', '[73.92,173.71,306.77,439.82,543.31]', '[89.1,209.38,306.77,530.14,654.88]', '[92,92,92,92,92]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Gepard', '[1,20,40,60,80]', '/images/characters/gepard.png', '/images/characters/gepard-portrait.png', 'Preservation', 'Ice','A captain in the Silvermane Guards and an outstanding warrior of Belobog.
+He is meticulous and vigilant to the core and is always true to himself.', 5,37,38,39,13,13);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Behind the Kindness', '["Deals Physical DMG equal to 50% of Natasha’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 60% of Natasha’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 70% of Natasha’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 80% of Natasha’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 90% of Natasha’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 100% of Natasha’s ATK to a single enemy.",]'),
+      ('Love,Heal, and Choose', '["Heals a single ally for 7% of Natasha’s Max HP plus 70. Heals the ally for another 4.8% of Natasha’s Max HP plus 48 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 7.44% of Natasha’s Max HP plus 112. Heals the ally for another 5.1% of Natasha’s Max HP plus 77 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 7.87% of Natasha’s Max HP plus 143. Heals the ally for another 5.4% of Natasha’s Max HP plus 98 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 8.31% of Natasha’s Max HP plus 175. Heals the ally for another 5.7% of Natasha’s Max HP plus 120 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 8.75% of Natasha’s Max HP plus 196. Heals the ally for another 6% of Natasha’s Max HP plus 134 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 9.1% of Natasha’s Max HP plus 217. Heals the ally for another 6.24% of Natasha’s Max HP plus 149 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 9.45% of Natasha’s Max HP plus 233. Heals the ally for another 6.48% of Natasha’s Max HP plus 160 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 9.8% of Natasha’s Max HP plus 248. Heals the ally for another 6.72% of Natasha’s Max HP plus 170 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 10.15% of Natasha’s Max HP plus 264. Heals the ally for another 6.96% of Natasha’s Max HP plus 181 at the beginning of each turn for 2 turn(s).",
+      "Heals a single ally for 10.5% of Natasha’s Max HP plus 280. Heals the ally for another 7.2% of Natasha’s Max HP plus 192 at the beginning of each turn for 2 turn(s)."]'),
+      ('Gift of Rebirth', '["Heals all allies for 9.2% of Natasha’s Max HP plus 92.",
+      "Heals all allies for 9.77% of Natasha’s Max HP plus 142.",
+      "Heals all allies for 10.35% of Natasha’s Max HP plus 189.",
+      "Heals all allies for 10.92% of Natasha’s Max HP plus 230.",
+      "Heals all allies for 11.5% of Natasha’s Max HP plus 258.",
+      "Heals all allies for 11.96% of Natasha’s Max HP plus 285.",
+      "Heals all allies for 12.42% of Natasha’s Max HP plus 306.",
+      "Heals all allies for 12.88% of Natasha’s Max HP plus 327.",
+      "Heals all allies for 13.34% of Natasha’s Max HP plus 347.",
+      "Heals all allies for 13.8% of Natasha’s Max HP plus 368."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Innervation', '["When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 25%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 27.5%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 30%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 32.5%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 35%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 37.5%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 40.62%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 433.75%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 46.87%.",
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 50%.",]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[158,372,657,942,1164]', '[64.8,152.28,268.92,385.56,476.28]', '[69,162.15,286.35,410.55,507.15]', '[98,98,98,98,98]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Natasha', '[1,20,40,60,80]', '/images/characters/natasha.png', '/images/characters/natasha-portrait.png', 'Abundance', 'Physical',
+      'A fastidious doctor who always wears an enigmatic smile. In the Underworld where medical resources are scarce,
+      Natasha is one of the very few doctors whom the people can turn to. Even the rambunctious Hook would politely greet her... "Hi, big sis Natasha."', 4,40,41,42,14,14);

@@ -20,6 +20,7 @@ CREATE TABLE "characters" (
   "characterPortrait" text,
   "characterPath" text,
   "characterType" text,
+  "characterDescription" text,
   "rarity" integer,
   "skill1Id" integer,
   "skill2Id" integer,

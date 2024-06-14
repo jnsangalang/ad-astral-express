@@ -1,0 +1,82 @@
+.button-characters {
+  display: flex;
+  width: 100%;
+}
+
+.button-favorites {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.button-sign-up {
+  width: 100%;
+  display: flex;
+}
+
+.button-weapons {
+  display: flex;
+  width: 100%;
+}
+
+.container-categories {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.categories {
+  width: 50%;
+  text-align: center;
+
+  /* padding: 1rem; */
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  /* box-shadow: 0.5rem 0.3rem 0.3rem rgb(255,255,255); */
+  border: 2px solid grey;
+  list-style-type: none;
+  text-align: left;
+  line-height: 2rem;
+  background-color: rgb(59, 59, 59);
+  min-width: 50%;
+}
+
+/* .nav-favorites{
+    width: 100%/3
+  } */
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+
+.create-pulse {
+  animation: pulse 3s ease-in-out infinite;
+}
+
+/* extends: {
+    ...
+    animation: {
+      'animation-name': 'keyframe-name 2s ease-in-out infinite'
+    }
+  } */
