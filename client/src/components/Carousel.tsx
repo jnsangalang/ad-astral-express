@@ -1,26 +1,26 @@
 import { useEffect, useState } from 'react';
 import { GoDot, GoDotFill } from 'react-icons/go';
 import { MdArrowLeft, MdArrowRight } from 'react-icons/md';
-
 const carouselImages = [
   {
-    src: '/carousel-images/2.3-update.jpeg',
+    src: 'images/carousel-images/2.3-update.jpeg',
     alt: 'Honkai Star Rail 2.3 Update, released June 18,2024',
   },
   {
-    src: '/carousel-images/apocalyptic-shadow.webp',
+    src: 'images/carousel-images/apocalyptic-shadow.webp',
     alt: 'New Endgame Content released alongside the 2.3 update ',
   },
   {
-    src: '/carousel-images/divergent-universe.webp',
+    src: 'images/carousel-images/divergent-universe.webp',
     alt: 'New Simulated Universe gameplay released alongside the 2.3 update',
   },
   {
-    src: '/carousel-images/firefly-banner.jpeg',
+    src: 'images/carousel-images/firefly-banner.jpeg',
     alt: 'New character Firefly released!',
   },
   {
-    src: '/carousel-images/jade-banner.jpg',
+    src: 'images/carousel-images/jade-banner.jpg',
+    // src:'/images/characters/himeko.png',
     alt: 'Upcoming character Jade, coming soon!',
   },
 ];
@@ -69,7 +69,7 @@ export function Carousel() {
         </div>
         <NextButton onClick={handleNextClick} />
       </div>
-      <div>
+      <div w-full>
         <p>{carouselImages[currentIndex].alt}</p>
       </div>
     </div>
@@ -125,5 +125,7 @@ type ImageCardProps = {
 };
 
 function ImageCard({ carouselImage }: ImageCardProps) {
-  return <img src={carouselImage.src} alt={carouselImage.alt} />;
+  return (
+    <img className="w-full" src={carouselImage.src} alt={carouselImage.alt} />
+  );
 }

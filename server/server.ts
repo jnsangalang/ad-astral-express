@@ -17,6 +17,9 @@ const app = express();
 const reactStaticDir = new URL('../client/dist', import.meta.url).pathname;
 const uploadsStaticDir = new URL('public', import.meta.url).pathname;
 
+console.log(reactStaticDir);
+console.log(uploadsStaticDir);
+
 app.use(express.static(reactStaticDir));
 // Static directory for file uploads server/public/
 app.use(express.static(uploadsStaticDir));

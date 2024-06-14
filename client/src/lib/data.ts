@@ -6,6 +6,7 @@ export type Character = {
   characterPortrait: string;
   characterPath: string;
   characterType: string;
+  characterDescription: string;
   rarity: number;
   skill1Id: number;
   skill2Id: number;
