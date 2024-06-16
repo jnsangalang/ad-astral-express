@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Character } from '../lib/data';
 import { readHomeCharacters } from '../lib/read';
-
+import '../App.css';
 export function HomeCharacters() {
   const [isLoading, setIsLoading] = useState(true);
   const [character, setCharacter] = useState<Character[]>();
@@ -33,7 +33,7 @@ export function HomeCharacters() {
   }
   return (
     <div>
-      <h1 className="text-left">Characters:</h1>
+      <h1 className="bebas-neue-regular text-6xl text-left">Characters:</h1>
       <hr className="py-1" />
       <div className="flex flex-wrap w-full">
         {character?.map((character) => (
@@ -56,11 +56,11 @@ function CharacterCard({ character }: Props) {
   return (
     <div className="w-full">
       <img
-        className="object-cover"
+        className="object-cover w-full h-full"
         src={characterPortrait}
         alt={characterName}
       />
-      <h5 className="font-bold mb-3">{characterName}</h5>
+      <h2 className="bebas-neue-regular  font-bold mb-3">{characterName}</h2>
     </div>
   );
 }

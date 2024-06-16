@@ -7,6 +7,7 @@ import { MdOutlineFavorite } from 'react-icons/md';
 import { SiGooglegemini } from 'react-icons/si';
 import { useEffect, useRef, useState } from 'react';
 import { Popup } from '../components/Popup';
+import '../App.css';
 import { StarrySpace } from './Header';
 export function DesktopHeader() {
   const [isCharacterOpen, setIsCharacterOpen] = useState(false);
@@ -41,18 +42,23 @@ export function DesktopHeader() {
   }, [isCharacterOpen, isWeaponOpen]);
 
   return (
-    <div className="w-full">
-      <nav className="w-full overflow-hidden">
+    <div className="w-full ">
+      <nav className="w-full overflow-hidden sticky">
         <div className="bg-gray-900 w-full]">
           <div className="justify-center text-center flex w-full">
-            <StarrySpace />
+            <div className="relative">
+              <StarrySpace />
+            </div>
+            <div className="font-bold text-8xl londrina-outline-regular absolute top-20">
+              WELCOME ABOARD THE ASTRAL EXPRESS
+            </div>
           </div>
           <div className="w-full flex justify-around items-center">
             <div className="w-1/5">
               <button
                 ref={postionChacracterRef}
                 onClick={() => setIsCharacterOpen(!isCharacterOpen)}
-                className="button-characters bg-gray-300 flex w-full items-center justify-evenly">
+                className="button-characters prompt-extrabold bg-gray-300 flex w-full items-center justify-evenly">
                 Characters
                 <FaPersonRays />
               </button>
@@ -63,7 +69,7 @@ export function DesktopHeader() {
                 }}
                 position={postionChacracterRef.current}>
                 <ul className="w-full">
-                  <Link to="/characters">
+                  <Link to="characters">
                     <li>All Characters</li>
                   </Link>
                   <li>Sort by Path </li>
@@ -75,7 +81,7 @@ export function DesktopHeader() {
               <button
                 ref={postionWeaponRef}
                 onClick={() => setIsWeaponOpen(!isWeaponOpen)}
-                className="bg-yellow-300 button-weapons flex w-full items-center justify-evenly">
+                className="bg-yellow-300 prompt-extrabold button-weapons flex w-full items-center justify-evenly">
                 Weapons
                 <GiSwitchWeapon />
               </button>
@@ -92,13 +98,13 @@ export function DesktopHeader() {
               </Popup>
             </div>
             <div className="w-1/5">
-              <button className="button-favorites flex ml-1 items-center justify-evenly bg-gray-300">
+              <button className="button-favorites prompt-extrabold flex ml-1 items-center justify-evenly bg-gray-300">
                 Favorites
                 <MdOutlineFavorite />
               </button>
             </div>
             <div className="w-1/5">
-              <button className="flex button-sign-up ml-0.5 items-center justify-evenly bg-yellow-300 text-nowrap">
+              <button className="flex prompt-extrabold button-sign-up ml-0.5 items-center justify-evenly bg-yellow-300 text-nowrap">
                 Sign Up <SiGooglegemini />
               </button>
             </div>

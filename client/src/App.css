@@ -1,8 +1,145 @@
-#root {
+* {
+  box-sizing: border-box;
+}
+
+.londrina-outline-regular {
+  font-family: 'Londrina Outline', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.prompt-extrabold {
+  font-family: Prompt, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.gold-pattern-background {
+  background-color: rgb(255, 221, 0);
+  background-image: linear-gradient(
+      25deg,
+      transparent 75%,
+      rgba(0, 0, 0, 0.05) 75%
+    ),
+    linear-gradient(335deg, transparent 75%, rgba(0, 0, 0, 0.05) 75%),
+    linear-gradient(125deg, transparent 75%, rgba(0, 0, 0, 0.03) 75%),
+    linear-gradient(215deg, transparent 75%, rgba(0, 0, 0, 0.03) 75%);
+  background-size: 100px 100px;
+}
+
+.gradient {
+  background: #fafaff;
+  background: linear-gradient(
+    to right,
+    rgb(118, 118, 118),
+    rgb(122, 121, 120),
+    rgb(210, 210, 207),
+    rgb(250, 238, 196),
+    rgb(186, 174, 133),
+    rgb(183, 182, 178),
+    rgb(207, 207, 207),
+    rgb(171, 170, 166),
+    rgb(141, 140, 124),
+    rgb(157, 157, 147),
+    rgb(225, 216, 173),
+    rgb(165, 158, 109),
+    rgb(165, 165, 151),
+    rgb(86, 86, 82)
+  );
+  background: linear-gradient(
+    120deg,
+    rgb(118, 118, 118),
+    rgb(122, 121, 120),
+    rgb(210, 210, 207),
+    rgb(250, 238, 196),
+    rgb(186, 174, 133),
+    rgb(183, 182, 178),
+    rgb(207, 207, 207),
+    rgb(171, 170, 166),
+    rgb(141, 140, 124),
+    rgb(157, 157, 147),
+    rgb(225, 216, 173),
+    rgb(165, 158, 109),
+    rgb(165, 165, 151),
+    rgb(86, 86, 82)
+  );
+}
+
+.starry-bg {
+  background-color: black;
+  background-image: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.2) 2px,
+      transparent 40px
+    ),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 2px, transparent 40px),
+    radial-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.1) 2px,
+      transparent 30px
+    );
+  background-size: 150px 150px;
+  background-position: 0 0, 40px 60px, /* 130px 270px, */ 70px 100px;
+}
+
+.slight-transparency {
+  background-color: rgb(255, 255, 255, 0.5);
+  display: block;
+  filter: brightness(1);
+}
+
+.train {
+  position: ;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-direction: normal;
+  animation-play-state: running;
+  animation-name: train-animation;
+}
+
+@keyframes train-animation {
+  0% {
+    animation-timing-function: ease-out;
+    transform: translateX(-100%);
+  }
+
+  20% {
+    animation-timing-function: ease-in;
+    transform: translateX(50vw);
+  }
+
+  75% {
+    animation-timing-function: ease-in;
+    transform: translateX(80vw);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.window-container {
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
 
-  /* padding: 2rem; */
+  padding: 2rem;
   text-align: center;
 }
 
@@ -43,4 +180,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

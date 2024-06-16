@@ -23,7 +23,7 @@ export function Popup({
 
   const top = positionRef ? positionRef?.top + positionRef.height : '50%';
 
-  const left = positionRef ? positionRef?.left + positionRef.width / 16 : '50%';
+  const left = positionRef ? positionRef?.left + positionRef.width / 12 : '50%';
   return createPortal(
     <>
       <div

@@ -17,3 +17,11 @@ export async function readHomeCharacters(): Promise<Character[]> {
   }
   return await response.json();
 }
+
+export async function testRead(): Promise<Character> {
+  const response = await fetch('/api/characters/Himeko');
+  if (!response.ok) throw new Error('yeet');
+  const himeko = await response.json();
+  console.log(himeko);
+  return himeko;
+}

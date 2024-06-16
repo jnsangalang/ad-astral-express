@@ -635,8 +635,8 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel","characterImage","characterPortrait","characterPath","characterType", "characterDescription","rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Serval', '[1,20,40,60,80]', '/images/characters/serval.png', '/images/characters/serval-portrait.png', 'Erudition', 'Lightning','	A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.
-As Gepard Landau’s elder sister, her personality stands in stark contrast to her brother’s. She loves an ancient form of music known as "rock 'n' roll" that was popular before the Eternal Freeze.', 4,34,35,36,12,12);
+      values('Serval', '[1,20,40,60,80]', '/images/characters/serval.png', '/images/characters/serval-portrait.png', 'Erudition', 'Lightning','A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.
+As Gepard Landau’s elder sister, her personality stands in stark contrast to her brother’s. She loves an ancient form of music known as "rock n’ roll" that was popular before the Eternal Freeze.', 4,34,35,36,12,12);
 
 insert into "skills"
       ("skillName", "skillLevel")

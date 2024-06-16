@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { GoDot, GoDotFill } from 'react-icons/go';
 import { MdArrowLeft, MdArrowRight } from 'react-icons/md';
+import '../App.css';
 const carouselImages = [
   {
     src: 'images/carousel-images/2.3-update.jpeg',
@@ -55,8 +56,8 @@ export function Carousel() {
   }
 
   return (
-    <div>
-      <div>Events</div>
+    <div className="w-full">
+      <div className="text-6xl text-center bebas-neue-regular">Events</div>
       <ImageCard carouselImage={carouselImages[currentIndex]} />
       <div className="flex bg-none justify-between">
         <PrevButton onClick={handlePrevClick} />
@@ -126,6 +127,10 @@ type ImageCardProps = {
 
 function ImageCard({ carouselImage }: ImageCardProps) {
   return (
-    <img className="w-full" src={carouselImage.src} alt={carouselImage.alt} />
+    <img
+      className="h-full w-full"
+      src={carouselImage.src}
+      alt={carouselImage.alt}
+    />
   );
 }

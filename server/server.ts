@@ -69,6 +69,28 @@ app.get('/api/home/characters', async (req, res, next) => {
   }
 });
 
+app.get('/api/characters/:characterName', async (req, res, next) => {
+  try {
+    const { characterName } = req.params;
+    if (!characterName) {
+      throw new ClientError(400, `${characterName} is not valid`);
+    }
+    const sql = `
+      select *
+        from "characters"
+        where "characterName" = $1
+        `;
+    const result = await db.query(sql, [characterName]);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    const [character] = result.rows;
+    res.json(character);
+  } catch (err) {
+    next(err);
+  }
+});
+
 app.get('*', (req, res) => res.sendFile(`${reactStaticDir}/index.html`));
 
 app.use(errorMiddleware);
