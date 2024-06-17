@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import { createPortal } from 'react-dom';
+import '../App.css';
 
 type Props = {
   isOpen: boolean;
@@ -28,11 +29,9 @@ export function Popup({
     <>
       <div
         onClick={onClose}
-        className="top-div"
+        className="shade-popup"
         style={{ backgroundColor: `rgb(0,0,0, ${opacitySet})` }}></div>
-      <div
-        className="menu-wrapper"
-        style={{ top: top, left: left, position: 'absolute' }}>
+      <div className="" style={{ top: top, left: left, position: 'absolute' }}>
         {children}
       </div>
     </>,

@@ -3,6 +3,7 @@ import { Character } from '../lib/data';
 import { readCharacters } from '../lib/read';
 import { FaStar } from 'react-icons/fa6';
 import '../App.css';
+import { Link } from 'react-router-dom';
 export function Characters() {
   const [isLoading, setIsLoading] = useState(true);
   const [character, setCharacter] = useState<Character[]>();
@@ -39,11 +40,13 @@ export function Characters() {
           Characters:
         </h1>
       </div>
-      <hr className="py-1" />
-      <div className="flex flex-wrap w-full h-full">
+      <hr className="py-1 " />
+      <div className=" flex-col w-full">
         {character?.map((character) => (
-          <div className="w-full" key={character.characterName}>
-            <CharacterCard character={character} />
+          <div className="w-full h-[300px] mb-2" key={character.characterName}>
+            <Link to={`/characters/${character.characterName}`}>
+              <CharacterCard character={character} />
+            </Link>
           </div>
         ))}
       </div>
@@ -66,23 +69,19 @@ function CharacterCard({ character }: Props) {
   } = character;
 
   return (
-    <div className=" train gradient divide-x-4 divide-black w-full flex mb-4 border border-gray-700 rounded-3xl p-4">
-      <div className="window-container bg-white bg-opacity-25 backdrop-blur-lg w-3/12">
-        <div className="w-full h-full slight-transparency bg-white bg-opacity-50 ">
+    <div className="train gradient divide-x-4 divide-black w-full flex border border-gray-700 rounded-3xl p-4 h-full ">
+      <div className="window-container backdrop-blur-lg w-3/12">
+        <div className="w-full h-full slight-transparency bg-white bg-opacity-50 rounded-3xl">
           <img
-            className="object-cover w-full h-full"
+            className="object-cover w-full h-full rounded-lg"
             src={characterPortrait}
             alt={characterName}
           />
           <h5 className="text-center font-bold">{characterName}</h5>
         </div>
       </div>
-      {/* <div className="w-1/12 flex flex-col items-center ">
-        <h1 className='mb-6 prompt-extrabold'>Name</h1>
-        <h5 className="text-center font-bold">{characterName}</h5>
-      </div> */}
       <div className="w-1/12 flex flex-col items-center ">
-        <h1 className="mb-6 prompt-extrabold">Rarity</h1>
+        <h1 className="mb-24 prompt-extrabold">Rarity</h1>
         {rarity === 4 && (
           <>
             <FaStar color="gold" />
@@ -101,70 +100,142 @@ function CharacterCard({ character }: Props) {
           </>
         )}
       </div>
-      <div className="w-2/12 flex flex-col items-center ">
-        <h1 className="mb-6 prompt-extrabold">Path</h1>
+      <div className="w-2/12 flex flex-col items-center justify-center">
+        <h1 className="mb-6 p- prompt-extrabold">Path</h1>
         {characterPath === 'Harmony' && (
-          <img src="images/paths/harmony.webp" alt="harmony symbol" />
+          <div className="h-[200px]">
+            <img
+              className=" object-cover w-full h-full"
+              src="images/paths/harmony.webp"
+              alt="harmony symbol"
+            />
+          </div>
         )}
         {characterPath === 'Abundance' && (
-          <img src="images/paths/abundance.webp" alt="abundance symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/paths/abundance.webp"
+              alt="abundance symbol"
+            />
+          </div>
         )}
         {characterPath === 'Destruction' && (
-          <img src="images/paths/destruction.webp" alt="destruction symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/paths/destruction.webp"
+              alt="destruction symbol"
+            />
+          </div>
         )}
         {characterPath === 'Erudition' && (
-          <img src="images/paths/erudition.webp" alt="erudition symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/paths/erudition.webp"
+              alt="erudition symbol"
+            />
+          </div>
         )}
         {characterPath === 'Hunt' && (
-          <img src="images/paths/hunt.webp" alt="hunt symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/paths/hunt.webp"
+              alt="hunt symbol"
+            />
+          </div>
         )}
         {characterPath === 'Nihility' && (
-          <img src="images/paths/nihility.webp" alt="nihility symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/paths/nihility.webp"
+              alt="nihility symbol"
+            />
+          </div>
         )}
         {characterPath === 'Preservation' && (
-          <img src="images/paths/preservation.webp" alt="preservation symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/paths/preservation.webp"
+              alt="preservation symbol"
+            />
+          </div>
         )}
         <h5 className="text-center font-bold">{characterPath}</h5>
       </div>
-      <div className="w-2/12 flex flex-col items-center ">
+      <div className="w-2/12 flex flex-col items-center justify-center">
         <h1 className="mb-6 prompt-extrabold">Type</h1>
         {characterType === 'Fire' && (
-          <img src="images/element-types/fire.webp" alt="fire element symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/element-types/fire.webp"
+              alt="fire element symbol"
+            />
+          </div>
         )}
         {characterType === 'Ice' && (
-          <img src="images/element-types/ice.webp" alt="ice element symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/element-types/ice.webp"
+              alt="ice element symbol"
+            />
+          </div>
         )}
         {characterType === 'Imaginary' && (
-          <img
-            src="images/element-types/imaginary.webp"
-            alt="imaginary element symbol"
-          />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/element-types/imaginary.webp"
+              alt="imaginary element symbol"
+            />
+          </div>
         )}
         {characterType === 'Lightning' && (
-          <img
-            src="images/element-types/lightning.webp"
-            alt="lightning element symbol"
-          />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/element-types/lightning.webp"
+              alt="lightning element symbol"
+            />
+          </div>
         )}
         {characterType === 'Physical' && (
-          <img
-            src="images/element-types/physical.webp"
-            alt="physical element symbol"
-          />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/element-types/physical.webp"
+              alt="physical element symbol"
+            />
+          </div>
         )}
         {characterType === 'Quantum' && (
-          <img
-            src="images/element-types/quantum.webp"
-            alt="quantum element symbol"
-          />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/element-types/quantum.webp"
+              alt="quantum element symbol"
+            />
+          </div>
         )}
         {characterType === 'Wind' && (
-          <img src="images/element-types/wind.webp" alt="wind element symbol" />
+          <div className="h-[200px]">
+            <img
+              className="object-cover w-full h-full"
+              src="images/element-types/wind.webp"
+              alt="wind element symbol"
+            />
+          </div>
         )}
         <h5 className="text-center font-bold">{characterType}</h5>
       </div>
       <div className=" w-4/12 flex flex-col items-center ">
-        <h1 className="mb-6 prompt-extrabold">Description</h1>
+        <h1 className="mb-6 prompt-extrabold mb-20">Description</h1>
         <h5 className="text-md text-center font-bold">
           {characterDescription}
         </h5>

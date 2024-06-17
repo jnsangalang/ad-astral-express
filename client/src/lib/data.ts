@@ -14,3 +14,32 @@ export type Character = {
   talentId: number;
   characterStatsId: number;
 };
+
+export type DetailsCharacter = {
+  characterId: number;
+  characterName: string;
+  characterLevel: number[];
+  characterImage: string;
+  characterPortrait: string;
+  characterPath: string;
+  characterType: string;
+  characterDescription: string;
+  rarity: number;
+  skill1Id: number;
+  skill2Id: number;
+  skill3Id: number;
+  talentId: number;
+  characterStatsId: number;
+  characterAttack: string[];
+  characterDefense: string[];
+  characterHealth: number[];
+  characterSpeed: number[];
+  skill1Level: string[];
+  skill2Level: string[];
+  skill3Level: string[];
+  skill1Name: string;
+  skill2Name: string;
+  skill3Name: string;
+  talentLevel: string[];
+  talentName: string;
+};

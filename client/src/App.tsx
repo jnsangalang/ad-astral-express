@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { DesktopHeader } from './pages/DesktopHeader';
 import { Characters } from './pages/Characters';
+import { CharacterDetails } from './pages/CharacterDetails';
 
 export default function App() {
   return (
@@ -11,6 +12,10 @@ export default function App() {
       <Route path="/" element={<DesktopHeader />}>
         <Route index element={<Home />} />
         <Route path="characters" element={<Characters />} />
+        <Route
+          path="characters/:characterName"
+          element={<CharacterDetails />}
+        />
       </Route>
     </Routes>
   );
