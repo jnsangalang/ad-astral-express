@@ -1,4 +1,4 @@
-import { Character } from './data';
+import { Character, DetailsCharacter } from './data';
 
 //retrieves all character data, if user clicks all characters from character menu
 export async function readCharacters(): Promise<Character[]> {
@@ -16,4 +16,19 @@ export async function readHomeCharacters(): Promise<Character[]> {
     throw new Error('There was an error retrieving characters');
   }
   return await response.json();
+}
+
+//for Character Details, for each unique character
+export async function readCharacter(
+  characterName: string | undefined
+): Promise<DetailsCharacter> {
+  if (!characterName) {
+    throw new Error(`${characterName} is not valid`);
+  }
+  const response = await fetch(`/api/characters/${characterName}`);
+  if (!response.ok) {
+    throw new Error(`there was an error, Error:${response.status}`);
+  }
+  const character = await response.json();
+  return character;
 }

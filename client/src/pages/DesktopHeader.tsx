@@ -5,9 +5,10 @@ import '../css/Header.css';
 import { GiSwitchWeapon } from 'react-icons/gi';
 import { MdOutlineFavorite } from 'react-icons/md';
 import { SiGooglegemini } from 'react-icons/si';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Popup } from '../components/Popup';
-import { StarrySpace } from './Header';
+import '../App.css';
+// import { StarrySpace } from './Header';
 export function DesktopHeader() {
   const [isCharacterOpen, setIsCharacterOpen] = useState(false);
   const [isWeaponOpen, setIsWeaponOpen] = useState(false);
@@ -16,43 +17,53 @@ export function DesktopHeader() {
   function handleSearch(search: string) {
     console.log('searched', search);
   }
-
-  useEffect(() => {
-    function handleClickOutOfDropdown(event: MouseEvent) {
-      if (
-        isCharacterOpen &&
-        postionChacracterRef.current &&
-        !postionChacracterRef.current.contains(event?.target as Node)
-      ) {
-        setIsCharacterOpen(false);
-      }
-      if (
-        isWeaponOpen &&
-        postionWeaponRef.current &&
-        !postionWeaponRef.current.contains(event?.target as Node)
-      ) {
-        setIsWeaponOpen(false);
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutOfDropdown);
-    return () => {
-      document.addEventListener('mousedown', handleClickOutOfDropdown);
-    };
-  }, [isCharacterOpen, isWeaponOpen]);
+  // useEffect(() => {
+  //   function handleClickOutOfDropdown(event: MouseEvent) {
+  //     if (
+  //       isCharacterOpen &&
+  //       postionChacracterRef.current &&
+  //       !postionChacracterRef.current.contains(event?.target as Node)
+  //     ) {
+  //       setIsCharacterOpen(false);
+  //     }
+  //     if (
+  //       isWeaponOpen &&
+  //       postionWeaponRef.current &&
+  //       !postionWeaponRef.current.contains(event?.target as Node)
+  //     ) {
+  //       setIsWeaponOpen(false);
+  //     }
+  //   }
+  // document.addEventListener('mousedown', handleClickOutOfDropdown);
+  // return () => {
+  //   document.removeEventListener('mousedown', handleClickOutOfDropdown);
+  // };
+  // }, [isCharacterOpen, isWeaponOpen]);
 
   return (
-    <div className="w-full">
-      <nav className="w-full overflow-hidden">
-        <div className="bg-gray-900 w-full]">
-          <div className="justify-center text-center flex w-full">
-            <StarrySpace />
+    <div className="w-full h-[300px]">
+      <nav className="w-full overflow-hidden sticky">
+        <div className="bg-gray-900 w-full">
+          <div className="border border-gray-700 starry-header justify-center text-center flex w-full">
+            <div className="stars"></div>
+            <div className="position">
+              <Link to="/">
+                <img
+                  className="w-40 absolute top-12 left-0 pom-pom"
+                  src="images/pom-pom/cheer.webp"
+                />
+              </Link>
+            </div>
+            <h1 className="londrina-outline-regular header-text">
+              Welcome Aboard the Astral Express
+            </h1>
           </div>
           <div className="w-full flex justify-around items-center">
             <div className="w-1/5">
               <button
                 ref={postionChacracterRef}
                 onClick={() => setIsCharacterOpen(!isCharacterOpen)}
-                className="button-characters bg-gray-300 flex w-full items-center justify-evenly">
+                className="button-characters prompt-extrabold bg-gray-300 flex w-full items-center justify-evenly">
                 Characters
                 <FaPersonRays />
               </button>
@@ -63,9 +74,12 @@ export function DesktopHeader() {
                 }}
                 position={postionChacracterRef.current}>
                 <ul className="w-full">
-                  <Link to="/characters">
-                    <li>All Characters</li>
-                  </Link>
+                  <li
+                    onClick={() => {
+                      setIsCharacterOpen(false);
+                    }}>
+                    <Link to="/characters">All Characters </Link>
+                  </li>
                   <li>Sort by Path </li>
                   <li>Sort by Type </li>
                 </ul>
@@ -75,7 +89,7 @@ export function DesktopHeader() {
               <button
                 ref={postionWeaponRef}
                 onClick={() => setIsWeaponOpen(!isWeaponOpen)}
-                className="bg-yellow-300 button-weapons flex w-full items-center justify-evenly">
+                className="bg-yellow-300 prompt-extrabold button-weapons flex w-full items-center justify-evenly">
                 Weapons
                 <GiSwitchWeapon />
               </button>
@@ -92,13 +106,13 @@ export function DesktopHeader() {
               </Popup>
             </div>
             <div className="w-1/5">
-              <button className="button-favorites flex ml-1 items-center justify-evenly bg-gray-300">
+              <button className="button-favorites prompt-extrabold flex ml-1 items-center justify-evenly bg-gray-300">
                 Favorites
                 <MdOutlineFavorite />
               </button>
             </div>
             <div className="w-1/5">
-              <button className="flex button-sign-up ml-0.5 items-center justify-evenly bg-yellow-300 text-nowrap">
+              <button className="flex prompt-extrabold button-sign-up ml-0.5 items-center justify-evenly bg-yellow-300 text-nowrap">
                 Sign Up <SiGooglegemini />
               </button>
             </div>
@@ -108,6 +122,7 @@ export function DesktopHeader() {
           </div>
         </div>
       </nav>
+
       <div>
         <Outlet />
       </div>

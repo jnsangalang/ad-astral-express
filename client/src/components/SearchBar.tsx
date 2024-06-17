@@ -19,7 +19,7 @@ export function SearchBar({ onSearch }: SearchBarProp) {
   }
 
   return (
-    <div className="float-right">
+    <div className="w-full p-1 ml-1 float-right">
       <form
         onSubmit={handleSubmit}
         className="container items-center justify-center">

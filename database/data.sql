@@ -13,8 +13,8 @@
 insert into "skills"
      ("skillName", "skillLevel")
   values('Frigid Cold Arrow', '["Deals Ice DMG equal to 50% of ATK to a single enemy.", "Deals Ice DMG equal to 60% of ATK to a single enemy.", "Deals Ice DMG equal to 70% of ATK to a single enemy.",
-         "Deals Ice DMG equal to 80% of ATK to a single enemy.", "Deals Ice DMG equal to 90% of ATK to a single enemy.", "Deals Ice DMG equal to 1000% of ATK to a single enemy."]'),
-         ('The Power of Cuteness', '["Provides a single ally with a Shiled that can absorb DMG equal to 38% of DEF plus 190 for 3 turn(s). If the ally has a current HP percentage of 30% or hgiher, greatly increases the chance of attacking that ally.",
+         "Deals Ice DMG equal to 80% of ATK to a single enemy.", "Deals Ice DMG equal to 90% of ATK to a single enemy.", "Deals Ice DMG equal to 100% of ATK to a single enemy."]'),
+         ('The Power of Cuteness', '["Provides a single ally with a Shield that can absorb DMG equal to 38% of DEF plus 190 for 3 turn(s). If the ally has a current HP percentage of 30% or hgiher, greatly increases the chance of attacking that ally.",
             "Provides a single ally with a Shield that can absorb DMG equal to 40.38% of DEF plus 304 for 3 turn(s). If the ally has a current HP percentage of 30% or hgiher, greatly increases the chance of attacking that ally.",
             "Provides a single ally with a Shield that can absorb DMG equal to 42.75% of DEF plus 389.5 for 3 turn(s). If the ally has a current HP percentage of 30% or hgiher, greatly increases the chance of attacking that ally.",
             "Provides a single ally with a Shield that can absorb DMG equal to 45.13% of DEF plus 475 for 3 turn(s). If the ally has a current HP percentage of 30% or hgiher, greatly increases the chance of attacking that ally.",
@@ -171,7 +171,7 @@ insert into "skills"
       "Deals Imaginary DMG equal to 70% of Welts ATK to a single enemy.",
       "Deals Imaginary DMG equal to 80% of Welts ATK to a single enemy.",
       "Deals Imaginary DMG equal to 90% of Welts ATK to a single enemy.",
-      "Deals Imaginary DMG equal to 100% of Welts ATK to a single enemy].'),
+      "Deals Imaginary DMG equal to 100% of Welts ATK to a single enemy"]'),
       ('Edge of the Void', '["Deals Imaginary DMG equal to 36% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 36% of Welts ATK to a random enemy. On hit, there is a 65% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
       "Deals Imaginary DMG equal to 39.6% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 39.6% of Welts ATK to a random enemy. On hit, there is a 66% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
       "Deals Imaginary DMG equal to 43.2% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 43.2% of Welts ATK to a random enemy. On hit, there is a 67% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
@@ -204,7 +204,7 @@ insert into "talent"
       "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 48.75% of Welts ATK to the enemy",
       "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 52.5% of Welts ATK to the enemy",
       "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 56.25% of Welts ATK to the enemy",
-      "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 60% of Welts ATK to the enemy",]');
+      "When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 60% of Welts ATK to the enemy"]');
 
 insert into "characterStats"
       ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
@@ -221,7 +221,7 @@ insert into "skills"
       "Deals Lightning DMG equal to 70% of Kafkas ATK to a single enemy.",
       "Deals Lightning DMG equal to 80% of Kafkas ATK to a single enemy.",
       "Deals Lightning DMG equal to 80% of Kafkas ATK to a single enemy.",
-      "Deals Lightning DMG equal to 100% of Kafkas ATK to a single enemy.",]'),
+      "Deals Lightning DMG equal to 100% of Kafkas ATK to a single enemy."]'),
       ('Caressing Moonlight', '["Deals Lightning DMG equal to 80% of Kafkas ATK to a target enemy and Lightning DMG equal to 30% of Kafkas ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 60% of their original DMG.",
       "Deals Lightning DMG equal to 88% of Kafkas ATK to a target enemy and Lightning DMG equal to 33% of Kafkas ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 61.5% of their original DMG.",
       "Deals Lightning DMG equal to 96% of Kafkas ATK to a target enemy and Lightning DMG equal to 36% of Kafkas ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 63% of their original DMG.",
@@ -271,7 +271,7 @@ insert into "skills"
       "Deals Quantum DMG equal to 70% of Silver Wolfs ATK to a single enemy.",
       "Deals Quantum DMG equal to 80% of Silver Wolfs ATK to a single enemy.",
       "Deals Quantum DMG equal to 90% of Silver Wolfs ATK to a single enemy.",
-      "Deals Quantum DMG equal to 100% of Silver Wolfs ATK to a single enemy.",]'),
+      "Deals Quantum DMG equal to 100% of Silver Wolfs ATK to a single enemy."]'),
       ('Allow Changes?', '["There is a 75% base chance to add 1 Weakness of an allys Type to the target enemy. This also reduces the enemys DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered. Each enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent Weakness will be kept. In addition, there is a 100% base chance to reduce the DMG RES of the enemy further by 7.5% for 2 turn(s). Deals Quantum DMG equal to 98% of Silver Wolfs ATK to this enemy.",
       "There is a 76% base chance to add 1 Weakness of an allys Type to the target enemy. This also reduces the enemys DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered. Each enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent Weakness will be kept. In addition, there is a 100% base chance to reduce the DMG RES of the enemy further by 7.75% for 2 turn(s). Deals Quantum DMG equal to 107.8% of Silver Wolfs ATK to this enemy.",
       "There is a 77% base chance to add 1 Weakness of an allys Type to the target enemy. This also reduces the enemys DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered. Each enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent Weakness will be kept. In addition, there is a 100% base chance to reduce the DMG RES of the enemy further by 8% for 2 turn(s). Deals Quantum DMG equal to 117.6% of Silver Wolfs ATK to this enemy.",
@@ -295,30 +295,20 @@ insert into "skills"
 
 insert into "talent"
       ("talentName", "talentLevel")
-      values('Awaiting System Response…', '["Silver Wolf can create three types of Bugs: Reduce ATK by 5%, reduce DEF by 4%, and reduce SPD by3%.
-      Every time Silver Wolf attacks, she has a 60% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 5.5%, reduce DEF by 4.4%, and reduce SPD by3.3%.
-      Every time Silver Wolf attacks, she has a 61.2% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 6%, reduce DEF by 4.8%, and reduce SPD by3.6%.
-      Every time Silver Wolf attacks, she has a 62.4% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 6.5%, reduce DEF by 5.2%, and reduce SPD by3.9%.
-      Every time Silver Wolf attacks, she has a 63.6% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 7%, reduce DEF by 5.6%, and reduce SPD by4.2%.
-      Every time Silver Wolf attacks, she has a 64.8% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 7.5%, reduce DEF by 6%, and reduce SPD by4.5%.
-      Every time Silver Wolf attacks, she has a 66% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 8.12%, reduce DEF by 6.5%, and reduce SPD by4.87%.
-      Every time Silver Wolf attacks, she has a 67.5% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 8.75%, reduce DEF by 7%, and reduce SPD by5.25%.
-      Every time Silver Wolf attacks, she has a 69% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 9.37%, reduce DEF by 7.5%, and reduce SPD by5.62%.
-      Every time Silver Wolf attacks, she has a 70.5% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
-      "Silver Wolf can create three types of Bugs: Reduce ATK by 10%, reduce DEF by 8%, and reduce SPD by6%.
-      Every time Silver Wolf attacks, she has a 72% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target."]');
+      values('Awaiting System Response…', '["Silver Wolf can create three types of Bugs: Reduce ATK by 5%, reduce DEF by 4%, and reduce SPD by3%. Every time Silver Wolf attacks, she has a 60% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 5.5%, reduce DEF by 4.4%, and reduce SPD by3.3%. Every time Silver Wolf attacks, she has a 61.2% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 6%, reduce DEF by 4.8%, and reduce SPD by3.6%. Every time Silver Wolf attacks, she has a 62.4% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 6.5%, reduce DEF by 5.2%, and reduce SPD by3.9%. Every time Silver Wolf attacks, she has a 63.6% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 7%, reduce DEF by 5.6%, and reduce SPD by4.2%. Every time Silver Wolf attacks, she has a 64.8% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 7.5%, reduce DEF by 6%, and reduce SPD by4.5%. Every time Silver Wolf attacks, she has a 66% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 8.12%, reduce DEF by 6.5%, and reduce SPD by4.87%. Every time Silver Wolf attacks, she has a 67.5% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 8.75%, reduce DEF by 7%, and reduce SPD by5.25%. Every time Silver Wolf attacks, she has a 69% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 9.37%, reduce DEF by 7.5%, and reduce SPD by5.62%. Every time Silver Wolf attacks, she has a 70.5% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target.",
+      "Silver Wolf can create three types of Bugs: Reduce ATK by 10%, reduce DEF by 8%, and reduce SPD by6%. Every time Silver Wolf attacks, she has a 72% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target."]');
 
 insert into "characterStats"
       ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
-      values('143, 335, 592, 848, 1048]', '[87.12, 204.73, 361.55, 518.36, 640.33]', '[62.7, 147.34, 260.2, 373.06, 460.85]', '[107,107,107,107,107]');
+      values('[143, 335, 592, 848, 1048]', '[87.12, 204.73, 361.55, 518.36, 640.33]', '[62.7, 147.34, 260.2, 373.06, 460.85]', '[107,107,107,107,107]');
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
@@ -331,7 +321,7 @@ insert into "skills"
       "Deals Lightning DMG equal to 70% of Arlans ATK to a single enemy.",
       "Deals Lightning DMG equal to 80% of Arlans ATK to a single enemy.",
       "Deals Lightning DMG equal to 90% of Arlans ATK to a single enemy.",
-      "Deals Lightning DMG equal to 100% of Arlans ATK to a single enemy.","]'),
+      "Deals Lightning DMG equal to 100% of Arlans ATK to a single enemy."]'),
       ('Shackle Breaker', '["Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 120% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
       "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 132% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
       "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 144% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
@@ -451,11 +441,11 @@ insert into "skills"
       "Deals Ice DMG equal to 160% of Herta’s ATK to all enemies.",
       "Deals Ice DMG equal to 170% of Herta’s ATK to all enemies.",
       "Deals Ice DMG equal to 190% of Herta’s ATK to all enemies.",
-      "Deals Ice DMG equal to 200% of Herta’s ATK to all enemies.",]');
+      "Deals Ice DMG equal to 200% of Herta’s ATK to all enemies."]');
 
 insert into "talent"
       ("talentName", "talentLevel")
-      values('Fine, I’ll Do It Myself', '["When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25% of Herta’s ATK to all enemies.",
+      values('Fine, I’ll Do It Myself', '["When an allys attack causes an enemys HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25% of Herta’s ATK to all enemies.",
       "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 26.5% of Herta’s ATK to all enemies.",
       "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 28% of Herta’s ATK to all enemies.",
       "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 29.5% of Herta’s ATK to all enemies.",
@@ -464,11 +454,11 @@ insert into "talent"
       "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 34.37% of Herta’s ATK to all enemies.",
       "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 36.25% of Herta’s ATK to all enemies.",
       "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 38.12% of Herta’s ATK to all enemies.",
-      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 40% of Herta’s ATK to all enemies.",]');
+      "When an ally’s attack causes an enemy’s HP to fall to 50% of their Max HP or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 40% of Herta’s ATK to all enemies."]');
 
 insert into "characterStats"
       ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
-      values('130, 305, 538, 771, 953]', '[79.2, 186.12, 328.68, 471.24, 582.12]', '[54, 126.9, 224.1, 321.3, 396.9]', '[100,100,100,100,100]');
+      values('[130, 305, 538, 771, 953]', '[79.2, 186.12, 328.68, 471.24, 582.12]', '[54, 126.9, 224.1, 321.3, 396.9]', '[100,100,100,100,100]');
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
@@ -631,12 +621,12 @@ insert into "talent"
 
 insert into "characterStats"
       ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
-      values('125,293,518,743,917]', '[88.8,208.68,368.52,528.36,652.68]','[51,119.85,211.65,303.45,374.85]', '[104,104,104,104,104]');
+      values('[125,293,518,743,917]', '[88.8,208.68,368.52,528.36,652.68]','[51,119.85,211.65,303.45,374.85]', '[104,104,104,104,104]');
 
 insert into "characters"
       ("characterName", "characterLevel","characterImage","characterPortrait","characterPath","characterType", "characterDescription","rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Serval', '[1,20,40,60,80]', '/images/characters/serval.png', '/images/characters/serval-portrait.png', 'Erudition', 'Lightning','	A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.
-As Gepard Landau’s elder sister, her personality stands in stark contrast to her brother’s. She loves an ancient form of music known as "rock 'n' roll" that was popular before the Eternal Freeze.', 4,34,35,36,12,12);
+      values('Serval', '[1,20,40,60,80]', '/images/characters/serval.png', '/images/characters/serval-portrait.png', 'Erudition', 'Lightning','A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.
+As Gepard Landau’s elder sister, her personality stands in stark contrast to her brother’s. She loves an ancient form of music known as "rock n’ roll" that was popular before the Eternal Freeze.', 4,34,35,36,12,12);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -740,3 +730,870 @@ insert into "characters"
       values('Natasha', '[1,20,40,60,80]', '/images/characters/natasha.png', '/images/characters/natasha-portrait.png', 'Abundance', 'Physical',
       'A fastidious doctor who always wears an enigmatic smile. In the Underworld where medical resources are scarce,
       Natasha is one of the very few doctors whom the people can turn to. Even the rambunctious Hook would politely greet her... "Hi, big sis Natasha."', 4,40,41,42,14,14);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Frost Shot', '["Deals Ice DMG equal to 50% of Pela’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 60% of Pela’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 70% of Pela’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 80% of Pela’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 90% of Pela’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 100% of Pela’s ATK to a single enemy.",]'),
+      ('Frostbite', '["Removes 1 buff(s) and deals Ice DMG equal to 105% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 115.5% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 126% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 136.5% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 147% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 157.5% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 170.6% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 183.8% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 196.9% of Pela’s ATK to a single enemy.",
+      "Removes 1 buff(s) and deals Ice DMG equal to 210% of Pela’s ATK to a single enemy."]'),
+      ('Zone Suppresion', '["Deals Ice DMG equal to 60% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 30% for 2 turn(s).",
+      "Deals Ice DMG equal to 64% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 31% for 2 turn(s).",
+      "Deals Ice DMG equal to 68% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 32% for 2 turn(s).",
+      "Deals Ice DMG equal to 72% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 33% for 2 turn(s).",
+      "Deals Ice DMG equal to 76% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 34% for 2 turn(s).",
+      "Deals Ice DMG equal to 80% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 35% for 2 turn(s).",
+      "Deals Ice DMG equal to 85% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 36.3% for 2 turn(s).",
+      "Deals Ice DMG equal to 90% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 37.5% for 2 turn(s).",
+      "Deals Ice DMG equal to 95% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 38.8% for 2 turn(s).",
+      "Deals Ice DMG equal to 100% of Pela’s ATK to all enemies, with a base chance of 100% to inflict the Exposed status. Exposed enemies have their DEF reduced by 40% for 2 turn(s)."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Data Collecting', '["If the enemy is debuffed after Pela’s attack, Pela will restore 5 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 6 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 6 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 7 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 7 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 8 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 8 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 9 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 9 extra Energy. This effect can only be triggered 1 time per attack.",
+      "If the enemy is debuffed after Pela’s attack, Pela will restore 10 extra Energy. This effect can only be triggered 1 time per attack."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[134,316,558,800,988]','[74.4, 174.84,308.76,442.68,546.84]' ,'[63,148.05,261.45,374.85,463.05]', '[105,105,105,105,105]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Pela', '[1,20,40,60,80]', 'An intelligence officer for the Silvermane Guards. She has a serious personality and is revered by other members of the Silvermane Guards.',
+      '/images/characters/pela.png', '/images/characters/pela-portrait.png', 'Nihility', 'Ice', 4, 43,44,45, 15,15);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('I Want to Help', '["Deals Physical DMG equal to 50% of Clara’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 60% of Clara’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 70% of Clara’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 80% of Clara’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 90% of Clara’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 100% of Clara’s ATK to a single enemy."]'),
+      ('Svarog Watches Over You', '["Deals Physical DMG equal to 60% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 60% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 66% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 66% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 72% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 72% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 78% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 78% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 84% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 84% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 90% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 90% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 97.5% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 97.5% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 105% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 105% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 112.5% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 112.5% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used.",
+      "Deals Physical DMG equal to 120% of Clara’s ATK to all enemies; deals additional Physical DMG equal to 120% of Clara’s ATK to enemies marked by Svarog with a Mark of Counter. All Marks of Counter will be removed after Skill is used."]'),
+      ('Promise, Not Command', '["After Clara uses Ultimate, DMG dealt to her is reduced by an extra 15%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 96% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 16%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 102.4% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 17%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 108.8% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 18%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 115.2% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 19%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 121.6% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 20%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 128% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 21.3%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 136% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 22.5%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 144% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 23.8%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 152% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect.",
+      "After Clara uses Ultimate, DMG dealt to her is reduced by an extra 25%, and she has greatly increased chances of being attacked by enemies for 200% turn(s). In addition, Svarog’s Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 1. Enemies adjacent to it take 160% of the DMG dealt to the target enemy. Enhanced Counters can take effect 200% times. Increases DMG RES and chance to be attacked by enemies, and enhances the Counter effect."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Because We’re Family', '["Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 80% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 88% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 96% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 104% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 112% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 120% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 130% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 140% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 150% of Clara’s ATK.",
+      "Under the protection of Svarog, Clara’s DMG taken is reduced by 10%. Svarog will mark enemies who attack Clara with Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 160% of Clara’s ATK."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[169,397,701,1005,1242]', '[100.32,235.75,416.33,596.9,737.35]', '[66,155.1,273.9,392.7,485.1]', '[90,90,90,90,90]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Clara', '[1,20,40,60,80]', 'A vagrant girl who lives with robots. She is introverted, gentle, and has a pure heart. She wishes for all Underworlders to become a family.',
+      '/images/characters/clara.png', '/images/characters/clara-portrait.png', 'Destruction', 'Physical', 5,46,47,48,16,16);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Dazzling Blades', '["Wind DMG equal to 50% of Sampo’s ATK to a single enemy.",
+      "Wind DMG equal to 60% of Sampo’s ATK to a single enemy.",
+      "Wind DMG equal to 70% of Sampo’s ATK to a single enemy.",
+      "Wind DMG equal to 80% of Sampo’s ATK to a single enemy.",
+      "Wind DMG equal to 90% of Sampo’s ATK to a single enemy.",
+      "Wind DMG equal to 100% of Sampo’s ATK to a single enemy.",]'),
+      ('Ricochet Love', '["Throws a dagger that deals Wind DMG equal to 28% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 28% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 30.8% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 30.8% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 33.6% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 33.6% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 36.4% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 36.4% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 39.2% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 39.2% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 42% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 42% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 45.5% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 45.5% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 49% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 49% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 52.5% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 52.5% of Sampo’s ATK.",
+      "Throws a dagger that deals Wind DMG equal to 56% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 56% of Sampo’s ATK."]'),
+      ('Surprise Present', '["Deals Wind DMG equal to 96% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 20% for 2 turn(s).",
+      "Deals Wind DMG equal to 102.4% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 21% for 2 turn(s).",
+      "Deals Wind DMG equal to 108.8% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 22% for 2 turn(s).",
+      "Deals Wind DMG equal to 115.2% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 23% for 2 turn(s).",
+      "Deals Wind DMG equal to 121.6% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 24% for 2 turn(s).",
+      "Deals Wind DMG equal to 128% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 25% for 2 turn(s).",
+      "Deals Wind DMG equal to 136% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 26.3% for 2 turn(s).",
+      "Deals Wind DMG equal to 144% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 27.5% for 2 turn(s).",
+      "Deals Wind DMG equal to 152% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 28.8% for 2 turn(s).",
+      "Deals Wind DMG equal to 160% of Sampo’s ATK to all enemies, with a 100% base chance to increase the target’s DoT taken by 32% for 2 turn(s)."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Windtorn dagger', '["Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 20% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 22% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 24% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 26% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 28% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 31% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 35% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 40% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 46% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s).",
+      "Sampo’s attacks have a 65% base chance to inflict Wind Shear for 3 turn(s). Enemies inflicted with Wind Shear will take Wind DoT equal to 52% of Sampo’s ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[139,327,578,828,1023]', '[84,197.4,348.6,499.8,617.4]', '[54,126.9,224.1,321.3,396.9]', '[102,102,102,102,102]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Sampo', '[1,20,40,60,80]', 'A merchant who freely travels between the Overworld and the Underworld. He acts like he is everyone’s friend, is enthusiastically humorous, and is good at bantering.',
+      '/images/characters/sampo.png', '/images/characters/sampo-portrait.png', 'Nihility', 'Wind', 4, 49,50,51,17,17);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Hehe! Don’t Get Burned!', '["Deals Fire DMG equal to 50% of Hook’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 60% of Hook’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 70% of Hook’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 80% of Hook’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 90% of Hook’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 100% of Hook’s ATK to a single enemy.",]'),
+      ('Hey! Remember Hook?', '["Deals Fire DMG equal to 140% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 40% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 25% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 154% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 44% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 27.5% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 168% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 48% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 30% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 182% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 52% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 32.5% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 196% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 56% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 35% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 210% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 60% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 38.8% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 227.5% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 65% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 48.8% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 245% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 70% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 265.5% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 75% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 57.5% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 280% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 80% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 65% of Hook’s ATK at the beginning of each turn."]'),
+      ('Boom! Here Comes the Fire!', '["Deals Fire DMG equal to 240% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 256% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 272% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 288% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 304% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 320% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 340% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 360% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 380% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
+      "Deals Fire DMG equal to 400% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Ha! Oil to the Flames!', '["When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 50% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 55% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 60% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 65% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 70% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 75% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 81.3% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 87.5% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 93.8% of Hook’s ATK and regenerates 5 extra Energy.",
+      "When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 100% of Hook’s ATK and regenerates 5 extra Energy."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[182,429,757,1085,1341]', '[84,197.4,348.6,499.8,617.4]', '[48,112.8,199.2,285.6,352.8]', '[94,94,94,94,94]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Hook', '[1,20,40,60,80]', 'Boss (self-proclaimed) of an Underworld adventure squad, The Moles. She loves freedom and sees life as a series of adventures.' ,
+      '/images/characters/hook.png', '/images/characters/hook-portrait.png', 'Destruction', 'Fire', 4, 52,53,54,18,18);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Ice Crampon Technique', '["Deals Quantum DMG equal to 25% of Lynx’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 30% of Lynx’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 35% of Lynx’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 40% of Lynx’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 45% of Lynx’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 50% of Lynx’s Max HP to a single enemy."]'),
+      ('Salted Camping Cans', '["Applies Survival Response to a single target ally and increases their Max HP by 5% of Lynx’s Max HP + 50. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 8% of Lynx’s Max HP +80.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 5.3% of Lynx’s Max HP + 80. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 8.5% of Lynx’s Max HP +128.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 5.5% of Lynx’s Max HP + 103. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 9% of Lynx’s Max HP +164.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 5.8% of Lynx’s Max HP + 125. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 9.5% of Lynx’s Max HP +200.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 6% of Lynx’s Max HP + 140. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 10% of Lynx’s Max HP +224.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 6.3% of Lynx’s Max HP + 155. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 10.4% of Lynx’s Max HP +248.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 6.6% of Lynx’s Max HP + 166. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 10.8% of Lynx’s Max HP +266.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 6.9% of Lynx’s Max HP + 178. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 11.2% of Lynx’s Max HP +284.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 7.2% of Lynx’s Max HP + 189. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 11.6% of Lynx’s Max HP +302.",
+      "Applies Survival Response to a single target ally and increases their Max HP by 7.5% of Lynx’s Max HP + 200. If the target is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will increase greatly. Survival Response lasts for 2 turn(s). Restores the target’s HP by 12% of Lynx’s Max HP +320."]'),
+      ('Snowfield First Aid', '["Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 9% of Lynx’s Max HP + 90.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 9.6% of Lynx’s Max HP + 144.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 10.1% of Lynx’s Max HP + 185.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 10.7% of Lynx’s Max HP + 225.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 11.3% of Lynx’s Max HP + 252.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 11.7% of Lynx’s Max HP + 279.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 12.2% of Lynx’s Max HP + 299.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 12.6% of Lynx’s Max HP + 320.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 13.1% of Lynx’s Max HP + 340.",
+      "Dispels 1 debuff(s) from all allies and immediately restores their HP equal to 13.5% of Lynx’s Max HP + 360."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Outdoor Survival Experience', '["When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 2.4% of Lynx’s Max HP + 24 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 3% of Lynx’s Max HP + 30.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 2.6% of Lynx’s Max HP + 38 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 3.2% of Lynx’s Max HP + 48.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 2.7% of Lynx’s Max HP + 49 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 3.4% of Lynx’s Max HP + 62.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 2.9% of Lynx’s Max HP + 60 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 3.6% of Lynx’s Max HP + 75.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 3% of Lynx’s Max HP + 67 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 3.8% of Lynx’s Max HP + 84.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 3.1% of Lynx’s Max HP + 74 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 3.9% of Lynx’s Max HP + 93.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 3.2% of Lynx’s Max HP + 80 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 4.1% of Lynx’s Max HP + 100.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 3.4% of Lynx’s Max HP + 85 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 4.2% of Lynx’s Max HP + 107.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 3.5% of Lynx’s Max HP + 91 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 4.4% of Lynx’s Max HP + 113.",
+      "When using Lynx’s Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring HP equal to 3.6% of Lynx’s Max HP + 96 at the start of each turn. If the target has Survival Response, the continuous healing effect additionally restores HP equal to 4.5% of Lynx’s Max HP + 120."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[144,338,598,857,1058]', '[67.2,157.92,278.88,399.84,493.92]', '[75,176.25,311.25,447.25,551.25]', '[100,100,100,100,100]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Lynx', '[1,20,40,60,80]', 'A Belobogian Snow Plains Explorer, and the youngest of the Landau siblings. Calm and collected, with a strong drive for action. Often embarks on solo adventures to explore the snowy wilderness.',
+      '/images/characters/lynx.png', '/images/characters/lynx-portrait.png', 'Abundance', 'Ice', 4, 55,56,57,19,19);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Direct Punch' ,'["Deals Physical DMG equal to 50% of Luka’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 60% of Luka’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 70% of Luka’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 80% of Luka’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 90% of Luka’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 100% of Luka’s ATK to a single enemy."]'),
+      ('Lacerating Fist', '["Deals Physical DMG equal to 60% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 130% of Luka’s ATK.",
+      "Deals Physical DMG equal to 66% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 143% of Luka’s ATK.",
+      "Deals Physical DMG equal to 72% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 156% of Luka’s ATK.",
+      "Deals Physical DMG equal to 78% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 169% of Luka’s ATK.",
+      "Deals Physical DMG equal to 84% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 182% of Luka’s ATK.",
+      "Deals Physical DMG equal to 90% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 201.5% of Luka’s ATK.",
+      "Deals Physical DMG equal to 97.5% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 227.5% of Luka’s ATK.",
+      "Deals Physical DMG equal to 105% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 260% of Luka’s ATK.",
+      "Deals Physical DMG equal to 112.5% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 299% of Luka’s ATK.",
+      "Deals Physical DMG equal to 120% of Luka’s ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 338% of Luka’s ATK."]'),
+      ('Coup de Grace', '["Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 12% for 3 turn(s). Then, deals Physical DMG equal to 198% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 12.8% for 3 turn(s). Then, deals Physical DMG equal to 211.2% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 13.6% for 3 turn(s). Then, deals Physical DMG equal to 224.4% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 14.4% for 3 turn(s). Then, deals Physical DMG equal to 237.6% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 15.2% for 3 turn(s). Then, deals Physical DMG equal to 250.8% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 16% for 3 turn(s). Then, deals Physical DMG equal to 264% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 17% for 3 turn(s). Then, deals Physical DMG equal to 280.5% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 18% for 3 turn(s). Then, deals Physical DMG equal to 297% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 19% for 3 turn(s). Then, deals Physical DMG equal to 313.5% of Luka’s ATK to the target.",
+      "Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target’s DMG received by 20% for 3 turn(s). Then, deals Physical DMG equal to 330% of Luka’s ATK to the target."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Flying Sparks', '["After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 68% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 69.7% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 71.4% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 73.1% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 74.8% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 76.5% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 78.6% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 80.8% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 82.9% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will.",
+      "After Luka uses his Basic ATK or Skill, he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK becomes Enhanced Basic ATK. When his Enhanced Basic ATK Sky-Shatter Fist hits a Bleeding enemy target, the target will be immediately dealt Bleed DMG for 1 time equal to 85% of the original DMG. At the start of battle, Luka will possess 1 stack of Fighting Will."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[125,293,518,743,817]', '[79.2,186.12,328.68,471.24,582.12]', '[66,155.1,273.9,392.7,485.1]', '[103,103,103,103,103]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Luka', '[1,20,40,60,80]', '	The boxing champion in Belobog’s Underworld, and one of Wildfire’s most capable fighters. The consecutive reigning champion of the Fight Club, whose enthusiasm inspires children of the Underworld to dream big.',
+      '/images/characters/luka.png', '/images/characters/luka-portrait.png', 'Nihility', 'Physical', 4,58,59,60,20,20);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Deficit...', '["Deals Fire DMG equal to 50% of Topaz’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 60% of Topaz’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 70% of Topaz’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 80% of Topaz’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 90% of Topaz’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 100% of Topaz’s ATK to a single enemy."]'),
+      ('Difficulty Paying?', '["Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 25%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 75% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 27.5%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 82.5% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 30%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 90% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 32.5%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 97.5% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 35%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 105% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 37.5%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 112.5% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 40.6%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 121.9% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 43.8%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 131.3% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 46.9%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 140.6% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack.",
+      "Causes a single enemy to enter the Proof of Debt state and increases the target’s DMG received from follow-up attacks by 50%. Proof of Debt only takes effect on the most recent target it is applied to. At the start of an ally’s turn or during allies’ action, if there are no enemies with Proof of Debt on the field, Topaz will cause a random enemy to enter Proof of Debt. Numby deals Fire DMG equal to 150% of Topaz’s ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack."]'),
+      ('Turn a Profit!', '["Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 75% and CRIT DMG increases by 12%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 82.5% and CRIT DMG increases by 13.8%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 90% and CRIT DMG increases by 15%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 97.5% and CRIT DMG increases by 16.3%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 105% and CRIT DMG increases by 17.5%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 112.5% and CRIT DMG increases by 18.8%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 121.9% and CRIT DMG increases by 20.3%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 131.3% and CRIT DMG increases by 21.9%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 140.6% and CRIT DMG increases by 23.4%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state.",
+      "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 150% and CRIT DMG increases by 25%. Also, when enemies with Proof of Debt receive attacks from an ally’s Basic ATK, Skill, or Ultimate, Numby’s action is Advanced Forward by 50%. After Numby uses 2 attacks, exit the Windfall Bonanza! state."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Explicit Subsidy', '["Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 75% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 82% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 90% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 97% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 105% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 112% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 121% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 131% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 140% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears.",
+      "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on the single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 150% of Topaz’s ATK. When enemies afflicted with Proof of Debt receive an ally’s follow-up attacks, Numby’s action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby’s own turn. When Topaz is downed, Numby disappears."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[127,298,526,754,931]', '[84.48,198.53,350.59,502.66,620.93]', '[56.1,131.84,232.81,333.8,412.34]', '[110,110,110,110,110]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Topaz', '[1,20,40,60,80]', 'Topaz is the Leader of the Special Debts Picket Team and high-level manager of the Strategic Investment Department under the Interastral Peace Corporation. A member of the "Ten Stonehearts" at a young age, Topaz’s foundational expertise is debt retrieval.',
+      '/images/characters/topaz.png', '/images/characters/topaz-portrait.png', 'Hunt', 'Fire', 5, 61,62,63,21,21);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Flower Pick', '["Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 50% of Qingque’s ATK to a single enemy.",
+      "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 60% of Qingque’s ATK to a single enemy.",
+      "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 70% of Qingque’s ATK to a single enemy.",
+      "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 80% of Qingque’s ATK to a single enemy.",
+      "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 90% of Qingque’s ATK to a single enemy.",
+      "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 100% of Qingque’s ATK to a single enemy."]'),
+      ('A Scoop of Moon', '["Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 14% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 15.4% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 16.8% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 18.2% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 19.6% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 21% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 22.8% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 24.5% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 26.3% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s).",
+      "Support Immediately draws 2 jade tile(s) and gains 1 extra turn. Increases the DMG of Qingque’s attack by 28% ; lasts for 1 turn(s). This effect may be stacked up to4 time(s)."]'),
+      ('A Quartet? Woo-hoo!', '["Deals Quantum DMG equal to 120% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 128% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 136% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 144% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 152% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 160% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 170% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 180% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 190% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit.",
+      "Deals Quantum DMG equal to 200% of Qingque’s ATK to all enemies, and changes all current jade tiles to the same suit."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Celestial Jade', '["When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 36%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 36%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 43.2%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 46.8%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 50.4%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 54%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 58.5%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 63%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 67.5%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 72%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[139,327,578,828,1023]', '[88.8,208.68,368.52,528.36,652.68]', '[60,141,249,357,441]', '[98,98,98,98,98]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Qingque', '[1,20,40,60,80]', 'Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian. Always slacks off and is about to be demoted to a door guardian.',
+      '/images/characters/qingque.png', '/images/characters/qingque-portrait.png', 'Erudition', 'Quantum', 4, 64,65,66,22,22 );
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Dislodged', '["Tingyun deals Lightning DMG equal to 50% of her ATK to a single enemy.",
+      "Tingyun deals Lightning DMG equal to 60% of her ATK to a single enemy.",
+      "Tingyun deals Lightning DMG equal to 70% of her ATK to a single enemy.",
+      "Tingyun deals Lightning DMG equal to 80% of her ATK to a single enemy.",
+      "Tingyun deals Lightning DMG equal to 90% of her ATK to a single enemy.",
+      "Tingyun deals Lightning DMG equal to 100% of her ATK to a single enemy."]'),
+      ('Soothing Melody', '["Grants a single ally with Benediction to increase their ATK by 25%, up to 15% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 20% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 27.5%, up to 16% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 22% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 30%, up to 17% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 24% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 32.5%, up to 18% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 26% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 35%, up to 19% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 28% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 37.5%, up to 20% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 30% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 40.6%, up to 21.3% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 32.5% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 43.8%, up to 22.5% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 35% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 46.9%, up to 23.8% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 37.5% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill.",
+      "Grants a single ally with Benediction to increase their ATK by 50%, up to 25% of Tingyun’s current ATK. When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 40% of that ally’s ATK for 1 time. Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun’s Skill."]'),
+      ('Amidst the Rejoicing Clouds','["Regenerates 50 Energy for a target ally and increases the target’s DMG by 20% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 23% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 26% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 29% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 32% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 35% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 38.8% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 42.5% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 46.3% for 2 turn(s).",
+      "Regenerates 50 Energy for a target ally and increases the target’s DMG by 50% for 2 turn(s)."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Violet Sparknado', '["When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 30% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 33% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 36% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 39% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 42% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 45% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 48.8% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 52.5% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 56.3% of that ally’s ATK to the same enemy.",
+      "When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 60% of that ally’s ATK to the same enemy."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[115,271,478,685,847]', '[72,169.2,298.8,428.4,529.2]', '[54,126.9,224.1,321.3,396.9]', '[112,112,112,112,112]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Tingyun', '[1,20,40,60,80]', 'Amicassador of the Sky-Faring Commission of the Xianzhou Luofu. She travels with business delegates, forging trade relationships and alliances with many worlds.',
+      '/images/characters/tingyun.png', '/images/characters/tingyun-portrait.png', 'Harmony', 'Lightning', 4, 67,68,69,23,23);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Thorns of the Abyss', '["Deals Imaginary DMG equal to 50% of Luocha’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 60% of Luocha’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 70% of Luocha’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 80% of Luocha’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 90% of Luocha’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 100% of Luocha’s ATK to a single enemy."]'),
+      ('Prayer of Abyss Flower', '["After using his Skill, immediately restore the target ally’s HP equal to 40% of Luocha’s ATK plus 200. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 42.5% of Luocha’s ATK plus 320. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 45% of Luocha’s ATK plus 410. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 47.5% of Luocha’s ATK plus 500. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 50% of Luocha’s ATK plus 560. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 52% of Luocha’s ATK plus 620. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 54% of Luocha’s ATK plus 655. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 56% of Luocha’s ATK plus 710. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 58% of Luocha’s ATK plus 755. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s).",
+      "After using his Skill, immediately restore the target ally’s HP equal to 60% of Luocha’s ATK plus 800. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally’s HP percentage becomes equal to or less than 50%, an effect equivalent to Luocha’s Skill will immediately be triggered by Luocha and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s)."]'),
+      ('Death Wish', '["Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 120% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 128% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 136% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 144% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 152% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 160% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 170% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 180% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 190% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower.",
+      "Removes 1 buff(s) from all enemies and deals Imaginary DMG equal to 200% of Luocha’s ATK to all enemies. Luocha gains 1 stack of Abyss Flower."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Cycle of Life', '["When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 12% of Luocha’s ATK plus 60. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 12.8% of Luocha’s ATK plus 96. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 13.5% of Luocha’s ATK plus 123. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 14.3% of Luocha’s ATK plus 150. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 15% of Luocha’s ATK plus 168. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 15.6% of Luocha’s ATK plus 186. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 16.2% of Luocha’s ATK plus 200. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 16.8% of Luocha’s ATK plus 213. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 17.4% of Luocha’s ATK plus 227. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled.",
+      "When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally immediately restores HP equal to 18% of Luocha’s ATK plus 240. The Field’s effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled."]');
+
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[174,409,723,1037,1281]', '[102.96,241.96,427.28,612.61,756.76]','[49.5,116.32,205.43,294.52,363.83]', '[101,101,101,101,101]');
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId","characterStatsId")
+      values('Luocha', '[1,20,40,60,80]', 'Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas. He has excellent medical skills.' ,
+      '/images/characters/luocha.png', '/images/characters/luocha-portrait.png', 'Abundance', 'Imaginary', 5, 70,71,72,24,24);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Glistening Light', '["Jing Yuan deals Lightning DMG equal to 50% of his ATK to a single enemy.",
+      "Jing Yuan deals Lightning DMG equal to 60% of his ATK to a single enemy.",
+      "Jing Yuan deals Lightning DMG equal to 70% of his ATK to a single enemy.",
+      "Jing Yuan deals Lightning DMG equal to 80% of his ATK to a single enemy.",
+      "Jing Yuan deals Lightning DMG equal to 90% of his ATK to a single enemy.",
+      "Jing Yuan deals Lightning DMG equal to 100% of his ATK to a single enemy."]'),
+      ('Rifting Zenith', '["Deals Lightning DMG equal to 50% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 55% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 60% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 65% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 70% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 75% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 81.3% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 87.5% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 93.8% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn.",
+      "Deals Lightning DMG equal to 100% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s Hits Per Action by 2 for the next turn."]'),
+      ('Lightbringer', '["Deals Lightning DMG equal to 120% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 128% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 136% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 144% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 152% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 160% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 170% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 180% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 190% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn.",
+      "Deals Lightning DMG equal to 200% of Jing Yuan’s ATK to all enemies and increases Lightning-Lord’s attack count by 3 for the next turn."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values( 'Prana Extirpated', '["Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 33% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 36.3% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 39.6% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 42.9% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 46.2% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 49.5% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 53.62% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 57.74% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 61.86% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 65.98% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[158,372,594,942,1164]', '[95.04,223.34,356.4,565.49,698.54]', '[66,155.1,273.9,392.7,485.1]', '[99,99,99,99,99]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id","skill3Id", "talentId", "characterStatsId")
+      values(' Jing Yuan', '[1,20,40,60,80]', '	The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu. A student of the Luofu’s previous Sword Champion, though not known for his martial prowess',
+      '/images/characters/jing-yuan.png', '/images/characters/jing-yuan-portrait.png', 'Erudition', 'Lightning', 5, 73,74,75,25,25);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Shard Sword', '["Deals 50% of Blade’s ATK as Wind DMG to a target enemy.",
+      "Deals 60% of Blade’s ATK as Wind DMG to a target enemy.",
+      "Deals 70% of Blade’s ATK as Wind DMG to a target enemy.",
+      "Deals 80% of Blade’s ATK as Wind DMG to a target enemy.",
+      "Deals 90% of Blade’s ATK as Wind DMG to a target enemy.",
+      "Deals 100% of Blade’s ATK as Wind DMG to a target enemy."]'),
+      ('Hellscape', '["Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 12%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 14.8%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 17.6%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 20.4%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 23.2%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 26.5%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 29.5%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 33%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 36.5%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill.",
+      "Consumes HP equal to 30% of Blade’s Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 40%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade’s current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn. Consumes HP to Enhance Basic ATK. The current turn does not end after using the Skill."]'),
+      ('Death Sentence', '["Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 24% of his ATK, 60% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 12% of his ATK, 30% of his Max HP, and 30% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 25.6% of his ATK, 64% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 12.8% of his ATK, 32% of his Max HP, and 32% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 27.2% of his ATK, 68% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 13.6% of his ATK, 34% of his Max HP, and 34% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 28.8% of his ATK, 72% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 14.4% of his ATK, 36% of his Max HP, and 36% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 30.4% of his ATK, 76% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 15.2% of his ATK, 38% of his Max HP, and 38% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 32% of his ATK, 80% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 16% of his ATK, 40% of his Max HP, and 40% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 34% of his ATK, 85% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 17% of his ATK, 42.5% of his Max HP, and 42.5% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 36% of his ATK, 90% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 18% of his ATK, 45% of his Max HP, and 45% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 38% of his ATK, 95% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 19% of his ATK, 47.5% of his Max HP, and 47.5% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP.",
+      "Sets Blade’s current HP to 50% of his Max HP and deals Wind DMG equal to the sum of 40% of his ATK, 100% of his Max HP, and 60% of the total HP he had lost in the current battle. Also, deals Wind DMG equal to the sum of 20% of his ATK, 50% of his Max HP, and 50% of the total HP he had lost in the current battle to adjacent target(s). After his Ultimate is used, the HP he has lost in the current battle is reset and re-accumulated. This lost HP value is capped at 90% of his Max HP."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Shuhu’s Gift', '["When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 22% of Blade’s ATK plus 55% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 24.2% of Blade’s ATK plus 60.5% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 26.4% of Blade’s ATK plus 66% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 28.6% of Blade’s ATK plus 71.5% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 30.8% of Blade’s ATK plus 77% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 33% of Blade’s ATK plus 82.5% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 35.8% of Blade’s ATK plus 89.4% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 38.5% of Blade’s ATK plus 96.3% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 41.3% of Blade’s ATK plus 103.1% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack.",
+      "When Blade’s HP is lowered, he gains 1 stack of Charge for 3 turn(s), stacking up to 5 times. The maximum stack he gains each time he receives an attack is 1. When maximum Charge stack is reached, immediately use a follow-up attack on all enemies, dealing Wind DMG equal to 44% of Blade’s ATK plus 110% of his Max HP, while also restoring Blade’s HP by 25% of his Max HP. All Charges are consumed after unleashing the follow-up attack."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[185,434,767,1100,1358]', '[73.92,173.71,306.77,439.82, 543.31]', '[66,155.1,273.9,392.7,485.1]', '[97,97,97,97,97]');
+
+insert into "characters"
+      ("characterName", "characterLevel","characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id","skill3Id","talentId", "characterStatsId")
+      values('Blade', '[11,20,40,60,80]', 'A member of the Stellaron Hunters, and a swordsman who abandoned his body to become a blade. Pledges loyalty to "Destiny’s Slave," and possesses a terrifying self-healing ability.',
+       '/images/characters/blade.png', '/images/characters/blade-portrait.png', 'Destruction', 'Wind', 5, 76,77,78,26,26);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Cloudfencer Art: Starshine', '["Deals Physical DMG equal to 50% of Sushang’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 60% of Sushang’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 70% of Sushang’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 80% of Sushang’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 90% of Sushang’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 100% of Sushang’s ATK to a single enemy."]'),
+      ('Cloudfencer Art: Mountainfall', '["Deals Physical DMG equal to 105% of Sushang’s ATK to a single enemy. In addition, there is a 50% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33%% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 115.5% of Sushang’s ATK to a single enemy. In addition, there is a 55% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 126% of Sushang’s ATK to a single enemy. In addition, there is a 60% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 136.5% of Sushang’s ATK to a single enemy. In addition, there is a 65% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 147% of Sushang’s ATK to a single enemy. In addition, there is a 70% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 157.5% of Sushang’s ATK to a single enemy. In addition, there is a 75% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 170.62% of Sushang’s ATK to a single enemy. In addition, there is a 81.25% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 183.75% of Sushang’s ATK to a single enemy. In addition, there is a 87.5% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 196.9% of Sushang’s ATK to a single enemy. In addition, there is a 93.75% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      "Deals Physical DMG equal to 210% of Sushang’s ATK to a single enemy. In addition, there is a 100% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger."]'),
+      ('Shape of Taixu: Dawn Herald', '["Deals Physical DMG equal to 192% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 18% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 204.8% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 19.2% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 217.6% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 20.4% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 230.4% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 21.6% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 243.2% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 22.8% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 256% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 24% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 272% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 25.5% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 288% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 27% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 304% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 28.5% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG.",
+      "Deals Physical DMG equal to 320% of Sushang’s ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang’s ATK increases by 30% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s). Sword Stance triggered from the extra chances deals 50% of the original DMG."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Dancing Blade', '["When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 15% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 15.5% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 16% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 16.5% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 17% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 17.5% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 18.1% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 18.8% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 19.4% for 2 turn(s).",
+      "When there is an enemy with Weakness Break on the field, Sushang’s SPD increases by 20% for 2 turn(s)."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[125,293,518,743,917]', '[76.8,180.48,318.72,456.96,564.48]', '[57,133.95,236.55,339.15,418.95]', '[107,107,107,107,107]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription","characterImage","characterPortrait","characterPath", "characterType","rarity", "skill1Id","skill2Id","skill3Id","talentId","characterStatsId")
+      values('Sushang', '[1,20,40,60,80]', 'Born on the Xianzhou Yaoqing, sent to the Cloud Knights of the Luofu for military training. She wields her family sword, a gift from her mother, and longs for the future she will go on to write.',
+      '/images/characters/sushang.png', '/images/characters/sushang-portrait.png', 'Hunt', 'Physical', 4,79,80,81,27,27);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Arrowslinger', '["Deals Imaginary DMG equal to 50% of Yukong’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 60% of Yukong’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 70% of Yukong’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 80% of Yukong’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 90% of Yukong’s ATK to a single enemy.",
+      "Deals Imaginary DMG equal to 100% of Yukong’s ATK to a single enemy."]'),
+      ('Emboldening Salvo', '["Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 40%%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 44%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 48%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 52%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 56%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 60%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 65%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 70%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 75%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 80%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed."]'),
+      ('Diving Kestrel', '["When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 21% and CRIT DMG increases by 39%. At the same time, deals Imaginary DMG equal to 228% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 21.7% and CRIT DMG increases by 41.6%. At the same time, deals Imaginary DMG equal to 243.2% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 22.4% and CRIT DMG increases by 44.2%. At the same time, deals Imaginary DMG equal to 258.4% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 23.1% and CRIT DMG increases by 46.8%. At the same time, deals Imaginary DMG equal to 273.6% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 23.8% and CRIT DMG increases by 49.4%. At the same time, deals Imaginary DMG equal to 288.8% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 24.5% and CRIT DMG increases by 52%. At the same time, deals Imaginary DMG equal to 304% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 25.4% and CRIT DMG increases by 55.3%. At the same time, deals Imaginary DMG equal to 323% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 26.3% and CRIT DMG increases by 58.5%. At the same time, deals Imaginary DMG equal to 342% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 27.1% and CRIT DMG increases by 61.8%. At the same time, deals Imaginary DMG equal to 361% of Yukong’s ATK to a single enemy.",
+      "When using her Ultimate, if Roaring Bowstrings is active on Yukong, all allies’ CRIT Rate additionally increases by 28% and CRIT DMG increases by 65%. At the same time, deals Imaginary DMG equal to 380% of Yukong’s ATK to a single enemy."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Seven Layers, One Arrow', '["Basic ATK additionally deals Imaginary DMG equal to 40% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 44% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 48% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 52% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 56% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 60% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 65% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 70% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 75% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s).",
+      "Basic ATK additionally deals Imaginary DMG equal to 80% of Yukong’s ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s)."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense","characterSpeed")
+      values('[125,293,468,743,917]', '[81.6,191.76,338.64,485.52,599.76]', '[51,119.85,211.65,303.45,374.85]', '[107,107,107,107,107]');
+
+insert into "characters"
+      ("characterName","characterLevel","characterDescription","characterImage","characterPortrait","characterPath", "characterType", "rarity", "skill1Id","skill2Id","skill3Id", "talentId", "characterStatsId")
+      values('Yukong', '[1,20,40,60,80]', 'Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot. Since heading up the commission, she’s been buried under mountains of paperwork.',
+      '/images/characters/yukong.png', '/images/characters/yukong-portrait.png', 'Harmony', 'Imaginary', 4,82,83,84,28,28);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Novaburst', '["Deals Quantum DMG equal to 25% of Fu Xuan’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 30% of Fu Xuan’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 35% of Fu Xuan’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 40% of Fu Xuan’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 45% of Fu Xuan’s Max HP to a single enemy.",
+      "Deals Quantum DMG equal to 50% of Fu Xuan’s Max HP to a single enemy."]'),
+      ('Known by Stars, Shown by Hearts', '["Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 3% of Fu Xuan’s Max HP, and increases CRIT Rate by 6%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 3.3% of Fu Xuan’s Max HP, and increases CRIT Rate by 7%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 3.6% of Fu Xuan’s Max HP, and increases CRIT Rate by 7%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 3.9% of Fu Xuan’s Max HP, and increases CRIT Rate by 8%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 4.2% of Fu Xuan’s Max HP, and increases CRIT Rate by 8%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 4.5% of Fu Xuan’s Max HP, and increases CRIT Rate by 9%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 4.9% of Fu Xuan’s Max HP, and increases CRIT Rate by 10%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 5.3% of Fu Xuan’s Max HP, and increases CRIT Rate by 11%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 5.6% of Fu Xuan’s Max HP, and increases CRIT Rate by 11%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled.",
+      "Activates Matrix of Prescience. Other team members will Apportion 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). All team members are affected by Matrix of Prescience and gain the Knowledge effect, which increases their respective Max HP by 6% of Fu Xuan’s Max HP, and increases CRIT Rate by 12%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled."]'),
+      ('Woes of Many Morphed to One', '["Deals Quantum DMG equal to 60% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 64% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 68% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 72% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 76% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 80% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 85% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 90% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 95% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent.",
+      "Deals Quantum DMG equal to 100% of Fu Xuan’s Max HP to all enemies and obtains 1 trigger count for the HP Restore from Fu Xuan’s Talent."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('Bleak Breeds Bliss', '["While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 10% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 80% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 10.8% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 81% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 11.6% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 82% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 12.4% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 83% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 13.2% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 84% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 14% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 85% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 15% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 86.3% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 16% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 87.5% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 17% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 88.8% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum.",
+      "While Fu Xuan has not been knocked down, Misfortune Avoidance is applied to the entire team. While affected by Misfortune Avoidance, allies take 18% less DMG. HP Restore will be triggered for Fu Xuan when her HP falls to 50% or less of her Max HP. This effect will restore her HP by 90% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 triggered count by default, and can possess up to 2 trigger counts maximum."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack","characterDefense","characterSpeed")
+      values('[201,472,833,1194,1475]', '[63.36,148.9,262.94,376.99,465.7]', '[82.5, 193.88, 342.38,490.88,606.38]', '[100,100,100,100,100]');
+
+insert into "characters"
+      ("characterName","characterLevel","characterDescription","characterImage", "characterPortrait","characterPath","characterType", "rarity", "skill1Id","skill2Id","skill3Id","talentId","characterStatsId")
+      values('Fu Xuan', '[1,20,40,60,80]', 'Head of the Divination Commission on the Luofu. The person who uses the third eye and Matrix of Prescience to foretell the route of Xianzhou and the outcomes of events.',
+      '/images/characters/fu-xuan.png', '/images/characters/fu-xuan-portrait.png', 'Preservation', 'Quantum', 5, 85,86,87,29,29 );
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Cold Light, Cold Blade', '["Deals Ice DMG equal to 50% of Yanqing’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 60% of Yanqing’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 70% of Yanqing’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 80% of Yanqing’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 90% of Yanqing’s ATK to a single enemy.",
+      "Deals Ice DMG equal to 100% of Yanqing’s ATK to a single enemy."]'),
+      ('Drakestoning Edge', '["Deals Ice DMG equal to 110% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 121% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 132% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 143% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 154% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 165% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 178.5% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 192.5% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 206.25% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn.",
+      "Deals Ice DMG equal to 220% of Yanqing’s ATK to a single enemy and activates Empathic Sword Link for 1 turn."]'),
+      ('Swallow’s Pluvious Pursuit', '["Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 30%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 210% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 32%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 224% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 34%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 238% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 36%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 252% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 38%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 266% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 40%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 280% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 42.5%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 297.5% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 45%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 315% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 47.5%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 332.5% of Yanqing’s ATK to a single enemy.",
+      "Increases Yanqing’s CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing’s CRIT DMG by an extra 50%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 350% of Yanqing’s ATK to a single enemy."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('One With the Sword', '["When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 15% and his CRIT DMG increases by 15%. After Yanqing attacks an enemy, there is a 50% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 25% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 25% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 15.5% and his CRIT DMG increases by 16.5%. After Yanqing attacks an enemy, there is a 51% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 27.5% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 28% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 16% and his CRIT DMG increases by 18%. After Yanqing attacks an enemy, there is a 52% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 30% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 30% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 16.5% and his CRIT DMG increases by 19.5%. After Yanqing attacks an enemy, there is a 53% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 32.5% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 33% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 17% and his CRIT DMG increases by 21%. After Yanqing attacks an enemy, there is a 54% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 35% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 35% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 17.5% and his CRIT DMG increases by 22.5%. After Yanqing attacks an enemy, there is a 55% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 37.5% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 38% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 18.1% and his CRIT DMG increases by 24.4%. After Yanqing attacks an enemy, there is a 56.3% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 40.6% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 41% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 18.8% and his CRIT DMG increases by 26.3%. After Yanqing attacks an enemy, there is a 57.5% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 43.8% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 44% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 19.4% and his CRIT DMG increases by 28.1%. After Yanqing attacks an enemy, there is a 58.8% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 46.9% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 47% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+      "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing’s CRIT Rate increases by 20% and his CRIT DMG increases by 30%. After Yanqing attacks an enemy, there is a 60% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 50% of Yanqing’s ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn. The Frozen target cannot take action and receives Additional Ice DMG equal to 50% of Yanqing’s ATK at the beginning of each turn. When Yanqing receives DMG, the Soulsteel Sync effect will disappear."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[121,285,504,723,893]', '[92.4,217.14,383.46,549.78,679.14]', '[56.1,131.84,232.81,333.8,412.34]', '[109,109,109,109,109]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id","skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Yanqing', '[1,20,40,60,80]', 'General Jing Yuan’s retainer. A gifted swordsman who hasn’t even come of age. No one can best Yanqing when he holds a sword in hand.',
+      '/images/characters/yanqing.png', '/images/characters/yanqing-portrait.png', 'Hunt', 'Ice', 5,88,89,90,30,30);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Standing Ovation', '["Deals Fire DMG equal to 50% of Guinaifen’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 60% of Guinaifen’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 70% of Guinaifen’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 80% of Guinaifen’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 90% of Guinaifen’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 100% of Guinaifen’s ATK to a single enemy."]'),
+      ('Blazing Welcome', '["Deals Fire DMG equal to 60% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 20% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 83.9% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 66% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 22% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 92.3% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 72% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 24% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 100.7% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 78% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 26% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 109.1% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 84% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 28% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 117.5% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 90% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 30% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 130.1% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 97.5% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 32.5% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 146.9% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 105% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 35% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 167.8% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 112.5% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 37.5% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 193% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      ["Deals Fire DMG equal to 120% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 40% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 218.2% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s)."]'),
+      ('Watch This Showstopper', '["Deals Fire DMG equal to 72% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 72% of their original DMG.",
+      "Deals Fire DMG equal to 76.8% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 74% of their original DMG.",
+      "Deals Fire DMG equal to 81.6% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 76% of their original DMG.",
+      "Deals Fire DMG equal to 86.4% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 78% of their original DMG.",
+      "Deals Fire DMG equal to 91.2% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 80% of their original DMG.",
+      "Deals Fire DMG equal to 96% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 82% of their original DMG.",
+      "Deals Fire DMG equal to 102% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 84.5% of their original DMG.",
+      "Deals Fire DMG equal to 108% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 87% of their original DMG.",
+      "Deals Fire DMG equal to 114% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 89.5% of their original DMG.",
+      "Deals Fire DMG equal to 120% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 92% of their original DMG."]');
+
+insert into "talent"
+      ("talentName", "talentLevel")
+      values('PatrAeon Benefits', '["When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 4% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 4.3% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 4.6% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 4.9% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 5.2% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 5.5% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 5.8% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 6.3% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 6.6% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s).",
+      "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 7% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s)."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[120,282,498,714,882]', '[79.2,186.12,328.68,471.24,582.12]', '[60,141,225,357,441]', '[106,106,106,106,106]');
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Guinaifen', '[1,20,40,60,80]','A performance artist visiting the Xianzhou Luofu — in other words, a street performer. She’s chasing a new life on the Luofu when not concerned with food and shelter.',
+      '/images/characters/guinaifen.png', '/images/characters/guinaifen-portrait.png', 'Nihility', 'Fire', 4,91,92,93,31,31);
