@@ -167,6 +167,16 @@
   box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.5);
 }
 
+.velvet-background2 {
+  background-image: radial-gradient(
+    rgb(255, 0, 0),
+    rgb(122, 1, 1),
+    rgb(57, 1, 1)
+  );
+  background-size: 33% 33%;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
 .character-detail-text-background {
   background-image: radial-gradient(
     rgb(255, 255, 255) 9%,
@@ -208,6 +218,50 @@
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-name: pom-pom-animation;
+}
+
+.shelf-background {
+  background: linear-gradient(
+      180deg,
+      rgb(139, 90, 43),
+      rgb(222, 184, 135),
+      rgb(122, 96, 71),
+      rgb(139, 90, 43)
+    ),
+    radial-gradient(
+      rgb(59, 29, 0),
+      rgb(59, 29, 0),
+      rgb(59, 29, 0),
+      rgb(139, 90, 43)
+    );
+  background-size: 1% 20%;
+  background-blend-mode: overlay;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.shelf-background2 {
+  background-image: linear-gradient(
+      180deg,
+      rgb(139, 90, 43),
+      rgb(222, 184, 135),
+      rgb(122, 96, 71),
+      rgb(139, 90, 43)
+    ),
+    radial-gradient(
+      rgb(59, 29, 0),
+      rgb(59, 29, 0),
+      rgb(59, 29, 0),
+      rgb(139, 90, 43)
+    );
+  background-size: 5% 30%;
+  background-blend-mode: overlay;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.book-shadow {
+  box-shadow: 0 9px 25px rgba(0, 0, 0, 1);
 }
 
 @keyframes pom-pom-animation {

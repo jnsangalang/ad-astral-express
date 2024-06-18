@@ -1740,7 +1740,7 @@ insert into "weapons"
 
 insert into "weapons"
       ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/Mediation.webp','Harmony', 'Mediation', 'Family', '["Upon entering battle, increases SPD of all allies by 12 for 1 turn(s).",
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/mediation.webp','Harmony', 'Mediation', 'Family', '["Upon entering battle, increases SPD of all allies by 12 for 1 turn(s).",
       "Upon entering battle, increases SPD of all allies by 14 for 1 turn(s).",
       "Upon entering battle, increases SPD of all allies by 16 for 1 turn(s).",
       "Upon entering battle, increases SPD of all allies by 18 for 1 turn(s).",

@@ -34,13 +34,15 @@ export function Weapons() {
     );
   }
   return (
-    <div className="m-4">
-      <h1 className="bebas-neue-regular text-6xl text-left">Lightcones:</h1>
+    <div className=" velvet-background2">
+      <h1 className="bebas-neue-regular text-6xl text-white text-left">
+        Lightcones:
+      </h1>
       <hr className="py-2" />
-      <div className="flex flex-wrap w-full rounded-3xl bg-gray-700 ">
+      <div className="flex flex-wrap p-10 w-full shelf-background2  ">
         {weapon?.map((weapon) => (
           <div
-            className="w-1/5 p-2 border border-gray-800 rounded-3xl velvet-background"
+            className="w-1/5 p-2 border border-black shelf-background"
             key={weapon.weaponId}>
             <WeaponCard weapon={weapon} />
           </div>
@@ -58,14 +60,14 @@ function WeaponCard({ weapon }: Props) {
   const { weaponName, weaponImage, weaponId } = weapon;
 
   return (
-    <div className="w-full items-center m-2">
+    <div className="w-full text-center items-center m-2">
       <img
-        className="object-cover w-full h-full"
+        className="object-cover w-full h-full book-shadow"
         src={weaponImage}
         alt={weaponName}
         key={weaponId}
       />
-      <h2 className="bebas-neue-regular text-white text-center text-3xl font-bold mt-4">
+      <h2 className="bebas-neue-regular text-white text-center text-2xl font-bold">
         {weaponName}
       </h2>
     </div>
