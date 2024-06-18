@@ -41,3 +41,18 @@ export async function readWeapons(): Promise<Weapon[]> {
   }
   return await response.json();
 }
+
+//for Weapon Details, for each unique weapon
+export async function readWeapon(
+  weaponName: string | undefined
+): Promise<Weapon> {
+  if (!weaponName) {
+    throw new Error(`${weaponName} is not valid`);
+  }
+  const response = await fetch(`/api/characters/${weaponName}`);
+  if (!response.ok) {
+    throw new Error(`there was an error, Error:${response.status}`);
+  }
+  const character = await response.json();
+  return character;
+}

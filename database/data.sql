@@ -1588,10 +1588,10 @@ insert into "characters"
 insert into "weapons"
       ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
       values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/arrows.webp', 'Hunt', 'Arrows', 'Crisis', '["At the start of the battle, the wearer’s CRIT Rate increases by 12% for 3 turn(s).",
-      ["At the start of the battle, the wearer’s CRIT Rate increases by 15% for 3 turn(s).",
-      ["At the start of the battle, the wearer’s CRIT Rate increases by 18% for 3 turn(s).",
-      ["At the start of the battle, the wearer’s CRIT Rate increases by 21% for 3 turn(s).",
-      ["At the start of the battle, the wearer’s CRIT Rate increases by 24% for 3 turn(s)."]', 3);
+      "At the start of the battle, the wearer’s CRIT Rate increases by 15% for 3 turn(s).",
+      "At the start of the battle, the wearer’s CRIT Rate increases by 18% for 3 turn(s).",
+      "At the start of the battle, the wearer’s CRIT Rate increases by 21% for 3 turn(s).",
+      "At the start of the battle, the wearer’s CRIT Rate increases by 24% for 3 turn(s)."]', 3);
 
 insert into "weapons"
       ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )

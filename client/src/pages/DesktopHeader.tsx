@@ -108,13 +108,13 @@ export function DesktopHeader() {
               </Popup>
             </div>
             <div className="w-1/5">
-              <button className="button-favorites prompt-extrabold flex ml-1 items-center justify-evenly bg-gray-300">
+              <button className="button-favorites prompt-extrabold flex items-center justify-evenly bg-gray-300">
                 Favorites
                 <MdOutlineFavorite />
               </button>
             </div>
             <div className="w-1/5">
-              <button className="flex prompt-extrabold button-sign-up ml-0.5 items-center justify-evenly bg-yellow-300 text-nowrap">
+              <button className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap">
                 Sign Up <SiGooglegemini />
               </button>
             </div>
