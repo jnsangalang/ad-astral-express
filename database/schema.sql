@@ -60,12 +60,10 @@ CREATE TABLE "weapons" (
 CREATE TABLE "users" (
   "userId" serial PRIMARY KEY,
   "username" text,
-  "hashedPassword" text,
-  "createdAt" text
+  "hashedPassword" text
 );
 
 CREATE TABLE "favorites" (
-  "favoritesId" serial PRIMARY KEY,
   "favoriteWeapons" integer,
   "favoriteCharacters" integer,
   "userId" integer
@@ -86,5 +84,3 @@ ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteWeapons") REFERENCES "weapons"
 ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteCharacters") REFERENCES "characters" ("CharacterId");
 
 ALTER TABLE "favorites" ADD FOREIGN KEY ("userId") REFERENCES "users" ("userId");
-
-ALTER TABLE "favorites" ADD FOREIGN KEY ("userId") REFERENCES "favorites" ("favoriteCharacters");
