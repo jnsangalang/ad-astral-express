@@ -39,7 +39,7 @@ export function Home() {
           <div className="marble flex h-2/5 m-4 border border-gray-700 rounded-3xl p-4 items-center">
             <div className="w-1/4">
               <img
-                src="images/pom-pom/express-pass.webp"
+                src="/images/pom-pom/express-pass.webp"
                 alt="symbol for express pass in honkai star rail"
               />
             </div>

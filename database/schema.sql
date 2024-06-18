@@ -16,11 +16,11 @@ CREATE TABLE "characters" (
   "CharacterId" serial PRIMARY KEY,
   "characterName" text,
   "characterLevel" text,
+  "characterDescription" text,
   "characterImage" text,
   "characterPortrait" text,
   "characterPath" text,
   "characterType" text,
-  "characterDescription" text,
   "rarity" integer,
   "skill1Id" integer,
   "skill2Id" integer,
@@ -45,12 +45,16 @@ CREATE TABLE "talent" (
 
 CREATE TABLE "weapons" (
   "weaponId" serial PRIMARY KEY,
-  "attack" integer,
-  "defense" integer,
-  "health" integer,
+  "weaponLevel" text,
+  "weaponAttack" text,
+  "weaponDefense" text,
+  "weaponHealth" text,
   "weaponImage" text,
   "weaponPath" text,
-  "weaponName" text
+  "weaponName" text,
+  "weaponTitleEffect" text,
+  "weaponEffect" text,
+  "rarity" integer
 );
 
 CREATE TABLE "users" (
@@ -82,3 +86,5 @@ ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteWeapons") REFERENCES "weapons"
 ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteCharacters") REFERENCES "characters" ("CharacterId");
 
 ALTER TABLE "favorites" ADD FOREIGN KEY ("userId") REFERENCES "users" ("userId");
+
+ALTER TABLE "favorites" ADD FOREIGN KEY ("userId") REFERENCES "favorites" ("favoriteCharacters");

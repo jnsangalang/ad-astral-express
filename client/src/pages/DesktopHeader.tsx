@@ -41,7 +41,7 @@ export function DesktopHeader() {
   // }, [isCharacterOpen, isWeaponOpen]);
 
   return (
-    <div className="w-full h-[300px]">
+    <div className="w-full h-[400px]">
       <nav className="w-full overflow-hidden sticky">
         <div className="bg-gray-900 w-full">
           <div className="border border-gray-700 starry-header justify-center text-center flex w-full">
@@ -49,8 +49,8 @@ export function DesktopHeader() {
             <div className="position">
               <Link to="/">
                 <img
-                  className="w-40 absolute top-12 left-0 pom-pom"
-                  src="images/pom-pom/cheer.webp"
+                  className="w-40 absolute top-0 left-0 pom-pom"
+                  src="/images/pom-pom/cheer.webp"
                 />
               </Link>
             </div>
@@ -100,19 +100,25 @@ export function DesktopHeader() {
                 }}
                 position={postionWeaponRef.current}>
                 <ul className="w-full">
-                  <li>All Weapons</li>
+                  <li
+                    onClick={() => {
+                      setIsWeaponOpen(false);
+                    }}>
+                    <Link to="/weapons"> All Weapons </Link>
+                  </li>
+
                   <li>Sort by Path </li>
                 </ul>
               </Popup>
             </div>
             <div className="w-1/5">
-              <button className="button-favorites prompt-extrabold flex ml-1 items-center justify-evenly bg-gray-300">
+              <button className="button-favorites prompt-extrabold flex items-center justify-evenly bg-gray-300">
                 Favorites
                 <MdOutlineFavorite />
               </button>
             </div>
             <div className="w-1/5">
-              <button className="flex prompt-extrabold button-sign-up ml-0.5 items-center justify-evenly bg-yellow-300 text-nowrap">
+              <button className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap">
                 Sign Up <SiGooglegemini />
               </button>
             </div>

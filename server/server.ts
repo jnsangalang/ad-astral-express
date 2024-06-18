@@ -113,6 +113,52 @@ app.get('/api/characters/:characterName', async (req, res, next) => {
   }
 });
 
+app.get('/api/weapons', async (req, res, next) => {
+  try {
+    const sql = `
+      select *
+        from "weapons"
+        `;
+    const result = await db.query(sql);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    res.json(result.rows);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.get('/api/weapons/:weaponName', async (req, res, next) => {
+  try {
+    const { weaponName } = req.params;
+    if (!weaponName) {
+      throw new ClientError(400, `${weaponName} is not valid`);
+    }
+    const sql = `
+      select *
+        from "weapons"
+        where "weaponName" = $1
+        `;
+    const result = await db.query(sql, [weaponName]);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    const [weapon] = result.rows;
+    if (!weapon) {
+      throw new ClientError(404, `${weaponName} not found`);
+    }
+    weapon.weaponLevel = JSON.parse(weapon.weaponLevel);
+    weapon.weaponAttack = JSON.parse(weapon.weaponAttack);
+    weapon.weaponDefense = JSON.parse(weapon.weaponDefense);
+    weapon.weaponHealth = JSON.parse(weapon.weaponHealth);
+    weapon.weaponEffect = JSON.parse(weapon.weaponEffect);
+    res.json(weapon);
+  } catch (err) {
+    next(err);
+  }
+});
+
 app.get('*', (req, res) => res.sendFile(`${reactStaticDir}/index.html`));
 
 app.use(errorMiddleware);
