@@ -61,7 +61,7 @@ function WeaponCard({ weapon }: Props) {
   const { weaponName, weaponImage, weaponId } = weapon;
 
   return (
-    <div className="w-full text-center items-center m-2">
+    <div className="w-full text-center items-center m-2 slight-transparency-lightcone">
       <Link to={`/weapons/${weaponName}`}>
         <img
           className="object-cover w-full h-full book-shadow"

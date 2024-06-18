@@ -1825,3 +1825,59 @@ insert into "weapons"
       "The wearer is more likely to be attacked, and DMG taken is reduced by 20%.",
       "The wearer is more likely to be attacked, and DMG taken is reduced by 22%.",
       "The wearer is more likely to be attacked, and DMG taken is reduced by 24%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/swordplay.webp','Hunt', 'Swordplay', 'Answers of Their Own', '["For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+      "For each time the wearer hits the same target, DMG dealt increases by 10%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+      "For each time the wearer hits the same target, DMG dealt increases by 12%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+      "For each time the wearer hits the same target, DMG dealt increases by 14%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+      "For each time the wearer hits the same target, DMG dealt increases by 16%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets."]', 4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[15,75.75,168.75,261.75,330.75]', '[48,242,761,838,1058]','/images/weapons/planetary-rendezvous.webp', 'Harmony', 'Planetary Rendezvous', 'Departure', '["Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 15%.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 18%.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 21%.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 24%."]', 4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/a-secret-vow.webp','Destruction', 'A Secret Vow', 'Spare No Effort', '["Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
+      "Increases DMG dealt by the wearer by 25%. The wearer also deals an extra 25% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
+      "Increases DMG dealt by the wearer by 30%. The wearer also deals an extra 30% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
+      "Increases DMG dealt by the wearer by 35%. The wearer also deals an extra 35% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
+      "Increases DMG dealt by the wearer by 40%. The wearer also deals an extra 40% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/make-the-world-clamor.webp', 'Erudition', 'Make The World Clamor', 'The Power of Sound', '["The wearer regenerates 20 Energy immediately upon entering battle, and increases Ultimate DMG by 32%.",
+      "The wearer regenerates 23 Energy immediately upon entering battle, and increases Ultimate DMG by 40%.",
+      "The wearer regenerates 26 Energy immediately upon entering battle, and increases Ultimate DMG by 48%.",
+      "The wearer regenerates 29 Energy immediately upon entering battle, and increases Ultimate DMG by 56%.",
+      "The wearer regenerates 32 Energy immediately upon entering battle, and increases Ultimate DMG by 64%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/perfect-timing.webp', 'Abundance', 'Perfect Timing', 'Refraction of Sightline', '["Increases the wearer’s Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.",
+      "Increases the wearer’s Effect RES by 20% and increases Outgoing Healing by an amount that is equal to 36% of Effect RES. Outgoing Healing can be increased this way by up to 18%.",
+      "Increases the wearer’s Effect RES by 24% and increases Outgoing Healing by an amount that is equal to 39% of Effect RES. Outgoing Healing can be increased this way by up to 21%.",
+      "Increases the wearer’s Effect RES by 28% and increases Outgoing Healing by an amount that is equal to 42% of Effect RES. Outgoing Healing can be increased this way by up to 24%.",
+      "Increases the wearer’s Effect RES by 32% and increases Outgoing Healing by an amount that is equal to 45% of Effect RES. Outgoing Healing can be increased this way by up to 27%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]', '[15, 75.75, 168.75, 261.75, 330.75]', '[43, 218, 486, 754, 953]','/images/weapons/resolution-shines-as-pearls-of-sweat.webp', 'Nihility', 'Resolution Shines As Pearls Of Sweat', 'Glance Back', '["When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 60% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 12% for 1 turn(s).",
+      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 70% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 13% for 1 turn(s).",
+      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 80% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 14% for 1 turn(s).",
+      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 90% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 15% for 1 turn(s).",
+      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 100% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 16% for 1 turn(s)."]', 4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8, 84.84, 189, 293.16, 370.44]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/trend-of-the-universal-market.webp','Preservation', 'Trend Of The Universal Market', 'A New Round of Shuffling', '["Increases the wearer’s DEF by 16%. When the wearer is attacked, there is a 100% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40% of the wearer’s DEF for 2 turn(s).",
+      "Increases the wearer’s DEF by 20%. When the wearer is attacked, there is a 105% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 50% of the wearer’s DEF for 2 turn(s).",
+      "Increases the wearer’s DEF by 24%. When the wearer is attacked, there is a 110% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 60% of the wearer’s DEF for 2 turn(s).",
+      "Increases the wearer’s DEF by 28%. When the wearer is attacked, there is a 115% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 70% of the wearer’s DEF for 2 turn(s).",
+      "Increases the wearer’s DEF by 32%. When the wearer is attacked, there is a 120% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 80% of the wearer’s DEF for 2 turn(s)."]', 4 );

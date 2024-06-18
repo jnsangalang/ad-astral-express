@@ -100,9 +100,13 @@ export function DesktopHeader() {
                 }}
                 position={postionWeaponRef.current}>
                 <ul className="w-full">
-                  <Link to="/weapons">
-                    <li>All Weapons</li>
-                  </Link>
+                  <li
+                    onClick={() => {
+                      setIsWeaponOpen(false);
+                    }}>
+                    <Link to="/weapons"> All Weapons </Link>
+                  </li>
+
                   <li>Sort by Path </li>
                 </ul>
               </Popup>

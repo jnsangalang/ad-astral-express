@@ -72,17 +72,17 @@ export function WeaponDetails() {
     <div className="velvet-background2">
       <div className="w-full flex flex-wrap">
         <div className="w-full text-center text-6xl my-6">{weaponName}</div>
-        <div className="w-full flex h-[600px] my-4">
-          <div className="flex justify-center w-1/4 object-fill border border-black spotlight-background-lightcone m-8 rounded-3xl ">
+        <div className="w-full flex h-[600px] my-4 ">
+          <div className="flex justify-center w-1/4 object-fill spotlight-background-lightcone m-8">
             <img
               src={weaponImage}
               alt={weaponName}
-              className="object-cover h-full rounded-3xl"
+              className="object-cover h-full "
             />
           </div>
-          <div className="flex flex-col w-3/4 m-8 border rounded-3xl character-detail-text-background pt-4 pl-8">
-            <div className="w-full flex">
-              <div className="w-1/3">
+          <div className="flex flex-col w-3/4 m-8  spotlight-background-description-lightcone pt-4 pl-8">
+            <div className="w-full flex pt-[75px] self-center">
+              <div className="w-1/3 ">
                 Path: {weaponPath}
                 {weaponPath === 'Harmony' && (
                   <div className="w-3/12">
@@ -154,7 +154,7 @@ export function WeaponDetails() {
                 <div className="pb-2">Defense:{weaponDefense[level]}</div>
                 <div className="pb-2">Health:{weaponHealth[level]}</div>
               </div>
-              <div className="w-1/3 self-center">
+              <div className="w-1/3">
                 <div className="ml-6">
                   Current Level: {weaponLevel[level]} {level === 4 && 'MAX'}
                 </div>
