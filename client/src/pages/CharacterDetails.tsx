@@ -233,9 +233,9 @@ export function CharacterDetails() {
                 )}
               </div>
             </div>
+            <div className="pb-2">Description: {characterDescription}</div>
             <div className="w-full flex">
-              <div className="w-1/2 truncate">
-                <div className="pb-2">Description: {characterDescription}</div>
+              <div className="w-1/2 ">
                 <div>Stats</div>
                 <div className="pb-2">Level:{characterLevel[level]}</div>
                 <div className="pb-2">Attack:{characterAttack[level]}</div>

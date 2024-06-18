@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { GoDot, GoDotFill } from 'react-icons/go';
-// import { MdArrowLeft, MdArrowRight } from 'react-icons/md';
+import { MdArrowLeft, MdArrowRight } from 'react-icons/md';
 import '../App.css';
 const carouselImages = [
   {
@@ -40,15 +40,15 @@ export function Carousel() {
     return () => clearTimeout(timerId);
   }, []);
 
-  // function handleNextClick() {
-  //   setCurrentIndex((currentIndex + 1) % carouselImages.length);
-  // }
+  function handleNextClick() {
+    setCurrentIndex((currentIndex + 1) % carouselImages.length);
+  }
 
-  // function handlePrevClick() {
-  //   setCurrentIndex(
-  //     (currentIndex - 1 + carouselImages.length) % carouselImages.length
-  //   );
-  // }
+  function handlePrevClick() {
+    setCurrentIndex(
+      (currentIndex - 1 + carouselImages.length) % carouselImages.length
+    );
+  }
 
   function handleDots(dotIndex: number) {
     setCurrentIndex(dotIndex);
@@ -63,7 +63,7 @@ export function Carousel() {
         <ImageCard carouselImage={carouselImages[currentIndex]} />
       </div>
       <div className="flex bg-none justify-center">
-        {/* <PrevButton onClick={handlePrevClick} /> */}
+        <PrevButton onClick={handlePrevClick} />
         <div className="flex w-1/7">
           <Dots
             current={currentIndex}
@@ -71,7 +71,7 @@ export function Carousel() {
             onClick={handleDots}
           />
         </div>
-        {/* <NextButton onClick={handleNextClick} /> */}
+        <NextButton onClick={handleNextClick} />
       </div>
       <div className="w-full bg-gray-800 prompt-extrabold text-white rounded-3xl">
         <h1>{carouselImages[currentIndex].alt}</h1>
@@ -98,28 +98,28 @@ function Dots({ current, carouselImages, onClick }: DotProps) {
   return <div className="flex">{dots}</div>;
 }
 
-// type NextButtonProps = {
-//   onClick: () => void;
-// };
-// function NextButton({ onClick }: NextButtonProps) {
-//   return (
-//     <button className="bg-transparent" onClick={onClick}>
-//       <MdArrowRight />
-//     </button>
-//   );
-// }
+type NextButtonProps = {
+  onClick: () => void;
+};
+function NextButton({ onClick }: NextButtonProps) {
+  return (
+    <button className="bg-transparent" onClick={onClick}>
+      <MdArrowRight />
+    </button>
+  );
+}
 
-// type PrevButtonProps = {
-//   onClick: () => void;
-// };
+type PrevButtonProps = {
+  onClick: () => void;
+};
 
-// function PrevButton({ onClick }: PrevButtonProps) {
-//   return (
-//     <button className="bg-transparent" onClick={onClick}>
-//       <MdArrowLeft />
-//     </button>
-//   );
-// }
+function PrevButton({ onClick }: PrevButtonProps) {
+  return (
+    <button className="bg-transparent" onClick={onClick}>
+      <MdArrowLeft />
+    </button>
+  );
+}
 
 type ImageCardProps = {
   carouselImage: {

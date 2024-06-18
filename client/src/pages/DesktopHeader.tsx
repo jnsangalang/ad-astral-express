@@ -41,7 +41,7 @@ export function DesktopHeader() {
   // }, [isCharacterOpen, isWeaponOpen]);
 
   return (
-    <div className="w-full h-[300px]">
+    <div className="w-full h-[400px]">
       <nav className="w-full overflow-hidden sticky">
         <div className="bg-gray-900 w-full">
           <div className="border border-gray-700 starry-header justify-center text-center flex w-full">
@@ -49,7 +49,7 @@ export function DesktopHeader() {
             <div className="position">
               <Link to="/">
                 <img
-                  className="w-40 absolute top-12 left-0 pom-pom"
+                  className="w-40 absolute top-0 left-0 pom-pom"
                   src="images/pom-pom/cheer.webp"
                 />
               </Link>
@@ -100,7 +100,9 @@ export function DesktopHeader() {
                 }}
                 position={postionWeaponRef.current}>
                 <ul className="w-full">
-                  <li>All Weapons</li>
+                  <Link to="/weapons">
+                    <li>All Weapons</li>
+                  </Link>
                   <li>Sort by Path </li>
                 </ul>
               </Popup>

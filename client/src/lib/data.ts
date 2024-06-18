@@ -30,8 +30,8 @@ export type DetailsCharacter = {
   skill3Id: number;
   talentId: number;
   characterStatsId: number;
-  characterAttack: string[];
-  characterDefense: string[];
+  characterAttack: number[];
+  characterDefense: number[];
   characterHealth: number[];
   characterSpeed: number[];
   skill1Level: string[];
@@ -42,4 +42,18 @@ export type DetailsCharacter = {
   skill3Name: string;
   talentLevel: string[];
   talentName: string;
+};
+
+export type Weapon = {
+  weaponId: number;
+  weaponLevel: number[];
+  weaponAttack: number[];
+  weaponDefense: number[];
+  weaponHealth: number[];
+  weaponImage: string;
+  weaponPath: string;
+  weaponName: string;
+  weaponTitleEffect: string;
+  weaponEffect: string[];
+  rarity: number;
 };

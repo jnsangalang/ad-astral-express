@@ -24,16 +24,16 @@ insert into "skills"
             "Provides a single ally with a Shield that can absorb DMG equal to 53.2% of DEF plus 675.5 for 3 turn(s). If the ally has a current HP percentage of 30% or hgiher, greatly increases the chance of attacking that ally.",
             "Provides a single ally with a Shield that can absorb DMG equal to 55.1% of DEF plus 717.25 for 3 turn(s). If the ally has a current HP percentage of 30% or hgiher, greatly increases the chance of attacking that ally.",
             "Provides a single ally with a Shield that can absorb DMG equal to 57% of DEF plus 760 for 3 turn(s). If the ally has a current HP percentage of 30% or hgiher, greatly increases the chance of attacking that ally."]'),
-         ('Glacial Cascade', '["Deals Ice DMG equal to 90% of March 7ths ATK to all enemies. On a hit, the enemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 30% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 96% of March 7ths ATK to all enemies. On a hit, the enemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 33% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 102% of March 7ths ATK to all enemies. On a hit, the enemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 36% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 108% of March 7ths ATK to all enemies. On a hit, the enemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 39% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 114% of March 7ths ATK to all enemies. On a hit, the enemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 42% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 120% of March 7ths ATK to all enemies. On a hit, the enemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 45% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 127.5% of March 7ths ATK to all enemies. On a hit, the enemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 48.75% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 135% of March 7ths ATK to all enemies. On a hit, theenemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 52.5% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 142.5% of March 7ths ATK to all enemies. On a hit, theenemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 56.25% of March 7ths ATK at the beginning of each turn.",
-            "Deals Ice DMG equal to 150% of March 7ths ATK to all enemies. On a hit, theenemy has a 50%% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 60% of March 7ths ATK at the beginning of each turn."]');
+         ('Glacial Cascade', '["Deals Ice DMG equal to 90% of March 7ths ATK to all enemies. On a hit, the enemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 30% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 96% of March 7ths ATK to all enemies. On a hit, the enemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 33% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 102% of March 7ths ATK to all enemies. On a hit, the enemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 36% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 108% of March 7ths ATK to all enemies. On a hit, the enemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 39% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 114% of March 7ths ATK to all enemies. On a hit, the enemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 42% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 120% of March 7ths ATK to all enemies. On a hit, the enemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 45% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 127.5% of March 7ths ATK to all enemies. On a hit, the enemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 48.75% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 135% of March 7ths ATK to all enemies. On a hit, theenemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 52.5% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 142.5% of March 7ths ATK to all enemies. On a hit, theenemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 56.25% of March 7ths ATK at the beginning of each turn.",
+            "Deals Ice DMG equal to 150% of March 7ths ATK to all enemies. On a hit, theenemy has a 50% base chance to be Frozen for 1 turn(s). While Frozen, the enemy cannot act and will take Ice DoT equal to 60% of March 7ths ATK at the beginning of each turn."]');
 
 insert into "talent"
          ("talentName", "talentLevel")
@@ -59,9 +59,6 @@ insert into "characters"
    values('March 7th', '[1, 20, 40, 60, 80]', '/images/characters/march-7.png', '/images/characters/march-7-portrait.png', 'Preservation',
          'Ice','	A girl who once slumbered in eternal ice and knows nothing about her past. To find out the truth about her origins, she decided to travel with the Astral Express. As of right now, she has prepared about 67 different versions of her life story for herself.', 4, 1, 2, 3, 1, 1 );
 
-insert into "weapons"
-         ("health", "attack", "defense", "weaponImage", "weaponName", "weaponPath")
-   values(952, 653,463, '/images/weapons/flowing-nightglow.webp', 'Flowing Nightglow', 'Harmony');
 
 insert into "skills"
          ("skillName", "skillLevel")
@@ -172,16 +169,16 @@ insert into "skills"
       "Deals Imaginary DMG equal to 80% of Welts ATK to a single enemy.",
       "Deals Imaginary DMG equal to 90% of Welts ATK to a single enemy.",
       "Deals Imaginary DMG equal to 100% of Welts ATK to a single enemy"]'),
-      ('Edge of the Void', '["Deals Imaginary DMG equal to 36% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 36% of Welts ATK to a random enemy. On hit, there is a 65% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 39.6% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 39.6% of Welts ATK to a random enemy. On hit, there is a 66% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 43.2% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 43.2% of Welts ATK to a random enemy. On hit, there is a 67% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 46.8% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 46.8% of Welts ATK to a random enemy. On hit, there is a 68% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 50.4% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 50.4% of Welts ATK to a random enemy. On hit, there is a 69% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 54% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 54% of Welts ATK to a random enemy. On hit, there is a 70% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 58.5% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 58.5% of Welts ATK to a random enemy. On hit, there is a 71.25% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 63% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 63% of Welts ATK to a random enemy. On hit, there is a 72.5% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 67.5% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 67.5% of Welts ATK to a random enemy. On hit, there is a 73.75% base chance to reduce the enemys SPD by 10%% for 2 turn(s).",
-      "Deals Imaginary DMG equal to 72% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 72% of Welts ATK to a random enemy. On hit, there is a 75% base chance to reduce the enemys SPD by 10%% for 2 turn(s)."]'),
+      ('Edge of the Void', '["Deals Imaginary DMG equal to 36% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 36% of Welts ATK to a random enemy. On hit, there is a 65% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 39.6% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 39.6% of Welts ATK to a random enemy. On hit, there is a 66% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 43.2% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 43.2% of Welts ATK to a random enemy. On hit, there is a 67% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 46.8% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 46.8% of Welts ATK to a random enemy. On hit, there is a 68% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 50.4% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 50.4% of Welts ATK to a random enemy. On hit, there is a 69% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 54% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 54% of Welts ATK to a random enemy. On hit, there is a 70% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 58.5% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 58.5% of Welts ATK to a random enemy. On hit, there is a 71.25% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 63% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 63% of Welts ATK to a random enemy. On hit, there is a 72.5% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 67.5% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 67.5% of Welts ATK to a random enemy. On hit, there is a 73.75% base chance to reduce the enemys SPD by 10% for 2 turn(s).",
+      "Deals Imaginary DMG equal to 72% of Welts ATK to a single enemy and further deals DMG 2 extra times, with each time dealing 72% of Welts ATK to a random enemy. On hit, there is a 75% base chance to reduce the enemys SPD by 10% for 2 turn(s)."]'),
       ('Synthetic Black Hole', '["Deals Imaginary DMG equal to 90% of Welts ATK to all enemies. There is a 100% base chance for enemies hit by this ability to be Imprisoned. Imprisoned enemies have their actions delayed by 32% and SPD reduced by 10%.",
       "Deals Imaginary DMG equal to 96% of Welts ATK to all enemies. There is a 100% base chance for enemies hit by this ability to be Imprisoned. Imprisoned enemies have their actions delayed by 32.8% and SPD reduced by 10%.",
       "Deals Imaginary DMG equal to 102% of Welts ATK to all enemies. There is a 100% base chance for enemies hit by this ability to be Imprisoned. Imprisoned enemies have their actions delayed by 33.6% and SPD reduced by 10%.",
@@ -232,16 +229,16 @@ insert into "skills"
       "Deals Lightning DMG equal to 140% of Kafkas ATK to a target enemy and Lightning DMG equal to 52.5% of Kafkas ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 71.25% of their original DMG.",
       "Deals Lightning DMG equal to 150% of Kafkas ATK to a target enemy and Lightning DMG equal to 56.25% of Kafkas ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 73.13% of their original DMG.",
       "Deals Lightning DMG equal to 160% of Kafkas ATK to a target enemy and Lightning DMG equal to 60% of Kafkas ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 75% of their original DMG."]'),
-      ('Twilight Trill', '["Deals Lightning DMG equal to 48% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 80% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 115% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 51.2% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 82% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 126.5% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 54.4% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 84% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 138% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 57.6% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 86% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 149.5% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 60.8% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 88% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 161% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 64% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 90% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 178.25% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 68% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 92.5% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 201.25% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 72% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 95% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 230% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 76% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 97.5% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 264.5% of Kafkas ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 80% of Kafkas ATK to all enemies, with a 100%% base chance for enemies hit to become Shocked and immediately take DMG equal to 100% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 299% of Kafkas ATK at the beginning of each turn."]');
+      ('Twilight Trill', '["Deals Lightning DMG equal to 48% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 80% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 115% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 51.2% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 82% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 126.5% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 54.4% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 84% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 138% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 57.6% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 86% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 149.5% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 60.8% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 88% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 161% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 64% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 90% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 178.25% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 68% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 92.5% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 201.25% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 72% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 95% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 230% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 76% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 97.5% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 264.5% of Kafkas ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 80% of Kafkas ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG equal to 100% of the DoT. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 299% of Kafkas ATK at the beginning of each turn."]');
 
 insert into "talent"
       ("talentName", "talentLevel")
@@ -332,16 +329,16 @@ insert into "skills"
       "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 210% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
       "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 225% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low.",
       "Consumes Arlans HP equal to 15% of his Max HP to deal Lightning DMG equal to 240% of Arlans ATK to a single enemy. This Skill cannot be used if Arlans HP is too low."]'),
-      ('Frenzied Punishment', '["Deals Lightning DMG equal to 192% of Arlans ATK to a single enemy and Lightning DMG equal to 96%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 204.8% of Arlans ATK to a single enemy and Lightning DMG equal to 102.4%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 217.6% of Arlans ATK to a single enemy and Lightning DMG equal to 108.8%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 230.4% of Arlans ATK to a single enemy and Lightning DMG equal to 115.2%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 243.2% of Arlans ATK to a single enemy and Lightning DMG equal to 121.6%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 256% of Arlans ATK to a single enemy and Lightning DMG equal to 128%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 272% of Arlans ATK to a single enemy and Lightning DMG equal to 136%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 288% of Arlans ATK to a single enemy and Lightning DMG equal to 144%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 304% of Arlans ATK to a single enemy and Lightning DMG equal to 152%% of Arlans ATK to any adjacent enemies.",
-      "Deals Lightning DMG equal to 320% of Arlans ATK to a single enemy and Lightning DMG equal to 160%% of Arlans ATK to any adjacent enemies."]');
+      ('Frenzied Punishment', '["Deals Lightning DMG equal to 192% of Arlans ATK to a single enemy and Lightning DMG equal to 96% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 204.8% of Arlans ATK to a single enemy and Lightning DMG equal to 102.4% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 217.6% of Arlans ATK to a single enemy and Lightning DMG equal to 108.8% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 230.4% of Arlans ATK to a single enemy and Lightning DMG equal to 115.2% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 243.2% of Arlans ATK to a single enemy and Lightning DMG equal to 121.6% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 256% of Arlans ATK to a single enemy and Lightning DMG equal to 128% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 272% of Arlans ATK to a single enemy and Lightning DMG equal to 136% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 288% of Arlans ATK to a single enemy and Lightning DMG equal to 144% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 304% of Arlans ATK to a single enemy and Lightning DMG equal to 152% of Arlans ATK to any adjacent enemies.",
+      "Deals Lightning DMG equal to 320% of Arlans ATK to a single enemy and Lightning DMG equal to 160% of Arlans ATK to any adjacent enemies."]');
 
 insert into "talent"
       ("talentName", "talentLevel")
@@ -382,7 +379,7 @@ insert into "skills"
       "Deals Fire DMG equal to 40.62% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 40.62% of Astas ATK to a random enemy.",
       "Deals Fire DMG equal to 43,75% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 43,75% of Astas ATK to a random enemy.",
       "Deals Fire DMG equal to 46.87% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 46.87% of Astas ATK to a random enemy.",
-      "Deals Fire DMG equal to 50% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 50% of Astas ATK to a random enemy.",]'),
+      "Deals Fire DMG equal to 50% of Astas ATK to a single enemy with 4 more bombardments. Each bombardment deals Fire DMG equal to 50% of Astas ATK to a random enemy."]'),
       ('Astral Blessing', '["Increases SPD of all allies by 36 for 2 turn(s).",
       "Increases SPD of all allies by 37 for 2 turn(s).",
       "Increases SPD of all allies by 39 for 2 turn(s).",
@@ -473,26 +470,16 @@ insert into "skills"
       "Deals Wind DMG equal to 80% of Bronya’s ATK to a single enemy.",
       "Deals Wind DMG equal to 90% of Bronya’s ATK to a single enemy.",
       "Deals Wind DMG equal to 100% of Bronya’s ATK to a single enemy."]'),
-      ('Combat Redeployment', '["Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 33% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 36.3% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 39.6% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 42.9% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 46.2% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 49.5% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 53.625% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 57.75% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 61.875% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",
-      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 66% for 1 turn(s).
-      When this Skill is used on Bronya herself, she cannot immediately take action again.",]'),
+      ('Combat Redeployment', '["Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 33% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 36.3% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 39.6% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 42.9% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 46.2% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 49.5% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 53.625% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 57.75% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 61.875% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+      "Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 66% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again."]'),
       ('The Belobog March', '["Increases the ATK of all allies by 33%, and increase their CRIT DMG equal to 12% of Bronya’s CRIT DMG plus 12% for 2 turn(s).",
       "Increases the ATK of all allies by 35.2%, and increase their CRIT DMG equal to 12.4% of Bronya’s CRIT DMG plus 12.8% for 2 turn(s).",
       "Increases the ATK of all allies by 37.4%, and increase their CRIT DMG equal to 12.8% of Bronya’s CRIT DMG plus 13.6% for 2 turn(s).",
@@ -502,7 +489,7 @@ insert into "skills"
       "Increases the ATK of all allies by 46.75%, and increase their CRIT DMG equal to 14.5% of Bronya’s CRIT DMG plus 17% for 2 turn(s).",
       "Increases the ATK of all allies by 49.5%, and increase their CRIT DMG equal to 15% of Bronya’s CRIT DMG plus 18% for 2 turn(s).",
       "Increases the ATK of all allies by 52.25%, and increase their CRIT DMG equal to 15.5% of Bronya’s CRIT DMG plus 19% for 2 turn(s).",
-      Increases the ATK of all allies by 55%, and increase their CRIT DMG equal to 16% of Bronya’s CRIT DMG plus 20% for 2 turn(s).]');
+      "Increases the ATK of all allies by 55%, and increase their CRIT DMG equal to 16% of Bronya’s CRIT DMG plus 20% for 2 turn(s)."]');
 
 insert into "talent"
       ("talentName", "talentLevel")
@@ -523,8 +510,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Bronya', '[1,20,40,60,80]', '/images/characters/bronya.png', '/images/characters/bronya-portrait.png', 'Harmony', 'Wind','Heir apparent to the Supreme Guardian of Belobog.
-She possesses pride befitting of a princess, but also the determination and integrity of a soldier.', 5, 28,29,30,10,10);
+      values('Bronya', '[1,20,40,60,80]', '/images/characters/bronya.png', '/images/characters/bronya-portrait.png', 'Harmony', 'Wind','Heir apparent to the Supreme Guardian of Belobog. She possesses pride befitting of a princess, but also the determination and integrity of a soldier.', 5, 28,29,30,10,10);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -543,7 +529,7 @@ insert into "skills"
       "Deals Quantum DMG equal to 178.75% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
       "Deals Quantum DMG equal to 192.5% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
       "Deals Quantum DMG equal to 206.25% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",
-      "Deals Quantum DMG equal to 220% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s).",]'),
+      "Deals Quantum DMG equal to 220% of Seele’s ATK to a single enemy. Seele gains 25% SPD for 2 turn(s)."]'),
       ('Butterfly Flurry', '["Seele enters the buffed state and deals Quantum DMG equal to 255% of Seele’s ATK to a single enemy.",
       "Seele enters the buffed state and deals Quantum DMG equal to 272% of Seele’s ATK to a single enemy.",
       "Seele enters the buffed state and deals Quantum DMG equal to 289% of Seele’s ATK to a single enemy.",
@@ -553,7 +539,7 @@ insert into "skills"
       "Seele enters the buffed state and deals Quantum DMG equal to 361.25% of Seele’s ATK to a single enemy.",
       "Seele enters the buffed state and deals Quantum DMG equal to 382.5% of Seele’s ATK to a single enemy.",
       "Seele enters the buffed state and deals Quantum DMG equal to 403.75% of Seele’s ATK to a single enemy.",
-      "Seele enters the buffed state and deals Quantum DMG equal to 425% of Seele’s ATK to a single enemy.",]');
+      "Seele enters the buffed state and deals Quantum DMG equal to 425% of Seele’s ATK to a single enemy."]');
 
 insert into "talent"
       ("talentName", "talentLevel")
@@ -584,17 +570,17 @@ insert into "skills"
       "Deals Lightning DMG equal to 70% of Serval’s ATK to a single enemy.",
       "Deals Lightning DMG equal to 80% of Serval’s ATK to a single enemy.",
       "Deals Lightning DMG equal to 90% of Serval’s ATK to a single enemy.",
-      "Deals Lightning DMG equal to 100% of Serval’s ATK to a single enemy.",]'),
-      ('Lightning Flash', '["Deals Lightning DMG equal to 70% of Serval’s ATK to a single enemy and Lightning DMG equal to 30% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 40%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 77% of Serval’s ATK to a single enemy and Lightning DMG equal to 33% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 44%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 84% of Serval’s ATK to a single enemy and Lightning DMG equal to 36% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 48%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 91% of Serval’s ATK to a single enemy and Lightning DMG equal to 39% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 52%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 98% of Serval’s ATK to a single enemy and Lightning DMG equal to 42% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 56%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 105% of Serval’s ATK to a single enemy and Lightning DMG equal to 45% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 62%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 113.75% of Serval’s ATK to a single enemy and Lightning DMG equal to 48.75% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 70%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 122.5% of Serval’s ATK to a single enemy and Lightning DMG equal to 52.5% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 80%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 131.25% of Serval’s ATK to a single enemy and Lightning DMG equal to 56.25% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 92%% of Serval’s ATK at the beginning of each turn.",
-      "Deals Lightning DMG equal to 140% of Serval’s ATK to a single enemy and Lightning DMG equal to 60% of Serval’s ATK to any adjacent enemies, with a 80%% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 104%% of Serval’s ATK at the beginning of each turn."]'),
+      "Deals Lightning DMG equal to 100% of Serval’s ATK to a single enemy."]'),
+      ('Lightning Flash', '["Deals Lightning DMG equal to 70% of Serval’s ATK to a single enemy and Lightning DMG equal to 30% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 40% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 77% of Serval’s ATK to a single enemy and Lightning DMG equal to 33% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 44% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 84% of Serval’s ATK to a single enemy and Lightning DMG equal to 36% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 48% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 91% of Serval’s ATK to a single enemy and Lightning DMG equal to 39% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 52% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 98% of Serval’s ATK to a single enemy and Lightning DMG equal to 42% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 56% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 105% of Serval’s ATK to a single enemy and Lightning DMG equal to 45% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 62% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 113.75% of Serval’s ATK to a single enemy and Lightning DMG equal to 48.75% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 70% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 122.5% of Serval’s ATK to a single enemy and Lightning DMG equal to 52.5% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 80% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 131.25% of Serval’s ATK to a single enemy and Lightning DMG equal to 56.25% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 92% of Serval’s ATK at the beginning of each turn.",
+      "Deals Lightning DMG equal to 140% of Serval’s ATK to a single enemy and Lightning DMG equal to 60% of Serval’s ATK to any adjacent enemies, with a 80% base chance for enemies hit to become Shocked for 2 turn(s). While Shocked, enemies will take Lightning DoT equal to 104% of Serval’s ATK at the beginning of each turn."]'),
       ('Here Comes the Mechanical Fever', '["Deals Lightning DMG equal to 108% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
       "Deals Lightning DMG equal to 115.2% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
       "Deals Lightning DMG equal to 122.4% of Serval’s ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s).",
@@ -635,7 +621,7 @@ insert into "skills"
       "Deals Ice DMG equal to 70% of Gepard’s ATK to a single enemy.",
       "Deals Ice DMG equal to 80% of Gepard’s ATK to a single enemy.",
       "Deals Ice DMG equal to 90% of Gepard’s ATK to a single enemy.",
-      "Deals Ice DMG equal to 100% of Gepard’s ATK to a single enemy.",]'),
+      "Deals Ice DMG equal to 100% of Gepard’s ATK to a single enemy."]'),
       ('Daunting Smite', '["Deals Ice DMG equal to 100% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 30% of Gepard’s ATK at the beginning of each turn.",
       "Deals Ice DMG equal to 110% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 33% of Gepard’s ATK at the beginning of each turn.",
       "Deals Ice DMG equal to 120% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 36% of Gepard’s ATK at the beginning of each turn.",
@@ -645,7 +631,7 @@ insert into "skills"
       "Deals Ice DMG equal to 162.5% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 48.75% of Gepard’s ATK at the beginning of each turn.",
       "Deals Ice DMG equal to 175% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 52.5% of Gepard’s ATK at the beginning of each turn.",
       "Deals Ice DMG equal to 187.5% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 56.25% of Gepard’s ATK at the beginning of each turn.",
-      "Deals Ice DMG equal to 200% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 60% of Gepard’s ATK at the beginning of each turn.",]'),
+      "Deals Ice DMG equal to 200% of Gepard’s ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 60% of Gepard’s ATK at the beginning of each turn."]'),
       ('Enduring Bulwark', '["Applies a Shield to all allies, absorbing DMG equal to 30% of Gepard’s DEF plus 150 for 3 turn(s).",
       "Applies a Shield to all allies, absorbing DMG equal to 31.87% of Gepard’s DEF plus 240 for 3 turn(s).",
       "Applies a Shield to all allies, absorbing DMG equal to 33.75% of Gepard’s DEF plus 307 for 3 turn(s).",
@@ -668,7 +654,7 @@ insert into "talent"
       "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 40.62% of his Max HP. This effect can only trigger once per battle.",
       "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 43.75% of his Max HP. This effect can only trigger once per battle.",
       "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 46.87% of his Max HP. This effect can only trigger once per battle.",
-      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 50% of his Max HP. This effect can only trigger once per battle.",]');
+      "When struck with a killing blow, instead of becoming incapacitated, Gepard’s HP immediately restores to 50% of his Max HP. This effect can only trigger once per battle."]');
 
 insert into "characterStats"
       ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
@@ -686,7 +672,7 @@ insert into "skills"
       "Deals Physical DMG equal to 70% of Natasha’s ATK to a single enemy.",
       "Deals Physical DMG equal to 80% of Natasha’s ATK to a single enemy.",
       "Deals Physical DMG equal to 90% of Natasha’s ATK to a single enemy.",
-      "Deals Physical DMG equal to 100% of Natasha’s ATK to a single enemy.",]'),
+      "Deals Physical DMG equal to 100% of Natasha’s ATK to a single enemy."]'),
       ('Love,Heal, and Choose', '["Heals a single ally for 7% of Natasha’s Max HP plus 70. Heals the ally for another 4.8% of Natasha’s Max HP plus 48 at the beginning of each turn for 2 turn(s).",
       "Heals a single ally for 7.44% of Natasha’s Max HP plus 112. Heals the ally for another 5.1% of Natasha’s Max HP plus 77 at the beginning of each turn for 2 turn(s).",
       "Heals a single ally for 7.87% of Natasha’s Max HP plus 143. Heals the ally for another 5.4% of Natasha’s Max HP plus 98 at the beginning of each turn for 2 turn(s).",
@@ -719,7 +705,7 @@ insert into "talent"
       "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 40.62%.",
       "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 433.75%.",
       "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 46.87%.",
-      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 50%.",]');
+      "When healing allies with HP values at 30% of their Max HP or lower, increases Natasha’s Outgoing Healing by 50%."]');
 
 insert into "characterStats"
       ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
@@ -738,7 +724,7 @@ insert into "skills"
       "Deals Ice DMG equal to 70% of Pela’s ATK to a single enemy.",
       "Deals Ice DMG equal to 80% of Pela’s ATK to a single enemy.",
       "Deals Ice DMG equal to 90% of Pela’s ATK to a single enemy.",
-      "Deals Ice DMG equal to 100% of Pela’s ATK to a single enemy.",]'),
+      "Deals Ice DMG equal to 100% of Pela’s ATK to a single enemy."]'),
       ('Frostbite', '["Removes 1 buff(s) and deals Ice DMG equal to 105% of Pela’s ATK to a single enemy.",
       "Removes 1 buff(s) and deals Ice DMG equal to 115.5% of Pela’s ATK to a single enemy.",
       "Removes 1 buff(s) and deals Ice DMG equal to 126% of Pela’s ATK to a single enemy.",
@@ -840,7 +826,7 @@ insert into "skills"
       "Wind DMG equal to 70% of Sampo’s ATK to a single enemy.",
       "Wind DMG equal to 80% of Sampo’s ATK to a single enemy.",
       "Wind DMG equal to 90% of Sampo’s ATK to a single enemy.",
-      "Wind DMG equal to 100% of Sampo’s ATK to a single enemy.",]'),
+      "Wind DMG equal to 100% of Sampo’s ATK to a single enemy."]'),
       ('Ricochet Love', '["Throws a dagger that deals Wind DMG equal to 28% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 28% of Sampo’s ATK.",
       "Throws a dagger that deals Wind DMG equal to 30.8% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 30.8% of Sampo’s ATK.",
       "Throws a dagger that deals Wind DMG equal to 33.6% of Sampo’s ATK to a single enemy. The dagger will Bounce randomly between enemies up to a maximum of 4 time(s), each time dealing Wind DMG equal to 33.6% of Sampo’s ATK.",
@@ -891,17 +877,17 @@ insert into "skills"
       "Deals Fire DMG equal to 70% of Hook’s ATK to a single enemy.",
       "Deals Fire DMG equal to 80% of Hook’s ATK to a single enemy.",
       "Deals Fire DMG equal to 90% of Hook’s ATK to a single enemy.",
-      "Deals Fire DMG equal to 100% of Hook’s ATK to a single enemy.",]'),
-      ('Hey! Remember Hook?', '["Deals Fire DMG equal to 140% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 40% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 25% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 154% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 44% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 27.5% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 168% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 48% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 30% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 182% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 52% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 32.5% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 196% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 56% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 35% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 210% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 60% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 38.8% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 227.5% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 65% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 48.8% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 245% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 70% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 265.5% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 75% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 57.5% of Hook’s ATK at the beginning of each turn.",
-      "Deals Fire DMG equal to 280% of Hook’s ATK to a single enemy, with a 100%% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 80% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 65% of Hook’s ATK at the beginning of each turn."]'),
+      "Deals Fire DMG equal to 100% of Hook’s ATK to a single enemy."]'),
+      ('Hey! Remember Hook?', '["Deals Fire DMG equal to 140% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 40% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 25% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 154% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 44% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 27.5% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 168% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 48% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 30% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 182% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 52% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 32.5% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 196% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 56% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 35% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 210% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 60% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 38.8% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 227.5% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 65% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 48.8% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 245% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 70% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 265.5% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 75% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 57.5% of Hook’s ATK at the beginning of each turn.",
+      "Deals Fire DMG equal to 280% of Hook’s ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s) and deals Fire DMG equal to 80% of Hook’s ATK to any adjacent enemies. When afflicted with Burn, enemies will take Fire DoT equal to 65% of Hook’s ATK at the beginning of each turn."]'),
       ('Boom! Here Comes the Fire!', '["Deals Fire DMG equal to 240% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
       "Deals Fire DMG equal to 256% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
       "Deals Fire DMG equal to 272% of Hook’s ATK to a single enemy. After using her Ultimate, the next Skill to be used is Enhanced, which deals DMG to a target enemy and any adjacent enemies.",
@@ -1119,16 +1105,16 @@ insert into "skills"
 
 insert into "talent"
       ("talentName", "talentLevel")
-      values('Celestial Jade', '["When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 36%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 36%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 43.2%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 46.8%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 50.4%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 54%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 58.5%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 63%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 67.5%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
-      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the "Hidden Hand" state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 72%, and her Basic ATK "Flower Pick" is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack."]');
+      values('Celestial Jade', '["When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 36%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 36%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 43.2%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 46.8%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 50.4%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 54%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 58.5%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 63%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 67.5%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack.",
+      "When an ally’s turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time. If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the Hidden Hand state. While in this state, Qingque cannot use her Skill again. At the same time, Qingque’s ATK increases by 72%, and her Basic ATK Flower Pick is enhanced, becoming Cherry on Top! The Hidden Hand state ends after using Cherry on Top attack."]');
 
 insert into "characterStats"
       ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
@@ -1273,15 +1259,15 @@ insert into "skills"
 insert into "talent"
       ("talentName", "talentLevel")
       values( 'Prana Extirpated', '["Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 33% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 36.3% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 39.6% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 42.9% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 46.2% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 49.5% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 53.62% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 57.74% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 61.86% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
-      Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 65.98% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action."]');
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 36.3% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 39.6% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 42.9% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 46.2% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 49.5% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 53.62% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 57.74% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 61.86% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action.",
+      "Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base attack count, and its attacks are considered follow-up attacks. Each count of Lightning-Lords attack deals Lightning DMG equal to 65.98% of Jing Yuan’s ATK to a single enemy, whose adjacent targets also receive Lightning DMG equal to 25% of the DMG dealt to the main target. The Lightning-Lord’s attack count can reach a max of 10. Every time Lightning-Lord’s attack count increases by 1, its SPD increases by 10. After the action ends, SPD and attack count return to their base values. When Jing Yuan is knocked down, the Lightning-Lord will disappear. When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action."]');
 
 insert into "characterStats"
       ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
@@ -1289,7 +1275,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id","skill3Id", "talentId", "characterStatsId")
-      values(' Jing Yuan', '[1,20,40,60,80]', '	The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu. A student of the Luofu’s previous Sword Champion, though not known for his martial prowess',
+      values('Jing Yuan', '[1,20,40,60,80]', '	The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu. A student of the Luofu’s previous Sword Champion, though not known for his martial prowess',
       '/images/characters/jing-yuan.png', '/images/characters/jing-yuan-portrait.png', 'Erudition', 'Lightning', 5, 73,74,75,25,25);
 
 insert into "skills"
@@ -1351,7 +1337,7 @@ insert into "skills"
       "Deals Physical DMG equal to 80% of Sushang’s ATK to a single enemy.",
       "Deals Physical DMG equal to 90% of Sushang’s ATK to a single enemy.",
       "Deals Physical DMG equal to 100% of Sushang’s ATK to a single enemy."]'),
-      ('Cloudfencer Art: Mountainfall', '["Deals Physical DMG equal to 105% of Sushang’s ATK to a single enemy. In addition, there is a 50% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33%% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
+      ('Cloudfencer Art: Mountainfall', '["Deals Physical DMG equal to 105% of Sushang’s ATK to a single enemy. In addition, there is a 50% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
       "Deals Physical DMG equal to 115.5% of Sushang’s ATK to a single enemy. In addition, there is a 55% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
       "Deals Physical DMG equal to 126% of Sushang’s ATK to a single enemy. In addition, there is a 60% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
       "Deals Physical DMG equal to 136.5% of Sushang’s ATK to a single enemy. In addition, there is a 65% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 33% of Sushang’s ATK to the enemy. If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger.",
@@ -1402,7 +1388,7 @@ insert into "skills"
       "Deals Imaginary DMG equal to 80% of Yukong’s ATK to a single enemy.",
       "Deals Imaginary DMG equal to 90% of Yukong’s ATK to a single enemy.",
       "Deals Imaginary DMG equal to 100% of Yukong’s ATK to a single enemy."]'),
-      ('Emboldening Salvo', '["Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 40%%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
+      ('Emboldening Salvo', '["Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 40%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
       "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 44%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
       "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 48%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
       "Obtains 2 stacks of Roaring Bowstrings (to a maximum of 2 stacks). When Roaring Bowstrings is active, the ATK of all allies increases by 52%, and every time an ally’s turn ends, Yukong loses 1 stack of Roaring Bowstrings. When it’s Yukong’s turn to gain Roaring Bowstrings by using a skill, they will not be removed.",
@@ -1556,15 +1542,15 @@ insert into "skills"
       "Deals Fire DMG equal to 90% of Guinaifen’s ATK to a single enemy.",
       "Deals Fire DMG equal to 100% of Guinaifen’s ATK to a single enemy."]'),
       ('Blazing Welcome', '["Deals Fire DMG equal to 60% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 20% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 83.9% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 66% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 22% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 92.3% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 72% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 24% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 100.7% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 78% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 26% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 109.1% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 84% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 28% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 117.5% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 90% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 30% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 130.1% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 97.5% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 32.5% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 146.9% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 105% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 35% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 167.8% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 112.5% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 37.5% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 193% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
-      ["Deals Fire DMG equal to 120% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 40% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 218.2% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s)."]'),
+      "Deals Fire DMG equal to 66% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 22% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 92.3% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 72% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 24% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 100.7% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 78% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 26% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 109.1% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 84% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 28% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 117.5% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 90% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 30% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 130.1% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 97.5% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 32.5% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 146.9% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 105% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 35% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 167.8% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 112.5% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 37.5% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 193% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s).",
+      "Deals Fire DMG equal to 120% of Guinaifen’s ATK to a single enemy and deals Fire DMG equal to 40% of Guinaifen’s ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 218.2% of Guinaifen’s ATK at the beginning of each turn, lasting for 2 turn(s)."]'),
       ('Watch This Showstopper', '["Deals Fire DMG equal to 72% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 72% of their original DMG.",
       "Deals Fire DMG equal to 76.8% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 74% of their original DMG.",
       "Deals Fire DMG equal to 81.6% of Guinaifen’s ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 76% of their original DMG.",
@@ -1597,3 +1583,245 @@ insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Guinaifen', '[1,20,40,60,80]','A performance artist visiting the Xianzhou Luofu — in other words, a street performer. She’s chasing a new life on the Luofu when not concerned with food and shelter.',
       '/images/characters/guinaifen.png', '/images/characters/guinaifen-portrait.png', 'Nihility', 'Fire', 4,91,92,93,31,31);
+
+-- //weapons start//
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/arrows.webp', 'Hunt', 'Arrows', 'Crisis', '["At the start of the battle, the wearer’s CRIT Rate increases by 12% for 3 turn(s).",
+      ["At the start of the battle, the wearer’s CRIT Rate increases by 15% for 3 turn(s).",
+      ["At the start of the battle, the wearer’s CRIT Rate increases by 18% for 3 turn(s).",
+      ["At the start of the battle, the wearer’s CRIT Rate increases by 21% for 3 turn(s).",
+      ["At the start of the battle, the wearer’s CRIT Rate increases by 24% for 3 turn(s)."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,218,486,754,953]', '/images/weapons/cornucopia.webp', 'Abundance','Cornucopia', 'Prosperity', '["When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]', '/images/weapons/collapsing-sky.webp', 'Destruction', 'Collapsing Sky', 'Havoc', '["Increases the wearer’s Basic ATK and Skill DMG by 20%",
+      "Increases the wearer’s Basic ATK and Skill DMG by 25%",
+      "Increases the wearer’s Basic ATK and Skill DMG by 30%",
+      "Increases the wearer’s Basic ATK and Skill DMG by 35%",
+      "Increases the wearer’s Basic ATK and Skill DMG by 40%"]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[15,75.75,168.75,261.75,330.75]', '[38,194,432,670,847]', '/images/weapons/amber.webp', 'Preservation', 'Amber', 'Stasis', '["Increases DEF of its wearer by 16%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 16%.",
+      "Increases DEF of its wearer by 20%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 20%.",
+      "Increases DEF of its wearer by 24%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 24%.",
+      "Increases DEF of its wearer by 28%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 28%.",
+      "Increases DEF of its wearer by 32%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 32%."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4,72.72,162,251.28,317.52]', '[12,60.6,135,209.4,264.6]', '[38,194,432,670,847]', '/images/weapons/void.webp', 'Nihility', 'Void', 'Fallen', '["At the start of the battle, the wearer’s Effect Hit Rate increases by 20% for 3 turn(s).",
+      "At the start of the battle, the wearer’s Effect Hit Rate increases by 25% for 3 turn(s).",
+      "At the start of the battle, the wearer’s Effect Hit Rate increases by 30% for 3 turn(s).",
+      "At the start of the battle, the wearer’s Effect Hit Rate increases by 35% for 3 turn(s).",
+      "At the start of the battle, the wearer’s Effect Hit Rate increases by 40% for 3 turn(s)."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]', '/images/weapons/chorus.webp', 'Harmony', 'Chorus', 'Concerted', '["After entering battle, increases the ATK of all allies by 8%. Effects of the same type cannot stack.",
+      "After entering battle, increases the ATK of all allies by 9%. Effects of the same type cannot stack.",
+      "After entering battle, increases the ATK of all allies by 10%. Effects of the same type cannot stack.",
+      "After entering battle, increases the ATK of all allies by 11%. Effects of the same type cannot stack.",
+      "After entering battle, increases the ATK of all allies by 12%. Effects of the same type cannot stack."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/data-bank.webp', 'Erudition', 'Data Bank', 'Learned', '["Increases the wearer’s Ultimate DMG by 28%",
+      "Increases the wearer’s Ultimate DMG by 35%",
+      "Increases the wearer’s Ultimate DMG by 42%",
+      "Increases the wearer’s Ultimate DMG by 49%",
+      "Increases the wearer’s Ultimate DMG by 56%"]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,251.28,264.6]', '[34,170,378,586,741]', '/images/weapons/darting-arrow.webp', 'Hunt', 'Darting Arrow', 'War Cry', '["When the wearer defeats an enemy, increases ATK by 30% for 3 turn(s)",
+      "When the wearer defeats an enemy, increases ATK by 30% for 3 turn(s)",
+      "When the wearer defeats an enemy, increases ATK by 36% for 3 turn(s)",
+      "When the wearer defeats an enemy, increases ATK by 42% for 3 turn(s)",
+      "When the wearer defeats an enemy, increases ATK by 48% for 3 turn(s)"]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[9,34.65,101.25,157.05,198.45]', '[9,34.65,101.25,157.05,198.45]' , '/images/weapons/fine-fruit.webp', 'Abundance', 'Fine Fruit', 'Savor', '["At the start of the battle, immediately regenerate 6 Energy for all allies.",
+      "At the start of the battle, immediately regenerate 7 Energy for all allies.",
+      "At the start of the battle, immediately regenerate 9 Energy for all allies.",
+      "At the start of the battle, immediately regenerate 11 Energy for all allies.",
+      "At the start of the battle, immediately regenerate 12 Energy for all allies."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]','/images/weapons/shattered-home.webp', 'Destruction', 'Shattered Home', 'Eradication', '["The wearer deals 20% more DMG to enemy targets whose HP percentage is greater than 50%.",
+      "The wearer deals 25% more DMG to enemy targets whose HP percentage is greater than 50%.",
+      "The wearer deals 30% more DMG to enemy targets whose HP percentage is greater than 50%.",
+      "The wearer deals 35% more DMG to enemy targets whose HP percentage is greater than 50%.",
+      "The wearer deals 40% more DMG to enemy targets whose HP percentage is greater than 50%."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,166,486,754,953]', '/images/weapons/defense.webp', 'Preservation', 'Defense', 'Revitalization', '["When the wearer unleashes their Ultimate, they restore HP by 18% of their Max HP.",
+      "When the wearer unleashes their Ultimate, they restore HP by 21% of their Max HP.",
+      "When the wearer unleashes their Ultimate, they restore HP by 24% of their Max HP.",
+      "When the wearer unleashes their Ultimate, they restore HP by 27% of their Max HP.",
+      "When the wearer unleashes their Ultimate, they restore HP by 30% of their Max HP."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/loop.webp', 'Nihility', 'Loop', 'Pursuit', '["Increases DMG dealt from its wearer to Slowed enemies by 24%.",
+      "Increases DMG dealt from its wearer to Slowed enemies by 30%.",
+      "Increases DMG dealt from its wearer to Slowed enemies by 36%.",
+      "Increases DMG dealt from its wearer to Slowed enemies by 42%.",
+      "Increases DMG dealt from its wearer to Slowed enemies by 48%."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/meshing-cogs.webp', 'Harmony', 'Meshing Cogs', 'Fleet Triumph', '["After the wearer uses attacks or gets hit, additionally regenerates 4 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 5 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 6 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 7 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 8 Energy. This effect can only be triggered 1 time per turn."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]','[12,60.6,135,251.28,264.6]','[34,170,378,586,741]', '/images/weapons/passkey.webp','Erudition', 'Passkey', 'Epiphany', '["After the wearer uses their Skill, additionally regenerates 8 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "After the wearer uses their Skill, additionally regenerates 9 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "After the wearer uses their Skill, additionally regenerates 10 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "After the wearer uses their Skill, additionally regenerates 11 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "After the wearer uses their Skill, additionally regenerates 12 Energy. This effect cannot be repeatedly triggered in a single turn."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]','[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/adversarial.webp', 'Hunt', 'Adversarial', 'Alliance', '["When the wearer defeats an enemy, increases SPD by 10% for 2 turn(s).",
+      "When the wearer defeats an enemy, increases SPD by 12% for 2 turn(s).",
+      "When the wearer defeats an enemy, increases SPD by 14% for 2 turn(s).",
+      "When the wearer defeats an enemy, increases SPD by 16% for 2 turn(s).",
+      "When the wearer defeats an enemy, increases SPD by 18% for 2 turn(s)."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]','[9,34.65,101.25,157.05,198.45]','[43,166,486,754,953]', '/images/weapons/multiplication.webp', 'Abundance', 'Multiplication', 'Denizens of Abundance', '["After the wearer uses their Basic ATK, their next action will be Advanced Forward by 12%.",
+      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 14%.",
+      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 16%.",
+      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 18%.",
+      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 20%."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]', '/images/weapons/mutual-demise.webp', 'Destruction', 'Mutual Demise', 'Legion', '["If the wearer’s current HP is lower than 80%, CRIT Rate increases by 12%.",
+      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 15%.",
+      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 18%.",
+      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 21%.",
+      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 24%."]',3 );
+
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,166,486,754,953]', '/images/weapons/pioneering.webp','Preservation', 'Pioneering', 'IPC', '["When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 12% of their Max HP.",
+      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 14% of their Max HP.",
+      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 16% of their Max HP.",
+      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 18% of their Max HP.",
+      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 20% of their Max HP."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/hidden-shadow.webp', 'Nihility', 'Hidden Shadow', 'Mechanism', '["After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 60% of ATK to the target enemy.",
+      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 75% of ATK to the target enemy.",
+      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 90% of ATK to the target enemy.",
+      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 105% of ATK to the target enemy.",
+      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 120% of ATK to the target enemy."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/Mediation.webp','Harmony', 'Mediation', 'Family', '["Upon entering battle, increases SPD of all allies by 12 for 1 turn(s).",
+      "Upon entering battle, increases SPD of all allies by 14 for 1 turn(s).",
+      "Upon entering battle, increases SPD of all allies by 16 for 1 turn(s).",
+      "Upon entering battle, increases SPD of all allies by 18 for 1 turn(s).",
+      "Upon entering battle, increases SPD of all allies by 20 for 1 turn(s)."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/sagacity.webp', 'Erudition', 'Sagacity', 'Genius', '["When the wearer uses their Ultimate, increases ATK by 24% for 2 turn(s).",
+      "When the wearer uses their Ultimate, increases ATK by 30% for 2 turn(s).",
+      "When the wearer uses their Ultimate, increases ATK by 36% for 2 turn(s).",
+      "When the wearer uses their Ultimate, increases ATK by 42% for 2 turn(s).",
+      "When the wearer uses their Ultimate, increases ATK by 48% for 2 turn(s)."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216.335.04,423.36]', '[15,75.75,168.75,261.75,330.75]', '[48,242,761,838,1058]','/images/weapons/post-op-conversation.webp', 'Abundance', 'Post-Op Conversation', 'Mutual Healing', '["Increases the wearer’s Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.",
+      "Increases the wearer’s Energy Regeneration Rate by 10% and increases Outgoing Healing when they use their Ultimate by 15%.",
+      "Increases the wearer’s Energy Regeneration Rate by 12% and increases Outgoing Healing when they use their Ultimate by 18%.",
+      "Increases the wearer’s Energy Regeneration Rate by 14% and increases Outgoing Healing when they use their Ultimate by 21%.",
+      "Increases the wearer’s Energy Regeneration Rate by 16% and increases Outgoing Healing when they use their Ultimate by 24%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/good-night-and-sleep-well.webp', 'Nihility', 'Good Night and Sleep Well', 'Toiler', '["For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.",
+      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 15%, stacking up to 3 time(s). This effect also applies to DoT.",
+      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 18%, stacking up to 3 time(s). This effect also applies to DoT.",
+      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 21%, stacking up to 3 time(s). This effect also applies to DoT.",
+      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 24%, stacking up to 3 time(s). This effect also applies to DoT."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/day-one-of-my-new-life.webp', 'Preservation', 'Day One of My New Life', 'At This Very Moment', '["Increases wearer’s DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Effects of the same type cannot stack.",
+      "Increases wearer’s DEF by 18%. After entering battle, increases All-Type RES of all allies by 9%. Effects of the same type cannot stack.",
+      "Increases wearer’s DEF by 20%. After entering battle, increases All-Type RES of all allies by 10%. Effects of the same type cannot stack.",
+      "Increases wearer’s DEF by 22%. After entering battle, increases All-Type RES of all allies by 11%. Effects of the same type cannot stack.",
+      "Increases wearer’s DEF by 24%. After entering battle, increases All-Type RES of all allies by 12%. Effects of the same type cannot stack."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/only-silence-remains.webp', 'Hunt', 'Only Silence Remains', 'Record', '["Increases the wearer’s ATK by 16%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 12%.",
+      "Increases the wearer’s ATK by 20%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 15%.",
+      "Increases the wearer’s ATK by 24%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 18%.",
+      "Increases the wearer’s ATK by 28%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 21%.",
+      "Increases the wearer’s ATK by 32%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 24%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216.335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/memories-of-the-past.webp', 'Harmony', 'Memories of the Past', 'Old Photo', '["Increases the wearer’s Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "Increases the wearer’s Break Effect by 35%. When the wearer attacks, additionally regenerates 5 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "Increases the wearer’s Break Effect by 42%. When the wearer attacks, additionally regenerates 6 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "Increases the wearer’s Break Effect by 49%. When the wearer attacks, additionally regenerates 7 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "Increases the wearer’s Break Effect by 56%. When the wearer attacks, additionally regenerates 8 Energy. This effect cannot be repeatedly triggered in a single turn."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/the-moles-welcome-you.webp','Destruction', 'The Moles Welcome You', 'Fantastic Adventure', '["When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 12%.",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 15%.",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 18%.",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 21%.",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 24%."]', 4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/the-birth-of-the-self.webp', 'Erudition', 'The Birth of the Self','The Maiden in the Painting', '["Increases DMG dealt by the wearer’s follow-up attacks by 24%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 24%.",
+      "Increases DMG dealt by the wearer’s follow-up attacks by 30%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 30%.",
+      "Increases DMG dealt by the wearer’s follow-up attacks by 36%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 36%.",
+      "Increases DMG dealt by the wearer’s follow-up attacks by 42%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 42%.",
+      "Increases DMG dealt by the wearer’s follow-up attacks by 48%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 48%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]', '/images/weapons/eyes-of-the-prey.webp', 'Nihility', 'Eyes of the Prey', 'Self-Confidence', '["Increases the wearer’s Effect Hit Rate by 20% and increases DoT by 24%.",
+      "Increases the wearer’s Effect Hit Rate by 25% and increases DoT by 30%.",
+      "Increases the wearer’s Effect Hit Rate by 30% and increases DoT by 36%.",
+      "Increases the wearer’s Effect Hit Rate by 35% and increases DoT by 42%.",
+      "Increases the wearer’s Effect Hit Rate by 40% and increases DoT by 48%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216.335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/landaus-choice.webp', 'Preservation', 'Laundaus Choice', 'Time FLeets Away', '["The wearer is more likely to be attacked, and DMG taken is reduced by 16%.",
+      "The wearer is more likely to be attacked, and DMG taken is reduced by 18%.",
+      "The wearer is more likely to be attacked, and DMG taken is reduced by 20%.",
+      "The wearer is more likely to be attacked, and DMG taken is reduced by 22%.",
+      "The wearer is more likely to be attacked, and DMG taken is reduced by 24%."]',4);
