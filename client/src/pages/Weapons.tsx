@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Weapon } from '../lib/data';
 import { readWeapons } from '../lib/read';
 import '../App.css';
+import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 export function Weapons() {
   const [isLoading, setIsLoading] = useState(true);
@@ -42,7 +43,7 @@ export function Weapons() {
       <div className="flex flex-wrap p-10 w-full shelf-background2  ">
         {weapon?.map((weapon) => (
           <div
-            className="w-1/5 p-2 border border-black shelf-background"
+            className="w-1/5 p-2 border-t-8 border-b-8 border-yellow-900 shelf-background"
             key={weapon.weaponId}>
             <WeaponCard weapon={weapon} />
           </div>
@@ -61,12 +62,14 @@ function WeaponCard({ weapon }: Props) {
 
   return (
     <div className="w-full text-center items-center m-2">
-      <img
-        className="object-cover w-full h-full book-shadow"
-        src={weaponImage}
-        alt={weaponName}
-        key={weaponId}
-      />
+      <Link to={`/weapons/${weaponName}`}>
+        <img
+          className="object-cover w-full h-full book-shadow"
+          src={weaponImage}
+          alt={weaponName}
+          key={weaponId}
+        />
+      </Link>
       <h2 className="bebas-neue-regular text-white text-center text-2xl font-bold">
         {weaponName}
       </h2>

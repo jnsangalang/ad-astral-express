@@ -50,7 +50,7 @@ export function DesktopHeader() {
               <Link to="/">
                 <img
                   className="w-40 absolute top-0 left-0 pom-pom"
-                  src="images/pom-pom/cheer.webp"
+                  src="/images/pom-pom/cheer.webp"
                 />
               </Link>
             </div>

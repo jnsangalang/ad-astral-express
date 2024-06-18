@@ -49,10 +49,11 @@ export async function readWeapon(
   if (!weaponName) {
     throw new Error(`${weaponName} is not valid`);
   }
-  const response = await fetch(`/api/characters/${weaponName}`);
+  const response = await fetch(`/api/weapons/${weaponName}`);
   if (!response.ok) {
     throw new Error(`there was an error, Error:${response.status}`);
   }
-  const character = await response.json();
-  return character;
+  const weapon = await response.json();
+  console.log(weapon);
+  return weapon;
 }

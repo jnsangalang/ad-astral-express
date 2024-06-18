@@ -6,6 +6,7 @@ import { DesktopHeader } from './pages/DesktopHeader';
 import { Characters } from './pages/Characters';
 import { CharacterDetails } from './pages/CharacterDetails';
 import { Weapons } from './pages/Weapons';
+import { WeaponDetails } from './pages/WeaponDetails';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           element={<CharacterDetails />}
         />
         <Route path="weapons" element={<Weapons />} />
+        <Route path="weapons/:weaponName" element={<WeaponDetails />} />
       </Route>
     </Routes>
   );

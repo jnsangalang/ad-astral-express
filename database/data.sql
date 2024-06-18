@@ -1596,10 +1596,10 @@ insert into "weapons"
 insert into "weapons"
       ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
       values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,218,486,754,953]', '/images/weapons/cornucopia.webp', 'Abundance','Cornucopia', 'Prosperity', '["When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
-      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
-      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
-      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
-      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%."]',3 );
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 14%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 16%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 18%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 20%."]',3 );
 
 insert into "weapons"
       ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )

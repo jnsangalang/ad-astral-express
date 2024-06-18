@@ -103,64 +103,64 @@ export function CharacterDetails() {
               <div className="w-1/2">
                 Path: {characterPath}
                 {characterPath === 'Harmony' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className=" object-cover w-full h-full"
-                      src="images/paths/harmony.webp"
+                      src="/images/paths/harmony.webp"
                       alt="harmony symbol"
                     />
                   </div>
                 )}
                 {characterPath === 'Abundance' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/paths/abundance.webp"
+                      src="/images/paths/abundance.webp"
                       alt="abundance symbol"
                     />
                   </div>
                 )}
                 {characterPath === 'Destruction' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/paths/destruction.webp"
+                      src="/images/paths/destruction.webp"
                       alt="destruction symbol"
                     />
                   </div>
                 )}
                 {characterPath === 'Erudition' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/paths/erudition.webp"
+                      src="/images/paths/erudition.webp"
                       alt="erudition symbol"
                     />
                   </div>
                 )}
                 {characterPath === 'Hunt' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/paths/hunt.webp"
+                      src="/images/paths/hunt.webp"
                       alt="hunt symbol"
                     />
                   </div>
                 )}
                 {characterPath === 'Nihility' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/paths/nihility.webp"
+                      src="/images/paths/nihility.webp"
                       alt="nihility symbol"
                     />
                   </div>
                 )}
                 {characterPath === 'Preservation' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/paths/preservation.webp"
+                      src="/images/paths/preservation.webp"
                       alt="preservation symbol"
                     />
                   </div>
@@ -169,64 +169,64 @@ export function CharacterDetails() {
               <div className="w-1/2">
                 Type: {characterType}
                 {characterType === 'Fire' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/element-types/fire.webp"
+                      src="/images/element-types/fire.webp"
                       alt="fire element symbol"
                     />
                   </div>
                 )}
                 {characterType === 'Ice' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/element-types/ice.webp"
+                      src="/images/element-types/ice.webp"
                       alt="ice element symbol"
                     />
                   </div>
                 )}
                 {characterType === 'Imaginary' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/element-types/imaginary.webp"
+                      src="/images/element-types/imaginary.webp"
                       alt="imaginary element symbol"
                     />
                   </div>
                 )}
                 {characterType === 'Lightning' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/element-types/lightning.webp"
+                      src="/images/element-types/lightning.webp"
                       alt="lightning element symbol"
                     />
                   </div>
                 )}
                 {characterType === 'Physical' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/element-types/physical.webp"
+                      src="/images/element-types/physical.webp"
                       alt="physical element symbol"
                     />
                   </div>
                 )}
                 {characterType === 'Quantum' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/element-types/quantum.webp"
+                      src="/images/element-types/quantum.webp"
                       alt="quantum element symbol"
                     />
                   </div>
                 )}
                 {characterType === 'Wind' && (
-                  <div className="h-[200px]">
+                  <div className="w-1/2">
                     <img
                       className="object-cover w-full h-full"
-                      src="images/element-types/wind.webp"
+                      src="/images/element-types/wind.webp"
                       alt="wind element symbol"
                     />
                   </div>

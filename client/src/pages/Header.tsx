@@ -94,7 +94,7 @@ export function StarrySpace() {
   return (
     <div className="relative bg-black w-full">
       <img
-        src="images/header-images/header.png"
+        src="/images/header-images/header.png"
         alt="starry space with text Welcome Aboard the Astral Express!"
       />
       <div className="absolute top-0 left-0 create-pulse right-0 bottom-0 w-ull bg-white" />
