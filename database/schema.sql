@@ -64,8 +64,8 @@ CREATE TABLE "users" (
 );
 
 CREATE TABLE "favorites" (
-  "favoriteWeapons" integer,
-  "favoriteCharacters" integer,
+  "favoriteWeapon" integer,
+  "favoriteCharacter" integer,
   "userId" integer
 );
 

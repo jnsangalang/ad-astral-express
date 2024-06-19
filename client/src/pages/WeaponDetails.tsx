@@ -73,11 +73,11 @@ export function WeaponDetails() {
       <div className="w-full flex flex-wrap">
         <div className="w-full text-center text-6xl my-6">{weaponName}</div>
         <div className="w-full flex h-[600px] my-4 ">
-          <div className="flex justify-center w-1/4 object-fill spotlight-background-lightcone m-8">
+          <div className="flex justify-center  w-1/4 object-fill spotlight-background-lightcone m-8">
             <img
               src={weaponImage}
               alt={weaponName}
-              className="object-cover h-full "
+              className="object-cover h-[300px] self-center"
             />
           </div>
           <div className="flex flex-col w-3/4 m-8  spotlight-background-description-lightcone pt-4 pl-8">

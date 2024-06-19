@@ -159,6 +159,46 @@ app.get('/api/weapons/:weaponName', async (req, res, next) => {
   }
 });
 
+app.post('/api/favorites/character', async (req, res, next) => {
+  const { userId, favoriteCharacter } = req.body;
+  try {
+    const sql = `
+    insert into "favorites"
+      ("userId", "favoriteCharacter")
+      values($1, $2)
+      returning*;
+       `;
+    const result = await db.query(sql, [userId, favoriteCharacter]);
+    if (!result) {
+      throw new ClientError(400, 'invalid favorite');
+    }
+    const [favorite] = result.rows;
+    res.status(201).json(favorite);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.post('/api/favorites/weapon', async (req, res, next) => {
+  const { userId, favoriteWeapon } = req.body;
+  try {
+    const sql = `
+    insert into "favorites"
+      ("userId", "favoriteWeapon")
+      values($1, $2)
+      returning*;
+       `;
+    const result = await db.query(sql, [userId, favoriteWeapon]);
+    if (!result) {
+      throw new ClientError(400, 'invalid favorite');
+    }
+    const [favorite] = result.rows;
+    res.status(201).json(favorite);
+  } catch (err) {
+    next(err);
+  }
+});
+
 app.get('*', (req, res) => res.sendFile(`${reactStaticDir}/index.html`));
 
 app.use(errorMiddleware);
