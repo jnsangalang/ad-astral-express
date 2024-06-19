@@ -112,10 +112,12 @@ export function DesktopHeader() {
               </Popup>
             </div>
             <div className="w-1/5">
-              <button className="button-favorites prompt-extrabold flex items-center justify-evenly bg-gray-300">
-                Favorites
-                <MdOutlineFavorite />
-              </button>
+              <Link to="/favorites">
+                <button className="button-favorites prompt-extrabold flex items-center justify-evenly bg-gray-300">
+                  Favorites
+                  <MdOutlineFavorite />
+                </button>
+              </Link>
             </div>
             <div className="w-1/5">
               <button className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap">

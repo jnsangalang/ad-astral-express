@@ -1,11 +1,11 @@
 import { ReactNode, createContext, useState } from 'react';
-import { Character } from '../lib/data';
+import { DetailsCharacter } from '../lib/data';
 import { Weapon } from '../lib/data';
 
 export type FavoriteValue = {
-  favoriteCharacters: Character[];
+  favoriteCharacters: DetailsCharacter[];
   favoriteWeapons: Weapon[];
-  addToFavorites: (favorite: Character | Weapon) => void;
+  addToFavorites: (favorite: DetailsCharacter | Weapon) => void;
 };
 export const defaultValue: FavoriteValue = {
   favoriteCharacters: [],
@@ -21,9 +21,11 @@ export const FavoriteContext = createContext(defaultValue);
 
 export function FavoriteProvider({ children }: Props) {
   const [favoriteWeapon, setFavoriteWeapon] = useState<Weapon[]>([]);
-  const [favoriteCharacter, setFavoriteCharacter] = useState<Character[]>([]);
+  const [favoriteCharacter, setFavoriteCharacter] = useState<
+    DetailsCharacter[]
+  >([]);
 
-  function addToFavorites(favorite: Weapon | Character) {
+  function addToFavorites(favorite: Weapon | DetailsCharacter) {
     if ('weaponName' in favorite) {
       setFavoriteWeapon((prevFavorite) => [...prevFavorite, favorite]);
     } else {

@@ -1,9 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { DetailsCharacter } from '../lib/data';
 import { useParams } from 'react-router-dom';
 import { readCharacter } from '../lib/read';
 import '../App.css';
 import { GiUpgrade } from 'react-icons/gi';
+import { FaRegHeart } from 'react-icons/fa';
+import { addCharacter } from '../lib/read';
+import { FavoriteContext } from '../components/FavoriteContext';
 
 export function CharacterDetails() {
   const [character, setCharacter] = useState<DetailsCharacter>();
@@ -15,6 +18,7 @@ export function CharacterDetails() {
   const [skill3, setSkill3] = useState(0);
   const [talent, setTalent] = useState(0);
 
+  const { addToFavorites } = useContext(FavoriteContext);
   function toggleLevel() {
     setLevel((prev) => (prev + 1) % character!.characterLevel.length);
   }
@@ -86,12 +90,27 @@ export function CharacterDetails() {
     talentLevel,
   } = character;
 
+  async function handleAddCharacter() {
+    if (character === undefined) {
+      return;
+    }
+    const response = await addCharacter(character.CharacterId);
+    if (!response) {
+      throw new Error('failed to add character to favorites');
+    }
+    addToFavorites(character);
+  }
   return (
     <div className="character-detail-bg">
       <div className="w-full flex flex-wrap">
         <div className="w-full text-center text-6xl my-6">{characterName}</div>
         <div className="w-full flex h-[600px] border-2 border-yellow-200 my-4">
-          <div className="flex justify-center w-1/2 object-fill border border-white m-8 rounded-3xl ">
+          <div className="flex justify-center w-1/2 object-fill border border-white m-8 rounded-3xl relative">
+            <div
+              className="absolute right-3 top-1"
+              onClick={handleAddCharacter}>
+              <FaRegHeart />
+            </div>
             <img
               src={characterImage}
               alt={characterName}

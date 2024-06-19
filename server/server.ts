@@ -160,7 +160,7 @@ app.get('/api/weapons/:weaponName', async (req, res, next) => {
 });
 
 app.post('/api/favorites/character', async (req, res, next) => {
-  const { userId, favoriteCharacter } = req.body;
+  const { userId, characterId } = req.body;
   try {
     const sql = `
     insert into "favorites"
@@ -168,7 +168,7 @@ app.post('/api/favorites/character', async (req, res, next) => {
       values($1, $2)
       returning*;
        `;
-    const result = await db.query(sql, [userId, favoriteCharacter]);
+    const result = await db.query(sql, [userId, characterId]);
     if (!result) {
       throw new ClientError(400, 'invalid favorite');
     }
@@ -180,7 +180,7 @@ app.post('/api/favorites/character', async (req, res, next) => {
 });
 
 app.post('/api/favorites/weapon', async (req, res, next) => {
-  const { userId, favoriteWeapon } = req.body;
+  const { userId, weaponId } = req.body;
   try {
     const sql = `
     insert into "favorites"
@@ -188,7 +188,7 @@ app.post('/api/favorites/weapon', async (req, res, next) => {
       values($1, $2)
       returning*;
        `;
-    const result = await db.query(sql, [userId, favoriteWeapon]);
+    const result = await db.query(sql, [userId, weaponId]);
     if (!result) {
       throw new ClientError(400, 'invalid favorite');
     }

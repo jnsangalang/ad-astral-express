@@ -54,6 +54,39 @@ export async function readWeapon(
     throw new Error(`there was an error, Error:${response.status}`);
   }
   const weapon = await response.json();
-  console.log(weapon);
   return weapon;
+}
+
+// for adding Favorite Character to Favorite's List
+export async function addCharacter(characterId: number): Promise<Character> {
+  const response = await fetch('/api/favorites/character', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ characterId }),
+  });
+  if (!response) {
+    throw new Error('failed to add character to favorites');
+  }
+
+  const addedFavoriteCharacter = await response.json();
+  return addedFavoriteCharacter;
+}
+
+//for adding weapon to favorite's list
+export async function addWeapon(weaponId: number): Promise<Weapon> {
+  const response = await fetch('/api/favorites/weapon', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ weaponId }),
+  });
+  if (!response) {
+    throw new Error('failed to add character to favorites');
+  }
+
+  const addedFavoriteWeapon = await response.json();
+  return addedFavoriteWeapon;
 }

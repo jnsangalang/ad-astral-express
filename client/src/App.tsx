@@ -8,6 +8,7 @@ import { CharacterDetails } from './pages/CharacterDetails';
 import { Weapons } from './pages/Weapons';
 import { WeaponDetails } from './pages/WeaponDetails';
 import { FavoriteProvider } from './components/FavoriteContext';
+import { Favorites } from './pages/Favorites';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           />
           <Route path="weapons" element={<Weapons />} />
           <Route path="weapons/:weaponName" element={<WeaponDetails />} />
+          <Route path="favorites" element={<Favorites />} />
         </Route>
       </Routes>
     </FavoriteProvider>

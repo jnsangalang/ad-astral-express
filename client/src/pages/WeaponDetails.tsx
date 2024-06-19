@@ -1,9 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { Weapon } from '../lib/data';
 import { useParams } from 'react-router-dom';
-import { readWeapon } from '../lib/read';
+import { addWeapon, readWeapon } from '../lib/read';
 import '../App.css';
 import { GiUpgrade } from 'react-icons/gi';
+import { FaRegHeart } from 'react-icons/fa';
+import { FavoriteContext } from '../components/FavoriteContext';
 
 export function WeaponDetails() {
   const [weapon, setWeapon] = useState<Weapon>();
@@ -11,6 +13,8 @@ export function WeaponDetails() {
   const [error, setError] = useState<unknown>();
   const [level, setLevel] = useState(0);
   const [effectLevel, setEffectLevel] = useState(0);
+
+  const { addToFavorites } = useContext(FavoriteContext);
 
   function toggleLevel() {
     setLevel((prev) => (prev + 1) % weapon!.weaponLevel.length);
@@ -67,6 +71,16 @@ export function WeaponDetails() {
     weaponHealth,
     weaponPath,
   } = weapon;
+  async function handleAddWeapon() {
+    if (weapon === undefined) {
+      return;
+    }
+    const response = await addWeapon(weapon.weaponId);
+    if (!response) {
+      throw new Error('failed to add weapon to favorites');
+    }
+    addToFavorites(weapon);
+  }
 
   return (
     <div className="velvet-background2">
@@ -74,10 +88,13 @@ export function WeaponDetails() {
         <div className="w-full text-center text-6xl my-6">{weaponName}</div>
         <div className="w-full flex h-[600px] my-4 ">
           <div className="flex justify-center  w-1/4 object-fill spotlight-background-lightcone m-8">
+            <div className="absolute right-3 top-1" onClick={handleAddWeapon}>
+              <FaRegHeart />
+            </div>
             <img
               src={weaponImage}
               alt={weaponName}
-              className="object-cover h-[300px] self-center"
+              className="object-fill h-[400px] self-center"
             />
           </div>
           <div className="flex flex-col w-3/4 m-8  spotlight-background-description-lightcone pt-4 pl-8">
@@ -88,7 +105,7 @@ export function WeaponDetails() {
                   <div className="w-3/12">
                     <img
                       className=" object-cover w-full h-full"
-                      src="//images/paths/harmony.webp"
+                      src="/images/paths/harmony.webp"
                       alt="harmony symbol"
                     />
                   </div>

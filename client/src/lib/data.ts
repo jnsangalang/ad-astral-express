@@ -16,7 +16,7 @@ export type Character = {
 };
 
 export type DetailsCharacter = {
-  characterId: number;
+  CharacterId: number;
   characterName: string;
   characterLevel: number[];
   characterImage: string;

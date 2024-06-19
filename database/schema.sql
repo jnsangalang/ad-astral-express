@@ -79,8 +79,8 @@ ALTER TABLE "characters" ADD FOREIGN KEY ("talentId") REFERENCES "talent" ("tale
 
 ALTER TABLE "characters" ADD FOREIGN KEY ("characterStatsId") REFERENCES "characterStats" ("characterStatsId");
 
-ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteWeapons") REFERENCES "weapons" ("weaponId");
+ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteWeapon") REFERENCES "weapons" ("weaponId");
 
-ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteCharacters") REFERENCES "characters" ("CharacterId");
+ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteCharacter") REFERENCES "characters" ("CharacterId");
 
 ALTER TABLE "favorites" ADD FOREIGN KEY ("userId") REFERENCES "users" ("userId");
