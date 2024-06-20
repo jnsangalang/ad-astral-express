@@ -94,7 +94,7 @@ export function CharacterDetails() {
     if (character === undefined) {
       return;
     }
-    const response = await addCharacter(character.CharacterId);
+    const response = await addCharacter(character.characterId);
     if (!response) {
       throw new Error('failed to add character to favorites');
     }

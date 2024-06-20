@@ -13,7 +13,7 @@ CREATE TABLE "skills" (
 );
 
 CREATE TABLE "characters" (
-  "CharacterId" serial PRIMARY KEY,
+  "characterId" serial PRIMARY KEY,
   "characterName" text,
   "characterLevel" text,
   "characterDescription" text,
@@ -81,6 +81,6 @@ ALTER TABLE "characters" ADD FOREIGN KEY ("characterStatsId") REFERENCES "charac
 
 ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteWeapon") REFERENCES "weapons" ("weaponId");
 
-ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteCharacter") REFERENCES "characters" ("CharacterId");
+ALTER TABLE "favorites" ADD FOREIGN KEY ("favoriteCharacter") REFERENCES "characters" ("characterId");
 
 ALTER TABLE "favorites" ADD FOREIGN KEY ("userId") REFERENCES "users" ("userId");

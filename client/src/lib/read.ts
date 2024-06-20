@@ -1,3 +1,4 @@
+import { Favorite } from '../components/FavoriteContext';
 import { Character, DetailsCharacter, Weapon } from './data';
 
 //retrieves all character data, if user clicks all characters from character menu
@@ -89,4 +90,14 @@ export async function addWeapon(weaponId: number): Promise<Weapon> {
 
   const addedFavoriteWeapon = await response.json();
   return addedFavoriteWeapon;
+}
+
+//for retrieving favorite's list
+export async function readFavorites(): Promise<Favorite[]> {
+  const response = await fetch('/api/myFavorites');
+  if (!response) {
+    throw new Error('There was an error retrieving favorite characters');
+  }
+  const faves = await response.json();
+  return faves;
 }

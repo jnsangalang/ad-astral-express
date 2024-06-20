@@ -1,9 +1,12 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import { FavoriteContext } from '../components/FavoriteContext';
+import { DetailsCharacter, Weapon } from '../lib/data';
 export function Favorites() {
   const { favoriteCharacters, favoriteWeapons } = useContext(FavoriteContext);
-  console.log(favoriteWeapons);
-  console.log(favoriteCharacters);
+
+  const [character, setCharacter] = useState<DetailsCharacter>();
+  const [weapon, setWeapon] = useState<Weapon>();
+
   if (favoriteCharacters.length === 0 && favoriteWeapons.length === 0) {
     return <div>Nothing to see here!</div>;
   }
@@ -13,7 +16,11 @@ export function Favorites() {
         {favoriteWeapons.map((weapon) => (
           <div key={weapon.weaponId}>
             <div className="w-full flex">
-              <div className="w-3/5 m-4">
+              <div
+                className="w-3/5 m-4"
+                onClick={() => {
+                  setWeapon(weapon);
+                }}>
                 {weapon.weaponName}
                 <img
                   className="w-[300px]"
@@ -35,15 +42,25 @@ export function Favorites() {
         ))}
       </div>
       <div className="w-1/3">
-        <div className="w-full items-center">
-          <div className="border-4 min-h-[600px]">box</div>
+        <div className="w-full items-center flex">
+          <div className="border-4 min-h-[400px] w-1/2">
+            {weapon?.weaponName}
+          </div>
+          <div className="border-4 min-h-[400px] w-1/2">
+            {character?.characterName}
+          </div>
         </div>
+        <div className="border-4 min-h-[100px]">total</div>
       </div>
       <div className="w-1/3">
         {favoriteCharacters.map((char) => (
-          <div key={char.CharacterId}>
+          <div key={char.characterId}>
             <div className="w-full flex">
-              <div className="w-3/5 m-4">
+              <div
+                className="w-3/5 m-4"
+                onClick={() => {
+                  setCharacter(char);
+                }}>
                 {char.characterName}
                 <img
                   className="w-[350px]"
