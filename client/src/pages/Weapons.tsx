@@ -14,7 +14,6 @@ export function Weapons() {
       try {
         const weapons = await readWeapons();
         setWeapon(weapons);
-        console.log('weapons:', weapons);
       } catch (err) {
         setError(err);
       } finally {
