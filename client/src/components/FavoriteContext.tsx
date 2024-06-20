@@ -7,11 +7,17 @@ export type FavoriteValue = {
   favoriteCharacters: DetailsCharacter[];
   favoriteWeapons: Weapon[];
   addToFavorites: (favorite: Weapon | DetailsCharacter) => void;
+  setFavoriteCharacter: React.Dispatch<
+    React.SetStateAction<DetailsCharacter[]>
+  >;
+  setFavoriteWeapon: React.Dispatch<React.SetStateAction<Weapon[]>>;
 };
 export const defaultValue: FavoriteValue = {
   favoriteCharacters: [],
   favoriteWeapons: [],
   addToFavorites: () => {},
+  setFavoriteCharacter: () => {},
+  setFavoriteWeapon: () => {},
 };
 
 type Props = {
@@ -45,9 +51,6 @@ export function FavoriteProvider({ children }: Props) {
 
         setFavoriteCharacter(characters);
         setFavoriteWeapon(weapons);
-
-        console.log('char', characters);
-        console.log('weapons', weapons);
       } catch (err) {
         setError(err);
       } finally {
@@ -80,6 +83,8 @@ export function FavoriteProvider({ children }: Props) {
   return (
     <FavoriteContext.Provider
       value={{
+        setFavoriteWeapon: setFavoriteWeapon,
+        setFavoriteCharacter: setFavoriteCharacter,
         favoriteCharacters: favoriteCharacter,
         favoriteWeapons: favoriteWeapon,
         addToFavorites: addToFavorites,

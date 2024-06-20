@@ -101,3 +101,25 @@ export async function readFavorites(): Promise<Favorite[]> {
   const faves = await response.json();
   return faves;
 }
+
+//for deleting character from favorite's list
+export async function deleteFavoriteCharacter(
+  characterId: number
+): Promise<void> {
+  const response = await fetch(`/api/favorites/character/${characterId}`, {
+    method: 'DELETE',
+  });
+  if (!response) {
+    throw new Error('failed');
+  }
+}
+
+//for deleting character from favorite's list
+export async function deleteFavoriteWeapon(weaponId: number): Promise<void> {
+  const response = await fetch(`/api/favorites/weapon/${weaponId}`, {
+    method: 'DELETE',
+  });
+  if (!response) {
+    throw new Error('failed');
+  }
+}

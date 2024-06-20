@@ -270,6 +270,48 @@ app.post('/api/favorites/weapon', async (req, res, next) => {
   }
 });
 
+app.delete('/api/favorites/character/:characterId', async (req, res, next) => {
+  const { characterId } = req.params;
+  try {
+    const sql = `
+          delete from "favorites"
+          where "favoriteCharacter" = $1
+          returning *;
+          `;
+    const result = await db.query(sql, [characterId]);
+    if (!result) {
+      throw new ClientError(
+        400,
+        `character id: ${characterId} invalid within favorites`
+      );
+    }
+    res.sendStatus(204);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.delete('/api/favorites/weapon/:weaponId', async (req, res, next) => {
+  const { weaponId } = req.params;
+  try {
+    const sql = `
+          delete from "favorites"
+          where "favoriteWeapon" = $1
+          returning *;
+          `;
+    const result = await db.query(sql, [weaponId]);
+    if (!result) {
+      throw new ClientError(
+        400,
+        `character id: ${weaponId} invalid within favorites`
+      );
+    }
+    res.sendStatus(204);
+  } catch (err) {
+    next(err);
+  }
+});
+
 app.get('*', (req, res) => res.sendFile(`${reactStaticDir}/index.html`));
 
 app.use(errorMiddleware);

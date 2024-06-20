@@ -1,8 +1,16 @@
 import { useContext, useState } from 'react';
 import { FavoriteContext } from '../components/FavoriteContext';
 import { DetailsCharacter, Weapon } from '../lib/data';
+import { FaHeartCircleMinus } from 'react-icons/fa6';
+import { deleteFavoriteCharacter, deleteFavoriteWeapon } from '../lib/read';
+
 export function Favorites() {
-  const { favoriteCharacters, favoriteWeapons } = useContext(FavoriteContext);
+  const {
+    favoriteCharacters,
+    favoriteWeapons,
+    setFavoriteCharacter,
+    setFavoriteWeapon,
+  } = useContext(FavoriteContext);
 
   const [character, setCharacter] = useState<DetailsCharacter>();
   const [weapon, setWeapon] = useState<Weapon>();
@@ -10,14 +18,30 @@ export function Favorites() {
   if (favoriteCharacters.length === 0 && favoriteWeapons.length === 0) {
     return <div>Nothing to see here!</div>;
   }
+
+  function handleRemoveCharacterFromFavorites(characterId: number | undefined) {
+    if (!characterId) throw new Error('cannot delete');
+    deleteFavoriteCharacter(characterId);
+    setFavoriteCharacter((prevCharacters) =>
+      prevCharacters.filter((char) => char.characterId !== characterId)
+    );
+  }
+
+  function handleRemoveWeaponFromFavorites(weaponId: number | undefined) {
+    if (!weaponId) throw new Error('cannot delete');
+    deleteFavoriteWeapon(weaponId);
+    setFavoriteWeapon((prevWeapons) =>
+      prevWeapons.filter((weapon) => weapon.weaponId !== weaponId)
+    );
+  }
   return (
     <div className="flex  w-full text-center justify-">
       <div className="w-1/3 flex flex-col ">
         {favoriteWeapons.map((weapon) => (
           <div key={weapon.weaponId}>
-            <div className="w-full flex">
+            <div className="w-full flex ">
               <div
-                className="w-3/5 m-4"
+                className="w-3/5 m-4 relative"
                 onClick={() => {
                   setWeapon(weapon);
                 }}>
@@ -27,6 +51,13 @@ export function Favorites() {
                   src={weapon.weaponImage}
                   alt={weapon.weaponName}
                 />
+                <button
+                  className=""
+                  onClick={() =>
+                    handleRemoveWeaponFromFavorites(weapon.weaponId)
+                  }>
+                  <FaHeartCircleMinus />
+                </button>
               </div>
               <div className="w-2/5 m-4 text-left p-5">
                 <div>Max Level Stats</div>
@@ -57,7 +88,7 @@ export function Favorites() {
           <div key={char.characterId}>
             <div className="w-full flex">
               <div
-                className="w-3/5 m-4"
+                className="w-3/5 m-4 "
                 onClick={() => {
                   setCharacter(char);
                 }}>
@@ -66,7 +97,14 @@ export function Favorites() {
                   className="w-[350px]"
                   src={char.characterImage}
                   alt={char.characterName}
-                />
+                />{' '}
+                <button
+                  className=""
+                  onClick={() =>
+                    handleRemoveCharacterFromFavorites(char.characterId)
+                  }>
+                  <FaHeartCircleMinus />
+                </button>
               </div>
               <div className="w-2/5 m-4 text-left p-5">
                 <div>
