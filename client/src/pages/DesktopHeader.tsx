@@ -17,28 +17,6 @@ export function DesktopHeader() {
   function handleSearch(search: string) {
     console.log('searched', search);
   }
-  // useEffect(() => {
-  //   function handleClickOutOfDropdown(event: MouseEvent) {
-  //     if (
-  //       isCharacterOpen &&
-  //       postionChacracterRef.current &&
-  //       !postionChacracterRef.current.contains(event?.target as Node)
-  //     ) {
-  //       setIsCharacterOpen(false);
-  //     }
-  //     if (
-  //       isWeaponOpen &&
-  //       postionWeaponRef.current &&
-  //       !postionWeaponRef.current.contains(event?.target as Node)
-  //     ) {
-  //       setIsWeaponOpen(false);
-  //     }
-  //   }
-  // document.addEventListener('mousedown', handleClickOutOfDropdown);
-  // return () => {
-  //   document.removeEventListener('mousedown', handleClickOutOfDropdown);
-  // };
-  // }, [isCharacterOpen, isWeaponOpen]);
 
   return (
     <div className="w-full h-[400px]">

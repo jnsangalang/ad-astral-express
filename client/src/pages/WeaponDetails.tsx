@@ -6,6 +6,7 @@ import '../App.css';
 import { GiUpgrade } from 'react-icons/gi';
 import { FaRegHeart } from 'react-icons/fa';
 import { FavoriteContext } from '../components/FavoriteContext';
+import { MdOutlineFavorite } from 'react-icons/md';
 
 export function WeaponDetails() {
   const [weapon, setWeapon] = useState<Weapon>();
@@ -14,7 +15,7 @@ export function WeaponDetails() {
   const [level, setLevel] = useState(0);
   const [effectLevel, setEffectLevel] = useState(0);
 
-  const { addToFavorites } = useContext(FavoriteContext);
+  const { addToFavorites, favoriteWeapons } = useContext(FavoriteContext);
 
   function toggleLevel() {
     setLevel((prev) => (prev + 1) % weapon!.weaponLevel.length);
@@ -89,7 +90,13 @@ export function WeaponDetails() {
         <div className="w-full flex h-[600px] my-4 ">
           <div className="flex justify-center  w-1/4 object-fill spotlight-background-lightcone m-8">
             <div className="absolute right-3 top-1" onClick={handleAddWeapon}>
-              <FaRegHeart />
+              {favoriteWeapons.find(
+                (weap) => weap.weaponId === weapon.weaponId
+              ) ? (
+                <MdOutlineFavorite />
+              ) : (
+                <FaRegHeart />
+              )}
             </div>
             <img
               src={weaponImage}

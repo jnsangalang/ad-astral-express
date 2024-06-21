@@ -4,7 +4,7 @@ import express from 'express';
 import pg from 'pg';
 import argon2 from 'argon2';
 import jwt from 'jsonwebtoken';
-import { ClientError, errorMiddleware } from './lib/index.js';
+import { ClientError, authMiddleware, errorMiddleware } from './lib/index.js';
 
 type User = {
   userId: number;
@@ -202,8 +202,11 @@ app.get('/api/myFavorites', async (req, res, next) => {
   }
 });
 
-app.post('/api/favorites/character', async (req, res, next) => {
-  const { userId, characterId } = req.body;
+app.post('/api/favorites/character', authMiddleware, async (req, res, next) => {
+  const { characterId } = req.body;
+  if (!characterId) {
+    throw new ClientError(400, `${characterId} is invalid`);
+  }
   try {
     const sql = `
     insert into "favorites"
@@ -211,7 +214,7 @@ app.post('/api/favorites/character', async (req, res, next) => {
       values($1, $2)
       returning*;
        `;
-    const result = await db.query(sql, [userId, characterId]);
+    const result = await db.query(sql, [req.user?.userId, characterId]);
     if (!result) {
       throw new ClientError(400, 'invalid favorite');
     }
@@ -222,8 +225,11 @@ app.post('/api/favorites/character', async (req, res, next) => {
   }
 });
 
-app.post('/api/favorites/weapon', async (req, res, next) => {
-  const { userId, weaponId } = req.body;
+app.post('/api/favorites/weapon', authMiddleware, async (req, res, next) => {
+  const { weaponId } = req.body;
+  if (!weaponId) {
+    throw new ClientError(400, `${weaponId} is invalid`);
+  }
   try {
     const sql = `
     insert into "favorites"
@@ -231,7 +237,7 @@ app.post('/api/favorites/weapon', async (req, res, next) => {
       values($1, $2)
       returning*;
        `;
-    const result = await db.query(sql, [userId, weaponId]);
+    const result = await db.query(sql, [req.user?.userId, weaponId]);
     if (!result) {
       throw new ClientError(400, 'invalid favorite');
     }

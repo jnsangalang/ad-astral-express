@@ -12,6 +12,12 @@ export function removeAuth(): void {
   sessionStorage.removeItem(authKey);
 }
 
+export function readToken(): string | undefined {
+  const auth = sessionStorage.getItem(authKey);
+  if (!auth) return undefined;
+  return JSON.parse(auth).token;
+}
+
 //retrieves all character data, if user clicks all characters from character menu
 export async function readCharacters(): Promise<Character[]> {
   const response = await fetch('/api/characters');
@@ -71,10 +77,13 @@ export async function readWeapon(
 
 // for adding Favorite Character to Favorite's List
 export async function addCharacter(characterId: number): Promise<Character> {
+  const token = readToken();
+
   const response = await fetch('/api/favorites/character', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
     },
     body: JSON.stringify({ characterId }),
   });
@@ -88,10 +97,13 @@ export async function addCharacter(characterId: number): Promise<Character> {
 
 //for adding weapon to favorite's list
 export async function addWeapon(weaponId: number): Promise<Weapon> {
+  const token = readToken();
+
   const response = await fetch('/api/favorites/weapon', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
     },
     body: JSON.stringify({ weaponId }),
   });
