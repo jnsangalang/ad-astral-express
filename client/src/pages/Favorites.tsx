@@ -22,16 +22,16 @@ export function Favorites() {
   function handleRemoveCharacterFromFavorites(characterId: number | undefined) {
     if (!characterId) throw new Error('cannot delete');
     deleteFavoriteCharacter(characterId);
-    setFavoriteCharacter((prevCharacters) =>
-      prevCharacters.filter((char) => char.characterId !== characterId)
+    setFavoriteCharacter(
+      favoriteCharacters.filter((char) => char.characterId !== characterId)
     );
   }
 
   function handleRemoveWeaponFromFavorites(weaponId: number | undefined) {
     if (!weaponId) throw new Error('cannot delete');
     deleteFavoriteWeapon(weaponId);
-    setFavoriteWeapon((prevWeapons) =>
-      prevWeapons.filter((weapon) => weapon.weaponId !== weaponId)
+    setFavoriteWeapon(
+      favoriteWeapons.filter((weapon) => weapon.weaponId !== weaponId)
     );
   }
   return (

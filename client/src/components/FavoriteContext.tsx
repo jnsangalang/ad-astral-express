@@ -7,10 +7,8 @@ export type FavoriteValue = {
   favoriteCharacters: DetailsCharacter[];
   favoriteWeapons: Weapon[];
   addToFavorites: (favorite: Weapon | DetailsCharacter) => void;
-  setFavoriteCharacter: React.Dispatch<
-    React.SetStateAction<DetailsCharacter[]>
-  >;
-  setFavoriteWeapon: React.Dispatch<React.SetStateAction<Weapon[]>>;
+  setFavoriteCharacter: (character: DetailsCharacter[]) => void;
+  setFavoriteWeapon: (weapon: Weapon[]) => void;
 };
 export const defaultValue: FavoriteValue = {
   favoriteCharacters: [],

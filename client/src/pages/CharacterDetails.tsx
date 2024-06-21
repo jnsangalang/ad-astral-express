@@ -6,6 +6,7 @@ import '../App.css';
 import { GiUpgrade } from 'react-icons/gi';
 import { FaRegHeart } from 'react-icons/fa';
 import { addCharacter } from '../lib/read';
+import { MdOutlineFavorite } from 'react-icons/md';
 import { FavoriteContext } from '../components/FavoriteContext';
 
 export function CharacterDetails() {
@@ -18,7 +19,7 @@ export function CharacterDetails() {
   const [skill3, setSkill3] = useState(0);
   const [talent, setTalent] = useState(0);
 
-  const { addToFavorites } = useContext(FavoriteContext);
+  const { addToFavorites, favoriteCharacters } = useContext(FavoriteContext);
   function toggleLevel() {
     setLevel((prev) => (prev + 1) % character!.characterLevel.length);
   }
@@ -109,7 +110,13 @@ export function CharacterDetails() {
             <div
               className="absolute right-3 top-1"
               onClick={handleAddCharacter}>
-              <FaRegHeart />
+              {favoriteCharacters.find(
+                (char) => char.characterId === character.characterId
+              ) ? (
+                <MdOutlineFavorite />
+              ) : (
+                <FaRegHeart />
+              )}
             </div>
             <img
               src={characterImage}

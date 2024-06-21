@@ -2,6 +2,7 @@
 import 'dotenv/config';
 import express from 'express';
 import pg from 'pg';
+import argon2 from 'argon2';
 import { ClientError, errorMiddleware } from './lib/index.js';
 
 type DetailsCharacter = {
@@ -307,6 +308,31 @@ app.delete('/api/favorites/weapon/:weaponId', async (req, res, next) => {
       );
     }
     res.sendStatus(204);
+  } catch (err) {
+    next(err);
+  }
+});
+
+// USER endpoints start here
+
+app.post('/api/auth/sign-up', async (req, res, next) => {
+  try {
+    const { username, password } = req.body;
+    if (!username || !password) {
+      throw new ClientError(400, 'username and password are required fields');
+    }
+    const hashedPassword = await argon2.hash(password);
+    const sql = `
+          insert into "users"
+          ("username", "hashedPassword")
+          values($1,$2)
+          returning "userId","username";
+          `;
+
+    const result = await db.query(sql, [username, hashedPassword]);
+
+    const [user] = result.rows;
+    res.status(201).send(user);
   } catch (err) {
     next(err);
   }
