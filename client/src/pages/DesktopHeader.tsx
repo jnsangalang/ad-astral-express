@@ -8,12 +8,15 @@ import { SiGooglegemini } from 'react-icons/si';
 import { useRef, useState } from 'react';
 import { Popup } from '../components/Popup';
 import '../App.css';
-// import { StarrySpace } from './Header';
+import { useUser } from '../components/useUser';
+
 export function DesktopHeader() {
   const [isCharacterOpen, setIsCharacterOpen] = useState(false);
   const [isWeaponOpen, setIsWeaponOpen] = useState(false);
   const postionChacracterRef = useRef<HTMLButtonElement>(null);
   const postionWeaponRef = useRef<HTMLButtonElement>(null);
+
+  const { user, handleSignOut } = useUser();
   function handleSearch(search: string) {
     console.log('searched', search);
   }
@@ -98,11 +101,22 @@ export function DesktopHeader() {
               </Link>
             </div>
             <div className="w-1/5">
-              <Link to="sign-up">
-                <button className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap">
-                  Sign Up <SiGooglegemini />
+              {!user && (
+                <Link to="sign-up">
+                  <button className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap">
+                    Sign Up <SiGooglegemini />
+                  </button>
+                </Link>
+              )}
+              {user && (
+                <button
+                  className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap"
+                  onClick={() => {
+                    handleSignOut();
+                  }}>
+                  Sign Out <SiGooglegemini />
                 </button>
-              </Link>
+              )}
             </div>
             <div className="w-1/3">
               <SearchBar onSearch={handleSearch} />

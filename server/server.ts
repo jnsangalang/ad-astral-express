@@ -162,7 +162,7 @@ app.get('/api/weapons/:weaponName', async (req, res, next) => {
   }
 });
 
-app.get('/api/myFavorites', async (req, res, next) => {
+app.get('/api/myFavorites', authMiddleware, async (req, res, next) => {
   try {
     const sql = `select "f". *,
                         "c".*,
@@ -180,8 +180,10 @@ app.get('/api/myFavorites', async (req, res, next) => {
                 left join "skills" as "s" on "s"."skillId" = "c"."skill1Id"
                 left join "skills" as "s2" on "s2"."skillId" = "c"."skill2Id"
                 left join "skills" as "s3" on "s3"."skillId" = "c"."skill3Id"
+                where "userId" =$1
               `;
-    const result = await db.query(sql);
+    const result = await db.query(sql, [req.user?.userId]);
+    console.log('Query Result:', result.rows);
     if (!result) {
       throw new ClientError(400, 'result invalid');
     }
@@ -342,7 +344,7 @@ app.post('/api/auth/sign-in', async (req, res, next) => {
       username: user.username,
     };
     const token = jwt.sign(payload, hashKey);
-    res.status(200).send({ token, payload });
+    res.status(200).send({ user: payload, token });
   } catch (err) {
     next(err);
   }

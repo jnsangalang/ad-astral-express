@@ -117,7 +117,14 @@ export async function addWeapon(weaponId: number): Promise<Weapon> {
 
 //for retrieving favorite's list
 export async function readFavorites(): Promise<Favorite[]> {
-  const response = await fetch('/api/myFavorites');
+  const token = readToken();
+  const response = await fetch('/api/myFavorites', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    },
+  });
   if (!response) {
     throw new Error('There was an error retrieving favorite characters');
   }
