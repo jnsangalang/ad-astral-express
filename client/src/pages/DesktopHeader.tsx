@@ -120,9 +120,11 @@ export function DesktopHeader() {
               </Link>
             </div>
             <div className="w-1/5">
-              <button className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap">
-                Sign Up <SiGooglegemini />
-              </button>
+              <Link to="sign-up">
+                <button className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap">
+                  Sign Up <SiGooglegemini />
+                </button>
+              </Link>
             </div>
             <div className="w-1/3">
               <SearchBar onSearch={handleSearch} />

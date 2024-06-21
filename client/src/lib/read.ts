@@ -1,5 +1,16 @@
 import { Favorite } from '../components/FavoriteContext';
+import { User } from '../components/UserContext';
 import { Character, DetailsCharacter, Weapon } from './data';
+
+const authKey = 'um.auth';
+
+export function saveAuth(user: User, token: string): void {
+  sessionStorage.setItem(authKey, JSON.stringify({ user, token }));
+}
+
+export function removeAuth(): void {
+  sessionStorage.removeItem(authKey);
+}
 
 //retrieves all character data, if user clicks all characters from character menu
 export async function readCharacters(): Promise<Character[]> {
@@ -114,7 +125,7 @@ export async function deleteFavoriteCharacter(
   }
 }
 
-//for deleting character from favorite's list
+//for deleting weapon from favorite's list
 export async function deleteFavoriteWeapon(weaponId: number): Promise<void> {
   const response = await fetch(`/api/favorites/weapon/${weaponId}`, {
     method: 'DELETE',
@@ -122,4 +133,11 @@ export async function deleteFavoriteWeapon(weaponId: number): Promise<void> {
   if (!response) {
     throw new Error('failed');
   }
+}
+
+//for user sign in
+export function readUser(): User | undefined {
+  const auth = sessionStorage.getItem(authKey);
+  if (!auth) return undefined;
+  return JSON.parse(auth).token;
 }
