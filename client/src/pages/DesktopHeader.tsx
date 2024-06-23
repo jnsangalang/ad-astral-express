@@ -1,4 +1,4 @@
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, Link, useNavigate } from 'react-router-dom';
 import { SearchBar } from '../components/SearchBar';
 import { FaPersonRays } from 'react-icons/fa6';
 import '../css/Header.css';
@@ -16,6 +16,7 @@ export function DesktopHeader() {
   const postionChacracterRef = useRef<HTMLButtonElement>(null);
   const postionWeaponRef = useRef<HTMLButtonElement>(null);
 
+  const navigate = useNavigate();
   const { user, handleSignOut } = useUser();
   function handleSearch(search: string) {
     console.log('searched', search);
@@ -35,9 +36,16 @@ export function DesktopHeader() {
                 />
               </Link>
             </div>
-            <h1 className="londrina-outline-regular header-text">
-              Welcome Aboard the Astral Express
-            </h1>
+            {user && (
+              <h1 className="londrina-outline-regular header-text">
+                Welcome Back {user.username} !
+              </h1>
+            )}
+            {!user && (
+              <h1 className="londrina-outline-regular header-text">
+                Welcome Aboard the Astral Express
+              </h1>
+            )}
           </div>
           <div className="w-full flex justify-around items-center">
             <div className="w-1/5">
@@ -54,7 +62,7 @@ export function DesktopHeader() {
                   setIsCharacterOpen(false);
                 }}
                 position={postionChacracterRef.current}>
-                <ul className="w-full">
+                <ul className="w-[17vw]">
                   <li
                     onClick={() => {
                       setIsCharacterOpen(false);
@@ -80,7 +88,7 @@ export function DesktopHeader() {
                   setIsWeaponOpen(false);
                 }}
                 position={postionWeaponRef.current}>
-                <ul className="w-full">
+                <ul className="w-[17vw] top-0">
                   <li
                     onClick={() => {
                       setIsWeaponOpen(false);
@@ -113,6 +121,7 @@ export function DesktopHeader() {
                   className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap"
                   onClick={() => {
                     handleSignOut();
+                    navigate('/');
                   }}>
                   Sign Out <SiGooglegemini />
                 </button>
@@ -124,8 +133,7 @@ export function DesktopHeader() {
           </div>
         </div>
       </nav>
-
-      <div>
+      <div className="w-full">
         <Outlet />
       </div>
     </div>

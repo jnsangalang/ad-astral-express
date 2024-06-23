@@ -85,15 +85,15 @@ export function WeaponDetails() {
 
   return (
     <div className="velvet-background2">
-      <div className="w-full flex flex-wrap">
-        <div className="w-full text-center text-6xl my-6">{weaponName}</div>
+      <div className="w-full flex flex-wrap pr-2">
         <div className="w-full flex h-[600px] my-4 ">
-          <div className="flex justify-center  w-1/4 object-fill spotlight-background-lightcone m-8">
-            <div className="absolute right-3 top-1" onClick={handleAddWeapon}>
+          <div className="flex flex-wrap justify-center  w-1/2 object-fill spotlight-background-lightcone m-8">
+            <div className="w-full text-center text-4xl mt-8">{weaponName}</div>
+            <div className="weapon-like-heart" onClick={handleAddWeapon}>
               {favoriteWeapons.find(
                 (weap) => weap.weaponId === weapon.weaponId
               ) ? (
-                <MdOutlineFavorite />
+                <MdOutlineFavorite color="black" />
               ) : (
                 <FaRegHeart />
               )}
@@ -101,109 +101,109 @@ export function WeaponDetails() {
             <img
               src={weaponImage}
               alt={weaponName}
-              className="object-fill h-[400px] self-center"
+              className="object-fill self-center"
             />
           </div>
-          <div className="flex flex-col w-3/4 m-8  spotlight-background-description-lightcone pt-4 pl-8">
-            <div className="w-full flex pt-[75px] self-center">
-              <div className="w-1/3 ">
-                Path: {weaponPath}
+          <div className="flex flex-col w-1/2 m- border-8 slight-transparency border-yellow-200 pt-4 pl-8">
+            <div className="w-full flex flex-wrap">
+              <div className="w-full flex flex-wrap text-center justify-center">
+                <div className="w-full text-2xl">Path: {weaponPath}</div>
                 {weaponPath === 'Harmony' && (
                   <div className="w-3/12">
                     <img
-                      className=" object-cover w-full h-full"
+                      className=" object-cover w-3/12 h-full"
                       src="/images/paths/harmony.webp"
                       alt="harmony symbol"
                     />
                   </div>
                 )}
                 {weaponPath === 'Abundance' && (
-                  <div className="w-3/12">
+                  <div className="w-full flex justify-center">
                     <img
-                      className="object-cover w-full h-full"
+                      className="object-cover w-3/12 h-full"
                       src="/images/paths/abundance.webp"
                       alt="abundance symbol"
                     />
                   </div>
                 )}
                 {weaponPath === 'Destruction' && (
-                  <div className="w-3/12">
+                  <div className="w-full flex justify-center">
                     <img
-                      className="object-cover w-full h-full"
+                      className="object-cover w-3/12 h-full"
                       src="/images/paths/destruction.webp"
                       alt="destruction symbol"
                     />
                   </div>
                 )}
                 {weaponPath === 'Erudition' && (
-                  <div className="w-3/12">
+                  <div className="w-full flex justify-center">
                     <img
-                      className="object-cover w-full h-full"
+                      className="object-cover w-3/12 h-full"
                       src="/images/paths/erudition.webp"
                       alt="erudition symbol"
                     />
                   </div>
                 )}
                 {weaponPath === 'Hunt' && (
-                  <div className="w-3/12">
+                  <div className="w-full flex justify-center">
                     <img
-                      className="object-cover w-full h-full"
+                      className="object-cover w-3/12 h-full"
                       src="/images/paths/hunt.webp"
                       alt="hunt symbol"
                     />
                   </div>
                 )}
                 {weaponPath === 'Nihility' && (
-                  <div className="w-3/12">
+                  <div className="w-full flex justify-center">
                     <img
-                      className="object-cover w-full h-full"
+                      className="object-cover w-3/12 h-full"
                       src="/images/paths/nihility.webp"
                       alt="nihility symbol"
                     />
                   </div>
                 )}
                 {weaponPath === 'Preservation' && (
-                  <div className="w-3/12">
+                  <div className="w-full flex justify-center">
                     <img
-                      className="object-cover w-full h-full"
+                      className="object-cover w-3/12 h-full"
                       src="/images/paths/preservation.webp"
                       alt="preservation symbol"
                     />
                   </div>
                 )}
               </div>
-              <div className="w-1/3 ">
-                <div>Stats</div>
+              <div className="w-1/2">
+                <div className="pb-2 text-2xl">Stats</div>
                 <div className="pb-2">Attack:{weaponAttack[level]}</div>
                 <div className="pb-2">Defense:{weaponDefense[level]}</div>
                 <div className="pb-2">Health:{weaponHealth[level]}</div>
               </div>
-              <div className="w-1/3">
-                <div className="ml-6">
+              <div className="w-1/2 flex justify-center items-center">
+                <div className="w-1/2">
                   Current Level: {weaponLevel[level]} {level === 4 && 'MAX'}
                 </div>
-                <div className="">
-                  <button className="ml-10 text-6xl" onClick={toggleLevel}>
+                <div className="w-1/2">
+                  <button className=" text-6xl" onClick={toggleLevel}>
                     <GiUpgrade />
                   </button>
                 </div>
               </div>
             </div>
-            <div className="w-full flex"></div>
-            <div className="flex flex-col w-full">
-              <div className="text-center text-6xl my-2">Ability</div>
+            {/* <div className="w-full flex"></div> */}
+            <div className="flex flex-wrap w-full">
+              <div className="w-full text-2xl my-2">Ability</div>
               <div className="w-full">
-                <div className="w-4/5">
-                  <div>Effect: {weaponTitleEffect}</div>
+                <div className="w-full">
+                  <div>Effect Name: {weaponTitleEffect}</div>
                   Description: {weaponEffect[effectLevel]}
                 </div>
                 <div className="w-full">
                   <div className="w-full flex items-center">
-                    <div className="w-1/5">
+                    <div className="w-1/2">
                       SuperImposition Level: {effectLevel + 1}{' '}
                       {effectLevel === 4 && 'MAX'}
                     </div>
-                    <div className="w-1/5">
+                    <div className="w-1/2">
                       <button className="text-6xl" onClick={toggleEffectLevel}>
                         <GiUpgrade />
                       </button>

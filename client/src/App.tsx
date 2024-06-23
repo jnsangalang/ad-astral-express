@@ -11,32 +11,29 @@ import { FavoriteProvider } from './components/FavoriteContext';
 import { Favorites } from './pages/Favorites';
 import { UserProvider } from './components/UserContext';
 import { AuthPage } from './pages/AuthPage';
+import { WishSimulator } from './components/WishSimulator';
 
 export default function App() {
   return (
     <UserProvider>
-      <Routes>
-        <Route path="/" element={<DesktopHeader />}>
-          <Route index element={<Home />} />
-          <Route path="characters" element={<Characters />} />
-          <Route
-            path="characters/:characterName"
-            element={<CharacterDetails />}
-          />
-          <Route path="weapons" element={<Weapons />} />
-          <Route path="weapons/:weaponName" element={<WeaponDetails />} />
-          <Route
-            path="favorites"
-            element={
-              <FavoriteProvider>
-                <Favorites />
-              </FavoriteProvider>
-            }
-          />
-          <Route path="sign-up" element={<AuthPage mode="sign-up" />} />
-          <Route path="sign-in" element={<AuthPage mode="sign-in" />} />
-        </Route>
-      </Routes>
+      <FavoriteProvider>
+        <Routes>
+          <Route path="/" element={<DesktopHeader />}>
+            <Route index element={<Home />} />
+            <Route path="characters" element={<Characters />} />
+            <Route
+              path="characters/:characterName"
+              element={<CharacterDetails />}
+            />
+            <Route path="weapons" element={<Weapons />} />
+            <Route path="weapons/:weaponName" element={<WeaponDetails />} />
+            <Route path="favorites" element={<Favorites />} />
+            <Route path="wish" element={<WishSimulator />} />
+            <Route path="sign-up" element={<AuthPage mode="sign-up" />} />
+            <Route path="sign-in" element={<AuthPage mode="sign-in" />} />
+          </Route>
+        </Routes>
+      </FavoriteProvider>
     </UserProvider>
   );
 }

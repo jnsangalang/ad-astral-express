@@ -108,7 +108,7 @@ export function CharacterDetails() {
         <div className="w-full flex h-[600px] border-2 border-yellow-200 my-4">
           <div className="flex justify-center w-1/2 object-fill border border-white m-8 rounded-3xl relative">
             <div
-              className="absolute right-3 top-1"
+              className="absolute right-3 top-1 character-like-heart"
               onClick={handleAddCharacter}>
               {favoriteCharacters.find(
                 (char) => char.characterId === character.characterId

@@ -1,42 +1,25 @@
 import { Carousel } from '../components/Carousel';
 import { HomeCharacters } from '../components/HomeCharacters';
+import { rewardCodes } from '../lib/data';
 
 export function Home() {
   return (
     <div className="w-full home-color">
       <div className="flex">
         <div className=" flex-col w-1/5 flex ">
-          <div className="marble h-3/5 mx-4 mt-4 border border-gray-700 rounded-3xl p-4">
-            <h1 className="bebas-neue-regular text-3xl">
+          <div className="marble h-4/5 mx-2 mt-4 border border-gray-700 rounded-2xl p-2">
+            <h1 className="bebas-neue-regular text-2xl">
               Current Reward Codes
             </h1>
-            <div className="w-full pb-6">
-              <h1 className="font-bold">STARRAILGIFT-</h1>
-              <p className="font-bold">50 Stellar Jades + EXP materials</p>
-              <p className="font-bold">Released on 26-04-2023</p>
-            </div>
-            <div className=" w-full pb-6">
-              <h1 className="font-bold">QBJTY77MN9T7-</h1>
-              <p className="font-bold">50 Stellar Jades + 10k Credits</p>
-              <p className="font-bold">Released on 19-04-2023</p>
-            </div>
-            <div className=" w-full pb-6">
-              <h1 className="font-bold">5AJTZPPMN8VB-</h1>
-              <p className="font-bold">50 Stellar Jades + 10k Credits</p>
-              <p className="font-bold">Released on 19-04-2024</p>
-            </div>
-            <div className=" w-full pb-6">
-              <h1 className="font-bold">VAJEGY4MNMDK-</h1>
-              <p className="font-bold">50 Stellar Jades + 10k Credits</p>
-              <p className="font-bold">Released on 08-05-2024</p>
-            </div>
-            <div className=" w-full pb-6">
-              <h1 className="font-bold">FA2CU3P7P6QT-</h1>
-              <p className="font-bold">50 Stellar Jades + 10k Credits</p>
-              <p className="font-bold">Released on 29-05-2024</p>
-            </div>
+            {rewardCodes.map((reward, index) => (
+              <div key={index}>
+                <h2>{reward.code}</h2>
+                <p>{reward.reward}</p>
+                <p>{reward.release}</p>
+              </div>
+            ))}
           </div>
-          <div className="marble flex h-2/5 m-4 border border-gray-700 rounded-3xl p-4 items-center">
+          <div className="marble flex h-1/5 m-4 border border-gray-700 rounded-3xl p-4 items-center">
             <div className="w-1/4">
               <img
                 src="/images/pom-pom/express-pass.webp"

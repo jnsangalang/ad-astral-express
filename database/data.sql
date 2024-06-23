@@ -1585,838 +1585,6 @@ insert into "characters"
       '/images/characters/guinaifen.png', '/images/characters/guinaifen-portrait.png', 'Nihility', 'Fire', 4,91,92,93,31,31);
 
 
-
--- //weapons start//
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/arrows.webp', 'Hunt', 'Arrows', 'Crisis', '["At the start of the battle, the wearer’s CRIT Rate increases by 12% for 3 turn(s).",
-      "At the start of the battle, the wearer’s CRIT Rate increases by 15% for 3 turn(s).",
-      "At the start of the battle, the wearer’s CRIT Rate increases by 18% for 3 turn(s).",
-      "At the start of the battle, the wearer’s CRIT Rate increases by 21% for 3 turn(s).",
-      "At the start of the battle, the wearer’s CRIT Rate increases by 24% for 3 turn(s)."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,218,486,754,953]', '/images/weapons/cornucopia.webp', 'Abundance','Cornucopia', 'Prosperity', '["When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
-      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 14%.",
-      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 16%.",
-      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 18%.",
-      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 20%."]',3 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]', '/images/weapons/collapsing-sky.webp', 'Destruction', 'Collapsing Sky', 'Havoc', '["Increases the wearer’s Basic ATK and Skill DMG by 20%",
-      "Increases the wearer’s Basic ATK and Skill DMG by 25%",
-      "Increases the wearer’s Basic ATK and Skill DMG by 30%",
-      "Increases the wearer’s Basic ATK and Skill DMG by 35%",
-      "Increases the wearer’s Basic ATK and Skill DMG by 40%"]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[15,75.75,168.75,261.75,330.75]', '[38,194,432,670,847]', '/images/weapons/amber.webp', 'Preservation', 'Amber', 'Stasis', '["Increases DEF of its wearer by 16%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 16%.",
-      "Increases DEF of its wearer by 20%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 20%.",
-      "Increases DEF of its wearer by 24%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 24%.",
-      "Increases DEF of its wearer by 28%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 28%.",
-      "Increases DEF of its wearer by 32%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 32%."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4,72.72,162,251.28,317.52]', '[12,60.6,135,209.4,264.6]', '[38,194,432,670,847]', '/images/weapons/void.webp', 'Nihility', 'Void', 'Fallen', '["At the start of the battle, the wearer’s Effect Hit Rate increases by 20% for 3 turn(s).",
-      "At the start of the battle, the wearer’s Effect Hit Rate increases by 25% for 3 turn(s).",
-      "At the start of the battle, the wearer’s Effect Hit Rate increases by 30% for 3 turn(s).",
-      "At the start of the battle, the wearer’s Effect Hit Rate increases by 35% for 3 turn(s).",
-      "At the start of the battle, the wearer’s Effect Hit Rate increases by 40% for 3 turn(s)."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]', '/images/weapons/chorus.webp', 'Harmony', 'Chorus', 'Concerted', '["After entering battle, increases the ATK of all allies by 8%. Effects of the same type cannot stack.",
-      "After entering battle, increases the ATK of all allies by 9%. Effects of the same type cannot stack.",
-      "After entering battle, increases the ATK of all allies by 10%. Effects of the same type cannot stack.",
-      "After entering battle, increases the ATK of all allies by 11%. Effects of the same type cannot stack.",
-      "After entering battle, increases the ATK of all allies by 12%. Effects of the same type cannot stack."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/data-bank.webp', 'Erudition', 'Data Bank', 'Learned', '["Increases the wearer’s Ultimate DMG by 28%",
-      "Increases the wearer’s Ultimate DMG by 35%",
-      "Increases the wearer’s Ultimate DMG by 42%",
-      "Increases the wearer’s Ultimate DMG by 49%",
-      "Increases the wearer’s Ultimate DMG by 56%"]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,251.28,264.6]', '[34,170,378,586,741]', '/images/weapons/darting-arrow.webp', 'Hunt', 'Darting Arrow', 'War Cry', '["When the wearer defeats an enemy, increases ATK by 30% for 3 turn(s)",
-      "When the wearer defeats an enemy, increases ATK by 30% for 3 turn(s)",
-      "When the wearer defeats an enemy, increases ATK by 36% for 3 turn(s)",
-      "When the wearer defeats an enemy, increases ATK by 42% for 3 turn(s)",
-      "When the wearer defeats an enemy, increases ATK by 48% for 3 turn(s)"]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[9,34.65,101.25,157.05,198.45]', '[9,34.65,101.25,157.05,198.45]' , '/images/weapons/fine-fruit.webp', 'Abundance', 'Fine Fruit', 'Savor', '["At the start of the battle, immediately regenerate 6 Energy for all allies.",
-      "At the start of the battle, immediately regenerate 7 Energy for all allies.",
-      "At the start of the battle, immediately regenerate 9 Energy for all allies.",
-      "At the start of the battle, immediately regenerate 11 Energy for all allies.",
-      "At the start of the battle, immediately regenerate 12 Energy for all allies."]',3 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]','/images/weapons/shattered-home.webp', 'Destruction', 'Shattered Home', 'Eradication', '["The wearer deals 20% more DMG to enemy targets whose HP percentage is greater than 50%.",
-      "The wearer deals 25% more DMG to enemy targets whose HP percentage is greater than 50%.",
-      "The wearer deals 30% more DMG to enemy targets whose HP percentage is greater than 50%.",
-      "The wearer deals 35% more DMG to enemy targets whose HP percentage is greater than 50%.",
-      "The wearer deals 40% more DMG to enemy targets whose HP percentage is greater than 50%."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,166,486,754,953]', '/images/weapons/defense.webp', 'Preservation', 'Defense', 'Revitalization', '["When the wearer unleashes their Ultimate, they restore HP by 18% of their Max HP.",
-      "When the wearer unleashes their Ultimate, they restore HP by 21% of their Max HP.",
-      "When the wearer unleashes their Ultimate, they restore HP by 24% of their Max HP.",
-      "When the wearer unleashes their Ultimate, they restore HP by 27% of their Max HP.",
-      "When the wearer unleashes their Ultimate, they restore HP by 30% of their Max HP."]',3 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/loop.webp', 'Nihility', 'Loop', 'Pursuit', '["Increases DMG dealt from its wearer to Slowed enemies by 24%.",
-      "Increases DMG dealt from its wearer to Slowed enemies by 30%.",
-      "Increases DMG dealt from its wearer to Slowed enemies by 36%.",
-      "Increases DMG dealt from its wearer to Slowed enemies by 42%.",
-      "Increases DMG dealt from its wearer to Slowed enemies by 48%."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/meshing-cogs.webp', 'Harmony', 'Meshing Cogs', 'Fleet Triumph', '["After the wearer uses attacks or gets hit, additionally regenerates 4 Energy. This effect can only be triggered 1 time per turn.",
-      "After the wearer uses attacks or gets hit, additionally regenerates 5 Energy. This effect can only be triggered 1 time per turn.",
-      "After the wearer uses attacks or gets hit, additionally regenerates 6 Energy. This effect can only be triggered 1 time per turn.",
-      "After the wearer uses attacks or gets hit, additionally regenerates 7 Energy. This effect can only be triggered 1 time per turn.",
-      "After the wearer uses attacks or gets hit, additionally regenerates 8 Energy. This effect can only be triggered 1 time per turn."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]','[12,60.6,135,251.28,264.6]','[34,170,378,586,741]', '/images/weapons/passkey.webp','Erudition', 'Passkey', 'Epiphany', '["After the wearer uses their Skill, additionally regenerates 8 Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "After the wearer uses their Skill, additionally regenerates 9 Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "After the wearer uses their Skill, additionally regenerates 10 Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "After the wearer uses their Skill, additionally regenerates 11 Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "After the wearer uses their Skill, additionally regenerates 12 Energy. This effect cannot be repeatedly triggered in a single turn."]',3 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]','[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/adversarial.webp', 'Hunt', 'Adversarial', 'Alliance', '["When the wearer defeats an enemy, increases SPD by 10% for 2 turn(s).",
-      "When the wearer defeats an enemy, increases SPD by 12% for 2 turn(s).",
-      "When the wearer defeats an enemy, increases SPD by 14% for 2 turn(s).",
-      "When the wearer defeats an enemy, increases SPD by 16% for 2 turn(s).",
-      "When the wearer defeats an enemy, increases SPD by 18% for 2 turn(s)."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]','[9,34.65,101.25,157.05,198.45]','[43,166,486,754,953]', '/images/weapons/multiplication.webp', 'Abundance', 'Multiplication', 'Denizens of Abundance', '["After the wearer uses their Basic ATK, their next action will be Advanced Forward by 12%.",
-      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 14%.",
-      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 16%.",
-      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 18%.",
-      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 20%."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]', '/images/weapons/mutual-demise.webp', 'Destruction', 'Mutual Demise', 'Legion', '["If the wearer’s current HP is lower than 80%, CRIT Rate increases by 12%.",
-      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 15%.",
-      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 18%.",
-      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 21%.",
-      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 24%."]',3 );
-
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,166,486,754,953]', '/images/weapons/pioneering.webp','Preservation', 'Pioneering', 'IPC', '["When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 12% of their Max HP.",
-      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 14% of their Max HP.",
-      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 16% of their Max HP.",
-      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 18% of their Max HP.",
-      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 20% of their Max HP."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/hidden-shadow.webp', 'Nihility', 'Hidden Shadow', 'Mechanism', '["After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 60% of ATK to the target enemy.",
-      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 75% of ATK to the target enemy.",
-      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 90% of ATK to the target enemy.",
-      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 105% of ATK to the target enemy.",
-      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 120% of ATK to the target enemy."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/mediation.webp','Harmony', 'Mediation', 'Family', '["Upon entering battle, increases SPD of all allies by 12 for 1 turn(s).",
-      "Upon entering battle, increases SPD of all allies by 14 for 1 turn(s).",
-      "Upon entering battle, increases SPD of all allies by 16 for 1 turn(s).",
-      "Upon entering battle, increases SPD of all allies by 18 for 1 turn(s).",
-      "Upon entering battle, increases SPD of all allies by 20 for 1 turn(s)."]',3 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/sagacity.webp', 'Erudition', 'Sagacity', 'Genius', '["When the wearer uses their Ultimate, increases ATK by 24% for 2 turn(s).",
-      "When the wearer uses their Ultimate, increases ATK by 30% for 2 turn(s).",
-      "When the wearer uses their Ultimate, increases ATK by 36% for 2 turn(s).",
-      "When the wearer uses their Ultimate, increases ATK by 42% for 2 turn(s).",
-      "When the wearer uses their Ultimate, increases ATK by 48% for 2 turn(s)."]', 3);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[15,75.75,168.75,261.75,330.75]', '[48,242,761,838,1058]','/images/weapons/post-op-conversation.webp', 'Abundance', 'Post-Op Conversation', 'Mutual Healing', '["Increases the wearer’s Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.",
-      "Increases the wearer’s Energy Regeneration Rate by 10% and increases Outgoing Healing when they use their Ultimate by 15%.",
-      "Increases the wearer’s Energy Regeneration Rate by 12% and increases Outgoing Healing when they use their Ultimate by 18%.",
-      "Increases the wearer’s Energy Regeneration Rate by 14% and increases Outgoing Healing when they use their Ultimate by 21%.",
-      "Increases the wearer’s Energy Regeneration Rate by 16% and increases Outgoing Healing when they use their Ultimate by 24%."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/good-night-and-sleep-well.webp', 'Nihility', 'Good Night and Sleep Well', 'Toiler', '["For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.",
-      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 15%, stacking up to 3 time(s). This effect also applies to DoT.",
-      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 18%, stacking up to 3 time(s). This effect also applies to DoT.",
-      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 21%, stacking up to 3 time(s). This effect also applies to DoT.",
-      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 24%, stacking up to 3 time(s). This effect also applies to DoT."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/day-one-of-my-new-life.webp', 'Preservation', 'Day One of My New Life', 'At This Very Moment', '["Increases wearer’s DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Effects of the same type cannot stack.",
-      "Increases wearer’s DEF by 18%. After entering battle, increases All-Type RES of all allies by 9%. Effects of the same type cannot stack.",
-      "Increases wearer’s DEF by 20%. After entering battle, increases All-Type RES of all allies by 10%. Effects of the same type cannot stack.",
-      "Increases wearer’s DEF by 22%. After entering battle, increases All-Type RES of all allies by 11%. Effects of the same type cannot stack.",
-      "Increases wearer’s DEF by 24%. After entering battle, increases All-Type RES of all allies by 12%. Effects of the same type cannot stack."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/only-silence-remains.webp', 'Hunt', 'Only Silence Remains', 'Record', '["Increases the wearer’s ATK by 16%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 12%.",
-      "Increases the wearer’s ATK by 20%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 15%.",
-      "Increases the wearer’s ATK by 24%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 18%.",
-      "Increases the wearer’s ATK by 28%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 21%.",
-      "Increases the wearer’s ATK by 32%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 24%."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/memories-of-the-past.webp', 'Harmony', 'Memories of the Past', 'Old Photo', '["Increases the wearer’s Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "Increases the wearer’s Break Effect by 35%. When the wearer attacks, additionally regenerates 5 Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "Increases the wearer’s Break Effect by 42%. When the wearer attacks, additionally regenerates 6 Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "Increases the wearer’s Break Effect by 49%. When the wearer attacks, additionally regenerates 7 Energy. This effect cannot be repeatedly triggered in a single turn.",
-      "Increases the wearer’s Break Effect by 56%. When the wearer attacks, additionally regenerates 8 Energy. This effect cannot be repeatedly triggered in a single turn."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/the-moles-welcome-you.webp','Destruction', 'The Moles Welcome You', 'Fantastic Adventure', '["When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 12%.",
-      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 15%.",
-      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 18%.",
-      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 21%.",
-      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 24%."]', 4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/the-birth-of-the-self.webp', 'Erudition', 'The Birth Of The Self','The Maiden in the Painting', '["Increases DMG dealt by the wearer’s follow-up attacks by 24%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 24%.",
-      "Increases DMG dealt by the wearer’s follow-up attacks by 30%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 30%.",
-      "Increases DMG dealt by the wearer’s follow-up attacks by 36%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 36%.",
-      "Increases DMG dealt by the wearer’s follow-up attacks by 42%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 42%.",
-      "Increases DMG dealt by the wearer’s follow-up attacks by 48%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 48%."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]', '/images/weapons/eyes-of-the-prey.webp', 'Nihility', 'Eyes of the Prey', 'Self-Confidence', '["Increases the wearer’s Effect Hit Rate by 20% and increases DoT by 24%.",
-      "Increases the wearer’s Effect Hit Rate by 25% and increases DoT by 30%.",
-      "Increases the wearer’s Effect Hit Rate by 30% and increases DoT by 36%.",
-      "Increases the wearer’s Effect Hit Rate by 35% and increases DoT by 42%.",
-      "Increases the wearer’s Effect Hit Rate by 40% and increases DoT by 48%."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/landaus-choice.webp', 'Preservation', 'Laundaus Choice', 'Time FLeets Away', '["The wearer is more likely to be attacked, and DMG taken is reduced by 16%.",
-      "The wearer is more likely to be attacked, and DMG taken is reduced by 18%.",
-      "The wearer is more likely to be attacked, and DMG taken is reduced by 20%.",
-      "The wearer is more likely to be attacked, and DMG taken is reduced by 22%.",
-      "The wearer is more likely to be attacked, and DMG taken is reduced by 24%."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/swordplay.webp','Hunt', 'Swordplay', 'Answers of Their Own', '["For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
-      "For each time the wearer hits the same target, DMG dealt increases by 10%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
-      "For each time the wearer hits the same target, DMG dealt increases by 12%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
-      "For each time the wearer hits the same target, DMG dealt increases by 14%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
-      "For each time the wearer hits the same target, DMG dealt increases by 16%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets."]', 4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[12,60.6,135,251.28,264.6]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]', '/images/weapons/planetary-rendezvous.webp','Harmony', 'Planetary Rendezvous', 'Departure', '["Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%.",
-      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 15%.",
-      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 18%.",
-      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 21%.",
-      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 24%."]', 4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/a-secret-vow.webp','Destruction', 'A Secret Vow', 'Spare No Effort', '["Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
-      "Increases DMG dealt by the wearer by 25%. The wearer also deals an extra 25% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
-      "Increases DMG dealt by the wearer by 30%. The wearer also deals an extra 30% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
-      "Increases DMG dealt by the wearer by 35%. The wearer also deals an extra 35% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
-      "Increases DMG dealt by the wearer by 40%. The wearer also deals an extra 40% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/make-the-world-clamor.webp', 'Erudition', 'Make The World Clamor', 'The Power of Sound', '["The wearer regenerates 20 Energy immediately upon entering battle, and increases Ultimate DMG by 32%.",
-      "The wearer regenerates 23 Energy immediately upon entering battle, and increases Ultimate DMG by 40%.",
-      "The wearer regenerates 26 Energy immediately upon entering battle, and increases Ultimate DMG by 48%.",
-      "The wearer regenerates 29 Energy immediately upon entering battle, and increases Ultimate DMG by 56%.",
-      "The wearer regenerates 32 Energy immediately upon entering battle, and increases Ultimate DMG by 64%."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/perfect-timing.webp', 'Abundance', 'Perfect Timing', 'Refraction of Sightline', '["Increases the wearer’s Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.",
-      "Increases the wearer’s Effect RES by 20% and increases Outgoing Healing by an amount that is equal to 36% of Effect RES. Outgoing Healing can be increased this way by up to 18%.",
-      "Increases the wearer’s Effect RES by 24% and increases Outgoing Healing by an amount that is equal to 39% of Effect RES. Outgoing Healing can be increased this way by up to 21%.",
-      "Increases the wearer’s Effect RES by 28% and increases Outgoing Healing by an amount that is equal to 42% of Effect RES. Outgoing Healing can be increased this way by up to 24%.",
-      "Increases the wearer’s Effect RES by 32% and increases Outgoing Healing by an amount that is equal to 45% of Effect RES. Outgoing Healing can be increased this way by up to 27%."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]', '[15, 75.75, 168.75, 261.75, 330.75]', '[43, 218, 486, 754, 953]','/images/weapons/resolution-shines-as-pearls-of-sweat.webp', 'Nihility', 'Resolution Shines As Pearls Of Sweat', 'Glance Back', '["When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 60% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 12% for 1 turn(s).",
-      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 70% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 13% for 1 turn(s).",
-      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 80% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 14% for 1 turn(s).",
-      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 90% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 15% for 1 turn(s).",
-      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 100% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 16% for 1 turn(s)."]', 4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8, 84.84, 189, 293.16, 370.44]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/trend-of-the-universal-market.webp','Preservation', 'Trend Of The Universal Market', 'A New Round of Shuffling', '["Increases the wearer’s DEF by 16%. When the wearer is attacked, there is a 100% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40% of the wearer’s DEF for 2 turn(s).",
-      "Increases the wearer’s DEF by 20%. When the wearer is attacked, there is a 105% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 50% of the wearer’s DEF for 2 turn(s).",
-      "Increases the wearer’s DEF by 24%. When the wearer is attacked, there is a 110% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 60% of the wearer’s DEF for 2 turn(s).",
-      "Increases the wearer’s DEF by 28%. When the wearer is attacked, there is a 115% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 70% of the wearer’s DEF for 2 turn(s).",
-      "Increases the wearer’s DEF by 32%. When the wearer is attacked, there is a 120% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 80% of the wearer’s DEF for 2 turn(s)."]', 4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/subscribe-for-more!.webp', 'Hunt', 'Subscribe For More!', 'Like Before You Leave!', '["Increases the DMG of the wearer’s Basic ATK and Skill by 24%. This effect increases by an extra 24% when the wearer’s current Energy reaches its max level.",
-      "Increases the DMG of the wearer’s Basic ATK and Skill by 30%. This effect increases by an extra 30% when the wearer’s current Energy reaches its max level.",
-      "Increases the DMG of the wearer’s Basic ATK and Skill by 36%. This effect increases by an extra 36% when the wearer’s current Energy reaches its max level.",
-      "Increases the DMG of the wearer’s Basic ATK and Skill by 42%. This effect increases by an extra 42% when the wearer’s current Energy reaches its max level.",
-      "Increases the DMG of the wearer’s Basic ATK and Skill by 48%. This effect increases by an extra 48% when the wearer’s current Energy reaches its max level."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/dance!-dance!-dance!.webp', 'Harmony', 'Dance! Dance! Dance!', 'Cannot Stop It!', '["When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 16%",
-      "When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 18%",
-      "When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 20%",
-      "When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 22%",
-      "When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 24%"]',4);
-
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/under-the-blue-sky.webp','Destruction', 'Under The Blue Sky', 'Rye Under The Sun' ,'["Increases the wearer’s ATK by 16%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 12% for 3 turn(s).",
-      "Increases the wearer’s ATK by 20%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 15% for 3 turn(s).",
-      "Increases the wearer’s ATK by 24%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 18% for 3 turn(s).",
-      "Increases the wearer’s ATK by 28%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 21% for 3 turn(s).",
-      "Increases the wearer’s ATK by 32%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 24% for 3 turn(s)."]', 4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/geniuses-repose.webp', 'Erudition', 'Geniuses Repose', 'Each Now Has A Role To Play', '["Increases the wearer’s ATK by 16%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 24% for 3 turn(s).",
-      "Increases the wearer’s ATK by 20%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 30% for 3 turn(s).",
-      "Increases the wearer’s ATK by 24%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 36% for 3 turn(s).",
-      "Increases the wearer’s ATK by 28%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 42% for 3 turn(s).",
-      "Increases the wearer’s ATK by 32%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 48% for 3 turn(s)."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/quid-pro-quo.webp', 'Abundance', 'Quid Pro Quo', 'Enjoy With Rapture', '["At the start of the wearer’s turn, regenerates 8 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
-      "At the start of the wearer’s turn, regenerates 10 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
-      "At the start of the wearer’s turn, regenerates 12 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
-      "At the start of the wearer’s turn, regenerates 14 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
-      "At the start of the wearer’s turn, regenerates 16 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/fermata.webp', 'Nihility', 'Fermata', 'Semibreve Rest', '["Increases Break Effect dealt by the wearer by 16%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 16%. This also applies to DoT.",
-      "Increases Break Effect dealt by the wearer by 20%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 20%. This also applies to DoT.",
-      "Increases Break Effect dealt by the wearer by 24%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 24%. This also applies to DoT.",
-      "Increases Break Effect dealt by the wearer by 28%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 28%. This also applies to DoT.",
-      "Increases Break Effect dealt by the wearer by 32%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 32%. This also applies to DoT."]', 4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[21,106.05,236.25,366.45,463.05]','[34,170,378,586,741]', '/images/weapons/we-are-wildfire.webp', 'Preservation', 'We Are Wildfire', 'Teary-Eyed', '["At the start of the battle, the DMG dealt to all allies decreases by 8% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 30% of the respective HP difference between the characters’ Max HP and current HP.",
-      "At the start of the battle, the DMG dealt to all allies decreases by 10% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 35% of the respective HP difference between the characters’ Max HP and current HP.",
-      "At the start of the battle, the DMG dealt to all allies decreases by 12% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 40% of the respective HP difference between the characters’ Max HP and current HP.",
-      "At the start of the battle, the DMG dealt to all allies decreases by 14% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 45% of the respective HP difference between the characters’ Max HP and current HP.",
-      "At the start of the battle, the DMG dealt to all allies decreases by 16% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 50% of the respective HP difference between the characters’ Max HP and current HP."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/river-flows-in-spring.webp', 'Hunt', 'River Flows In Spring', 'Stave Off The Lingering Cold', '["After entering battle, increases the wearer’s SPD by 8% and DMG by 12%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn.",
-      "After entering battle, increases the wearer’s SPD by 9% and DMG by 15%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn.",
-      "After entering battle, increases the wearer’s SPD by 10% and DMG by 18%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn.",
-      "After entering battle, increases the wearer’s SPD by 11% and DMG by 21%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn.",
-      "After entering battle, increases the wearer’s SPD by 12% and DMG by 24%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/woof!-walk-time!.webp', 'Destruction', 'Woof! Walk Time!', 'Run!', '["Increases the wearer’s ATK by 10%, and increases their DMG to enemies afflicted with Burn or Bleed by 16%. This also applies to DoT.",
-      "Increases the wearer’s ATK by 12.5%, and increases their DMG to enemies afflicted with Burn or Bleed by 20%. This also applies to DoT.",
-      "Increases the wearer’s ATK by 15%, and increases their DMG to enemies afflicted with Burn or Bleed by 24%. This also applies to DoT.",
-      "Increases the wearer’s ATK by 17.5%, and increases their DMG to enemies afflicted with Burn or Bleed by 28%. This also applies to DoT.",
-      "Increases the wearer’s ATK by 20%, and increases their DMG to enemies afflicted with Burn or Bleed by 32%. This also applies to DoT."]',4);
-
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/the-seriousness-of-breakfast.webp', 'Erudition', 'The Seriousness Of Breakfast', 'Get Ready','["Increases the wearer’s DMG by 12%. For every defeated enemy, the wearer’s ATK increases by 4%, stacking up to 3 time(s).",
-      "Increases the wearer’s DMG by 15%. For every defeated enemy, the wearer’s ATK increases by 5%, stacking up to 3 time(s).",
-      "Increases the wearer’s DMG by 18%. For every defeated enemy, the wearer’s ATK increases by 6%, stacking up to 3 time(s).",
-      "Increases the wearer’s DMG by 21%. For every defeated enemy, the wearer’s ATK increases by 7%, stacking up to 3 time(s).",
-      "Increases the wearer’s DMG by 24%. For every defeated enemy, the wearer’s ATK increases by 8%, stacking up to 3 time(s)."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8, 84.84, 189, 293.16, 370.44]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/warmth-shortens-cold-nights.webp', 'Abundance', 'Warmth Shortens Cold Nights', 'Tiny Light', '["Increases the wearer’s Max HP by 16%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 2.0% of their respective Max HP.",
-      "Increases the wearer’s Max HP by 20%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 2.5% of their respective Max HP.",
-      "Increases the wearer’s Max HP by 24%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 3% of their respective Max HP.",
-      "Increases the wearer’s Max HP by 28%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 3.5% of their respective Max HP.",
-      "Increases the wearer’s Max HP by 32%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 4% of their respective Max HP."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[24,121.2,270,418.8,529.2]', '[38,194,432,670,847]', '/images/weapons/we-will-meet-again.webp', 'Nihility', 'We Will Meet Again', 'A Discourse In Arms', '["After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 48% of the wearer’s ATK to a random enemy that has been attacked.",
-      "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 60% of the wearer’s ATK to a random enemy that has been attacked.",
-      "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 72% of the wearer’s ATK to a random enemy that has been attacked.",
-      "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 84% of the wearer’s ATK to a random enemy that has been attacked.",
-      "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 96% of the wearer’s ATK to a random enemy that has been attacked."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[24,121.2,270,418.8,529.2]', '[38,194,432,670,847]', '/images/weapons/this-is-me!.webp', 'Preservation', 'This Is Me!', 'New Chapter', '["Increases the wearer’s DEF by 16%. Increases the DMG of the wearer when they use their Ultimate by 60% of the wearer’s DEF. This effect only apply 1 time per enemy target.",
-      "Increases the wearer’s DEF by 20%. Increases the DMG of the wearer when they use their Ultimate by 75% of the wearer’s DEF. This effect only apply 1 time per enemy target.",
-      "Increases the wearer’s DEF by 24%. Increases the DMG of the wearer when they use their Ultimate by 90% of the wearer’s DEF. This effect only apply 1 time per enemy target.",
-      "Increases the wearer’s DEF by 28%. Increases the DMG of the wearer when they use their Ultimate by 105% of the wearer’s DEF. This effect only apply 1 time per enemy target.",
-      "Increases the wearer’s DEF by 32%. Increases the DMG of the wearer when they use their Ultimate by 120% of the wearer’s DEF. This effect only apply 1 time per enemy target."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[24,121.2,270,418.8,529.2]','[15,75.75,168.75,261.75,330.75]',  '[38,194,432,670,847]', '/images/weapons/return-to-darkness.webp', 'Hunt', 'Return To Darkness', 'Raging Waves', '["Increases the wearer’s CRIT Rate by 12%. After a CRIT Hit, there is a 16% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
-      "Increases the wearer’s CRIT Rate by 15%. After a CRIT Hit, there is a 20% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
-      "Increases the wearer’s CRIT Rate by 18%. After a CRIT Hit, there is a 24% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
-      "Increases the wearer’s CRIT Rate by 21%. After a CRIT Hit, there is a 28% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
-      "Increases the wearer’s CRIT Rate by 24%. After a CRIT Hit, there is a 32% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/carve-the-moon-weave-the-clouds.webp', 'Harmony', 'Carve The Moon Weave The Clouds', 'Secret', '["At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 10%, all allies’ CRIT DMG increases by 12%, or all allies’ Energy Regeneration Rate increases by 6%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-      "At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 12.5%, all allies’ CRIT DMG increases by 15%, or all allies’ Energy Regeneration Rate increases by 7.5%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-      "At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 15%, all allies’ CRIT DMG increases by 18%, or all allies’ Energy Regeneration Rate increases by 9%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-      "At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 17.5%, all allies’ CRIT DMG increases by 21%, or all allies’ Energy Regeneration Rate increases by 10.5%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
-      "At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 20%, all allies’ CRIT DMG increases by 24%, or all allies’ Energy Regeneration Rate increases by 12%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[24,121.2,270,418.8,529.2]', '[12,60.6,135,209.4,264.6]', '[43,218,486,754,953]','/images/weapons/nowhere-to-run.webp', 'Destruction', 'Nowhere To Run', 'Desperate Times', '["Increases the wearer’s ATK by 24%. Whenever the wearer defeats an enemy, they restore HP equal to 12% of their ATK.",
-      "Increases the wearer’s ATK by 30%. Whenever the wearer defeats an enemy, they restore HP equal to 15% of their ATK.",
-      "Increases the wearer’s ATK by 36%. Whenever the wearer defeats an enemy, they restore HP equal to 18% of their ATK.",
-      "Increases the wearer’s ATK by 42%. Whenever the wearer defeats an enemy, they restore HP equal to 21% of their ATK.",
-      "Increases the wearer’s ATK by 48%. Whenever the wearer defeats an enemy, they restore HP equal to 24% of their ATK."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[24,121.2,270,418.8,529.2]','[15,75.75,168.75,261.75,330.75]',  '[38,194,432,670,847]', '/images/weapons/today-is-another-peaceful-day.webp', 'Erudition', 'Today Is Another Peaceful Day', 'A Storm Is Coming', '["After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.20% per point of Energy, up to 160 Energy.",
-      "After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.25% per point of Energy, up to 160 Energy.",
-      "After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.30% per point of Energy, up to 160 Energy.",
-      "After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.35% per point of Energy, up to 160 Energy.",
-      "After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.40% per point of Energy, up to 160 Energy."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/before-the-tutorial-mission-starts.webp', 'Nihility', 'Before The Tutorial Mission Starts', 'Quick On The Draw', '["Increases the wearer’s Effect Hit Rate by 20%. When the wearer attacks DEF-reduced enemies, regenerates 4 Energy.",
-      "Increases the wearer’s Effect Hit Rate by 25%. When the wearer attacks DEF-reduced enemies, regenerates 5 Energy.",
-      "Increases the wearer’s Effect Hit Rate by 30%. When the wearer attacks DEF-reduced enemies, regenerates 6 Energy.",
-      "Increases the wearer’s Effect Hit Rate by 35%. When the wearer attacks DEF-reduced enemies, regenerates 7 Energy.",
-      "Increases the wearer’s Effect Hit Rate by 40%. When the wearer attacks DEF-reduced enemies, regenerates 8 Energy."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[18,90.9,202.5,314.1,396.9]', '[53, 267, 594, 921, 1164]', '/images/weapons/night-on-the-milky-way.webp', 'Erudition', 'Night On The Milky Way', 'Meteor Swarm' , '["For every enemy on the field, increases the wearer’s ATK by 9.0%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn.",
-      "For every enemy on the field, increases the wearer’s ATK by 10.5%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 35% for 1 turn.",
-      "For every enemy on the field, increases the wearer’s ATK by 12%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 40% for 1 turn.",
-      "For every enemy on the field, increases the wearer’s ATK by 13.5%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 45% for 1 turn.",
-      "For every enemy on the field, increases the wearer’s ATK by 15%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 50% for 1 turn."]',5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/in-the-night.webp', 'Hunt', 'In The Night', 'Flowers And Butterflies', '["Increases the wearer’s CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 6% and the CRIT DMG of their Ultimate is increased by 12%. This effect can stack up to 6 time(s).",
-      "Increases the wearer’s CRIT Rate by 21%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 7% and the CRIT DMG of their Ultimate is increased by 14%. This effect can stack up to 6 time(s).",
-      "Increases the wearer’s CRIT Rate by 24%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 8% and the CRIT DMG of their Ultimate is increased by 16%. This effect can stack up to 6 time(s).",
-      "Increases the wearer’s CRIT Rate by 27%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 9% and the CRIT DMG of their Ultimate is increased by 18%. This effect can stack up to 6 time(s).",
-      "Increases the wearer’s CRIT Rate by 30%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 10% and the CRIT DMG of their Ultimate is increased by 20%. This effect can stack up to 6 time(s)."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[18,90.9,202.5,314.1,396.9]', '[53, 267, 594, 921, 1164]', '/images/weapons/something-irreplaceable.webp', 'Destruction', 'Something Irreplaceable', 'Kinship', '["Increases the wearer’s ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-      "Increases the wearer’s ATK by 28%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 9% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 28% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-      "Increases the wearer’s ATK by 32%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 10% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 32% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-      "Increases the wearer’s ATK by 36%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 11% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 36% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
-      "Increases the wearer’s ATK by 40%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 12% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 40% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[21,106.05, 236.25, 366.45, 463.05]', '[53, 267, 594, 921, 1164]', '/images/weapons/but-the-battle-isnt-over.webp', 'Harmony', 'But The Battle Isnt Over', 'Heir', '["Increases the wearer’s Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).",
-      "Increases the wearer’s Energy Regeneration Rate by 12% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 35% more DMG for 1 turn(s).",
-      "Increases the wearer’s Energy Regeneration Rate by 14% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 40% more DMG for 1 turn(s).",
-      "Increases the wearer’s Energy Regeneration Rate by 16% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 45% more DMG for 1 turn(s).",
-      "Increases the wearer’s Energy Regeneration Rate by 18% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 50% more DMG for 1 turn(s)."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/in-the-name-of-the-world.webp', 'Nihility', 'In The Name Of The World', 'Inheritor', '["Increases the wearer’s DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%.",
-      "Increases the wearer’s DMG to debuffed enemies by 28%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 21%, and ATK increases by 28%.",
-      "Increases the wearer’s DMG to debuffed enemies by 32%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 24%, and ATK increases by 32%.",
-      "Increases the wearer’s DMG to debuffed enemies by 36%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 27%, and ATK increases by 36%.",
-      "Increases the wearer’s DMG to debuffed enemies by 40%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 30%, and ATK increases by 40%."]',5);
-
-insert into "users"
-      ("username", "hashedPassword")
-      values('1','1');
-
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[27,136.35,303.75,471.15,595.35]', '[48,242,761,838,1058]','/images/weapons/moment-of-victory.webp', 'Preservation', 'Moment Of Victory', 'Verdict', '["Increases the wearer’s DEF by 24% and Effect Hit Rate by 24%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 24% until the end of the wearer’s turn.",
-      "Increases the wearer’s DEF by 28% and Effect Hit Rate by 28%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 28% until the end of the wearer’s turn.",
-      "Increases the wearer’s DEF by 32% and Effect Hit Rate by 32%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 32% until the end of the wearer’s turn.",
-      "Increases the wearer’s DEF by 36% and Effect Hit Rate by 36%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 36% until the end of the wearer’s turn.",
-      "Increases the wearer’s DEF by 40% and Effect Hit Rate by 40%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 40% until the end of the wearer’s turn."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/patience-is-all-you-need.webp', 'Nihility', 'Patience Is All You Need', 'Spider Web', '["Increases DMG dealt by the wearer by 24%. After every attack launched by the wearer, their SPD increases by 4.8%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60% of the wearer’s ATK, lasting for 1 turn.",
-      "Increases DMG dealt by the wearer by 28%. After every attack launched by the wearer, their SPD increases by 5.6%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 70% of the wearer’s ATK, lasting for 1 turn.",
-      "Increases DMG dealt by the wearer by 32%. After every attack launched by the wearer, their SPD increases by 6.4%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 80% of the wearer’s ATK, lasting for 1 turn.",
-      "Increases DMG dealt by the wearer by 36%. After every attack launched by the wearer, their SPD increases by 7.2%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 90% of the wearer’s ATK, lasting for 1 turn.",
-      "Increases DMG dealt by the wearer by 40%. After every attack launched by the wearer, their SPD increases by 8%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 100% of the wearer’s ATK, lasting for 1 turn."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/incessant-rain.webp', 'Nihility', 'Incessant Rain', 'Mirage Of Reality', '["Increases the wearer’s Effect Hit Rate by 24%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 12%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12% increased DMG for 1 turn.",
-      "Increases the wearer’s Effect Hit Rate by 28%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 14%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 14% increased DMG for 1 turn.",
-      "Increases the wearer’s Effect Hit Rate by 32%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 16%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 16% increased DMG for 1 turn.",
-      "Increases the wearer’s Effect Hit Rate by 36%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 18%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 18% increased DMG for 1 turn.",
-      "Increases the wearer’s Effect Hit Rate by 40%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 20%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 20% increased DMG for 1 turn."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[18,90.9,202.5,314.1,396.9]', '[53, 267, 594, 921, 1164]', '/images/weapons/echoes-of-the-coffin.webp', 'Abundance', 'Echoes Of The Coffin', 'Thorns', '["Increases the wearer’s ATK by 24%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12 SPD for 1 turn.",
-      "Increases the wearer’s ATK by 28%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3.5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 14 SPD for 1 turn.",
-      "Increases the wearer’s ATK by 32%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 4 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 16 SPD for 1 turn.",
-      "Increases the wearer’s ATK by 36%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 4.5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 18 SPD for 1 turn.",
-      "Increases the wearer’s ATK by 40%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 20 SPD for 1 turn."]', 5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]','[15,75.75,168.75,261.75,330.75]', '[58,291,648,1005,1270]','/images/weapons/the-unreachable-side.webp', 'Destruction', 'The Unreachable Side', 'Unfulfilled Yearning', '["Increase the wearer’s CRIT Rate and Max HP by 18%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 24%. This effect is dispelled after the user uses an attack.",
-      "Increase the wearer’s CRIT Rate and Max HP by 21%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 28%. This effect is dispelled after the user uses an attack.",
-      "Increase the wearer’s CRIT Rate and Max HP by 24%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 32%. This effect is dispelled after the user uses an attack.",
-      "Increase the wearer’s CRIT Rate and Max HP by 27%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 36%. This effect is dispelled after the user uses an attack.",
-      "Increase the wearer’s CRIT Rate and Max HP by 30%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 40%. This effect is dispelled after the user uses an attack."]',5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/before-dawn.webp', 'Erudition', 'Before Dawn', 'Long Night' ,'["Increases the wearer’s CRIT DMG by 36%. Increases the wearer’s Skill and Ultimate DMG by 18%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48%.",
-      "Increases the wearer’s CRIT DMG by 42%. Increases the wearer’s Skill and Ultimate DMG by 21%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 56%.",
-      "Increases the wearer’s CRIT DMG by 48%. Increases the wearer’s Skill and Ultimate DMG by 24%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 64%.",
-      "Increases the wearer’s CRIT DMG by 54%. Increases the wearer’s Skill and Ultimate DMG by 27%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 72%.",
-      "Increases the wearer’s CRIT DMG by 60%. Increases the wearer’s Skill and Ultimate DMG by 30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 80%."]',5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[24,121.2,270,418.8,529.2]', '[58,291,648,1005,1270]','/images/weapons/she-already-shut-her-eyes.webp', 'Preservation', 'She Already Shut Her Eyes', 'Visioscape', '["Increases the wearer’s Max HP by 24% and Energy Regeneration Rate by 12%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 9.0%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 80% of their respective lost HP.",
-      "Increases the wearer’s Max HP by 28% and Energy Regeneration Rate by 14%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 10.5%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 85% of their respective lost HP.",
-      "Increases the wearer’s Max HP by 32% and Energy Regeneration Rate by 16%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 12%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 90% of their respective lost HP.",
-      "Increases the wearer’s Max HP by 36% and Energy Regeneration Rate by 18%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 13.5%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 95% of their respective lost HP.",
-      "Increases the wearer’s Max HP by 40% and Energy Regeneration Rate by 20%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 15%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 100% of their respective lost HP."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/sleep-like-the-dead.webp', 'Hunt', 'Sleep Like The Dead', 'Sweet Dreams', '["Increases the wearer’s CRIT DMG by 30%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 36% for 1 turn. This effect can only trigger once every 3 turn(s).",
-      "Increases the wearer’s CRIT DMG by 35%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 42% for 1 turn. This effect can only trigger once every 3 turn(s).",
-      "Increases the wearer’s CRIT DMG by 40%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 48% for 1 turn. This effect can only trigger once every 3 turn(s).",
-      "Increases the wearer’s CRIT DMG by 45%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 54% for 1 turn. This effect can only trigger once every 3 turn(s).",
-      "Increases the wearer’s CRIT DMG by 50%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 60% for 1 turn. This effect can only trigger once every 3 turn(s)."]',5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[21,106.05,236.25,366.45,463.05]', '[58,291,648,1005,1270]','/images/weapons/time-waits-for-no-one.webp','Abundance', 'Time Waits For No One', 'Morn, Noon, Dusk, and Night', '["Increases the wearer’s Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
-      "Increases the wearer’s Max HP by 21% and Outgoing Healing by 14%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 42% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
-      "Increases the wearer’s Max HP by 24% and Outgoing Healing by 16%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 48% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
-      "Increases the wearer’s Max HP by 27% and Outgoing Healing by 18%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 54% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
-      "Increases the wearer’s Max HP by 30% and Outgoing Healing by 20%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 60% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[18,90.9,202.5,314.1,396.9]', '[53, 267, 594, 921, 1164]', '/images/weapons/i-shall-be-my-own-sword.webp', 'Destruction', 'I Shall Be My Own Sword', 'With This Evening Jade', '["Increases the wearer’s CRIT DMG by 20%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 14.0%. When 3 stacks are reached, additionally enables the attack to ignore 12% of the enemy’s DEF. This effect will be removed after the wearer uses an attack.",
-      "Increases the wearer’s CRIT DMG by 23%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 16.5%. When 3 stacks are reached, additionally enables the attack to ignore 14% of the enemy’s DEF. This effect will be removed after the wearer uses an attack.",
-      "Increases the wearer’s CRIT DMG by 26%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 18%. When 3 stacks are reached, additionally enables the attack to ignore 16% of the enemy’s DEF. This effect will be removed after the wearer uses an attack.",
-      "Increases the wearer’s CRIT DMG by 29%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 19.5%. When 3 stacks are reached, additionally enables the attack to ignore 18% of the enemy’s DEF. This effect will be removed after the wearer uses an attack.",
-      "Increases the wearer’s CRIT DMG by 32%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 21%. When 3 stacks are reached, additionally enables the attack to ignore 20% of the enemy’s DEF. This effect will be removed after the wearer uses an attack."]', 5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[28.8, 145.44,324,502.56,635.04]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/brighter-than-the-sun.webp', 'Destruction', 'Brighter Than The Sun', 'Defiant Till Death','["Increases the wearer’s CRIT Rate by 18%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 18% and Energy Regeneration Rate by 6.0%. Dragon’s Call may be stacked up to 2 times.",
-      "Increases the wearer’s CRIT Rate by 21%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 21% and Energy Regeneration Rate by 7.0%. Dragon’s Call may be stacked up to 2 times.",
-      "Increases the wearer’s CRIT Rate by 24%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 24% and Energy Regeneration Rate by 8.0%. Dragon’s Call may be stacked up to 2 times.",
-      "Increases the wearer’s CRIT Rate by 27%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 27% and Energy Regeneration Rate by 9.0%. Dragon’s Call may be stacked up to 2 times.",
-      "Increases the wearer’s CRIT Rate by 30%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 30% and Energy Regeneration Rate by 10.0%. Dragon’s Call may be stacked up to 2 times."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/worrisome-blissful.webp', 'Hunt', 'Worrisome Blissful', 'One At A Time', '["Increase the wearern’s CRIT Rate by 18% and their follow-up attacksn’ DMG by 30%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 12%.",
-      "Increase the wearern’s CRIT Rate by 21% and their follow-up attacksn’ DMG by 35%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 14%.",
-      "Increase the wearern’s CRIT Rate by 24% and their follow-up attacksn’ DMG by 40%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 16%.",
-      "Increase the wearern’s CRIT Rate by 27% and their follow-up attacksn’ DMG by 45%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 18%.",
-      "Increase the wearern’s CRIT Rate by 30% and their follow-up attacksn’ DMG by 50%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 20%."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/on-the-fall-of-an-aeon.webp', 'Destruction', 'On The Fall Of An Aeon', 'Moth To Flames', '["Whenever the wearer attacks, their ATK is increased by 8% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 12% for 2 turn(s).",
-      "Whenever the wearer attacks, their ATK is increased by 10% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 15% for 2 turn(s).",
-      "Whenever the wearer attacks, their ATK is increased by 12% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 18% for 2 turn(s).",
-      "Whenever the wearer attacks, their ATK is increased by 14% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 21% for 2 turn(s).",
-      "Whenever the wearer attacks, their ATK is increased by 16% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 24% for 2 turn(s)."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/cruising-in-the-stellar-sea.webp', 'Hunt', 'Cruising In The Stellar Sea', 'Chase', '["Increases the wearer’s CRIT rate by 8%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).",
-      "Increases the wearer’s CRIT rate by 10%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 10%. When the wearer defeats an enemy, their ATK is increased by 25% for 2 turn(s).",
-      "Increases the wearer’s CRIT rate by 12%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 12%. When the wearer defeats an enemy, their ATK is increased by 30% for 2 turn(s).",
-      "Increases the wearer’s CRIT rate by 14%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 14%. When the wearer defeats an enemy, their ATK is increased by 35% for 2 turn(s).",
-      "Increases the wearer’s CRIT rate by 16%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 16%. When the wearer defeats an enemy, their ATK is increased by 40% for 2 turn(s)."]',5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[24,121.2,270,418.8,529.2]', '[48, 242, 761, 838, 1058]','/images/weapons/texture-of-memories.webp', 'Preservation', 'Texture Of Memories', 'Treasure', '["Increases the wearer’s Effect RES by 8%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12%.",
-      "Increases the wearer’s Effect RES by 10%. If the wearer is attacked and has no Shield, they gain a Shield equal to 20% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 15%.",
-      "Increases the wearer’s Effect RES by 12%. If the wearer is attacked and has no Shield, they gain a Shield equal to 24% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 18%.",
-      "Increases the wearer’s Effect RES by 14%. If the wearer is attacked and has no Shield, they gain a Shield equal to 28% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 21%.",
-      "Increases the wearer’s Effect RES by 16%. If the wearer is attacked and has no Shield, they gain a Shield equal to 32% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 24%."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/past-and-future.webp', 'Harmony', 'Past And Future', 'Kites From The Past', '["When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).",
-      "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 20% increased DMG for 1 turn(s).",
-      "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 24% increased DMG for 1 turn(s).",
-      "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 28% increased DMG for 1 turn(s).",
-      "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 32% increased DMG for 1 turn(s)."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[24,121.2,270,418.8,529.2]', '[53, 267, 594, 921, 1164]', '/images/weapons/night-of-fright.webp', 'Abundance', 'Night Of Fright', 'Deep, Deep Breaths', '["Increases the wearer’s Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 2.4%. This effect can stack up to 5 times and lasts for 2 turn(s).",
-      "Increases the wearer’s Energy Regeneration Rate by 14%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 11% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 2.8%. This effect can stack up to 5 times and lasts for 2 turn(s).",
-      "Increases the wearer’s Energy Regeneration Rate by 16%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 12% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 3.2%. This effect can stack up to 5 times and lasts for 2 turn(s).",
-      "Increases the wearer’s Energy Regeneration Rate by 18%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 13% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 3.6%. This effect can stack up to 5 times and lasts for 2 turn(s).",
-      "Increases the wearer’s Energy Regeneration Rate by 20%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 14% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 4%. This effect can stack up to 5 times and lasts for 2 turn(s)."]', 5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/an-instant-before-a-gaze.webp', 'Erudition', 'An Instant Before A Gaze', 'A Knight’s Pilgrimage', '["Increases the wearer’s CRIT DMG by 36%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.36%, up to 180 points of Energy.",
-      "Increases the wearer’s CRIT DMG by 42%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.42%, up to 180 points of Energy.",
-      "Increases the wearer’s CRIT DMG by 48%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.48%, up to 180 points of Energy.",
-      "Increases the wearer’s CRIT DMG by 54%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.54%, up to 180 points of Energy.",
-      "Increases the wearer’s CRIT DMG by 60%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.60%, up to 180 points of Energy."]', 5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[24,121.2,270,418.8,529.2]', '[24,121.2,270,418.8,529.2]', '[48,242,761,838,1058]','/images/weapons/past-self-in-mirror.webp', 'Harmony', 'Past Self In Mirror', 'The Plum Fragrance In My Bones', '["Increases the wearer’s Break Effect by 60%. When the wearer uses their Ultimate, increases all allies’ DMG by 24%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 10 Energy immediately. Effects of the same type cannot stack.",
-      "Increases the wearer’s Break Effect by 70%. When the wearer uses their Ultimate, increases all allies’ DMG by 28%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 12.5 Energy immediately. Effects of the same type cannot stack.",
-      "Increases the wearer’s Break Effect by 80%. When the wearer uses their Ultimate, increases all allies’ DMG by 32%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 15 Energy immediately. Effects of the same type cannot stack.",
-      "Increases the wearer’s Break Effect by 90%. When the wearer uses their Ultimate, increases all allies’ DMG by 36%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 17.5 Energy immediately. Effects of the same type cannot stack.",
-      "Increases the wearer’s Break Effect by 100%. When the wearer uses their Ultimate, increases all allies’ DMG by 40%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 20 Energy immediately. Effects of the same type cannot stack."]',5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[21,106.05, 236.25, 366.45, 463.05]', '[53, 267, 594, 921, 1164]', '/images/weapons/earthly-escapade.webp', 'Harmony', 'Earthly Escapade', 'Capriciousness', '["Increases the wearer’s CRIT DMG by 32%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 10% and their CRIT DMG increased by 28%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns.",
-      "Increases the wearer’s CRIT DMG by 39%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 11% and their CRIT DMG increased by 35%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns.",
-      "Increases the wearer’s CRIT DMG by 46%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 12% and their CRIT DMG increased by 42%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns.",
-      "Increases the wearer’s CRIT DMG by 53%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 13% and their CRIT DMG increased by 49%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns.",
-      "Increases the wearer’s CRIT DMG by 60%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 14% and their CRIT DMG increased by 56%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns."]', 5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216, 335.04,423.36]', '[30, 151.5,337.5, 523.5, 661.5]', '[48,242,761,838,1058]','/images/weapons/inherently-unjust-destiny.webp', 'Preservation', 'Inherently Unjust Destiny', 'All-In', '["Increases the wearer’s DEF by 40%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 40%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 100% base chance to increase the DMG taken by the attacked enemy target by 10.0%, lasting for 2 turn(s).",
-      "Increases the wearer’s DEF by 46%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 46%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 115% base chance to increase the DMG taken by the attacked enemy target by 11.5%, lasting for 2 turn(s).",
-      "Increases the wearer’s DEF by 52%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 52%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 130% base chance to increase the DMG taken by the attacked enemy target by 13%, lasting for 2 turn(s).",
-      "Increases the wearer’s DEF by 58%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 58%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 145% base chance to increase the DMG taken by the attacked enemy target by 14.5%, lasting for 2 turn(s).",
-      "Increases the wearer’s DEF by 64%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 64%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 160% base chance to increase the DMG taken by the attacked enemy target by 16%, lasting for 2 turn(s)."]',5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[24,121.2,270,418.8,529.2]', '[43,218,486,754,953]', '/images/weapons/baptism-of-pure-thought.webp', 'Hunt', 'Baptism Of Pure Thought', 'Mental Training' , '["Increases the wearer’s CRIT DMG by 20%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 8%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 36% and enables their follow-up attacks to ignore 24% of the target’s DEF. This effect lasts for 2 turns.",
-      "Increases the wearer’s CRIT DMG by 23%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 9%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 42% and enables their follow-up attacks to ignore 28% of the target’s DEF. This effect lasts for 2 turns.",
-      "Increases the wearer’s CRIT DMG by 26%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 10%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 48% and enables their follow-up attacks to ignore 32% of the target’s DEF. This effect lasts for 2 turns.",
-      "Increases the wearer’s CRIT DMG by 29%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 11%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 54% and enables their follow-up attacks to ignore 36% of the target’s DEF. This effect lasts for 2 turns.",
-      "Increases the wearer’s CRIT DMG by 32%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 12%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 60% and enables their follow-up attacks to ignore 40% of the target’s DEF. This effect lasts for 2 turns."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/solitary-healing.webp', 'Nihility', 'Solitary Healing', 'Chaos Elixir', '["Increases the wearer’s Break Effect by 20%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 24%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 4 Energy for the wearer.",
-      "Increases the wearer’s Break Effect by 25%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 30%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 4.5 Energy for the wearer.",
-      "Increases the wearer’s Break Effect by 30%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 36%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 5 Energy for the wearer.",
-      "Increases the wearer’s Break Effect by 35%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 42%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 5.5 Energy for the wearer.",
-      "Increases the wearer’s Break Effect by 40%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 48%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 6 Energy for the wearer."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04, 423.36]', '[15,75.75,168.75,261.75,330.75]', '[48,242,761,838,1058]','/images/weapons/what-is-real.webp', 'Abundance', 'What Is Real', 'Hypothesis', '["Increases the wearer’s Break Effect by 24%. After using their Basic ATK, restore HP for the wearer by an amount equal to 2.0% of their max HP plus 800.",
-      "Increases the wearer’s Break Effect by 30%. After using their Basic ATK, restore HP for the wearer by an amount equal to 2.5% of their max HP plus 800.",
-      "Increases the wearer’s Break Effect by 36%. After using their Basic ATK, restore HP for the wearer by an amount equal to 3% of their max HP plus 800.",
-      "Increases the wearer’s Break Effect by 42%. After using their Basic ATK, restore HP for the wearer by an amount equal to 3.5% of their max HP plus 800.",
-      "Increases the wearer’s Break Effect by 48%. After using their Basic ATK, restore HP for the wearer by an amount equal to 4% of their max HP plus 800."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/dreamville-adventure.webp', 'Harmony', 'Dreamville Adventure', 'Solidarity', '["After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 12%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
-      "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 14%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
-      "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 16%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
-      "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 18%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
-      "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 20%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/final-victor.webp', 'Hunt', 'Final Victor', 'All In' ,'["Increases the wearer’s ATK by 12%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 8%. Good Fortune will be removed at the end of the wearer’s turn.",
-      "Increases the wearer’s ATK by 14%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 9%. Good Fortune will be removed at the end of the wearer’s turn.",
-      "Increases the wearer’s ATK by 16%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 10%. Good Fortune will be removed at the end of the wearer’s turn.",
-      "Increases the wearer’s ATK by 18%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 11%. Good Fortune will be removed at the end of the wearer’s turn.",
-      "Increases the wearer’s ATK by 20%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 12%. Good Fortune will be removed at the end of the wearer’s turn."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/flames-afar.webp','Destruction', 'Flames Afar', 'Deflagration', '["When the cumulative HP loss of the wearer during a single attack exceeds 25% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
-      "When the cumulative HP loss of the wearer during a single attack exceeds 31.25% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
-      "When the cumulative HP loss of the wearer during a single attack exceeds 37.5% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
-      "When the cumulative HP loss of the wearer during a single attack exceeds 43.75% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
-      "When the cumulative HP loss of the wearer during a single attack exceeds 50% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s)."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/destinys-threads-forewoven.webp', 'Preservation', 'Destinys Threads Forewoven','Innsight', '["Increases the wearer’s Effect RES by 12%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 0.8%, up to a maximum increase of 32%.",
-      "Increases the wearer’s Effect RES by 14%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 0.9%, up to a maximum increase of 36%.",
-      "Increases the wearer’s Effect RES by 16%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 1%, up to a maximum increase of 40%.",
-      "Increases the wearer’s Effect RES by 18%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 1.1%, up to a maximum increase of 44%.",
-      "Increases the wearer’s Effect RES by 20%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 1.2%, up to a maximum increase of 48%."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/the-day-the-cosmos-fell.webp', 'Erudtion', 'The Day The Cosmos Fell', 'Stratagem', '["Increases the wearer’s ATK by 16%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 20% for 2 turns.",
-      "Increases the wearer’s ATK by 18%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 25% for 2 turns.",
-      "Increases the wearer’s ATK by 20%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 30% for 2 turns.",
-      "Increases the wearer’s ATK by 22%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 35% for 2 turns.",
-      "Increases the wearer’s ATK by 24%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 40% for 2 turns."]' ,4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/its-showtime.webp', 'Nihility', 'Its Showtime', 'Self-Amusement' , '["When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 6%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 20%.",
-      "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 7%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 24%.",
-      "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 8%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 28%.",
-      "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 9%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 32%.",
-      "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 10%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 36%."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/reforged-remembrance.webp', 'Nihility', 'Reforged Remembrance', 'Crystalize', '["Increases the wearer’s Effect Hit Rate by 40%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 5% and enables the DoT dealt to ignore 7.2% of the target’s DEF.",
-      "Increases the wearer’s Effect Hit Rate by 45%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 6% and enables the DoT dealt to ignore 7.9% of the target’s DEF.",
-      "Increases the wearer’s Effect Hit Rate by 50%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 7% and enables the DoT dealt to ignore 8.6% of the target’s DEF.",
-      "Increases the wearer’s Effect Hit Rate by 55%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 8% and enables the DoT dealt to ignore 9.3% of the target’s DEF.",
-      "Increases the wearer’s Effect Hit Rate by 60%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 9% and enables the DoT dealt to ignore 10% of the target’s DEF."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/shared-feeling.webp', 'Abundance', 'Shared Feeling', 'Cure And Repair', '["Increases the wearer’s Outgoing Healing by 10%. When using Skill, regenerates 2 Energy for all allies.",
-      "Increases the wearer’s Outgoing Healing by 12.5%. When using Skill, regenerates 2.5 Energy for all allies.",
-      "Increases the wearer’s Outgoing Healing by 15%. When using Skill, regenerates 3 Energy for all allies.",
-      "Increases the wearer’s Outgoing Healing by 17.5%. When using Skill, regenerates 3.5 Energy for all allies.",
-      "Increases the wearer’s Outgoing Healing by 20%. When using Skill, regenerates 4 Energy for all allies."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/eternal-calculus.webp', 'Erudition', 'Eternal Calculus', 'Boundless Thought', '["Increases the wearer’s ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack 5 times and lasts until the next attack. If there are 3 or more enemy targets hit, this unit’s SPD increases by 8%, lasting for 1 turn."]',
-       5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/hey-over-here.webp', 'Abundance', 'Hey Over Here', 'I’m Not Afraid!', '["Increases the wearer’s Max HP by 8%. When the wearer uses Skill, increases Outgoing Healing by 16%, lasting for 2 turns.",
-      "Increases the wearer’s Max HP by 9%. When the wearer uses Skill, increases Outgoing Healing by 19%, lasting for 2 turns.",
-      "Increases the wearer’s Max HP by 10%. When the wearer uses Skill, increases Outgoing Healing by 22%, lasting for 2 turns.",
-      "Increases the wearer’s Max HP by 11%. When the wearer uses Skill, increases Outgoing Healing by 25%, lasting for 2 turns.",
-      "Increases the wearer’s Max HP by 12%. When the wearer uses Skill, increases Outgoing Healing by 28%, lasting for 2 turns."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[28.8, 145.44,324,502.56,635.04]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/along-the-passing-shore.webp', 'Nihility', 'Along The Passing Shore', 'Steerer','["Increases the wearer’s CRIT DMG by 36%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 24%.",
-      "Increases the wearer’s CRIT DMG by 42%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 28% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 28%.",
-      "Increases the wearer’s CRIT DMG by 48%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 32% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 32%.",
-      "Increases the wearer’s CRIT DMG by 54%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 36% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 36%.",
-      "Increases the wearer’s CRIT DMG by 60%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 40% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 40%."]',5 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[24,121.2,270,418.8,529.2]', '[53, 267, 594, 921, 1164]', '/images/weapons/whereabouts-should-dreams-rest.webp', 'Destruction', 'Whereabouts Should Dreams Rest', 'Metamorphosis', '["Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.",
-      "Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.",
-      "Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.",
-      "Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.",
-      "Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/indelible-promise.webp', 'Destruction', 'Indelible Promise', 'Inheritance' ,'["Increases the wearer’s Break Effect by 28%. When the wearer uses their Ultimate, increases their CRIT Rate by 15%, lasting for 2 turn(s).",
-      "Increases the wearer’s Break Effect by 35%. When the wearer uses their Ultimate, increases their CRIT Rate by 18.75%, lasting for 2 turn(s).",
-      "Increases the wearer’s Break Effect by 42%. When the wearer uses their Ultimate, increases their CRIT Rate by 22.5%, lasting for 2 turn(s).",
-      "Increases the wearer’s Break Effect by 49%. When the wearer uses their Ultimate, increases their CRIT Rate by 26.25%, lasting for 2 turn(s).",
-      "Increases the wearer’s Break Effect by 56%. When the wearer uses their Ultimate, increases their CRIT Rate by 30%, lasting for 2 turn(s)."]',4 );
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/concert-for-two.webp', 'Preservation', 'Concert For Two', 'Inspire', '["Increases the wearer’s DEF by 16%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 4%.",
-      "Increases the wearer’s DEF by 20%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 5%.",
-      "Increases the wearer’s DEF by 24%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 6%.",
-      "Increases the wearer’s DEF by 28%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 7%.",
-      "Increases the wearer’s DEF by 32%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 8%."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[24,121.2,270,418.8,529.2]', '[43,218,486,754,953]', '/images/weapons/yet-hope-is-priceless.webp', 'Erudition', 'Yet Hope Is Priceless', 'Promise', '["Increases the wearer’s CRIT Rate by 16%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 12%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 20% of the target’s DEF, lasting 2 turn(s).",
-      "Increases the wearer’s CRIT Rate by 19%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 14%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 24% of the target’s DEF, lasting 2 turn(s).",
-      "Increases the wearer’s CRIT Rate by 22%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 16%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 28% of the target’s DEF, lasting 2 turn(s).",
-      "Increases the wearer’s CRIT Rate by 25%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 18%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 32% of the target’s DEF, lasting 2 turn(s).",
-      "Increases the wearer’s CRIT Rate by 28%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 20%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 36% of the target’s DEF, lasting 2 turn(s)."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/sailing-towards-a-second-life.webp', 'Hunt', 'Sailing Towards A Second Life', 'Rough Water', '["Increases the wearer’s Break Effect by 60%. The Break DMG dealt by the wearer ignores 20% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 12%.",
-      "Increases the wearer’s Break Effect by 70%. The Break DMG dealt by the wearer ignores 23% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 14%.",
-      "Increases the wearer’s Break Effect by 80%. The Break DMG dealt by the wearer ignores 26% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 16%.",
-      "Increases the wearer’s Break Effect by 90%. The Break DMG dealt by the wearer ignores 29% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 18%.",
-      "Increases the wearer’s Break Effect by 100%. The Break DMG dealt by the wearer ignores 32% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 20%."]',5);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/boundless-choreo.webp', 'Nihility', 'Boundless Choreo', 'Scrutinize', '["Increase the wearer’s CRIT Rate by 8%. The wearer deals 24% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
-      "Increase the wearer’s CRIT Rate by 10%. The wearer deals 30% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
-      "Increase the wearer’s CRIT Rate by 12%. The wearer deals 36% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
-      "Increase the wearer’s CRIT Rate by 14%. The wearer deals 42% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
-      "Increase the wearer’s CRIT Rate by 16%. The wearer deals 48% more CRIT DMG to enemies that are currently Slowed or have reduced DEF."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/after-the-charmony-fall.webp', 'Erudition', 'After The Charmony Fall', 'Quiescence', '["Increases the wearer’s Break Effect by 28%. After the wearer uses Ultimate, increases SPD by 8%, lasting for 2 turn(s).",
-      "Increases the wearer’s Break Effect by 35%. After the wearer uses Ultimate, increases SPD by 10%, lasting for 2 turn(s).",
-      "Increases the wearer’s Break Effect by 42%. After the wearer uses Ultimate, increases SPD by 12%, lasting for 2 turn(s).",
-      "Increases the wearer’s Break Effect by 49%. After the wearer uses Ultimate, increases SPD by 14%, lasting for 2 turn(s).",
-      "Increases the wearer’s Break Effect by 56%. After the wearer uses Ultimate, increases SPD by 16%, lasting for 2 turn(s)."]',4);
-
-insert into "weapons"
-      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[28.8, 145.44,324,502.56,635.04]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/flowing-nightglow.webp', 'Harmony', 'Flowing Nightglow', 'Pacify', '["Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 3.0%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 48% and increases all allies’ DMG dealt by 24%, lasting for 1 turn(s).",
-      "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 3.5%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 60% and increases all allies’ DMG dealt by 28%, lasting for 1 turn(s).",
-      "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 4%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 72% and increases all allies’ DMG dealt by 32%, lasting for 1 turn(s).",
-      "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 4.5%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 84% and increases all allies’ DMG dealt by 36%, lasting for 1 turn(s).",
-      "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 5%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 96% and increases all allies’ DMG dealt by 40%, lasting for 1 turn(s)."]',5 );
-
--- //readjust to above
 insert into "skills"
       ("skillName", "skillLevel")
       values('Diagnostic Kick','["Deals Lightning DMG equal to 50% of Bailu’s ATK to a single enemy.",
@@ -3302,5 +2470,1105 @@ insert into "characters"
       values('Misha', '[1,20,40,60,80]', 'A well-behaved young man serving as a hotel bellboy in Penacony. Misha has a great longing for the Nameless and dreams of one day embarking on a journey of his own.',
       '/images/characters/misha.png', '/images/characters/misha-portrait.png' , 'Destruction', 'Ice', 4, 142,143,144,48,48);
 
-      -- '/images/characters/argenti.png', '/images/characters/argenti-portrait.png'
-      -- ’
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Lash of Riches', '["Deals Quantum DMG equal to 45% of Jade’s ATK to a single target enemy, and Quantum DMG equal to 15% of Jade’s ATK to adjacent enemies.",
+      "Deals Quantum DMG equal to 54% of Jade’s ATK to a single target enemy, and Quantum DMG equal to 18% of Jade’s ATK to adjacent enemies.",
+      "Deals Quantum DMG equal to 63% of Jade’s ATK to a single target enemy, and Quantum DMG equal to 21% of Jade’s ATK to adjacent enemies.",
+      "Deals Quantum DMG equal to 72% of Jade’s ATK to a single target enemy, and Quantum DMG equal to 24% of Jade’s ATK to adjacent enemies.",
+      "Deals Quantum DMG equal to 81% of Jade’s ATK to a single target enemy, and Quantum DMG equal to 27% of Jade’s ATK to adjacent enemies.",
+      "Deals Quantum DMG equal to 90% of Jade’s ATK to a single target enemy, and Quantum DMG equal to 30% of Jade’s ATK to adjacent enemies."]'),
+      ('Acquisition Surety', '["Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 15% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 16% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 17% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 18% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 19% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 20% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 21.25% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 22.5% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 23.75% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1.",
+      "Makes a single target ally become a Debt Collector and increases their SPD by 30, lasting for 3 turn(s). After a Debt Collector attacks, deals 1 instance of Additional Quantum DMG equal to 25% of Jade’s ATK to each enemy target hit, and consumes the Debt Collector’s HP by an amount equal to 2% of their Max HP. If their current HP is insufficient, reduces their HP to 1. If Jade becomes a Debt Collector, she cannot gain the SPD boost effect, and her attacks do not consume HP. When a Debt Collector exists on the field, Jade cannot use her Skill. At the start of Jade’s every turn, the Debt Collector’s duration reduces by 1."]'),
+      ('Vow of the Deep', '["Deals Quantum DMG equal to 120% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 40%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 132% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 44%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 144% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 48%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 156% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 52%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 168% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 56%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 180% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 60%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 195% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 65%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 210% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 70%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 225% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 75%. This enhancing effect can activate 2 time(s).",
+      "Deals Quantum DMG equal to 240% of Jade’s ATK to all enemies. At the same time, enhances follow-up attack from Jade’s Talent, increasing the follow-up attack’s DMG multiplier by 80%. This enhancing effect can activate 2 time(s)."]');
+
+insert into "talent"
+      ("talentName",  "talentLevel")
+      values('Fang of Flare Flaying', '["After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 60% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 1.2%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 66% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 1.32%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 72% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 1.44%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 78% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 1.56%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 84% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 1.68%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 90% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 1.8%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 97.5% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 1.95%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 105% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 2.1%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 112.5% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 2.25%. This effect can stack up to 50 times.",
+      "After Jade or an ally that had become the Debt Collector attacks, Jade gains 1 Charge for each enemy target attacked. When the Charge reaches 8, consume 8 Charges to launch follow-up attack 1 time, dealing Quantum DMG equal to 120% of Jade’s ATK to all enemies. This follow-up attack does not generate Charge. Jade immediately gains 5 stack(s) of Pawned Asset when launching her Talent’s follow-up attack, with each stack of Pawned Asset increasing her CRIT DMG by 2.4%. This effect can stack up to 50 times."]');
+
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[148, 347, 614, 880, 1087]',  '[89.76, 210.94, 372.5, 534.07, 659.74]' ,'[69.3, 162.85,287.6,412.34,509.36]' ,'[103,103,103,103,103]' );
+
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Jade', '[1,20,40,60,80]', '	A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for her cornerstone Jade of Credit. A cold and elegant moneylender, she is skilled at understanding the human heart, with a personal hobby called Bonajade Exchange. She’s willing to wait patiently for high-value acquisitions and adept at extracting value from seemingly destitute clients.',
+      '/images/characters/jade.png', '/images/characters/jade-portrait.png', 'Erudition', 'Quantum', 5, 145,146,147,49,49);
+
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Skullcrush Spurs', '["Deals Physical DMG equal to Boothill’s 50% ATK to a single enemy.",
+      "Deals Physical DMG equal to Boothill’s 60% ATK to a single enemy.",
+      "Deals Physical DMG equal to Boothill’s 70% ATK to a single enemy.",
+      "Deals Physical DMG equal to Boothill’s 80% ATK to a single enemy.",
+      "Deals Physical DMG equal to Boothill’s 90% ATK to a single enemy.",
+      "Deals Physical DMG equal to Boothill’s 100% ATK to a single enemy."]'),
+      ('Sizzlin’ Tango', '["Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 15%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 16.5%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 18%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 19.5%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 21%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 22.5%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 24.38%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 26.25%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 28.13%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill.",
+      "Make a targeted enemy and Boothill enter the Standoff state. Boothill’s Basic ATK becomes Enhanced, and he cannot use his Skill, lasting for 2 turn(s). The remaining turn count reduces by 1 at the start of Boothill’s turn. The enemy target in Standoff becomes Taunted. When the enemy target/Boothill receives an attack from the other, the DMG they receive increases by 30%/15%. After this target is defeated or becomes Weakness Broken, Boothill obtains 1 stack of Pocket Trickshot, then dispels Standoff. This Skill cannot regenerate Energy. This turn will not end after using this Skill."]'),
+      ('Dust Devil’s Sunset Rodeo', '["Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 240% of Boothill’s ATK to the target and delays their action by 30%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 256% of Boothill’s ATK to the target and delays their action by 31%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 272% of Boothill’s ATK to the target and delays their action by 32%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 288% of Boothill’s ATK to the target and delays their action by 33%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 304% of Boothill’s ATK to the target and delays their action by 34%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 320% of Boothill’s ATK to the target and delays their action by 35%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 340% of Boothill’s ATK to the target and delays their action by 36.25%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 360% of Boothill’s ATK to the target and delays their action by 37.5%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 380% of Boothill’s ATK to the target and delays their action by 38.75%.",
+      "Apply Physical Weakness to a target enemy, lasting for 2 turn(s). Deals Physical DMG equal to 400% of Boothill’s ATK to the target and delays their action by 40%."]');
+
+
+insert into "talent"
+      ("talentName",  "talentLevel")
+      values('Five Peas in a Pod', '["Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 35%/60%/85% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 38.5%/66%/93.5% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 42%/72%/102% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 45.5%/78%/110.5% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 49%/84%/119% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 52.5%/90%/127.5% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 56.88%/97.5%/138.12% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 61.25%/105%/148.75% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 65.63%/112.5%/159.38% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle.",
+      "Every stack of Pocket Trickshot increases the Enhanced Basic Attack’s Toughness-Reducing DMG by 50%, stacking up to 3 stacks. If the target is Weakness Broken when the Enhanced Basic Attack is used, for every stack of Pocket Trickshot, deals Break DMG to this target equal to 70%/120%/170% of Boothill’s Physical Break DMG. The max Toughness taken into account by this attack cannot exceed ×16 times of the base Toughness-Reducing DMG dealt by the Basic Attack “Skullcrush Spurs.” After winning the battle, Boothill can retain Pocket Trickshot for the next battle."]');
+
+
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[164,385,679,974,1203]', '[84.48,198.53,350.59,502.66,620.93]','[59.4, 139.59, 246.51, 353.43, 436.59]', '[107,107,107,107,107]' );
+
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Boothill', '[1,20,40,60,80]', 'A cyborg cowboy drifting among the stars. Extremely optimistic and unrestrained. He is a member of the Galaxy Rangers who swore to punish the wretched by any and all means... His flamboyant and brash actions were all to draw the attention of the Interastral Peace Corporation — the target of his revenge.',
+      '/images/characters/boothill.png', '/images/characters/boothill-portrait.png', 'Hunt' , 'Physical', 5, 148,149,150,50,50);
+
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Farewell Hit', '["Deals Physical DMG equal to 50% of Trailblazer (Physical)’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 60% of Trailblazer (Physical)’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 70% of Trailblazer (Physical)’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 80% of Trailblazer (Physical)’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 90% of Trailblazer (Physical)’s ATK to a single enemy.",
+      "Deals Physical DMG equal to 100% of Trailblazer (Physical)’s ATK to a single enemy."]'),
+      ('RIP Home Run', '["Deals Physical DMG equal to 62.5% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 68.75% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 75% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 81.25% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 87.5% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 93.75% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 101.56% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 109.38% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 117.19% of the Trailblazer’s ATK to a single enemy and any adjacent enemies.",
+      "Deals Physical DMG equal to 120% of the Trailblazer’s ATK to a single enemy and any adjacent enemies."]'),
+      ('Stardust Ace', '["Deals Physical DMG equal to 180% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 108% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 189% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 113.4% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 198% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 118.8% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 207% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 124.2% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 216% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 129.6% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 225% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 135% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 236.25% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 141.75% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 247.5% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 148.5% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 258.75% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 155.25% of Trailblazer’s ATK to any adjacent enemies.",
+      "Deals Physical DMG equal to 270% of the Trailblazer’s ATK to a single enemy and Physical DMG equal to 162% of Trailblazer’s ATK to any adjacent enemies."]');
+
+
+insert into "talent"
+      ("talentName",  "talentLevel")
+      values('Perfect Pickoff', '["Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 10%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 11%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 12%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 13%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 14%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 15%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 16.25%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 17.5%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 18.75%. This effect stacks up to 2 time(s).",
+      "Each time the Trailblazer inflicts Weakness Break on an enemy, the Trailblazer’s ATK increases by 20%. This effect stacks up to 2 time(s)."]');
+
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[164,385,679,974,1203]', '[84.48,198.53,350.59,502.66,620.93]', '[62.7, 147.34, 260.2, 373.06, 460.85]', '[100,100,100,100,100]' );
+
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Trailblazer: Destruction', '[1,20,40,60,80]', 'A girl(boy) who boarded the Astral Express. She(He) chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.',
+      '/images/characters/trailblzer-destruction.png', '/images/characters/trailblzer-destruction-portrait.png' , 'Destruction', 'Physical', 4,151,152,153,51,51);
+
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Ice Breaking Light', '["Deals Fire DMG equal to 50% of Trailblazer’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 60% of Trailblazer’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 70% of Trailblazer’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 80% of Trailblazer’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 90% of Trailblazer’s ATK to a single enemy.",
+      "Deals Fire DMG equal to 100% of Trailblazer’s ATK to a single enemy."]'),
+      ('Ever-Burning Amber', '["Increases the Trailblazer’s DMG Reduction by 40% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 41% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 42% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 43% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 44% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 45% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 46.25% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 47.5% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 48.75% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s).",
+      "Increases the Trailblazer’s DMG Reduction by 50% and gains 1 stack(s) of Magma Will, with a 100% base chance to increase the likelihood of being attacked by all enemies for 1 turn(s)."]'),
+      ('Flaming Lance Behind Enemy Lines', '["Deals Fire DMG equal to 50% of the Trailblazer’s ATK plus 75% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 55% of the Trailblazer’s ATK plus 82.5% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 60% of the Trailblazer’s ATK plus 90% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 65% of the Trailblazer’s ATK plus 97.5% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 70% of the Trailblazer’s ATK plus 105% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 75% of the Trailblazer’s ATK plus 112.5% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 81.25% of the Trailblazer’s ATK plus 121.88% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 87.5% of the Trailblazer’s ATK plus 131.25% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 93.75% of the Trailblazer’s ATK plus 140.63% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will.",
+      "Deals Fire DMG equal to 100% of the Trailblazer’s ATK plus 150% of the Trailblazer’s DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will."]');
+
+
+insert into "talent"
+      ("talentName",  "talentLevel")
+      values('Treasure of the Architects', '["Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4% of the Trailblazer’s DEF plus 20. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4.25% of the Trailblazer’s DEF plus 32. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4.5% of the Trailblazer’s DEF plus 41. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4.75% of the Trailblazer’s DEF plus 50. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 5% of the Trailblazer’s DEF plus 56. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 5.2% of the Trailblazer’s DEF plus 62. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 5.4% of the Trailblazer’s DEF plus 66.5. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 5.6% of the Trailblazer’s DEF plus 71. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 5.8% of the Trailblazer’s DEF plus 75.5. The Shield lasts for 2 turn(s).",
+      "Each time the Trailblazer is hit, they gain 1 stack(s) of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer’s Basic ATK becomes enhanced, dealing DMG to a single enemy and adjacent enemies. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 6% of the Trailblazer’s DEF plus 80. The Shield lasts for 2 turn(s)."]');
+
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[169,397,701,1005,1242]', '[81.84,192.32,339.64,486.95,601.52]' , '[82.5, 193.88, 342.38,490.88,606.38]', '[98,98,98,98,98]');
+
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Trailblazer: Preservation', '[1,20,40,60,80]', 'A girl(boy) who boarded the Astral Express. She(He) chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.',
+      '/images/characters/trailblzer-preservation.png', '/images/characters/trailblzer-preservation-portrait.png' , 'Preservation', 'Fire', 4,154,155,156,52,52);
+
+insert into "skills"
+      ("skillName", "skillLevel")
+      values('Swing Dance Etiquette', '["Deals Imaginary DMG equal to Trailblazer’s 50% ATK to a single enemy.",
+      "Deals Imaginary DMG equal to Trailblazer’s 60% ATK to a single enemy.",
+      "Deals Imaginary DMG equal to Trailblazer’s 70% ATK to a single enemy.",
+      "Deals Imaginary DMG equal to Trailblazer’s 80% ATK to a single enemy.",
+      "Deals Imaginary DMG equal to Trailblazer’s 90% ATK to a single enemy.",
+      "Deals Imaginary DMG equal to Trailblazer’s 100% ATK to a single enemy."]'),
+      ('Halftime to Make It Rain', '["Deals Imaginary DMG equal to 25% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 25% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 27.5% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 27.5% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 30% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 30% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 32.5% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 32.5% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 35% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 35% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 37.5% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 37.5% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 40.63% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 40.63% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 43.75% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 43.75% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 46.88% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 46.88% of Trailblazer’s ATK to a random enemy each time.",
+      "Deals Imaginary DMG equal to 50% of Trailblazer’s ATK to a single enemy and deals DMG for 4 extra times, dealing Imaginary DMG equal to 50% of Trailblazer’s ATK to a random enemy each time."]'),
+      ('All-Out Footlight Parade', '["Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 15%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 16.5%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 18%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 19.5%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 21%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 22.5%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 24.38%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 26.25%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 28.13%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time.",
+      "Applies the Backup Dancer effect to all allies, lasting for 3 turn(s). Decreases its duration by 1 turn at the start of Trailblazer’s every turn. Allies with Backup Dancer increase their Break Effect by 30%. When they attack enemy targets that are in the Weakness Broken state, they will convert the Toughness-Reducing DMG of this attack to Super Break DMG 1 time."]');
+
+insert into "talent"
+      ("talentName",  "talentLevel")
+      values('Full-on Aerial Dance', '["The Trailblazer immediately regenerates 5 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 5.5 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 6 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 6.5 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 7 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 7.5 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 8.125 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 8.75 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 9.375 Energy when an enemy target’s Weakness is Broken.",
+      "The Trailblazer immediately regenerates 10 Energy when an enemy target’s Weakness is Broken."]');
+
+insert into "characterStats"
+      ("characterHealth", "characterAttack", "characterDefense", "characterSpeed")
+      values('[148, 347, 614, 880, 1087]', '[60.72,142.69,251.99,361.28,446.29]', '[92.4, 217.14, 383.46, 549.78, 679.14]', '[105,105,105,105,105]');
+
+
+insert into "characters"
+      ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
+      values('Trailblazer: Harmony', '[1,20,40,60,80]', 'A girl(boy) who boarded the Astral Express. She(He) chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.',
+      '/images/characters/trailblzer-harmony.png', '/images/characters/trailblzer-harmony-portrait.png' , 'Harmony', 'Imaginary', 4, 157,158,159,53,53);
+
+
+
+-- //weapons start//
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/arrows.webp', 'Hunt', 'Arrows', 'Crisis', '["At the start of the battle, the wearer’s CRIT Rate increases by 12% for 3 turn(s).",
+      "At the start of the battle, the wearer’s CRIT Rate increases by 15% for 3 turn(s).",
+      "At the start of the battle, the wearer’s CRIT Rate increases by 18% for 3 turn(s).",
+      "At the start of the battle, the wearer’s CRIT Rate increases by 21% for 3 turn(s).",
+      "At the start of the battle, the wearer’s CRIT Rate increases by 24% for 3 turn(s)."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,218,486,754,953]', '/images/weapons/cornucopia.webp', 'Abundance','Cornucopia', 'Prosperity', '["When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 14%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 16%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 18%.",
+      "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 20%."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]', '/images/weapons/collapsing-sky.webp', 'Destruction', 'Collapsing Sky', 'Havoc', '["Increases the wearer’s Basic ATK and Skill DMG by 20%",
+      "Increases the wearer’s Basic ATK and Skill DMG by 25%",
+      "Increases the wearer’s Basic ATK and Skill DMG by 30%",
+      "Increases the wearer’s Basic ATK and Skill DMG by 35%",
+      "Increases the wearer’s Basic ATK and Skill DMG by 40%"]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[15,75.75,168.75,261.75,330.75]', '[38,194,432,670,847]', '/images/weapons/amber.webp', 'Preservation', 'Amber', 'Stasis', '["Increases DEF of its wearer by 16%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 16%.",
+      "Increases DEF of its wearer by 20%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 20%.",
+      "Increases DEF of its wearer by 24%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 24%.",
+      "Increases DEF of its wearer by 28%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 28%.",
+      "Increases DEF of its wearer by 32%. If current HP of its wearer is less than 50% of Max HP, increases DEF by an extra 32%."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4,72.72,162,251.28,317.52]', '[12,60.6,135,209.4,264.6]', '[38,194,432,670,847]', '/images/weapons/void.webp', 'Nihility', 'Void', 'Fallen', '["At the start of the battle, the wearer’s Effect Hit Rate increases by 20% for 3 turn(s).",
+      "At the start of the battle, the wearer’s Effect Hit Rate increases by 25% for 3 turn(s).",
+      "At the start of the battle, the wearer’s Effect Hit Rate increases by 30% for 3 turn(s).",
+      "At the start of the battle, the wearer’s Effect Hit Rate increases by 35% for 3 turn(s).",
+      "At the start of the battle, the wearer’s Effect Hit Rate increases by 40% for 3 turn(s)."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]', '/images/weapons/chorus.webp', 'Harmony', 'Chorus', 'Concerted', '["After entering battle, increases the ATK of all allies by 8%. Effects of the same type cannot stack.",
+      "After entering battle, increases the ATK of all allies by 9%. Effects of the same type cannot stack.",
+      "After entering battle, increases the ATK of all allies by 10%. Effects of the same type cannot stack.",
+      "After entering battle, increases the ATK of all allies by 11%. Effects of the same type cannot stack.",
+      "After entering battle, increases the ATK of all allies by 12%. Effects of the same type cannot stack."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/data-bank.webp', 'Erudition', 'Data Bank', 'Learned', '["Increases the wearer’s Ultimate DMG by 28%",
+      "Increases the wearer’s Ultimate DMG by 35%",
+      "Increases the wearer’s Ultimate DMG by 42%",
+      "Increases the wearer’s Ultimate DMG by 49%",
+      "Increases the wearer’s Ultimate DMG by 56%"]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,251.28,264.6]', '[34,170,378,586,741]', '/images/weapons/darting-arrow.webp', 'Hunt', 'Darting Arrow', 'War Cry', '["When the wearer defeats an enemy, increases ATK by 30% for 3 turn(s)",
+      "When the wearer defeats an enemy, increases ATK by 30% for 3 turn(s)",
+      "When the wearer defeats an enemy, increases ATK by 36% for 3 turn(s)",
+      "When the wearer defeats an enemy, increases ATK by 42% for 3 turn(s)",
+      "When the wearer defeats an enemy, increases ATK by 48% for 3 turn(s)"]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[9,34.65,101.25,157.05,198.45]', '[9,34.65,101.25,157.05,198.45]' , '/images/weapons/fine-fruit.webp', 'Abundance', 'Fine Fruit', 'Savor', '["At the start of the battle, immediately regenerate 6 Energy for all allies.",
+      "At the start of the battle, immediately regenerate 7 Energy for all allies.",
+      "At the start of the battle, immediately regenerate 9 Energy for all allies.",
+      "At the start of the battle, immediately regenerate 11 Energy for all allies.",
+      "At the start of the battle, immediately regenerate 12 Energy for all allies."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]','/images/weapons/shattered-home.webp', 'Destruction', 'Shattered Home', 'Eradication', '["The wearer deals 20% more DMG to enemy targets whose HP percentage is greater than 50%.",
+      "The wearer deals 25% more DMG to enemy targets whose HP percentage is greater than 50%.",
+      "The wearer deals 30% more DMG to enemy targets whose HP percentage is greater than 50%.",
+      "The wearer deals 35% more DMG to enemy targets whose HP percentage is greater than 50%.",
+      "The wearer deals 40% more DMG to enemy targets whose HP percentage is greater than 50%."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,166,486,754,953]', '/images/weapons/defense.webp', 'Preservation', 'Defense', 'Revitalization', '["When the wearer unleashes their Ultimate, they restore HP by 18% of their Max HP.",
+      "When the wearer unleashes their Ultimate, they restore HP by 21% of their Max HP.",
+      "When the wearer unleashes their Ultimate, they restore HP by 24% of their Max HP.",
+      "When the wearer unleashes their Ultimate, they restore HP by 27% of their Max HP.",
+      "When the wearer unleashes their Ultimate, they restore HP by 30% of their Max HP."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/loop.webp', 'Nihility', 'Loop', 'Pursuit', '["Increases DMG dealt from its wearer to Slowed enemies by 24%.",
+      "Increases DMG dealt from its wearer to Slowed enemies by 30%.",
+      "Increases DMG dealt from its wearer to Slowed enemies by 36%.",
+      "Increases DMG dealt from its wearer to Slowed enemies by 42%.",
+      "Increases DMG dealt from its wearer to Slowed enemies by 48%."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/meshing-cogs.webp', 'Harmony', 'Meshing Cogs', 'Fleet Triumph', '["After the wearer uses attacks or gets hit, additionally regenerates 4 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 5 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 6 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 7 Energy. This effect can only be triggered 1 time per turn.",
+      "After the wearer uses attacks or gets hit, additionally regenerates 8 Energy. This effect can only be triggered 1 time per turn."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]','[12,60.6,135,251.28,264.6]','[34,170,378,586,741]', '/images/weapons/passkey.webp','Erudition', 'Passkey', 'Epiphany', '["After the wearer uses their Skill, additionally regenerates 8 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "After the wearer uses their Skill, additionally regenerates 9 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "After the wearer uses their Skill, additionally regenerates 10 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "After the wearer uses their Skill, additionally regenerates 11 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "After the wearer uses their Skill, additionally regenerates 12 Energy. This effect cannot be repeatedly triggered in a single turn."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]','[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/adversarial.webp', 'Hunt', 'Adversarial', 'Alliance', '["When the wearer defeats an enemy, increases SPD by 10% for 2 turn(s).",
+      "When the wearer defeats an enemy, increases SPD by 12% for 2 turn(s).",
+      "When the wearer defeats an enemy, increases SPD by 14% for 2 turn(s).",
+      "When the wearer defeats an enemy, increases SPD by 16% for 2 turn(s).",
+      "When the wearer defeats an enemy, increases SPD by 18% for 2 turn(s)."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]','[9,34.65,101.25,157.05,198.45]','[43,166,486,754,953]', '/images/weapons/multiplication.webp', 'Abundance', 'Multiplication', 'Denizens of Abundance', '["After the wearer uses their Basic ATK, their next action will be Advanced Forward by 12%.",
+      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 14%.",
+      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 16%.",
+      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 18%.",
+      "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 20%."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[9,34.65,101.25,157.05,198.45]', '[38,194,432,670,847]', '/images/weapons/mutual-demise.webp', 'Destruction', 'Mutual Demise', 'Legion', '["If the wearer’s current HP is lower than 80%, CRIT Rate increases by 12%.",
+      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 15%.",
+      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 18%.",
+      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 21%.",
+      "If the wearer’s current HP is lower than 80%, CRIT Rate increases by 24%."]',3 );
+
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[12,60.6,135,209.4,264.6]', '[43,166,486,754,953]', '/images/weapons/pioneering.webp','Preservation', 'Pioneering', 'IPC', '["When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 12% of their Max HP.",
+      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 14% of their Max HP.",
+      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 16% of their Max HP.",
+      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 18% of their Max HP.",
+      "When the wearer Breaks an enemy’s Weakness, the wearer restores HP by 20% of their Max HP."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/hidden-shadow.webp', 'Nihility', 'Hidden Shadow', 'Mechanism', '["After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 60% of ATK to the target enemy.",
+      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 75% of ATK to the target enemy.",
+      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 90% of ATK to the target enemy.",
+      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 105% of ATK to the target enemy.",
+      "After using Skill, the wearer’s next Basic ATK deals Additional DMG equal to 120% of ATK to the target enemy."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[14.4, 72.72,162,251.28,317.52]', '[12,60.6,135,251.28,264.6]', '[38,194,432,670,847]','/images/weapons/mediation.webp','Harmony', 'Mediation', 'Family', '["Upon entering battle, increases SPD of all allies by 12 for 1 turn(s).",
+      "Upon entering battle, increases SPD of all allies by 14 for 1 turn(s).",
+      "Upon entering battle, increases SPD of all allies by 16 for 1 turn(s).",
+      "Upon entering battle, increases SPD of all allies by 18 for 1 turn(s).",
+      "Upon entering battle, increases SPD of all allies by 20 for 1 turn(s)."]',3 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[12,60.6,135,209.4,264.6]', '[34,170,378,586,741]', '/images/weapons/sagacity.webp', 'Erudition', 'Sagacity', 'Genius', '["When the wearer uses their Ultimate, increases ATK by 24% for 2 turn(s).",
+      "When the wearer uses their Ultimate, increases ATK by 30% for 2 turn(s).",
+      "When the wearer uses their Ultimate, increases ATK by 36% for 2 turn(s).",
+      "When the wearer uses their Ultimate, increases ATK by 42% for 2 turn(s).",
+      "When the wearer uses their Ultimate, increases ATK by 48% for 2 turn(s)."]', 3);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[15,75.75,168.75,261.75,330.75]', '[48,242,761,838,1058]','/images/weapons/post-op-conversation.webp', 'Abundance', 'Post-Op Conversation', 'Mutual Healing', '["Increases the wearer’s Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.",
+      "Increases the wearer’s Energy Regeneration Rate by 10% and increases Outgoing Healing when they use their Ultimate by 15%.",
+      "Increases the wearer’s Energy Regeneration Rate by 12% and increases Outgoing Healing when they use their Ultimate by 18%.",
+      "Increases the wearer’s Energy Regeneration Rate by 14% and increases Outgoing Healing when they use their Ultimate by 21%.",
+      "Increases the wearer’s Energy Regeneration Rate by 16% and increases Outgoing Healing when they use their Ultimate by 24%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/good-night-and-sleep-well.webp', 'Nihility', 'Good Night and Sleep Well', 'Toiler', '["For every debuff the target enemy has, the DMG dealt by the wearer increases by 12%, stacking up to 3 time(s). This effect also applies to DoT.",
+      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 15%, stacking up to 3 time(s). This effect also applies to DoT.",
+      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 18%, stacking up to 3 time(s). This effect also applies to DoT.",
+      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 21%, stacking up to 3 time(s). This effect also applies to DoT.",
+      "For every debuff the target enemy has, the DMG dealt by the wearer increases by 24%, stacking up to 3 time(s). This effect also applies to DoT."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/day-one-of-my-new-life.webp', 'Preservation', 'Day One of My New Life', 'At This Very Moment', '["Increases wearer’s DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Effects of the same type cannot stack.",
+      "Increases wearer’s DEF by 18%. After entering battle, increases All-Type RES of all allies by 9%. Effects of the same type cannot stack.",
+      "Increases wearer’s DEF by 20%. After entering battle, increases All-Type RES of all allies by 10%. Effects of the same type cannot stack.",
+      "Increases wearer’s DEF by 22%. After entering battle, increases All-Type RES of all allies by 11%. Effects of the same type cannot stack.",
+      "Increases wearer’s DEF by 24%. After entering battle, increases All-Type RES of all allies by 12%. Effects of the same type cannot stack."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/only-silence-remains.webp', 'Hunt', 'Only Silence Remains', 'Record', '["Increases the wearer’s ATK by 16%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 12%.",
+      "Increases the wearer’s ATK by 20%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 15%.",
+      "Increases the wearer’s ATK by 24%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 18%.",
+      "Increases the wearer’s ATK by 28%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 21%.",
+      "Increases the wearer’s ATK by 32%. If there are 2 or fewer enemies on the field, increases wearer’s CRIT Rate by 24%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/memories-of-the-past.webp', 'Harmony', 'Memories of the Past', 'Old Photo', '["Increases the wearer’s Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "Increases the wearer’s Break Effect by 35%. When the wearer attacks, additionally regenerates 5 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "Increases the wearer’s Break Effect by 42%. When the wearer attacks, additionally regenerates 6 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "Increases the wearer’s Break Effect by 49%. When the wearer attacks, additionally regenerates 7 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      "Increases the wearer’s Break Effect by 56%. When the wearer attacks, additionally regenerates 8 Energy. This effect cannot be repeatedly triggered in a single turn."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/the-moles-welcome-you.webp','Destruction', 'The Moles Welcome You', 'Fantastic Adventure', '["When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 12%.",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 15%.",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 18%.",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 21%.",
+      "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer’s ATK by 24%."]', 4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/the-birth-of-the-self.webp', 'Erudition', 'The Birth Of The Self','The Maiden in the Painting', '["Increases DMG dealt by the wearer’s follow-up attacks by 24%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 24%.",
+      "Increases DMG dealt by the wearer’s follow-up attacks by 30%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 30%.",
+      "Increases DMG dealt by the wearer’s follow-up attacks by 36%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 36%.",
+      "Increases DMG dealt by the wearer’s follow-up attacks by 42%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 42%.",
+      "Increases DMG dealt by the wearer’s follow-up attacks by 48%. If the current HP of the target enemy is below 50% of Max HP, increases DMG dealt by follow-up attacks by an extra 48%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]', '/images/weapons/eyes-of-the-prey.webp', 'Nihility', 'Eyes of the Prey', 'Self-Confidence', '["Increases the wearer’s Effect Hit Rate by 20% and increases DoT by 24%.",
+      "Increases the wearer’s Effect Hit Rate by 25% and increases DoT by 30%.",
+      "Increases the wearer’s Effect Hit Rate by 30% and increases DoT by 36%.",
+      "Increases the wearer’s Effect Hit Rate by 35% and increases DoT by 42%.",
+      "Increases the wearer’s Effect Hit Rate by 40% and increases DoT by 48%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/landaus-choice.webp', 'Preservation', 'Laundaus Choice', 'Time FLeets Away', '["The wearer is more likely to be attacked, and DMG taken is reduced by 16%.",
+      "The wearer is more likely to be attacked, and DMG taken is reduced by 18%.",
+      "The wearer is more likely to be attacked, and DMG taken is reduced by 20%.",
+      "The wearer is more likely to be attacked, and DMG taken is reduced by 22%.",
+      "The wearer is more likely to be attacked, and DMG taken is reduced by 24%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/swordplay.webp','Hunt', 'Swordplay', 'Answers of Their Own', '["For each time the wearer hits the same target, DMG dealt increases by 8%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+      "For each time the wearer hits the same target, DMG dealt increases by 10%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+      "For each time the wearer hits the same target, DMG dealt increases by 12%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+      "For each time the wearer hits the same target, DMG dealt increases by 14%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
+      "For each time the wearer hits the same target, DMG dealt increases by 16%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets."]', 4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,251.28,264.6]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]', '/images/weapons/planetary-rendezvous.webp','Harmony', 'Planetary Rendezvous', 'Departure', '["Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12%.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 15%.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 18%.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 21%.",
+      "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 24%."]', 4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/a-secret-vow.webp','Destruction', 'A Secret Vow', 'Spare No Effort', '["Increases DMG dealt by the wearer by 20%. The wearer also deals an extra 20% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
+      "Increases DMG dealt by the wearer by 25%. The wearer also deals an extra 25% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
+      "Increases DMG dealt by the wearer by 30%. The wearer also deals an extra 30% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
+      "Increases DMG dealt by the wearer by 35%. The wearer also deals an extra 35% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage.",
+      "Increases DMG dealt by the wearer by 40%. The wearer also deals an extra 40% of DMG to enemies whose current HP percentage is equal to or higher than the wearer’s current HP percentage."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/make-the-world-clamor.webp', 'Erudition', 'Make The World Clamor', 'The Power of Sound', '["The wearer regenerates 20 Energy immediately upon entering battle, and increases Ultimate DMG by 32%.",
+      "The wearer regenerates 23 Energy immediately upon entering battle, and increases Ultimate DMG by 40%.",
+      "The wearer regenerates 26 Energy immediately upon entering battle, and increases Ultimate DMG by 48%.",
+      "The wearer regenerates 29 Energy immediately upon entering battle, and increases Ultimate DMG by 56%.",
+      "The wearer regenerates 32 Energy immediately upon entering battle, and increases Ultimate DMG by 64%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/perfect-timing.webp', 'Abundance', 'Perfect Timing', 'Refraction of Sightline', '["Increases the wearer’s Effect RES by 16% and increases Outgoing Healing by an amount that is equal to 33% of Effect RES. Outgoing Healing can be increased this way by up to 15%.",
+      "Increases the wearer’s Effect RES by 20% and increases Outgoing Healing by an amount that is equal to 36% of Effect RES. Outgoing Healing can be increased this way by up to 18%.",
+      "Increases the wearer’s Effect RES by 24% and increases Outgoing Healing by an amount that is equal to 39% of Effect RES. Outgoing Healing can be increased this way by up to 21%.",
+      "Increases the wearer’s Effect RES by 28% and increases Outgoing Healing by an amount that is equal to 42% of Effect RES. Outgoing Healing can be increased this way by up to 24%.",
+      "Increases the wearer’s Effect RES by 32% and increases Outgoing Healing by an amount that is equal to 45% of Effect RES. Outgoing Healing can be increased this way by up to 27%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]', '[15, 75.75, 168.75, 261.75, 330.75]', '[43, 218, 486, 754, 953]','/images/weapons/resolution-shines-as-pearls-of-sweat.webp', 'Nihility', 'Resolution Shines As Pearls Of Sweat', 'Glance Back', '["When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 60% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 12% for 1 turn(s).",
+      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 70% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 13% for 1 turn(s).",
+      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 80% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 14% for 1 turn(s).",
+      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 90% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 15% for 1 turn(s).",
+      "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 100% base chance to Ensnare the hit enemy. Ensnared enemies’ DEF decreases by 16% for 1 turn(s)."]', 4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8, 84.84, 189, 293.16, 370.44]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/trend-of-the-universal-market.webp','Preservation', 'Trend Of The Universal Market', 'A New Round of Shuffling', '["Increases the wearer’s DEF by 16%. When the wearer is attacked, there is a 100% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40% of the wearer’s DEF for 2 turn(s).",
+      "Increases the wearer’s DEF by 20%. When the wearer is attacked, there is a 105% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 50% of the wearer’s DEF for 2 turn(s).",
+      "Increases the wearer’s DEF by 24%. When the wearer is attacked, there is a 110% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 60% of the wearer’s DEF for 2 turn(s).",
+      "Increases the wearer’s DEF by 28%. When the wearer is attacked, there is a 115% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 70% of the wearer’s DEF for 2 turn(s).",
+      "Increases the wearer’s DEF by 32%. When the wearer is attacked, there is a 120% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 80% of the wearer’s DEF for 2 turn(s)."]', 4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/subscribe-for-more!.webp', 'Hunt', 'Subscribe For More!', 'Like Before You Leave!', '["Increases the DMG of the wearer’s Basic ATK and Skill by 24%. This effect increases by an extra 24% when the wearer’s current Energy reaches its max level.",
+      "Increases the DMG of the wearer’s Basic ATK and Skill by 30%. This effect increases by an extra 30% when the wearer’s current Energy reaches its max level.",
+      "Increases the DMG of the wearer’s Basic ATK and Skill by 36%. This effect increases by an extra 36% when the wearer’s current Energy reaches its max level.",
+      "Increases the DMG of the wearer’s Basic ATK and Skill by 42%. This effect increases by an extra 42% when the wearer’s current Energy reaches its max level.",
+      "Increases the DMG of the wearer’s Basic ATK and Skill by 48%. This effect increases by an extra 48% when the wearer’s current Energy reaches its max level."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/dance!-dance!-dance!.webp', 'Harmony', 'Dance! Dance! Dance!', 'Cannot Stop It!', '["When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 16%",
+      "When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 18%",
+      "When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 20%",
+      "When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 22%",
+      "When the wearer uses their Ultimate, all allies’ actions are Advanced Forward by 24%"]',4);
+
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/under-the-blue-sky.webp','Destruction', 'Under The Blue Sky', 'Rye Under The Sun' ,'["Increases the wearer’s ATK by 16%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 12% for 3 turn(s).",
+      "Increases the wearer’s ATK by 20%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 15% for 3 turn(s).",
+      "Increases the wearer’s ATK by 24%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 18% for 3 turn(s).",
+      "Increases the wearer’s ATK by 28%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 21% for 3 turn(s).",
+      "Increases the wearer’s ATK by 32%. When the wearer defeats an enemy, the wearer’s CRIT Rate increases by 24% for 3 turn(s)."]', 4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/geniuses-repose.webp', 'Erudition', 'Geniuses Repose', 'Each Now Has A Role To Play', '["Increases the wearer’s ATK by 16%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 24% for 3 turn(s).",
+      "Increases the wearer’s ATK by 20%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 30% for 3 turn(s).",
+      "Increases the wearer’s ATK by 24%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 36% for 3 turn(s).",
+      "Increases the wearer’s ATK by 28%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 42% for 3 turn(s).",
+      "Increases the wearer’s ATK by 32%. When the wearer defeats an enemy, the wearer’s CRIT DMG increases by 48% for 3 turn(s)."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/quid-pro-quo.webp', 'Abundance', 'Quid Pro Quo', 'Enjoy With Rapture', '["At the start of the wearer’s turn, regenerates 8 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
+      "At the start of the wearer’s turn, regenerates 10 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
+      "At the start of the wearer’s turn, regenerates 12 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
+      "At the start of the wearer’s turn, regenerates 14 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
+      "At the start of the wearer’s turn, regenerates 16 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/fermata.webp', 'Nihility', 'Fermata', 'Semibreve Rest', '["Increases Break Effect dealt by the wearer by 16%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 16%. This also applies to DoT.",
+      "Increases Break Effect dealt by the wearer by 20%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 20%. This also applies to DoT.",
+      "Increases Break Effect dealt by the wearer by 24%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 24%. This also applies to DoT.",
+      "Increases Break Effect dealt by the wearer by 28%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 28%. This also applies to DoT.",
+      "Increases Break Effect dealt by the wearer by 32%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 32%. This also applies to DoT."]', 4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[21,106.05,236.25,366.45,463.05]','[34,170,378,586,741]', '/images/weapons/we-are-wildfire.webp', 'Preservation', 'We Are Wildfire', 'Teary-Eyed', '["At the start of the battle, the DMG dealt to all allies decreases by 8% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 30% of the respective HP difference between the characters’ Max HP and current HP.",
+      "At the start of the battle, the DMG dealt to all allies decreases by 10% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 35% of the respective HP difference between the characters’ Max HP and current HP.",
+      "At the start of the battle, the DMG dealt to all allies decreases by 12% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 40% of the respective HP difference between the characters’ Max HP and current HP.",
+      "At the start of the battle, the DMG dealt to all allies decreases by 14% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 45% of the respective HP difference between the characters’ Max HP and current HP.",
+      "At the start of the battle, the DMG dealt to all allies decreases by 16% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 50% of the respective HP difference between the characters’ Max HP and current HP."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/river-flows-in-spring.webp', 'Hunt', 'River Flows In Spring', 'Stave Off The Lingering Cold', '["After entering battle, increases the wearer’s SPD by 8% and DMG by 12%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn.",
+      "After entering battle, increases the wearer’s SPD by 9% and DMG by 15%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn.",
+      "After entering battle, increases the wearer’s SPD by 10% and DMG by 18%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn.",
+      "After entering battle, increases the wearer’s SPD by 11% and DMG by 21%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn.",
+      "After entering battle, increases the wearer’s SPD by 12% and DMG by 24%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer’s next turn."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/woof!-walk-time!.webp', 'Destruction', 'Woof! Walk Time!', 'Run!', '["Increases the wearer’s ATK by 10%, and increases their DMG to enemies afflicted with Burn or Bleed by 16%. This also applies to DoT.",
+      "Increases the wearer’s ATK by 12.5%, and increases their DMG to enemies afflicted with Burn or Bleed by 20%. This also applies to DoT.",
+      "Increases the wearer’s ATK by 15%, and increases their DMG to enemies afflicted with Burn or Bleed by 24%. This also applies to DoT.",
+      "Increases the wearer’s ATK by 17.5%, and increases their DMG to enemies afflicted with Burn or Bleed by 28%. This also applies to DoT.",
+      "Increases the wearer’s ATK by 20%, and increases their DMG to enemies afflicted with Burn or Bleed by 32%. This also applies to DoT."]',4);
+
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/the-seriousness-of-breakfast.webp', 'Erudition', 'The Seriousness Of Breakfast', 'Get Ready','["Increases the wearer’s DMG by 12%. For every defeated enemy, the wearer’s ATK increases by 4%, stacking up to 3 time(s).",
+      "Increases the wearer’s DMG by 15%. For every defeated enemy, the wearer’s ATK increases by 5%, stacking up to 3 time(s).",
+      "Increases the wearer’s DMG by 18%. For every defeated enemy, the wearer’s ATK increases by 6%, stacking up to 3 time(s).",
+      "Increases the wearer’s DMG by 21%. For every defeated enemy, the wearer’s ATK increases by 7%, stacking up to 3 time(s).",
+      "Increases the wearer’s DMG by 24%. For every defeated enemy, the wearer’s ATK increases by 8%, stacking up to 3 time(s)."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8, 84.84, 189, 293.16, 370.44]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/warmth-shortens-cold-nights.webp', 'Abundance', 'Warmth Shortens Cold Nights', 'Tiny Light', '["Increases the wearer’s Max HP by 16%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 2.0% of their respective Max HP.",
+      "Increases the wearer’s Max HP by 20%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 2.5% of their respective Max HP.",
+      "Increases the wearer’s Max HP by 24%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 3% of their respective Max HP.",
+      "Increases the wearer’s Max HP by 28%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 3.5% of their respective Max HP.",
+      "Increases the wearer’s Max HP by 32%. When using Basic ATK or Skill, restores all allies’ HP by an amount equal to 4% of their respective Max HP."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[12,60.6,135,209.4,264.6]', '[24,121.2,270,418.8,529.2]', '[38,194,432,670,847]', '/images/weapons/we-will-meet-again.webp', 'Nihility', 'We Will Meet Again', 'A Discourse In Arms', '["After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 48% of the wearer’s ATK to a random enemy that has been attacked.",
+      "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 60% of the wearer’s ATK to a random enemy that has been attacked.",
+      "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 72% of the wearer’s ATK to a random enemy that has been attacked.",
+      "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 84% of the wearer’s ATK to a random enemy that has been attacked.",
+      "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 96% of the wearer’s ATK to a random enemy that has been attacked."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[24,121.2,270,418.8,529.2]', '[38,194,432,670,847]', '/images/weapons/this-is-me!.webp', 'Preservation', 'This Is Me!', 'New Chapter', '["Increases the wearer’s DEF by 16%. Increases the DMG of the wearer when they use their Ultimate by 60% of the wearer’s DEF. This effect only apply 1 time per enemy target.",
+      "Increases the wearer’s DEF by 20%. Increases the DMG of the wearer when they use their Ultimate by 75% of the wearer’s DEF. This effect only apply 1 time per enemy target.",
+      "Increases the wearer’s DEF by 24%. Increases the DMG of the wearer when they use their Ultimate by 90% of the wearer’s DEF. This effect only apply 1 time per enemy target.",
+      "Increases the wearer’s DEF by 28%. Increases the DMG of the wearer when they use their Ultimate by 105% of the wearer’s DEF. This effect only apply 1 time per enemy target.",
+      "Increases the wearer’s DEF by 32%. Increases the DMG of the wearer when they use their Ultimate by 120% of the wearer’s DEF. This effect only apply 1 time per enemy target."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[24,121.2,270,418.8,529.2]','[15,75.75,168.75,261.75,330.75]',  '[38,194,432,670,847]', '/images/weapons/return-to-darkness.webp', 'Hunt', 'Return To Darkness', 'Raging Waves', '["Increases the wearer’s CRIT Rate by 12%. After a CRIT Hit, there is a 16% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
+      "Increases the wearer’s CRIT Rate by 15%. After a CRIT Hit, there is a 20% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
+      "Increases the wearer’s CRIT Rate by 18%. After a CRIT Hit, there is a 24% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
+      "Increases the wearer’s CRIT Rate by 21%. After a CRIT Hit, there is a 28% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
+      "Increases the wearer’s CRIT Rate by 24%. After a CRIT Hit, there is a 32% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/carve-the-moon-weave-the-clouds.webp', 'Harmony', 'Carve The Moon Weave The Clouds', 'Secret', '["At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 10%, all allies’ CRIT DMG increases by 12%, or all allies’ Energy Regeneration Rate increases by 6%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+      "At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 12.5%, all allies’ CRIT DMG increases by 15%, or all allies’ Energy Regeneration Rate increases by 7.5%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+      "At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 15%, all allies’ CRIT DMG increases by 18%, or all allies’ Energy Regeneration Rate increases by 9%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+      "At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 17.5%, all allies’ CRIT DMG increases by 21%, or all allies’ Energy Regeneration Rate increases by 10.5%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
+      "At the start of the battle and whenever the wearer’s turn begins, one of the following effects is applied randomly: All allies’ ATK increases by 20%, all allies’ CRIT DMG increases by 24%, or all allies’ Energy Regeneration Rate increases by 12%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[24,121.2,270,418.8,529.2]', '[12,60.6,135,209.4,264.6]', '[43,218,486,754,953]','/images/weapons/nowhere-to-run.webp', 'Destruction', 'Nowhere To Run', 'Desperate Times', '["Increases the wearer’s ATK by 24%. Whenever the wearer defeats an enemy, they restore HP equal to 12% of their ATK.",
+      "Increases the wearer’s ATK by 30%. Whenever the wearer defeats an enemy, they restore HP equal to 15% of their ATK.",
+      "Increases the wearer’s ATK by 36%. Whenever the wearer defeats an enemy, they restore HP equal to 18% of their ATK.",
+      "Increases the wearer’s ATK by 42%. Whenever the wearer defeats an enemy, they restore HP equal to 21% of their ATK.",
+      "Increases the wearer’s ATK by 48%. Whenever the wearer defeats an enemy, they restore HP equal to 24% of their ATK."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[24,121.2,270,418.8,529.2]','[15,75.75,168.75,261.75,330.75]',  '[38,194,432,670,847]', '/images/weapons/today-is-another-peaceful-day.webp', 'Erudition', 'Today Is Another Peaceful Day', 'A Storm Is Coming', '["After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.20% per point of Energy, up to 160 Energy.",
+      "After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.25% per point of Energy, up to 160 Energy.",
+      "After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.30% per point of Energy, up to 160 Energy.",
+      "After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.35% per point of Energy, up to 160 Energy.",
+      "After entering battle, increases the wearer’s DMG based on their Max Energy. DMG increases by 0.40% per point of Energy, up to 160 Energy."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/before-the-tutorial-mission-starts.webp', 'Nihility', 'Before The Tutorial Mission Starts', 'Quick On The Draw', '["Increases the wearer’s Effect Hit Rate by 20%. When the wearer attacks DEF-reduced enemies, regenerates 4 Energy.",
+      "Increases the wearer’s Effect Hit Rate by 25%. When the wearer attacks DEF-reduced enemies, regenerates 5 Energy.",
+      "Increases the wearer’s Effect Hit Rate by 30%. When the wearer attacks DEF-reduced enemies, regenerates 6 Energy.",
+      "Increases the wearer’s Effect Hit Rate by 35%. When the wearer attacks DEF-reduced enemies, regenerates 7 Energy.",
+      "Increases the wearer’s Effect Hit Rate by 40%. When the wearer attacks DEF-reduced enemies, regenerates 8 Energy."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[18,90.9,202.5,314.1,396.9]', '[53, 267, 594, 921, 1164]', '/images/weapons/night-on-the-milky-way.webp', 'Erudition', 'Night On The Milky Way', 'Meteor Swarm' , '["For every enemy on the field, increases the wearer’s ATK by 9.0%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30% for 1 turn.",
+      "For every enemy on the field, increases the wearer’s ATK by 10.5%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 35% for 1 turn.",
+      "For every enemy on the field, increases the wearer’s ATK by 12%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 40% for 1 turn.",
+      "For every enemy on the field, increases the wearer’s ATK by 13.5%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 45% for 1 turn.",
+      "For every enemy on the field, increases the wearer’s ATK by 15%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 50% for 1 turn."]',5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/in-the-night.webp', 'Hunt', 'In The Night', 'Flowers And Butterflies', '["Increases the wearer’s CRIT Rate by 18%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 6% and the CRIT DMG of their Ultimate is increased by 12%. This effect can stack up to 6 time(s).",
+      "Increases the wearer’s CRIT Rate by 21%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 7% and the CRIT DMG of their Ultimate is increased by 14%. This effect can stack up to 6 time(s).",
+      "Increases the wearer’s CRIT Rate by 24%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 8% and the CRIT DMG of their Ultimate is increased by 16%. This effect can stack up to 6 time(s).",
+      "Increases the wearer’s CRIT Rate by 27%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 9% and the CRIT DMG of their Ultimate is increased by 18%. This effect can stack up to 6 time(s).",
+      "Increases the wearer’s CRIT Rate by 30%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer’s Basic ATK and Skill is increased by 10% and the CRIT DMG of their Ultimate is increased by 20%. This effect can stack up to 6 time(s)."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[18,90.9,202.5,314.1,396.9]', '[53, 267, 594, 921, 1164]', '/images/weapons/something-irreplaceable.webp', 'Destruction', 'Something Irreplaceable', 'Kinship', '["Increases the wearer’s ATK by 24%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 24% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
+      "Increases the wearer’s ATK by 28%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 9% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 28% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
+      "Increases the wearer’s ATK by 32%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 10% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 32% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
+      "Increases the wearer’s ATK by 36%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 11% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 36% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
+      "Increases the wearer’s ATK by 40%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 12% of the wearer’s ATK. At the same time, the wearer’s DMG is increased by 40% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[21,106.05, 236.25, 366.45, 463.05]', '[53, 267, 594, 921, 1164]', '/images/weapons/but-the-battle-isnt-over.webp', 'Harmony', 'But The Battle Isnt Over', 'Heir', '["Increases the wearer’s Energy Regeneration Rate by 10% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30% more DMG for 1 turn(s).",
+      "Increases the wearer’s Energy Regeneration Rate by 12% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 35% more DMG for 1 turn(s).",
+      "Increases the wearer’s Energy Regeneration Rate by 14% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 40% more DMG for 1 turn(s).",
+      "Increases the wearer’s Energy Regeneration Rate by 16% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 45% more DMG for 1 turn(s).",
+      "Increases the wearer’s Energy Regeneration Rate by 18% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer’s Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 50% more DMG for 1 turn(s)."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/in-the-name-of-the-world.webp', 'Nihility', 'In The Name Of The World', 'Inheritor', '["Increases the wearer’s DMG to debuffed enemies by 24%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18%, and ATK increases by 24%.",
+      "Increases the wearer’s DMG to debuffed enemies by 28%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 21%, and ATK increases by 28%.",
+      "Increases the wearer’s DMG to debuffed enemies by 32%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 24%, and ATK increases by 32%.",
+      "Increases the wearer’s DMG to debuffed enemies by 36%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 27%, and ATK increases by 36%.",
+      "Increases the wearer’s DMG to debuffed enemies by 40%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 30%, and ATK increases by 40%."]',5);
+
+insert into "users"
+      ("username", "hashedPassword")
+      values('1','1');
+
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[27,136.35,303.75,471.15,595.35]', '[48,242,761,838,1058]','/images/weapons/moment-of-victory.webp', 'Preservation', 'Moment Of Victory', 'Verdict', '["Increases the wearer’s DEF by 24% and Effect Hit Rate by 24%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 24% until the end of the wearer’s turn.",
+      "Increases the wearer’s DEF by 28% and Effect Hit Rate by 28%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 28% until the end of the wearer’s turn.",
+      "Increases the wearer’s DEF by 32% and Effect Hit Rate by 32%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 32% until the end of the wearer’s turn.",
+      "Increases the wearer’s DEF by 36% and Effect Hit Rate by 36%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 36% until the end of the wearer’s turn.",
+      "Increases the wearer’s DEF by 40% and Effect Hit Rate by 40%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an extra 40% until the end of the wearer’s turn."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/patience-is-all-you-need.webp', 'Nihility', 'Patience Is All You Need', 'Spider Web', '["Increases DMG dealt by the wearer by 24%. After every attack launched by the wearer, their SPD increases by 4.8%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60% of the wearer’s ATK, lasting for 1 turn.",
+      "Increases DMG dealt by the wearer by 28%. After every attack launched by the wearer, their SPD increases by 5.6%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 70% of the wearer’s ATK, lasting for 1 turn.",
+      "Increases DMG dealt by the wearer by 32%. After every attack launched by the wearer, their SPD increases by 6.4%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 80% of the wearer’s ATK, lasting for 1 turn.",
+      "Increases DMG dealt by the wearer by 36%. After every attack launched by the wearer, their SPD increases by 7.2%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 90% of the wearer’s ATK, lasting for 1 turn.",
+      "Increases DMG dealt by the wearer by 40%. After every attack launched by the wearer, their SPD increases by 8%, stacking up to 3 times. If the wearer hits an enemy target that is not affected by Erode, there is a 100% base chance to inflict Erode to the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 100% of the wearer’s ATK, lasting for 1 turn."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/incessant-rain.webp', 'Nihility', 'Incessant Rain', 'Mirage Of Reality', '["Increases the wearer’s Effect Hit Rate by 24%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 12%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12% increased DMG for 1 turn.",
+      "Increases the wearer’s Effect Hit Rate by 28%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 14%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 14% increased DMG for 1 turn.",
+      "Increases the wearer’s Effect Hit Rate by 32%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 16%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 16% increased DMG for 1 turn.",
+      "Increases the wearer’s Effect Hit Rate by 36%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 18%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 18% increased DMG for 1 turn.",
+      "Increases the wearer’s Effect Hit Rate by 40%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer’s CRIT Rate by 20%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 20% increased DMG for 1 turn."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[18,90.9,202.5,314.1,396.9]', '[53, 267, 594, 921, 1164]', '/images/weapons/echoes-of-the-coffin.webp', 'Abundance', 'Echoes Of The Coffin', 'Thorns', '["Increases the wearer’s ATK by 24%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12 SPD for 1 turn.",
+      "Increases the wearer’s ATK by 28%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3.5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 14 SPD for 1 turn.",
+      "Increases the wearer’s ATK by 32%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 4 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 16 SPD for 1 turn.",
+      "Increases the wearer’s ATK by 36%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 4.5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 18 SPD for 1 turn.",
+      "Increases the wearer’s ATK by 40%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 20 SPD for 1 turn."]', 5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]','[15,75.75,168.75,261.75,330.75]', '[58,291,648,1005,1270]','/images/weapons/the-unreachable-side.webp', 'Destruction', 'The Unreachable Side', 'Unfulfilled Yearning', '["Increase the wearer’s CRIT Rate and Max HP by 18%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 24%. This effect is dispelled after the user uses an attack.",
+      "Increase the wearer’s CRIT Rate and Max HP by 21%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 28%. This effect is dispelled after the user uses an attack.",
+      "Increase the wearer’s CRIT Rate and Max HP by 24%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 32%. This effect is dispelled after the user uses an attack.",
+      "Increase the wearer’s CRIT Rate and Max HP by 27%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 36%. This effect is dispelled after the user uses an attack.",
+      "Increase the wearer’s CRIT Rate and Max HP by 30%. After the wearer is attacked or consumes their own HP, increases the wearer’s DMG by 40%. This effect is dispelled after the user uses an attack."]',5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/before-dawn.webp', 'Erudition', 'Before Dawn', 'Long Night' ,'["Increases the wearer’s CRIT DMG by 36%. Increases the wearer’s Skill and Ultimate DMG by 18%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48%.",
+      "Increases the wearer’s CRIT DMG by 42%. Increases the wearer’s Skill and Ultimate DMG by 21%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 56%.",
+      "Increases the wearer’s CRIT DMG by 48%. Increases the wearer’s Skill and Ultimate DMG by 24%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 64%.",
+      "Increases the wearer’s CRIT DMG by 54%. Increases the wearer’s Skill and Ultimate DMG by 27%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 72%.",
+      "Increases the wearer’s CRIT DMG by 60%. Increases the wearer’s Skill and Ultimate DMG by 30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 80%."]',5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[24,121.2,270,418.8,529.2]', '[58,291,648,1005,1270]','/images/weapons/she-already-shut-her-eyes.webp', 'Preservation', 'She Already Shut Her Eyes', 'Visioscape', '["Increases the wearer’s Max HP by 24% and Energy Regeneration Rate by 12%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 9.0%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 80% of their respective lost HP.",
+      "Increases the wearer’s Max HP by 28% and Energy Regeneration Rate by 14%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 10.5%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 85% of their respective lost HP.",
+      "Increases the wearer’s Max HP by 32% and Energy Regeneration Rate by 16%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 12%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 90% of their respective lost HP.",
+      "Increases the wearer’s Max HP by 36% and Energy Regeneration Rate by 18%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 13.5%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 95% of their respective lost HP.",
+      "Increases the wearer’s Max HP by 40% and Energy Regeneration Rate by 20%. When the wearer’s HP is reduced, all allies’ DMG dealt increases by 15%, lasting for 2 turn(s).vAt the start of every wave, restores HP to all allies by an amount equal to 100% of their respective lost HP."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/sleep-like-the-dead.webp', 'Hunt', 'Sleep Like The Dead', 'Sweet Dreams', '["Increases the wearer’s CRIT DMG by 30%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 36% for 1 turn. This effect can only trigger once every 3 turn(s).",
+      "Increases the wearer’s CRIT DMG by 35%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 42% for 1 turn. This effect can only trigger once every 3 turn(s).",
+      "Increases the wearer’s CRIT DMG by 40%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 48% for 1 turn. This effect can only trigger once every 3 turn(s).",
+      "Increases the wearer’s CRIT DMG by 45%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 54% for 1 turn. This effect can only trigger once every 3 turn(s).",
+      "Increases the wearer’s CRIT DMG by 50%. When the wearer’s Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 60% for 1 turn. This effect can only trigger once every 3 turn(s)."]',5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[21,106.05,236.25,366.45,463.05]', '[58,291,648,1005,1270]','/images/weapons/time-waits-for-no-one.webp','Abundance', 'Time Waits For No One', 'Morn, Noon, Dusk, and Night', '["Increases the wearer’s Max HP by 18% and Outgoing Healing by 12%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 36% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
+      "Increases the wearer’s Max HP by 21% and Outgoing Healing by 14%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 42% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
+      "Increases the wearer’s Max HP by 24% and Outgoing Healing by 16%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 48% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
+      "Increases the wearer’s Max HP by 27% and Outgoing Healing by 18%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 54% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn.",
+      "Increases the wearer’s Max HP by 30% and Outgoing Healing by 20%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes Additional DMG equal to 60% of the recorded Outgoing Healing value. The type of this Additional DMG is of the same Type as the wearer’s. This Additional DMG is not affected by other buffs, and can only occur 1 time per turn."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[18,90.9,202.5,314.1,396.9]', '[53, 267, 594, 921, 1164]', '/images/weapons/i-shall-be-my-own-sword.webp', 'Destruction', 'I Shall Be My Own Sword', 'With This Evening Jade', '["Increases the wearer’s CRIT DMG by 20%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 14.0%. When 3 stacks are reached, additionally enables the attack to ignore 12% of the enemy’s DEF. This effect will be removed after the wearer uses an attack.",
+      "Increases the wearer’s CRIT DMG by 23%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 16.5%. When 3 stacks are reached, additionally enables the attack to ignore 14% of the enemy’s DEF. This effect will be removed after the wearer uses an attack.",
+      "Increases the wearer’s CRIT DMG by 26%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 18%. When 3 stacks are reached, additionally enables the attack to ignore 16% of the enemy’s DEF. This effect will be removed after the wearer uses an attack.",
+      "Increases the wearer’s CRIT DMG by 29%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 19.5%. When 3 stacks are reached, additionally enables the attack to ignore 18% of the enemy’s DEF. This effect will be removed after the wearer uses an attack.",
+      "Increases the wearer’s CRIT DMG by 32%. When an ally (excluding the wearer) gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stack(s). Each stack of Eclipse increases the DMG of the wearer’s next attack by 21%. When 3 stacks are reached, additionally enables the attack to ignore 20% of the enemy’s DEF. This effect will be removed after the wearer uses an attack."]', 5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[28.8, 145.44,324,502.56,635.04]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/brighter-than-the-sun.webp', 'Destruction', 'Brighter Than The Sun', 'Defiant Till Death','["Increases the wearer’s CRIT Rate by 18%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 18% and Energy Regeneration Rate by 6.0%. Dragon’s Call may be stacked up to 2 times.",
+      "Increases the wearer’s CRIT Rate by 21%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 21% and Energy Regeneration Rate by 7.0%. Dragon’s Call may be stacked up to 2 times.",
+      "Increases the wearer’s CRIT Rate by 24%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 24% and Energy Regeneration Rate by 8.0%. Dragon’s Call may be stacked up to 2 times.",
+      "Increases the wearer’s CRIT Rate by 27%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 27% and Energy Regeneration Rate by 9.0%. Dragon’s Call may be stacked up to 2 times.",
+      "Increases the wearer’s CRIT Rate by 30%. When the wearer uses their Basic ATK, they will gain 1 stack of Dragon’s Call, lasting for 2 turns. Each Stack of Dragon’s Call increases the wearer’s ATK by 30% and Energy Regeneration Rate by 10.0%. Dragon’s Call may be stacked up to 2 times."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/worrisome-blissful.webp', 'Hunt', 'Worrisome Blissful', 'One At A Time', '["Increase the wearern’s CRIT Rate by 18% and their follow-up attacksn’ DMG by 30%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 12%.",
+      "Increase the wearern’s CRIT Rate by 21% and their follow-up attacksn’ DMG by 35%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 14%.",
+      "Increase the wearern’s CRIT Rate by 24% and their follow-up attacksn’ DMG by 40%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 16%.",
+      "Increase the wearern’s CRIT Rate by 27% and their follow-up attacksn’ DMG by 45%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 18%.",
+      "Increase the wearern’s CRIT Rate by 30% and their follow-up attacksn’ DMG by 50%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 20%."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/on-the-fall-of-an-aeon.webp', 'Destruction', 'On The Fall Of An Aeon', 'Moth To Flames', '["Whenever the wearer attacks, their ATK is increased by 8% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 12% for 2 turn(s).",
+      "Whenever the wearer attacks, their ATK is increased by 10% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 15% for 2 turn(s).",
+      "Whenever the wearer attacks, their ATK is increased by 12% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 18% for 2 turn(s).",
+      "Whenever the wearer attacks, their ATK is increased by 14% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 21% for 2 turn(s).",
+      "Whenever the wearer attacks, their ATK is increased by 16% in this battle. This effect can stack up to 4 time(s). After a character inflicts Weakness Break on an enemy, the wearer’s DMG increases by 24% for 2 turn(s)."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/cruising-in-the-stellar-sea.webp', 'Hunt', 'Cruising In The Stellar Sea', 'Chase', '["Increases the wearer’s CRIT rate by 8%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 8%. When the wearer defeats an enemy, their ATK is increased by 20% for 2 turn(s).",
+      "Increases the wearer’s CRIT rate by 10%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 10%. When the wearer defeats an enemy, their ATK is increased by 25% for 2 turn(s).",
+      "Increases the wearer’s CRIT rate by 12%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 12%. When the wearer defeats an enemy, their ATK is increased by 30% for 2 turn(s).",
+      "Increases the wearer’s CRIT rate by 14%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 14%. When the wearer defeats an enemy, their ATK is increased by 35% for 2 turn(s).",
+      "Increases the wearer’s CRIT rate by 16%, and increases their CRIT rate against enemies with HP less than or equal to 50% by an extra 16%. When the wearer defeats an enemy, their ATK is increased by 40% for 2 turn(s)."]',5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[24,121.2,270,418.8,529.2]', '[48, 242, 761, 838, 1058]','/images/weapons/texture-of-memories.webp', 'Preservation', 'Texture Of Memories', 'Treasure', '["Increases the wearer’s Effect RES by 8%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12%.",
+      "Increases the wearer’s Effect RES by 10%. If the wearer is attacked and has no Shield, they gain a Shield equal to 20% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 15%.",
+      "Increases the wearer’s Effect RES by 12%. If the wearer is attacked and has no Shield, they gain a Shield equal to 24% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 18%.",
+      "Increases the wearer’s Effect RES by 14%. If the wearer is attacked and has no Shield, they gain a Shield equal to 28% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 21%.",
+      "Increases the wearer’s Effect RES by 16%. If the wearer is attacked and has no Shield, they gain a Shield equal to 32% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 24%."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/past-and-future.webp', 'Harmony', 'Past And Future', 'Kites From The Past', '["When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16% increased DMG for 1 turn(s).",
+      "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 20% increased DMG for 1 turn(s).",
+      "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 24% increased DMG for 1 turn(s).",
+      "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 28% increased DMG for 1 turn(s).",
+      "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 32% increased DMG for 1 turn(s)."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[24,121.2,270,418.8,529.2]', '[53, 267, 594, 921, 1164]', '/images/weapons/night-of-fright.webp', 'Abundance', 'Night Of Fright', 'Deep, Deep Breaths', '["Increases the wearer’s Energy Regeneration Rate by 12%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 10% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 2.4%. This effect can stack up to 5 times and lasts for 2 turn(s).",
+      "Increases the wearer’s Energy Regeneration Rate by 14%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 11% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 2.8%. This effect can stack up to 5 times and lasts for 2 turn(s).",
+      "Increases the wearer’s Energy Regeneration Rate by 16%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 12% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 3.2%. This effect can stack up to 5 times and lasts for 2 turn(s).",
+      "Increases the wearer’s Energy Regeneration Rate by 18%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 13% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 3.6%. This effect can stack up to 5 times and lasts for 2 turn(s).",
+      "Increases the wearer’s Energy Regeneration Rate by 20%. When any ally uses their Ultimate, the wearer restores HP for the ally currently with the lowest HP percentage by an amount equal to 14% of the healed ally’s Max HP. When the wearer provides healing for an ally, increases the healed ally’s ATK by 4%. This effect can stack up to 5 times and lasts for 2 turn(s)."]', 5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/an-instant-before-a-gaze.webp', 'Erudition', 'An Instant Before A Gaze', 'A Knight’s Pilgrimage', '["Increases the wearer’s CRIT DMG by 36%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.36%, up to 180 points of Energy.",
+      "Increases the wearer’s CRIT DMG by 42%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.42%, up to 180 points of Energy.",
+      "Increases the wearer’s CRIT DMG by 48%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.48%, up to 180 points of Energy.",
+      "Increases the wearer’s CRIT DMG by 54%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.54%, up to 180 points of Energy.",
+      "Increases the wearer’s CRIT DMG by 60%. When the wearer uses Ultimate, increases the wearer’s Ultimate DMG based on their max energy. Each point of Energy increases the Ultimate DMG by 0.60%, up to 180 points of Energy."]', 5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[24,121.2,270,418.8,529.2]', '[24,121.2,270,418.8,529.2]', '[48,242,761,838,1058]','/images/weapons/past-self-in-mirror.webp', 'Harmony', 'Past Self In Mirror', 'The Plum Fragrance In My Bones', '["Increases the wearer’s Break Effect by 60%. When the wearer uses their Ultimate, increases all allies’ DMG by 24%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 10 Energy immediately. Effects of the same type cannot stack.",
+      "Increases the wearer’s Break Effect by 70%. When the wearer uses their Ultimate, increases all allies’ DMG by 28%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 12.5 Energy immediately. Effects of the same type cannot stack.",
+      "Increases the wearer’s Break Effect by 80%. When the wearer uses their Ultimate, increases all allies’ DMG by 32%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 15 Energy immediately. Effects of the same type cannot stack.",
+      "Increases the wearer’s Break Effect by 90%. When the wearer uses their Ultimate, increases all allies’ DMG by 36%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 17.5 Energy immediately. Effects of the same type cannot stack.",
+      "Increases the wearer’s Break Effect by 100%. When the wearer uses their Ultimate, increases all allies’ DMG by 40%, lasting for 3 turn(s). Should the wearer’s Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 20 Energy immediately. Effects of the same type cannot stack."]',5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[21,106.05, 236.25, 366.45, 463.05]', '[53, 267, 594, 921, 1164]', '/images/weapons/earthly-escapade.webp', 'Harmony', 'Earthly Escapade', 'Capriciousness', '["Increases the wearer’s CRIT DMG by 32%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 10% and their CRIT DMG increased by 28%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns.",
+      "Increases the wearer’s CRIT DMG by 39%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 11% and their CRIT DMG increased by 35%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns.",
+      "Increases the wearer’s CRIT DMG by 46%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 12% and their CRIT DMG increased by 42%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns.",
+      "Increases the wearer’s CRIT DMG by 53%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 13% and their CRIT DMG increased by 49%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns.",
+      "Increases the wearer’s CRIT DMG by 60%. At the start of the battle, the wearer gains Mask, lasting for 3 turns. While the wearer has Mask, the wearer’s allies have their CRIT Rate increased by 14% and their CRIT DMG increased by 56%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask, lasting for 4 turns."]', 5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216, 335.04,423.36]', '[30, 151.5,337.5, 523.5, 661.5]', '[48,242,761,838,1058]','/images/weapons/inherently-unjust-destiny.webp', 'Preservation', 'Inherently Unjust Destiny', 'All-In', '["Increases the wearer’s DEF by 40%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 40%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 100% base chance to increase the DMG taken by the attacked enemy target by 10.0%, lasting for 2 turn(s).",
+      "Increases the wearer’s DEF by 46%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 46%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 115% base chance to increase the DMG taken by the attacked enemy target by 11.5%, lasting for 2 turn(s).",
+      "Increases the wearer’s DEF by 52%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 52%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 130% base chance to increase the DMG taken by the attacked enemy target by 13%, lasting for 2 turn(s).",
+      "Increases the wearer’s DEF by 58%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 58%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 145% base chance to increase the DMG taken by the attacked enemy target by 14.5%, lasting for 2 turn(s).",
+      "Increases the wearer’s DEF by 64%. When the wearer provides a Shield to an ally, the wearer’s CRIT DMG increases by 64%, lasting for 2 turn(s). When the wearer’s follow-up attack hits an enemy target, there is a 160% base chance to increase the DMG taken by the attacked enemy target by 16%, lasting for 2 turn(s)."]',5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[24,121.2,270,418.8,529.2]', '[43,218,486,754,953]', '/images/weapons/baptism-of-pure-thought.webp', 'Hunt', 'Baptism Of Pure Thought', 'Mental Training' , '["Increases the wearer’s CRIT DMG by 20%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 8%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 36% and enables their follow-up attacks to ignore 24% of the target’s DEF. This effect lasts for 2 turns.",
+      "Increases the wearer’s CRIT DMG by 23%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 9%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 42% and enables their follow-up attacks to ignore 28% of the target’s DEF. This effect lasts for 2 turns.",
+      "Increases the wearer’s CRIT DMG by 26%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 10%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 48% and enables their follow-up attacks to ignore 32% of the target’s DEF. This effect lasts for 2 turns.",
+      "Increases the wearer’s CRIT DMG by 29%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 11%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 54% and enables their follow-up attacks to ignore 36% of the target’s DEF. This effect lasts for 2 turns.",
+      "Increases the wearer’s CRIT DMG by 32%. For every debuff on the enemy target, the wearer’s CRIT DMG dealt against this target increases by 12%, stacking up to 3 times. When using their Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 60% and enables their follow-up attacks to ignore 40% of the target’s DEF. This effect lasts for 2 turns."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/solitary-healing.webp', 'Nihility', 'Solitary Healing', 'Chaos Elixir', '["Increases the wearer’s Break Effect by 20%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 24%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 4 Energy for the wearer.",
+      "Increases the wearer’s Break Effect by 25%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 30%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 4.5 Energy for the wearer.",
+      "Increases the wearer’s Break Effect by 30%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 36%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 5 Energy for the wearer.",
+      "Increases the wearer’s Break Effect by 35%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 42%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 5.5 Energy for the wearer.",
+      "Increases the wearer’s Break Effect by 40%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 48%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 6 Energy for the wearer."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04, 423.36]', '[15,75.75,168.75,261.75,330.75]', '[48,242,761,838,1058]','/images/weapons/what-is-real.webp', 'Abundance', 'What Is Real', 'Hypothesis', '["Increases the wearer’s Break Effect by 24%. After using their Basic ATK, restore HP for the wearer by an amount equal to 2.0% of their max HP plus 800.",
+      "Increases the wearer’s Break Effect by 30%. After using their Basic ATK, restore HP for the wearer by an amount equal to 2.5% of their max HP plus 800.",
+      "Increases the wearer’s Break Effect by 36%. After using their Basic ATK, restore HP for the wearer by an amount equal to 3% of their max HP plus 800.",
+      "Increases the wearer’s Break Effect by 42%. After using their Basic ATK, restore HP for the wearer by an amount equal to 3.5% of their max HP plus 800.",
+      "Increases the wearer’s Break Effect by 48%. After using their Basic ATK, restore HP for the wearer by an amount equal to 4% of their max HP plus 800."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/dreamville-adventure.webp', 'Harmony', 'Dreamville Adventure', 'Solidarity', '["After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 12%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
+      "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 14%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
+      "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 16%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
+      "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 18%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked.",
+      "After the wearer uses a certain type of ability such as Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases allies’ DMG for the same type of ability as used by the wearer by 20%. Childishness only takes effect for the most recent type of ability the wearer used and cannot be stacked."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/final-victor.webp', 'Hunt', 'Final Victor', 'All In' ,'["Increases the wearer’s ATK by 12%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 8%. Good Fortune will be removed at the end of the wearer’s turn.",
+      "Increases the wearer’s ATK by 14%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 9%. Good Fortune will be removed at the end of the wearer’s turn.",
+      "Increases the wearer’s ATK by 16%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 10%. Good Fortune will be removed at the end of the wearer’s turn.",
+      "Increases the wearer’s ATK by 18%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 11%. Good Fortune will be removed at the end of the wearer’s turn.",
+      "Increases the wearer’s ATK by 20%. When the wearer lands a CRIT hit on enemies, gains a stack of Good Fortune, stacking up to 4 times. Every stack of Good Fortune the wearer has will increase their CRIT DMG by 12%. Good Fortune will be removed at the end of the wearer’s turn."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/flames-afar.webp','Destruction', 'Flames Afar', 'Deflagration', '["When the cumulative HP loss of the wearer during a single attack exceeds 25% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
+      "When the cumulative HP loss of the wearer during a single attack exceeds 31.25% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
+      "When the cumulative HP loss of the wearer during a single attack exceeds 37.5% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
+      "When the cumulative HP loss of the wearer during a single attack exceeds 43.75% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
+      "When the cumulative HP loss of the wearer during a single attack exceeds 50% of their Max HP, or if the amount of their own HP they consume at one time is greater than 25% of their Max HP, immediately heals the wearer for 15% of their Max HP. At the same time, increases the DMG they deal by 25% for 2 turn(s). This effect can only be triggered once every 3 turn(s)."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/destinys-threads-forewoven.webp', 'Preservation', 'Destinys Threads Forewoven','Innsight', '["Increases the wearer’s Effect RES by 12%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 0.8%, up to a maximum increase of 32%.",
+      "Increases the wearer’s Effect RES by 14%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 0.9%, up to a maximum increase of 36%.",
+      "Increases the wearer’s Effect RES by 16%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 1%, up to a maximum increase of 40%.",
+      "Increases the wearer’s Effect RES by 18%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 1.1%, up to a maximum increase of 44%.",
+      "Increases the wearer’s Effect RES by 20%. For every 100 DEF the wearer has, increases the wearer’s DMG dealt by 1.2%, up to a maximum increase of 48%."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/the-day-the-cosmos-fell.webp', 'Erudtion', 'The Day The Cosmos Fell', 'Stratagem', '["Increases the wearer’s ATK by 16%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 20% for 2 turns.",
+      "Increases the wearer’s ATK by 18%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 25% for 2 turns.",
+      "Increases the wearer’s ATK by 20%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 30% for 2 turns.",
+      "Increases the wearer’s ATK by 22%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 35% for 2 turns.",
+      "Increases the wearer’s ATK by 24%. When the wearer uses an attack and at least 2 attacked enemies have the corresponding Weakness, the wearer’s CRIT DMG increases by 40% for 2 turns."]' ,4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]','[12,60.6,135,251.28,264.6]', '[48,242,761,838,1058]','/images/weapons/its-showtime.webp', 'Nihility', 'Its Showtime', 'Self-Amusement' , '["When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 6%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 20%.",
+      "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 7%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 24%.",
+      "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 8%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 28%.",
+      "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 9%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 32%.",
+      "When the wearer inflicts a debuff on an enemy, gains a stack of Trick. Every stack of Trick increases the wearer’s DMG dealt by 10%, stacking up to 3 times. This effect lasts for 1 turn. When the wearer’s Effect Hit Rate is 80% or higher, increases ATK by 36%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/reforged-remembrance.webp', 'Nihility', 'Reforged Remembrance', 'Crystalize', '["Increases the wearer’s Effect Hit Rate by 40%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 5% and enables the DoT dealt to ignore 7.2% of the target’s DEF.",
+      "Increases the wearer’s Effect Hit Rate by 45%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 6% and enables the DoT dealt to ignore 7.9% of the target’s DEF.",
+      "Increases the wearer’s Effect Hit Rate by 50%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 7% and enables the DoT dealt to ignore 8.6% of the target’s DEF.",
+      "Increases the wearer’s Effect Hit Rate by 55%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 8% and enables the DoT dealt to ignore 9.3% of the target’s DEF.",
+      "Increases the wearer’s Effect Hit Rate by 60%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer’s ATK by 9% and enables the DoT dealt to ignore 10% of the target’s DEF."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/shared-feeling.webp', 'Abundance', 'Shared Feeling', 'Cure And Repair', '["Increases the wearer’s Outgoing Healing by 10%. When using Skill, regenerates 2 Energy for all allies.",
+      "Increases the wearer’s Outgoing Healing by 12.5%. When using Skill, regenerates 2.5 Energy for all allies.",
+      "Increases the wearer’s Outgoing Healing by 15%. When using Skill, regenerates 3 Energy for all allies.",
+      "Increases the wearer’s Outgoing Healing by 17.5%. When using Skill, regenerates 3.5 Energy for all allies.",
+      "Increases the wearer’s Outgoing Healing by 20%. When using Skill, regenerates 4 Energy for all allies."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]',  '[24,121.2,270,418.8,529.2]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/eternal-calculus.webp', 'Erudition', 'Eternal Calculus', 'Boundless Thought', '["Increases the wearer’s ATK by 8%. After using an attack, for each enemy target hit, additionally increases ATK by 4%. This effect can stack 5 times and lasts until the next attack. If there are 3 or more enemy targets hit, this unit’s SPD increases by 8%, lasting for 1 turn."]',
+       5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/hey-over-here.webp', 'Abundance', 'Hey Over Here', 'I’m Not Afraid!', '["Increases the wearer’s Max HP by 8%. When the wearer uses Skill, increases Outgoing Healing by 16%, lasting for 2 turns.",
+      "Increases the wearer’s Max HP by 9%. When the wearer uses Skill, increases Outgoing Healing by 19%, lasting for 2 turns.",
+      "Increases the wearer’s Max HP by 10%. When the wearer uses Skill, increases Outgoing Healing by 22%, lasting for 2 turns.",
+      "Increases the wearer’s Max HP by 11%. When the wearer uses Skill, increases Outgoing Healing by 25%, lasting for 2 turns.",
+      "Increases the wearer’s Max HP by 12%. When the wearer uses Skill, increases Outgoing Healing by 28%, lasting for 2 turns."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[28.8, 145.44,324,502.56,635.04]', '[18, 90.9, 202.5, 314.1, 396.9]', '[48, 242, 761, 838, 1058]','/images/weapons/along-the-passing-shore.webp', 'Nihility', 'Along The Passing Shore', 'Steerer','["Increases the wearer’s CRIT DMG by 36%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 24%.",
+      "Increases the wearer’s CRIT DMG by 42%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 28% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 28%.",
+      "Increases the wearer’s CRIT DMG by 48%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 32% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 32%.",
+      "Increases the wearer’s CRIT DMG by 54%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 36% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 36%.",
+      "Increases the wearer’s CRIT DMG by 60%. When the wearer hits an enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 40% increased DMG to targets afflicted with Mirage Fizzle, and the DMG dealt by the wearer’s Ultimate additionally increases by 40%."]',5 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[24,121.2,270,418.8,529.2]', '[53, 267, 594, 921, 1164]', '/images/weapons/whereabouts-should-dreams-rest.webp', 'Destruction', 'Whereabouts Should Dreams Rest', 'Metamorphosis', '["Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.",
+      "Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.",
+      "Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.",
+      "Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked.",
+      "Increases the wearer’s Break Effect by 60%. When the wearer deals Break DMG to an enemy target, inflicts Routed on the enemy, lasting for 2 turns. Targets afflicted with Routed receive 24% increased Break DMG from the wearer, and their SPD is lowered by 20%. Effects of the similar type cannot be stacked."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/indelible-promise.webp', 'Destruction', 'Indelible Promise', 'Inheritance' ,'["Increases the wearer’s Break Effect by 28%. When the wearer uses their Ultimate, increases their CRIT Rate by 15%, lasting for 2 turn(s).",
+      "Increases the wearer’s Break Effect by 35%. When the wearer uses their Ultimate, increases their CRIT Rate by 18.75%, lasting for 2 turn(s).",
+      "Increases the wearer’s Break Effect by 42%. When the wearer uses their Ultimate, increases their CRIT Rate by 22.5%, lasting for 2 turn(s).",
+      "Increases the wearer’s Break Effect by 49%. When the wearer uses their Ultimate, increases their CRIT Rate by 26.25%, lasting for 2 turn(s).",
+      "Increases the wearer’s Break Effect by 56%. When the wearer uses their Ultimate, increases their CRIT Rate by 30%, lasting for 2 turn(s)."]',4 );
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/concert-for-two.webp', 'Preservation', 'Concert For Two', 'Inspire', '["Increases the wearer’s DEF by 16%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 4%.",
+      "Increases the wearer’s DEF by 20%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 5%.",
+      "Increases the wearer’s DEF by 24%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 6%.",
+      "Increases the wearer’s DEF by 28%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 7%.",
+      "Increases the wearer’s DEF by 32%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 8%."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[24,121.2,270,418.8,529.2]', '[43,218,486,754,953]', '/images/weapons/yet-hope-is-priceless.webp', 'Erudition', 'Yet Hope Is Priceless', 'Promise', '["Increases the wearer’s CRIT Rate by 16%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 12%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 20% of the target’s DEF, lasting 2 turn(s).",
+      "Increases the wearer’s CRIT Rate by 19%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 14%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 24% of the target’s DEF, lasting 2 turn(s).",
+      "Increases the wearer’s CRIT Rate by 22%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 16%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 28% of the target’s DEF, lasting 2 turn(s).",
+      "Increases the wearer’s CRIT Rate by 25%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 18%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 32% of the target’s DEF, lasting 2 turn(s).",
+      "Increases the wearer’s CRIT Rate by 28%. While the wearer is in battle, for every 20% CRIT DMG that exceeds 120%, the DMG dealt by follow-up attack increases by 20%. This effect can stack up to 4 time(s). When the battle starts or after the wearer uses their Basic ATK, enables Ultimate or the DMG dealt by follow-up attack to ignore 36% of the target’s DEF, lasting 2 turn(s)."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]','[26.4, 133.32,297, 460.68, 582.12]', '[21,106.05, 236.25, 366.45, 463.05]', '[48,242,761,838,1058]','/images/weapons/sailing-towards-a-second-life.webp', 'Hunt', 'Sailing Towards A Second Life', 'Rough Water', '["Increases the wearer’s Break Effect by 60%. The Break DMG dealt by the wearer ignores 20% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 12%.",
+      "Increases the wearer’s Break Effect by 70%. The Break DMG dealt by the wearer ignores 23% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 14%.",
+      "Increases the wearer’s Break Effect by 80%. The Break DMG dealt by the wearer ignores 26% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 16%.",
+      "Increases the wearer’s Break Effect by 90%. The Break DMG dealt by the wearer ignores 29% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 18%.",
+      "Increases the wearer’s Break Effect by 100%. The Break DMG dealt by the wearer ignores 32% of the target’s DEF. When the wearer’s Break Effect in battle is at 150% or greater, increases their SPD by 20%."]',5);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6,109.08,243,376.92,476.28]', '[15,75.75,168.75,261.75,330.75]', '[43,218,486,754,953]','/images/weapons/boundless-choreo.webp', 'Nihility', 'Boundless Choreo', 'Scrutinize', '["Increase the wearer’s CRIT Rate by 8%. The wearer deals 24% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
+      "Increase the wearer’s CRIT Rate by 10%. The wearer deals 30% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
+      "Increase the wearer’s CRIT Rate by 12%. The wearer deals 36% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
+      "Increase the wearer’s CRIT Rate by 14%. The wearer deals 42% more CRIT DMG to enemies that are currently Slowed or have reduced DEF.",
+      "Increase the wearer’s CRIT Rate by 16%. The wearer deals 48% more CRIT DMG to enemies that are currently Slowed or have reduced DEF."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[21.6, 109.08, 243, 376.92, 476.28]','[18, 90.9, 202.5, 314.1, 396.9]', '[38, 194, 432, 670, 847]','/images/weapons/after-the-charmony-fall.webp', 'Erudition', 'After The Charmony Fall', 'Quiescence', '["Increases the wearer’s Break Effect by 28%. After the wearer uses Ultimate, increases SPD by 8%, lasting for 2 turn(s).",
+      "Increases the wearer’s Break Effect by 35%. After the wearer uses Ultimate, increases SPD by 10%, lasting for 2 turn(s).",
+      "Increases the wearer’s Break Effect by 42%. After the wearer uses Ultimate, increases SPD by 12%, lasting for 2 turn(s).",
+      "Increases the wearer’s Break Effect by 49%. After the wearer uses Ultimate, increases SPD by 14%, lasting for 2 turn(s).",
+      "Increases the wearer’s Break Effect by 56%. After the wearer uses Ultimate, increases SPD by 16%, lasting for 2 turn(s)."]',4);
+
+insert into "weapons"
+      ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
+      values('[1,20,40,60,80]', '[28.8, 145.44,324,502.56,635.04]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/flowing-nightglow.webp', 'Harmony', 'Flowing Nightglow', 'Pacify', '["Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 3.0%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 48% and increases all allies’ DMG dealt by 24%, lasting for 1 turn(s).",
+      "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 3.5%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 60% and increases all allies’ DMG dealt by 28%, lasting for 1 turn(s).",
+      "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 4%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 72% and increases all allies’ DMG dealt by 32%, lasting for 1 turn(s).",
+      "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 4.5%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 84% and increases all allies’ DMG dealt by 36%, lasting for 1 turn(s).",
+      "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer’s Energy Regeneration Rate by 5%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the wearer’s ATK by 96% and increases all allies’ DMG dealt by 40%, lasting for 1 turn(s)."]',5 );

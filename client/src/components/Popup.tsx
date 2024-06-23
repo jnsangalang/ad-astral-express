@@ -24,14 +24,14 @@ export function Popup({
 
   const top = positionRef ? positionRef?.top + positionRef.height : '50%';
 
-  const left = positionRef ? positionRef?.left + positionRef.width / 12 : '50%';
+  const left = positionRef ? positionRef?.left + positionRef.width / 30 : '50%';
   return createPortal(
     <>
       <div
         onClick={onClose}
         className="shade-popup"
         style={{ backgroundColor: `rgb(0,0,0, ${opacitySet})` }}></div>
-      <div className="" style={{ top: top, left: left, position: 'absolute' }}>
+      <div className="" style={{ top, left, position: 'absolute' }}>
         {children}
       </div>
     </>,

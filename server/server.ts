@@ -183,7 +183,6 @@ app.get('/api/myFavorites', authMiddleware, async (req, res, next) => {
                 where "userId" =$1
               `;
     const result = await db.query(sql, [req.user?.userId]);
-    console.log('Query Result:', result.rows);
     if (!result) {
       throw new ClientError(400, 'result invalid');
     }

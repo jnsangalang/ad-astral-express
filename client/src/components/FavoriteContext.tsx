@@ -2,6 +2,7 @@ import { ReactNode, createContext, useEffect, useState } from 'react';
 import { DetailsCharacter } from '../lib/data';
 import { Weapon } from '../lib/data';
 import { readFavorites } from '../lib/read';
+import { useUser } from './useUser';
 
 export type FavoriteValue = {
   favoriteCharacters: DetailsCharacter[];
@@ -38,25 +39,29 @@ export function FavoriteProvider({ children }: Props) {
   const [error, setError] = useState<unknown>();
   const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => {
-    async function readFaves() {
-      setIsLoading(true);
-      try {
-        const faves = await readFavorites();
-        if (!faves) throw new Error(`Favorite of blah not found`);
-        const characters = faves.filter((fave) => fave.favoriteCharacter);
-        const weapons = faves.filter((fave) => fave.favoriteWeapon);
+  const { user } = useUser();
 
-        setFavoriteCharacter(characters);
-        setFavoriteWeapon(weapons);
-      } catch (err) {
-        setError(err);
-      } finally {
-        setIsLoading(false);
-      }
+  async function readFaves() {
+    setIsLoading(true);
+    try {
+      const faves = await readFavorites();
+      if (!faves) throw new Error(`Favorite of blah not found`);
+      const characters = faves.filter((fave) => fave.favoriteCharacter);
+      const weapons = faves.filter((fave) => fave.favoriteWeapon);
+
+      setFavoriteCharacter(characters);
+      setFavoriteWeapon(weapons);
+    } catch (err) {
+      setError(err);
+    } finally {
+      setIsLoading(false);
     }
-    readFaves();
-  }, []);
+  }
+  useEffect(() => {
+    if (user) {
+      readFaves();
+    }
+  }, [user]);
 
   if (isLoading) {
     return <div>Loading....</div>;
