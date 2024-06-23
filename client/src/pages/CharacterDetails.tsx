@@ -92,7 +92,7 @@ export function CharacterDetails() {
     talentLevel,
   } = character;
 
-  async function handleAddCharacter() {
+  async function handleToggleFavorite() {
     if (character === undefined) {
       return;
     }
@@ -118,7 +118,7 @@ export function CharacterDetails() {
           <div className="flex justify-center w-1/2 object-fill border border-white m-8 rounded-3xl relative">
             <div
               className="absolute right-3 top-1 character-like-heart"
-              onClick={handleAddCharacter}>
+              onClick={handleToggleFavorite}>
               {favoriteCharacters.find(
                 (char) => char.characterId === character.characterId
               ) ? (

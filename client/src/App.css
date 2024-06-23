@@ -24,16 +24,29 @@
   background-color: rgb(70, 70, 70);
 }
 
-.gold-pattern-background {
-  background-color: rgb(255, 221, 0);
+.polygonal-pattern-background {
+  background-color: rgb(109, 0, 0);
   background-image: linear-gradient(
-      25deg,
+      45deg,
       transparent 75%,
       rgba(0, 0, 0, 0.05) 75%
     ),
-    linear-gradient(335deg, transparent 75%, rgba(0, 0, 0, 0.05) 75%),
-    linear-gradient(125deg, transparent 75%, rgba(0, 0, 0, 0.03) 75%),
-    linear-gradient(215deg, transparent 75%, rgba(0, 0, 0, 0.03) 75%);
+    linear-gradient(335deg, transparent 75%, rgba(0, 0, 0, 0.366) 75%),
+    linear-gradient(125deg, transparent 75%, rgba(255, 205, 3, 0.23) 75%),
+    linear-gradient(215deg, transparent 75%, rgba(255, 251, 251, 0.03) 75%);
+  background-size: 100px 100px;
+}
+
+.polygonal-pattern-background2 {
+  background-color: rgb(109, 0, 0);
+  background-image: linear-gradient(
+      135deg,
+      transparent 75%,
+      rgba(0, 0, 0, 0.05) 75%
+    ),
+    linear-gradient(25deg, transparent 75%, rgba(0, 0, 0, 0.366) 75%),
+    linear-gradient(235deg, transparent 75%, rgba(255, 205, 3, 0.23) 75%),
+    linear-gradient(145deg, transparent 75%, rgba(255, 251, 251, 0.03) 75%);
   background-size: 100px 100px;
 }
 
@@ -61,6 +74,13 @@
 .marble {
   background: url('/images/marble/marble.webp');
   object-fit: fill;
+}
+
+.marble-favorite {
+  background: url('/images/marble/marble.webp');
+  object-fit: fill;
+  background-size: 50% 100%;
+  opacity: 0.7;
 }
 
 .starry-bg {
@@ -277,6 +297,7 @@
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-name: pom-pom-tilt;
+  opacity: 0.3;
 }
 
 @keyframes pom-pom-tilt {

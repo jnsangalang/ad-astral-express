@@ -37,50 +37,59 @@ export function Favorites() {
     );
   }
 
+  const combinedHealth =
+    (weapon?.weaponHealth[4] || 0) + (character?.characterHealth[4] || 0);
+  const combinedAttack = (
+    (weapon?.weaponAttack[4] || 0) + (character?.characterAttack[4] || 0)
+  ).toFixed(2);
+  const combinedDefense = (
+    (weapon?.weaponDefense[4] || 0) + (character?.characterDefense[4] || 0)
+  ).toFixed(2);
+
   return (
     <div className="flex w-full ">
       {!user && (
         <div className="w-full text-center w-screen h-screen velvet-background2 relative justify-center items-center">
           <div className="flex justify-center">
-            <div className="spotlight-background-favorites h-1/2 w-1/4 absolute mt-[10vh] items-center flex justify-center prompt-extrabold">
+            <div className="spotlight-background-favorites h-1/2 w-1/4 absolute  mt-[10vh] items-center flex justify-center prompt-extrabold">
               Log in to add to your favorites!
             </div>
             <img
               src="/images/pom-pom/magnifying-glass.webp"
               alt="pom pom with a magnifying glass"
-              className="absolute bottom-20 h-[35vh] pom-pom-tilt"
+              className="absolute top-[15vh] h-[35vh] pom-pom-tilt"
             />
           </div>
         </div>
       )}
       {user && (
         <>
-          <div className="w-1/3 flex flex-col ">
+          <div className="w-1/3 flex flex-col polygonal-pattern-background items-center">
             {favoriteWeapons.map((weapon) => (
               <div key={weapon.weaponId}>
-                <div className="w-full flex ">
+                <div className="w-[25vw] flex rounded-[30%]  bg-yellow-200 m-6  py-2">
                   <div
-                    className="w-3/5 m-4 relative"
+                    className="w-1/2 m-4 prompt-extrabold relative text-center"
                     onClick={() => {
                       setWeapon(weapon);
                     }}>
                     {weapon.weaponName}
                     <img
-                      className="w-[300px]"
+                      className="w-full h-[150px] object-cover"
                       src={weapon.weaponImage}
                       alt={weapon.weaponName}
                     />
                     <button
-                      className=""
+                      className="absolute right-0 top-0"
                       onClick={() =>
                         handleRemoveWeaponFromFavorites(weapon.weaponId)
                       }>
                       <FaHeartCircleMinus />
                     </button>
                   </div>
-                  <div className="w-2/5 m-4 text-left p-5">
-                    <div>Max Level Stats</div>
-                    <div className="">
+                  <div className="w-1/2 mx-4 text-left p-5">
+                    <div className="prompt-extrabold">Max Stats</div>
+                    <div className="bebas-neue-regular py-4">
                       <div>Level: {weapon.weaponLevel[4]}</div>
                       <div>Attack: {weapon.weaponAttack[4]}</div>
                       <div>Defense: {weapon.weaponDefense[4]}</div>
@@ -92,43 +101,58 @@ export function Favorites() {
             ))}
           </div>
           <div className="w-1/3">
-            <div className="w-full items-center flex">
-              <div className="border-4 min-h-[400px] w-1/2">
+            <div className="w-full items-center flex text-center prompt-extrabold">
+              <div className="border-4 border-yellow-100 marble-favorite min-h-[300px] w-1/2 ">
                 {weapon?.weaponName}
+                <img
+                  className="w-full h-[200px] object-cover"
+                  src={weapon?.weaponImage}
+                  alt={weapon?.weaponName}
+                />
               </div>
-              <div className="border-4 min-h-[400px] w-1/2">
+              <div className="border-4 border-yellow-100 marble-favorite min-h-[300px] w-1/2">
                 {character?.characterName}
+                <img
+                  className="w-full h-[200px] object-cover"
+                  src={character?.characterImage}
+                  alt={character?.characterName}
+                />
               </div>
             </div>
-            <div className="border-4 min-h-[100px]">total</div>
+            <div className="border-4 border-yellow-100 marble-favorite min-h-[100px] prompt-extrabold text-center">
+              Total
+              <div>Combined Health : {combinedHealth}</div>
+              <div>Combined Attack : {combinedAttack}</div>
+              <div>Combined Defense : {combinedDefense}</div>
+            </div>
           </div>
-          <div className="w-1/3">
+          <div className="w-1/3 polygonal-pattern-background2 flex justify-center">
             {favoriteCharacters.map((char) => (
               <div key={char.characterId}>
-                <div className="w-full flex">
+                <div className="w-[25vw] flex m-6 rounded-[30%] bg-yellow-200 text-center">
                   <div
-                    className="w-3/5 m-4 "
+                    className="w-1/2 m-4 relative py-2 prompt-extrabold"
                     onClick={() => {
                       setCharacter(char);
                     }}>
                     {char.characterName}
                     <img
-                      className="w-[350px]"
+                      className="w-full h-[150px] object-cover"
                       src={char.characterImage}
                       alt={char.characterName}
                     />{' '}
                     <button
-                      className=""
+                      className="absolute right-0 top-3"
                       onClick={() =>
                         handleRemoveCharacterFromFavorites(char.characterId)
                       }>
                       <FaHeartCircleMinus />
                     </button>
                   </div>
-                  <div className="w-2/5 m-4 text-left p-5">
+                  <div className="w-1/2 mx-4 text-left p-5">
                     <div>
-                      <div>Max Level Stats</div>
-                      <div>
+                      <div className="prompt-extrabold">Max Stats</div>
+                      <div className="bebas-neue-regular py-4">
                         <div>Level: {char.characterLevel[4]}</div>
                         <div>Attack: {char.characterAttack[4]}</div>
                         <div>Defense: {char.characterDefense[4]}</div>

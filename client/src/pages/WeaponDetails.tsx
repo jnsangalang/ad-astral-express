@@ -73,7 +73,7 @@ export function WeaponDetails() {
     weaponHealth,
     weaponPath,
   } = weapon;
-  async function handleAddWeapon() {
+  async function handleToggleFavorite() {
     if (weapon === undefined) {
       return;
     }
@@ -98,7 +98,7 @@ export function WeaponDetails() {
         <div className="w-full flex h-[600px] my-4 ">
           <div className="flex flex-wrap justify-center  w-1/2 object-fill spotlight-background-lightcone m-8">
             <div className="w-full text-center text-4xl mt-8">{weaponName}</div>
-            <div className="weapon-like-heart" onClick={handleAddWeapon}>
+            <div className="weapon-like-heart" onClick={handleToggleFavorite}>
               {favoriteWeapons.find(
                 (weap) => weap.weaponId === weapon.weaponId
               ) ? (

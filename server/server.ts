@@ -249,47 +249,56 @@ app.post('/api/favorites/weapon', authMiddleware, async (req, res, next) => {
   }
 });
 
-app.delete('/api/favorites/character/:characterId', async (req, res, next) => {
-  const { characterId } = req.params;
-  try {
-    const sql = `
+app.delete(
+  '/api/favorites/character/:characterId',
+  authMiddleware,
+  async (req, res, next) => {
+    try {
+      const { characterId } = req.params;
+      const sql = `
           delete from "favorites"
-          where "favoriteCharacter" = $1
+          where "favoriteCharacter" = $1 and "userId"=$2
           returning *;
           `;
-    const result = await db.query(sql, [characterId]);
-    if (!result) {
-      throw new ClientError(
-        400,
-        `character id: ${characterId} invalid within favorites`
-      );
+      const result = await db.query(sql, [characterId, req.user?.userId]);
+      if (!result) {
+        throw new ClientError(
+          400,
+          `character id: ${characterId} invalid within favorites`
+        );
+      }
+      res.sendStatus(204);
+    } catch (err) {
+      next(err);
     }
-    res.sendStatus(204);
-  } catch (err) {
-    next(err);
   }
-});
+);
 
-app.delete('/api/favorites/weapon/:weaponId', async (req, res, next) => {
-  const { weaponId } = req.params;
-  try {
-    const sql = `
+app.delete(
+  '/api/favorites/weapon/:weaponId',
+  authMiddleware,
+  async (req, res, next) => {
+    try {
+      const { weaponId } = req.params;
+
+      const sql = `
           delete from "favorites"
-          where "favoriteWeapon" = $1
+          where "favoriteWeapon" = $1 and "userId"=$2
           returning *;
           `;
-    const result = await db.query(sql, [weaponId]);
-    if (!result) {
-      throw new ClientError(
-        400,
-        `character id: ${weaponId} invalid within favorites`
-      );
+      const result = await db.query(sql, [weaponId, req.user?.userId]);
+      if (!result) {
+        throw new ClientError(
+          400,
+          `character id: ${weaponId} invalid within favorites`
+        );
+      }
+      res.sendStatus(204);
+    } catch (err) {
+      next(err);
     }
-    res.sendStatus(204);
-  } catch (err) {
-    next(err);
   }
-});
+);
 
 // USER endpoints start here
 
