@@ -19,7 +19,8 @@ export function CharacterDetails() {
   const [skill3, setSkill3] = useState(0);
   const [talent, setTalent] = useState(0);
 
-  const { addToFavorites, favoriteCharacters } = useContext(FavoriteContext);
+  const { addToFavorites, favoriteCharacters, removeFromFavorites } =
+    useContext(FavoriteContext);
   function toggleLevel() {
     setLevel((prev) => (prev + 1) % character!.characterLevel.length);
   }
@@ -95,11 +96,19 @@ export function CharacterDetails() {
     if (character === undefined) {
       return;
     }
-    const response = await addCharacter(character.characterId);
-    if (!response) {
-      throw new Error('failed to add character to favorites');
+    const isFavorite = favoriteCharacters.find(
+      (char) => char.characterId === character.characterId
+    );
+
+    if (isFavorite) {
+      removeFromFavorites(character);
+    } else {
+      const response = await addCharacter(character.characterId);
+      if (!response) {
+        throw new Error('failed to add character to favorites');
+      }
+      addToFavorites(character);
     }
-    addToFavorites(character);
   }
   return (
     <div className="character-detail-bg">

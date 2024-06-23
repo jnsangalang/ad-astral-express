@@ -8,6 +8,7 @@ export type FavoriteValue = {
   favoriteCharacters: DetailsCharacter[];
   favoriteWeapons: Weapon[];
   addToFavorites: (favorite: Weapon | DetailsCharacter) => void;
+  removeFromFavorites: (favorite: Weapon | DetailsCharacter) => void;
   setFavoriteCharacter: (character: DetailsCharacter[]) => void;
   setFavoriteWeapon: (weapon: Weapon[]) => void;
 };
@@ -15,6 +16,7 @@ export const defaultValue: FavoriteValue = {
   favoriteCharacters: [],
   favoriteWeapons: [],
   addToFavorites: () => {},
+  removeFromFavorites: () => {},
   setFavoriteCharacter: () => {},
   setFavoriteWeapon: () => {},
 };
@@ -82,6 +84,17 @@ export function FavoriteProvider({ children }: Props) {
       setFavoriteCharacter((prevFavorite) => [...prevFavorite, favorite]);
     }
   }
+  function removeFromFavorites(favorite: Weapon | DetailsCharacter) {
+    if ('weaponName' in favorite) {
+      setFavoriteWeapon((prevFavorite) =>
+        prevFavorite.filter((item) => item.weaponId !== favorite.weaponId)
+      );
+    } else {
+      setFavoriteCharacter((prevFavorite) =>
+        prevFavorite.filter((item) => item.characterId !== favorite.characterId)
+      );
+    }
+  }
 
   return (
     <FavoriteContext.Provider
@@ -91,6 +104,7 @@ export function FavoriteProvider({ children }: Props) {
         favoriteCharacters: favoriteCharacter,
         favoriteWeapons: favoriteWeapon,
         addToFavorites: addToFavorites,
+        removeFromFavorites: removeFromFavorites,
       }}>
       {children}
     </FavoriteContext.Provider>

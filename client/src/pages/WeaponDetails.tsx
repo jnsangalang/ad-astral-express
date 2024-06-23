@@ -15,7 +15,8 @@ export function WeaponDetails() {
   const [level, setLevel] = useState(0);
   const [effectLevel, setEffectLevel] = useState(0);
 
-  const { addToFavorites, favoriteWeapons } = useContext(FavoriteContext);
+  const { addToFavorites, favoriteWeapons, removeFromFavorites } =
+    useContext(FavoriteContext);
 
   function toggleLevel() {
     setLevel((prev) => (prev + 1) % weapon!.weaponLevel.length);
@@ -76,11 +77,19 @@ export function WeaponDetails() {
     if (weapon === undefined) {
       return;
     }
-    const response = await addWeapon(weapon.weaponId);
-    if (!response) {
-      throw new Error('failed to add weapon to favorites');
+    const isFavorite = favoriteWeapons.find(
+      (weap) => weap.weaponId === weapon.weaponId
+    );
+
+    if (isFavorite) {
+      removeFromFavorites(weapon);
+    } else {
+      const response = await addWeapon(weapon.weaponId);
+      if (!response) {
+        throw new Error('failed to add weapon to favorites');
+      }
+      addToFavorites(weapon);
     }
-    addToFavorites(weapon);
   }
 
   return (
