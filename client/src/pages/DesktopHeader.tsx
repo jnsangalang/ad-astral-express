@@ -48,7 +48,7 @@ export function DesktopHeader() {
             )}
           </div>
           <div className="w-full flex justify-around items-center">
-            <div className="w-1/5">
+            <div className="lg:w-1/5 sm:w-1/2">
               <button
                 ref={postionChacracterRef}
                 onClick={() => setIsCharacterOpen(!isCharacterOpen)}

@@ -130,7 +130,7 @@ export function CharacterDetails() {
             <img
               src={characterImage}
               alt={characterName}
-              className="object-cover w-full h-full rounded-3xl"
+              className="object-contain w-full h-full rounded-3xl"
             />
           </div>
           <div className="flex flex-col w-1/2 m-8 border rounded-3xl character-detail-text-background pt-4 pl-8">

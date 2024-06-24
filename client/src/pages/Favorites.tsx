@@ -100,7 +100,7 @@ export function Favorites() {
               </div>
             ))}
           </div>
-          <div className="w-1/3">
+          <div className="w-1/3  polygonal-pattern-background3">
             <div className="w-full items-center flex text-center prompt-extrabold">
               <div className="border-4 border-yellow-100 marble-favorite min-h-[300px] w-1/2 ">
                 {weapon?.weaponName}
@@ -119,14 +119,14 @@ export function Favorites() {
                 />
               </div>
             </div>
-            <div className="border-4 border-yellow-100 marble-favorite min-h-[100px] prompt-extrabold text-center">
+            <div className="border-4 border-yellow-100 marble-favorite min-h- prompt-extrabold text-center">
               Total
               <div>Combined Health : {combinedHealth}</div>
               <div>Combined Attack : {combinedAttack}</div>
               <div>Combined Defense : {combinedDefense}</div>
             </div>
           </div>
-          <div className="w-1/3 polygonal-pattern-background2 flex justify-center">
+          <div className="w-1/3 polygonal-pattern-background2 flex flex-col justify-center">
             {favoriteCharacters.map((char) => (
               <div key={char.characterId}>
                 <div className="w-[25vw] flex m-6 rounded-[30%] bg-yellow-200 text-center">

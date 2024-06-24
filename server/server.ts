@@ -300,6 +300,31 @@ app.delete(
   }
 );
 
+// get middleware for searching through characters
+
+app.get('/api/search', async (req, res, next) => {
+  try {
+    const search = req.query.search;
+    if (!search || typeof search !== 'string') {
+      throw new ClientError(400, 'Invalid search');
+    }
+    const sql = `
+            SELECT 'character' AS type, c.*
+            FROM "characters" AS c
+            WHERE LOWER(c."characterName") LIKE LOWER($1);
+            `;
+
+    const result = await db.query(sql, [`%${search}%`]);
+    if (!result) {
+      throw new ClientError(404, 'could not find search');
+    }
+    const character = result.rows;
+    res.json(character);
+  } catch (err) {
+    next(err);
+  }
+});
+
 // USER endpoints start here
 
 app.post('/api/auth/sign-up', async (req, res, next) => {

@@ -22,9 +22,12 @@ export function Popup({
   }
   const positionRef = position?.getBoundingClientRect();
 
-  const top = positionRef ? positionRef?.top + positionRef.height : '50%';
-
-  const left = positionRef ? positionRef?.left + positionRef.width / 30 : '50%';
+  const top = positionRef
+    ? positionRef.top + positionRef.height + window.scrollY
+    : '50%';
+  const left = positionRef
+    ? positionRef.left + positionRef.width / 30 + window.scrollX
+    : '50%';
   return createPortal(
     <>
       <div

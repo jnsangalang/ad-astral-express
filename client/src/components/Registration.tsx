@@ -46,6 +46,8 @@ export function Registration() {
       <div className="rounded-3xl meteor2"></div>
       <div className="rounded-3xl meteor"></div>
       <div className="rounded-3xl meteor2"></div>
+      <div className="rounded-3xl meteor2"></div>
+      <div className="rounded-3xl meteor2"></div>
       <div className="rounded-3xl meteor"></div>
       <div className="rounded-3xl meteor2"></div>
       <div className="rounded-3xl meteor"></div>

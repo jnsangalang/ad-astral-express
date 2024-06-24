@@ -56,7 +56,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath",
       "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-   values('March 7th', '[1, 20, 40, 60, 80]', '/images/characters/march-7.png', '/images/characters/march-7-portrait.png', 'Preservation',
+   values('March 7th', '[1, 20, 40, 60, 80]', '/images/characters/march-7.webp', '/images/characters/march-7-portrait.webp', 'Preservation',
          'Ice','	A girl who once slumbered in eternal ice and knows nothing about her past. To find out the truth about her origins, she decided to travel with the Astral Express. As of right now, she has prepared about 67 different versions of her life story for herself.', 4, 1, 2, 3, 1, 1 );
 
 
@@ -108,7 +108,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Dan Heng', '[1,20,40,60,80]', '/images/characters/dan-heng.png', '/images/characters/dan-heng-portrait.png', 'Hunt', 'Wind','A cold and reserved young man who is reticent about his past.
+      values('Dan Heng', '[1,20,40,60,80]', '/images/characters/dan-heng.webp', '/images/characters/dan-heng-portrait.webp', 'Hunt', 'Wind','A cold and reserved young man who is reticent about his past.
 To avoid his kin, he decided to travel with the Astral Express.' , 4,  4, 5, 6, 2, 2);
 
 insert into "skills"
@@ -159,7 +159,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Himeko', '[1,20,40,60,80]', '/images/characters/himeko.png', '/images/characters/himeko-portrait.png', 'Erudition', 'Fire','The one who repaired the Astral Express. To witness the vast starry sky, she decided to travel with the Astral Express. Her hobby is brewing hand-made coffee.', 5, 7, 8, 9, 3, 3);
+      values('Himeko', '[1,20,40,60,80]', '/images/characters/himeko.webp', '/images/characters/himeko-portrait.webp', 'Erudition', 'Fire','The one who repaired the Astral Express. To witness the vast starry sky, she decided to travel with the Astral Express. Her hobby is brewing hand-made coffee.', 5, 7, 8, 9, 3, 3);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -209,7 +209,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Welt', '[1,20,40,60,80]', '/images/characters/welt.png', '/images/characters/welt-portrait.png', 'Nihility', 'Imaginary', 'A seasoned member of the Express Crew. The passion buried in his heart burns anew as he enjoys this fresh adventure. Occasionally, he would sketch the experiences in a notebook.',5, 10, 11, 12, 4, 4);
+      values('Welt', '[1,20,40,60,80]', '/images/characters/welt.webp', '/images/characters/welt-portrait.webp', 'Nihility', 'Imaginary', 'A seasoned member of the Express Crew. The passion buried in his heart burns anew as he enjoys this fresh adventure. Occasionally, he would sketch the experiences in a notebook.',5, 10, 11, 12, 4, 4);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -259,7 +259,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Kafka', '[1,20,40,60,80]', '/images/characters/kafka.png', '/images/characters/kafka-portrait.png', 'Nihility', 'Lightning','A member of the Stellaron Hunters. A dashing, collected, and professional beauty. Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron. Her hobby is shopping for and organizing her collection of coats.', 5, 13, 14, 15, 5, 5 );
+      values('Kafka', '[1,20,40,60,80]', '/images/characters/kafka.webp', '/images/characters/kafka-portrait.webp', 'Nihility', 'Lightning','A member of the Stellaron Hunters. A dashing, collected, and professional beauty. Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron. Her hobby is shopping for and organizing her collection of coats.', 5, 13, 14, 15, 5, 5 );
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -309,7 +309,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Silver Wolf', '[1,20,40,60,80]', '/images/characters/silver-wolf.png', '/images/characters/silver-wolf-portrait.png', 'Nihility', 'Quantum','A member of the Stellaron Hunters and a genius hacker. She sees the universe as a massive immersive simulation game and has fun with it. She’s mastered the skill known as "aether editing," which can be used to tamper with the data of reality.', 5, 16,17,18,6,6);
+      values('Silver Wolf', '[1,20,40,60,80]', '/images/characters/silver-wolf.webp', '/images/characters/silver-wolf-portrait.webp', 'Nihility', 'Quantum','A member of the Stellaron Hunters and a genius hacker. She sees the universe as a massive immersive simulation game and has fun with it. She’s mastered the skill known as "aether editing," which can be used to tamper with the data of reality.', 5, 16,17,18,6,6);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -359,7 +359,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Arlan', '[1,20,40,60,80]', '/images/characters/arlan.png', '/images/characters/arlan-portrait.png', 'Destruction', 'Lightning','The head of Herta Space Station’s Security Department.
+      values('Arlan', '[1,20,40,60,80]', '/images/characters/arlan.webp', '/images/characters/arlan-portrait.webp', 'Destruction', 'Lightning','The head of Herta Space Station’s Security Department.
 This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.', 4, 19,20,21,7,7);
 
 insert into "skills"
@@ -410,7 +410,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Asta', '[1,20,40,60,80]', '/images/characters/asta.png', '/images/characters/asta-portrait.png', 'Harmony', 'Fire','The lead researcher of Herta Space Station and a lady from a renowned family. She’s an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.', 4, 22,23,24,8,8);
+      values('Asta', '[1,20,40,60,80]', '/images/characters/asta.webp', '/images/characters/asta-portrait.webp', 'Harmony', 'Fire','The lead researcher of Herta Space Station and a lady from a renowned family. She’s an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.', 4, 22,23,24,8,8);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -459,7 +459,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Herta', '[1,20,40,60,80]', '/images/characters/herta.png', '/images/characters/herta-portrait.png', 'Erudition', 'Ice','Member 83 of the Genius Society. The real master of the space station.
+      values('Herta', '[1,20,40,60,80]', '/images/characters/herta.webp', '/images/characters/herta-portrait.webp', 'Erudition', 'Ice','Member 83 of the Genius Society. The real master of the space station.
 An incredibly intelligent yet unsympathetic scientist.', 4, 25,26,27,9,9);
 
 insert into "skills"
@@ -510,7 +510,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Bronya', '[1,20,40,60,80]', '/images/characters/bronya.png', '/images/characters/bronya-portrait.png', 'Harmony', 'Wind','Heir apparent to the Supreme Guardian of Belobog. She possesses pride befitting of a princess, but also the determination and integrity of a soldier.', 5, 28,29,30,10,10);
+      values('Bronya', '[1,20,40,60,80]', '/images/characters/bronya.webp', '/images/characters/bronya-portrait.webp', 'Harmony', 'Wind','Heir apparent to the Supreme Guardian of Belobog. She possesses pride befitting of a princess, but also the determination and integrity of a soldier.', 5, 28,29,30,10,10);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -560,7 +560,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage","characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Seele', '[1,20,40,60,80]', '/images/characters/seele.png', '/images/characters/seele-portrait.png', 'Hunt', 'Quantum','A resident of the Underworld and the backbone of Wildfire. She goes by the alias "Babochka."
+      values('Seele', '[1,20,40,60,80]', '/images/characters/seele.webp', '/images/characters/seele-portrait.webp', 'Hunt', 'Quantum','A resident of the Underworld and the backbone of Wildfire. She goes by the alias "Babochka."
 She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.', 5,31,32,33,11,11);
 
 insert into "skills"
@@ -611,7 +611,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel","characterImage","characterPortrait","characterPath","characterType", "characterDescription","rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Serval', '[1,20,40,60,80]', '/images/characters/serval.png', '/images/characters/serval-portrait.png', 'Erudition', 'Lightning','A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.
+      values('Serval', '[1,20,40,60,80]', '/images/characters/serval.webp', '/images/characters/serval-portrait.webp', 'Erudition', 'Lightning','A Belobog mechanic who used to be a researcher for the Technology Division of the Architects.
 As Gepard Landau’s elder sister, her personality stands in stark contrast to her brother’s. She loves an ancient form of music known as "rock n’ roll" that was popular before the Eternal Freeze.', 4,34,35,36,12,12);
 
 insert into "skills"
@@ -662,7 +662,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Gepard', '[1,20,40,60,80]', '/images/characters/gepard.png', '/images/characters/gepard-portrait.png', 'Preservation', 'Ice','A captain in the Silvermane Guards and an outstanding warrior of Belobog.
+      values('Gepard', '[1,20,40,60,80]', '/images/characters/gepard.webp', '/images/characters/gepard-portrait.webp', 'Preservation', 'Ice','A captain in the Silvermane Guards and an outstanding warrior of Belobog.
 He is meticulous and vigilant to the core and is always true to himself.', 5,37,38,39,13,13);
 
 insert into "skills"
@@ -713,7 +713,7 @@ insert into "characterStats"
 
 insert into "characters"
       ("characterName", "characterLevel", "characterImage", "characterPortrait", "characterPath", "characterType", "characterDescription", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
-      values('Natasha', '[1,20,40,60,80]', '/images/characters/natasha.png', '/images/characters/natasha-portrait.png', 'Abundance', 'Physical',
+      values('Natasha', '[1,20,40,60,80]', '/images/characters/natasha.webp', '/images/characters/natasha-portrait.webp', 'Abundance', 'Physical',
       'A fastidious doctor who always wears an enigmatic smile. In the Underworld where medical resources are scarce,
       Natasha is one of the very few doctors whom the people can turn to. Even the rambunctious Hook would politely greet her... "Hi, big sis Natasha."', 4,40,41,42,14,14);
 
@@ -766,7 +766,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Pela', '[1,20,40,60,80]', 'An intelligence officer for the Silvermane Guards. She has a serious personality and is revered by other members of the Silvermane Guards.',
-      '/images/characters/pela.png', '/images/characters/pela-portrait.png', 'Nihility', 'Ice', 4, 43,44,45, 15,15);
+      '/images/characters/pela.webp', '/images/characters/pela-portrait.webp', 'Nihility', 'Ice', 4, 43,44,45, 15,15);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -817,7 +817,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Clara', '[1,20,40,60,80]', 'A vagrant girl who lives with robots. She is introverted, gentle, and has a pure heart. She wishes for all Underworlders to become a family.',
-      '/images/characters/clara.png', '/images/characters/clara-portrait.png', 'Destruction', 'Physical', 5,46,47,48,16,16);
+      '/images/characters/clara.webp', '/images/characters/clara-portrait.webp', 'Destruction', 'Physical', 5,46,47,48,16,16);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -868,7 +868,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Sampo', '[1,20,40,60,80]', 'A merchant who freely travels between the Overworld and the Underworld. He acts like he is everyone’s friend, is enthusiastically humorous, and is good at bantering.',
-      '/images/characters/sampo.png', '/images/characters/sampo-portrait.png', 'Nihility', 'Wind', 4, 49,50,51,17,17);
+      '/images/characters/sampo.webp', '/images/characters/sampo-portrait.webp', 'Nihility', 'Wind', 4, 49,50,51,17,17);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -919,7 +919,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Hook', '[1,20,40,60,80]', 'Boss (self-proclaimed) of an Underworld adventure squad, The Moles. She loves freedom and sees life as a series of adventures.' ,
-      '/images/characters/hook.png', '/images/characters/hook-portrait.png', 'Destruction', 'Fire', 4, 52,53,54,18,18);
+      '/images/characters/hook.webp', '/images/characters/hook-portrait.webp', 'Destruction', 'Fire', 4, 52,53,54,18,18);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -970,7 +970,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Lynx', '[1,20,40,60,80]', 'A Belobogian Snow Plains Explorer, and the youngest of the Landau siblings. Calm and collected, with a strong drive for action. Often embarks on solo adventures to explore the snowy wilderness.',
-      '/images/characters/lynx.png', '/images/characters/lynx-portrait.png', 'Abundance', 'Ice', 4, 55,56,57,19,19);
+      '/images/characters/lynx.webp', '/images/characters/lynx-portrait.webp', 'Abundance', 'Ice', 4, 55,56,57,19,19);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1021,7 +1021,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Luka', '[1,20,40,60,80]', '	The boxing champion in Belobog’s Underworld, and one of Wildfire’s most capable fighters. The consecutive reigning champion of the Fight Club, whose enthusiasm inspires children of the Underworld to dream big.',
-      '/images/characters/luka.png', '/images/characters/luka-portrait.png', 'Nihility', 'Physical', 4,58,59,60,20,20);
+      '/images/characters/luka.webp', '/images/characters/luka-portrait.webp', 'Nihility', 'Physical', 4,58,59,60,20,20);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1072,7 +1072,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Topaz', '[1,20,40,60,80]', 'Topaz is the Leader of the Special Debts Picket Team and high-level manager of the Strategic Investment Department under the Interastral Peace Corporation. A member of the "Ten Stonehearts" at a young age, Topaz’s foundational expertise is debt retrieval.',
-      '/images/characters/topaz.png', '/images/characters/topaz-portrait.png', 'Hunt', 'Fire', 5, 61,62,63,21,21);
+      '/images/characters/topaz.webp', '/images/characters/topaz-portrait.webp', 'Hunt', 'Fire', 5, 61,62,63,21,21);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1123,7 +1123,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Qingque', '[1,20,40,60,80]', 'Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian. Always slacks off and is about to be demoted to a door guardian.',
-      '/images/characters/qingque.png', '/images/characters/qingque-portrait.png', 'Erudition', 'Quantum', 4, 64,65,66,22,22 );
+      '/images/characters/qingque.webp', '/images/characters/qingque-portrait.webp', 'Erudition', 'Quantum', 4, 64,65,66,22,22 );
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1174,7 +1174,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Tingyun', '[1,20,40,60,80]', 'Amicassador of the Sky-Faring Commission of the Xianzhou Luofu. She travels with business delegates, forging trade relationships and alliances with many worlds.',
-      '/images/characters/tingyun.png', '/images/characters/tingyun-portrait.png', 'Harmony', 'Lightning', 4, 67,68,69,23,23);
+      '/images/characters/tingyun.webp', '/images/characters/tingyun-portrait.webp', 'Harmony', 'Lightning', 4, 67,68,69,23,23);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1225,7 +1225,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId","characterStatsId")
       values('Luocha', '[1,20,40,60,80]', 'Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas. He has excellent medical skills.' ,
-      '/images/characters/luocha.png', '/images/characters/luocha-portrait.png', 'Abundance', 'Imaginary', 5, 70,71,72,24,24);
+      '/images/characters/luocha.webp', '/images/characters/luocha-portrait.webp', 'Abundance', 'Imaginary', 5, 70,71,72,24,24);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1276,7 +1276,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id","skill3Id", "talentId", "characterStatsId")
       values('Jing Yuan', '[1,20,40,60,80]', '	The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu. A student of the Luofu’s previous Sword Champion, though not known for his martial prowess',
-      '/images/characters/jing-yuan.png', '/images/characters/jing-yuan-portrait.png', 'Erudition', 'Lightning', 5, 73,74,75,25,25);
+      '/images/characters/jing-yuan.webp', '/images/characters/jing-yuan-portrait.webp', 'Erudition', 'Lightning', 5, 73,74,75,25,25);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1327,7 +1327,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel","characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id","skill3Id","talentId", "characterStatsId")
       values('Blade', '[11,20,40,60,80]', 'A member of the Stellaron Hunters, and a swordsman who abandoned his body to become a blade. Pledges loyalty to "Destiny’s Slave," and possesses a terrifying self-healing ability.',
-       '/images/characters/blade.png', '/images/characters/blade-portrait.png', 'Destruction', 'Wind', 5, 76,77,78,26,26);
+       '/images/characters/blade.webp', '/images/characters/blade-portrait.webp', 'Destruction', 'Wind', 5, 76,77,78,26,26);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1378,7 +1378,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription","characterImage","characterPortrait","characterPath", "characterType","rarity", "skill1Id","skill2Id","skill3Id","talentId","characterStatsId")
       values('Sushang', '[1,20,40,60,80]', 'Born on the Xianzhou Yaoqing, sent to the Cloud Knights of the Luofu for military training. She wields her family sword, a gift from her mother, and longs for the future she will go on to write.',
-      '/images/characters/sushang.png', '/images/characters/sushang-portrait.png', 'Hunt', 'Physical', 4,79,80,81,27,27);
+      '/images/characters/sushang.webp', '/images/characters/sushang-portrait.webp', 'Hunt', 'Physical', 4,79,80,81,27,27);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1429,7 +1429,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName","characterLevel","characterDescription","characterImage","characterPortrait","characterPath", "characterType", "rarity", "skill1Id","skill2Id","skill3Id", "talentId", "characterStatsId")
       values('Yukong', '[1,20,40,60,80]', 'Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot. Since heading up the commission, she’s been buried under mountains of paperwork.',
-      '/images/characters/yukong.png', '/images/characters/yukong-portrait.png', 'Harmony', 'Imaginary', 4,82,83,84,28,28);
+      '/images/characters/yukong.webp', '/images/characters/yukong-portrait.webp', 'Harmony', 'Imaginary', 4,82,83,84,28,28);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1480,7 +1480,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName","characterLevel","characterDescription","characterImage", "characterPortrait","characterPath","characterType", "rarity", "skill1Id","skill2Id","skill3Id","talentId","characterStatsId")
       values('Fu Xuan', '[1,20,40,60,80]', 'Head of the Divination Commission on the Luofu. The person who uses the third eye and Matrix of Prescience to foretell the route of Xianzhou and the outcomes of events.',
-      '/images/characters/fu-xuan.png', '/images/characters/fu-xuan-portrait.png', 'Preservation', 'Quantum', 5, 85,86,87,29,29 );
+      '/images/characters/fu-xuan.webp', '/images/characters/fu-xuan-portrait.webp', 'Preservation', 'Quantum', 5, 85,86,87,29,29 );
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1531,7 +1531,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id","skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Yanqing', '[1,20,40,60,80]', 'General Jing Yuan’s retainer. A gifted swordsman who hasn’t even come of age. No one can best Yanqing when he holds a sword in hand.',
-      '/images/characters/yanqing.png', '/images/characters/yanqing-portrait.png', 'Hunt', 'Ice', 5,88,89,90,30,30);
+      '/images/characters/yanqing.webp', '/images/characters/yanqing-portrait.webp', 'Hunt', 'Ice', 5,88,89,90,30,30);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1582,7 +1582,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Guinaifen', '[1,20,40,60,80]','A performance artist visiting the Xianzhou Luofu — in other words, a street performer. She’s chasing a new life on the Luofu when not concerned with food and shelter.',
-      '/images/characters/guinaifen.png', '/images/characters/guinaifen-portrait.png', 'Nihility', 'Fire', 4,91,92,93,31,31);
+      '/images/characters/guinaifen.webp', '/images/characters/guinaifen-portrait.webp', 'Nihility', 'Fire', 4,91,92,93,31,31);
 
 
 insert into "skills"
@@ -1634,7 +1634,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Bailu', '[1,20,40,60,80]', 'The High Elder of the Vidyadhara, who is also known as the "Healer Lady" on the Luofu. She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.',
-     '/images/characters/bailu.png', '/images/characters/bailu-portrait.png', 'Abundance', 'Lightning', 5,94,95,96,32,32 );
+     '/images/characters/bailu.webp', '/images/characters/bailu-portrait.webp', 'Abundance', 'Lightning', 5,94,95,96,32,32 );
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1685,7 +1685,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Jingliu', '[1,20,40,60,80]', '	Former Sword Champion of the Luofu, and the creator of the Cloud Knights’ legends of undefeated might. Now, her name has been wiped from the records, and she is a traitor of the Xianzhou walking on the fine line between sanity and mara-struck.',
-       '/images/characters/jingliu.png', '/images/characters/jingliu-portrait.png', 'Hunt', 'Ice', 5,97,98,99,33,33 );
+       '/images/characters/jingliu.webp', '/images/characters/jingliu-portrait.webp', 'Hunt', 'Ice', 5,97,98,99,33,33 );
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1736,7 +1736,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Dan Heng Imbibitor Lunae', '[1,20,40,60,80]', 'Dan Heng’s true form from his Vidyadhara lineage carries the residual power left behind by his past incarnation, the Imbibitor Lunae. Upon accepting the majestic horns atop his crown, he must accept all the merits and faults attributed to that sinner.',
-           '/images/characters/dan-heng-imbibitor-lunae.png', '/images/characters/dan-heng-imbibitor-lunae-portrait.png', 'Destruction', 'Imaginary', 5,100,101,102,34,34);
+           '/images/characters/dan-heng-imbibitor-lunae.webp', '/images/characters/dan-heng-imbibitor-lunae-portrait.webp', 'Destruction', 'Imaginary', 5,100,101,102,34,34);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1786,7 +1786,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Xueyi', '[1,20,40,60,80]', 'Judge of the Ten-Lords Commission, which presides over the jurisdiction of life and death on the Luofu. For years after her death, she inhabited a puppet body and returned to the world to fulfill her mission.',
-           '/images/characters/xueyi.png', '/images/characters/xueyi-portrait.png', 'Destruction', 'Quantum', 4, 103,104,105,35,35);
+           '/images/characters/xueyi.webp', '/images/characters/xueyi-portrait.webp', 'Destruction', 'Quantum', 4, 103,104,105,35,35);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1838,7 +1838,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Hanya', '[1,20,40,60,80]', 'One of the judges of the Xianzhou Luofu’s Ten-Lords Commission. Ordained by the Ten-Lords and wielding the authority of the Oracle Brush, she reads the multitudes of human sins and transgressions, then issues punishments and karmic retribution.',
-      '/images/characters/hanya.png', '/images/characters/hanya-portrait.png', 'Harmony', 'Physical', 4,106,107,108,36,36);
+      '/images/characters/hanya.webp', '/images/characters/hanya-portrait.webp', 'Harmony', 'Physical', 4,106,107,108,36,36);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1890,7 +1890,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Huohuo', '[1,20,40,60,80]', 'A trainee Ten-Lords Commission Judge of the Xianzhou Luofu, she is a young foxian girl possessed by a heliobus. She is a timid and weak girl who is afraid of all kinds of strange things, but is responsible for luring and subduing evil spirits.',
-      '/images/characters/huohuo.png', '/images/characters/huohuo-portrait.png', 'Abundance', 'Wind', 5, 109,110,111,37,37);
+      '/images/characters/huohuo.webp', '/images/characters/huohuo-portrait.webp', 'Abundance', 'Wind', 5, 109,110,111,37,37);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1941,7 +1941,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Gallagher', '[1,20,40,60,80]', '	A security officer of the Bloodhound Family at Penacony. He is always courteous toward visiting guests but keeps his vigilance about him. He seems to carry a weight of a complicated past, yet he never voluntarily divulges any details.',
-       '/images/characters/gallagher.png', '/images/characters/gallagher-portrait.png', 'Abundance', 'Fire', 4,112,113,114,38,38);
+       '/images/characters/gallagher.webp', '/images/characters/gallagher-portrait.webp', 'Abundance', 'Fire', 4,112,113,114,38,38);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -1992,7 +1992,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Argenti', '[1,20,40,60,80]', 'A paragon knight of the Knights of Beauty who is piously seeking his missing Aeon, Idrila the Beauty. Forthright and candid, he wanders the cosmos espousing the virtues of Idrila’s good name.',
-             '/images/characters/argenti.png', '/images/characters/argenti-portrait.png', 'Erudtion', 'Physical', 5,115,116,117,39,39);
+             '/images/characters/argenti.webp', '/images/characters/argenti-portrait.webp', 'Erudtion', 'Physical', 5,115,116,117,39,39);
 
 
 insert into "skills"
@@ -2044,7 +2044,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Ruan Mei', '[1,20,40,60,80]', 'A member of the Genius Society and an expert in life sciences. She teamed up with Herta and others to develop the Simulated Universe.',
-         '/images/characters/ruan-mei.png', '/images/characters/ruan-mei-portrait.png', 'Harmony' , 'Ice', 5,118,119,120,40,40);
+         '/images/characters/ruan-mei.webp', '/images/characters/ruan-mei-portrait.webp', 'Harmony' , 'Ice', 5,118,119,120,40,40);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -2097,7 +2097,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Aventurine', '[1,20,40,60,80]', '	A high-ranking executive of the IPC’s Strategic Investment Department. A risk-taker, his constant smile makes it difficult for people to discern his true feelings.',
-      '/images/characters/aventurine.png', '/images/characters/aventurine-portrait.png' , 'Preservation' , 'Imaginary', 5, 121,122,123,41,41);
+      '/images/characters/aventurine.webp', '/images/characters/aventurine-portrait.webp' , 'Preservation' , 'Imaginary', 5, 121,122,123,41,41);
 
 
 insert into "skills"
@@ -2149,7 +2149,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Dr Ratio', '[1,20,40,60,80]', 'Member of the Intelligentsia Guild. Eccentric temperament, sharp-tongued but with an elegant demeanor. The face under the strange alabaster head sculpture is apparently unexpectedly handsome.' ,
-      '/images/characters/dr-ratio.png', '/images/characters/dr-ratio-portrait.png' ,'Hunt', 'Imaginary', 5, 124,125,126,42,42);
+      '/images/characters/dr-ratio.webp', '/images/characters/dr-ratio-portrait.webp' ,'Hunt', 'Imaginary', 5, 124,125,126,42,42);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -2202,7 +2202,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Sparkle', '[1,20,40,60,80]', 'A member of the Masked Fools. Inscrutable and unscrupulous. A dangerous maestro of theatrics, utterly engrossed in the art of performance. Adorned with innumerable masks, she is the hero with a thousand faces. Wealth, status, power... None of those matters to Sparkle. The only thing that can get her attention is amusement.',
-      '/images/characters/sparkle.png', '/images/characters/sparkle-portrait.png' , 'Harmony' , 'Quantum', 5, 127,128,129,43,43 );
+      '/images/characters/sparkle.webp', '/images/characters/sparkle-portrait.webp' , 'Harmony' , 'Quantum', 5, 127,128,129,43,43 );
 
 
 insert into "skills"
@@ -2255,7 +2255,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Black Swan', '[1,20,40,60,80]','A Memokeeper of the Garden of Recollection. An indolent and mysterious soothsayer. Remembrance of men are hers to heed, threads of fate are hers to tug.',
-      '/images/characters/black-swwan.png', '/images/characters/black-swwan-portrait.png', 'Nihility', 'Wind', 5,130,131,132,44,44);
+      '/images/characters/black-swan.webp', '/images/characters/black-swan-portrait.webp', 'Nihility', 'Wind', 5,130,131,132,44,44);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -2306,7 +2306,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Acheron', '[1,20,40,60,80]', 'A drifter claiming to be a Galaxy Ranger. Her true name is unknown. She walks the cosmos alone, carrying with her a long sword.',
-      '/images/characters/acheron.png', '/images/characters/acheron-portrait.png', 'Nihility', 'Lightning', 5, 133,134,135,45,45);
+      '/images/characters/acheron.webp', '/images/characters/acheron-portrait.webp', 'Nihility', 'Lightning', 5, 133,134,135,45,45);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -2359,7 +2359,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Robin', '[1,20,40,60,80]', 'A Halovian singer who was born in Penacony and has risen to cosmic fame. An elegant and demure young lady. This time, she has been invited home by The Family to grace everyone with song during the Charmony Festival. She can use the power of Harmony to broadcast her music, manifesting "resonance" among not only her fans but all manner of lifeforms.',
-      '/images/characters/robin.png', '/images/characters/robin-portrait.png', 'Harmony', 'Physical', 5,136,137,138,46,46);
+      '/images/characters/robin.webp', '/images/characters/robin-portrait.webp', 'Harmony', 'Physical', 5,136,137,138,46,46);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -2413,7 +2413,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Firefly', '[1,20,40,60,80]', 'A member of the Stellaron Hunters, clad in a set of mechanized armor known as SAM. Her character is marked by unwavering loyalty and steely resolve. Engineered as a weapon against the Swarm, she experiences accelerated growth, but a tragically shortened lifespan. She joined the Stellaron Hunters in a quest for a chance at "life," seeking to defy her fated demise.',
-      '/images/characters/firefly.png', '/images/characters/firefly-portrait.png', 'Destruction', 'Fire', 5, 139,140,141,47,47);
+      '/images/characters/firefly.webp', '/images/characters/firefly-portrait.webp', 'Destruction', 'Fire', 5, 139,140,141,47,47);
 
 
 insert into "skills"
@@ -2468,7 +2468,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Misha', '[1,20,40,60,80]', 'A well-behaved young man serving as a hotel bellboy in Penacony. Misha has a great longing for the Nameless and dreams of one day embarking on a journey of his own.',
-      '/images/characters/misha.png', '/images/characters/misha-portrait.png' , 'Destruction', 'Ice', 4, 142,143,144,48,48);
+      '/images/characters/misha.webp', '/images/characters/misha-portrait.webp' , 'Destruction', 'Ice', 4, 142,143,144,48,48);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -2521,7 +2521,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Jade', '[1,20,40,60,80]', '	A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for her cornerstone Jade of Credit. A cold and elegant moneylender, she is skilled at understanding the human heart, with a personal hobby called Bonajade Exchange. She’s willing to wait patiently for high-value acquisitions and adept at extracting value from seemingly destitute clients.',
-      '/images/characters/jade.png', '/images/characters/jade-portrait.png', 'Erudition', 'Quantum', 5, 145,146,147,49,49);
+      '/images/characters/jade.webp', '/images/characters/jade-portrait.webp', 'Erudition', 'Quantum', 5, 145,146,147,49,49);
 
 
 insert into "skills"
@@ -2577,7 +2577,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Boothill', '[1,20,40,60,80]', 'A cyborg cowboy drifting among the stars. Extremely optimistic and unrestrained. He is a member of the Galaxy Rangers who swore to punish the wretched by any and all means... His flamboyant and brash actions were all to draw the attention of the Interastral Peace Corporation — the target of his revenge.',
-      '/images/characters/boothill.png', '/images/characters/boothill-portrait.png', 'Hunt' , 'Physical', 5, 148,149,150,50,50);
+      '/images/characters/boothill.webp', '/images/characters/boothill-portrait.webp', 'Hunt' , 'Physical', 5, 148,149,150,50,50);
 
 
 insert into "skills"
@@ -2632,7 +2632,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Trailblazer: Destruction', '[1,20,40,60,80]', 'A girl(boy) who boarded the Astral Express. She(He) chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.',
-      '/images/characters/trailblzer-destruction.png', '/images/characters/trailblzer-destruction-portrait.png' , 'Destruction', 'Physical', 4,151,152,153,51,51);
+      '/images/characters/trailblazer-destruction.webp', '/images/characters/trailblazer-destruction-portrait.webp' , 'Destruction', 'Physical', 4,151,152,153,51,51);
 
 
 insert into "skills"
@@ -2687,7 +2687,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Trailblazer: Preservation', '[1,20,40,60,80]', 'A girl(boy) who boarded the Astral Express. She(He) chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.',
-      '/images/characters/trailblzer-preservation.png', '/images/characters/trailblzer-preservation-portrait.png' , 'Preservation', 'Fire', 4,154,155,156,52,52);
+      '/images/characters/trailblazer-preservation.webp', '/images/characters/trailblazer-preservation-portrait.webp' , 'Preservation', 'Fire', 4,154,155,156,52,52);
 
 insert into "skills"
       ("skillName", "skillLevel")
@@ -2739,7 +2739,7 @@ insert into "characterStats"
 insert into "characters"
       ("characterName", "characterLevel", "characterDescription", "characterImage", "characterPortrait", "characterPath", "characterType", "rarity", "skill1Id", "skill2Id", "skill3Id", "talentId", "characterStatsId")
       values('Trailblazer: Harmony', '[1,20,40,60,80]', 'A girl(boy) who boarded the Astral Express. She(He) chose to travel with the Astral Express to eliminate the dangers posed by the Stellaron.',
-      '/images/characters/trailblzer-harmony.png', '/images/characters/trailblzer-harmony-portrait.png' , 'Harmony', 'Imaginary', 4, 157,158,159,53,53);
+      '/images/characters/trailblazer-harmony.webp', '/images/characters/trailblazer-harmony-portrait.webp' , 'Harmony', 'Imaginary', 4, 157,158,159,53,53);
 
 
 
