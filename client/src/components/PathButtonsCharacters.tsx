@@ -45,7 +45,7 @@ export function PathButtonsCharacters() {
     },
   ];
   return (
-    <div className="flex w-full justify-center">
+    <div className="flex w-full justify-center mb-2">
       {paths.map((path, index) => (
         <NavLink
           key={index}
@@ -54,7 +54,7 @@ export function PathButtonsCharacters() {
           <img
             src={path.src}
             alt={path.alt}
-            className="w-[5vw] h-[5vh] object-contain"
+            className="w-[3vw] h-[5vh] object-contain"
           />
         </NavLink>
       ))}

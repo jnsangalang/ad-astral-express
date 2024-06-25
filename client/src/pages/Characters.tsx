@@ -5,6 +5,7 @@ import '../App.css';
 import { Link } from 'react-router-dom';
 import { CharacterCard } from '../components/CharacterCard';
 import { PathButtonsCharacters } from '../components/PathButtonsCharacters';
+import { TypeButtons } from '../components/TypeButtons';
 export function Characters() {
   const [isLoading, setIsLoading] = useState(true);
   const [character, setCharacter] = useState<Character[]>();
@@ -42,6 +43,7 @@ export function Characters() {
         </h1>
       </div>
       <hr className="py-1 " />
+      <TypeButtons />
       <PathButtonsCharacters />
       <div className=" flex-col w-full">
         {character?.map((character) => (

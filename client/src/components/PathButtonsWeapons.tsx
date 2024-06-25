@@ -54,7 +54,7 @@ export function PathButtonsWeapon() {
           <img
             src={path.src}
             alt={path.alt}
-            className="w-[5vw] h-[5vh] object-contain"
+            className="w-[3vw] h-[5vh] object-contain"
           />
         </NavLink>
       ))}

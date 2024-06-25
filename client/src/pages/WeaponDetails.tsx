@@ -110,7 +110,7 @@ export function WeaponDetails() {
             <img
               src={weaponImage}
               alt={weaponName}
-              className="object-fill self-center"
+              className="object-contain w-full h-[40vh] self-center"
             />
           </div>
           <div className="flex flex-col w-1/2 m- border-8 slight-transparency border-yellow-200 pt-4 pl-8">

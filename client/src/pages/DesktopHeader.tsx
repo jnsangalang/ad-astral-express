@@ -14,14 +14,22 @@ import { SearchResultPopup } from '../components/SearchPopup';
 
 export function DesktopHeader() {
   const [isCharacterOpen, setIsCharacterOpen] = useState(false);
+  const [isCharacterPathOpen, setIsCharacterPathOpen] = useState(false);
+  const [isCharacterTypeOpen, setIsCharacterTypeOpen] = useState(false);
   const [isWeaponOpen, setIsWeaponOpen] = useState(false);
+  const [isWeaponPathOpen, setIsWeaponPathOpen] = useState(false);
   const postionChacracterRef = useRef<HTMLButtonElement>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState<any[]>([]);
   const [showPopup, setShowPopup] = useState(false);
   const [error, setError] = useState<unknown>();
+
   const postionSearch = useRef<HTMLInputElement>(null);
   const postionWeaponRef = useRef<HTMLButtonElement>(null);
+  const positionCharPath = useRef<HTMLButtonElement>(null);
+  const positionCharType = useRef<HTMLButtonElement>(null);
+  const positionWeaponPath = useRef<HTMLButtonElement>(null);
+
   const navigate = useNavigate();
   const { user, handleSignOut } = useUser();
 
@@ -111,19 +119,196 @@ export function DesktopHeader() {
                 position={postionChacracterRef.current}>
                 <ul className="w-[17vw]">
                   <li
+                    className="border-2 border-black"
                     onClick={() => {
                       setIsCharacterOpen(false);
                     }}>
                     <Link to="/characters">All Characters </Link>
                   </li>
-                  <li>Sort by Path </li>
-                  <li>Sort by Type </li>
+                  <li className="border-2 border-black">
+                    <button
+                      ref={positionCharPath}
+                      onClick={() =>
+                        setIsCharacterPathOpen(!isCharacterPathOpen)
+                      }>
+                      Sort by Path{' '}
+                    </button>
+                  </li>
+                  <Popup
+                    isOpen={isCharacterPathOpen}
+                    onClose={() => {
+                      setIsCharacterPathOpen(false);
+                      setIsCharacterOpen(false);
+                    }}
+                    position={positionCharPath.current}>
+                    <ul className="w-[17vw] bg-gray-600">
+                      <Link to="/characters/path/Hunt">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterPathOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Hunt
+                        </li>
+                      </Link>
+                      <Link to="/characters/path/Abundance">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterPathOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Abundance
+                        </li>
+                      </Link>
+                      <Link to="/characters/path/Harmony">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterPathOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Harmony
+                        </li>
+                      </Link>
+                      <Link to="/characters/path/Nihility">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterPathOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Nihility
+                        </li>
+                      </Link>
+                      <Link to="/characters/path/Erudition">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterPathOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Erudition
+                        </li>
+                      </Link>
+                      <Link to="/characters/path/Preservation">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterPathOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Preservation
+                        </li>
+                      </Link>
+                      <Link to="/characters/path/Destruction">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterPathOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Destruction
+                        </li>
+                      </Link>
+                    </ul>
+                  </Popup>
+                  <li className="border-2 border-black">
+                    <button
+                      ref={positionCharType}
+                      onClick={() =>
+                        setIsCharacterTypeOpen(!isCharacterTypeOpen)
+                      }>
+                      Sort by Type{' '}
+                    </button>
+                  </li>
+                  <Popup
+                    isOpen={isCharacterTypeOpen}
+                    onClose={() => {
+                      setIsCharacterTypeOpen(false);
+                      setIsCharacterOpen(false);
+                    }}
+                    position={positionCharType.current}>
+                    <ul className="w-[17vw] bg-gray-600">
+                      <Link to="/characters/type/Fire">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterTypeOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Fire
+                        </li>
+                      </Link>
+                      <Link to="/characters/type/Ice">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterTypeOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Ice
+                        </li>
+                      </Link>
+                      <Link to="/characters/type/Imaginary">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterTypeOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Imaginary
+                        </li>
+                      </Link>
+                      <Link to="/characters/type/Lightning">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterTypeOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Lightning
+                        </li>
+                      </Link>
+                      <Link to="/characters/type/Physical">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterTypeOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Physical
+                        </li>
+                      </Link>
+                      <Link to="/characters/type/Quantum">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterTypeOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Quantum
+                        </li>
+                      </Link>
+                      <Link to="/characters/type/Wind">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsCharacterTypeOpen(false);
+                            setIsCharacterOpen(false);
+                          }}>
+                          Wind
+                        </li>
+                      </Link>
+                    </ul>
+                  </Popup>
                 </ul>
               </Popup>
             </div>
             <div className="w-1/5">
               <button
-                ref={postionWeaponRef}
+                ref={positionWeaponPath}
                 onClick={() => setIsWeaponOpen(!isWeaponOpen)}
                 className="bg-yellow-300 prompt-extrabold button-weapons flex w-full items-center justify-evenly">
                 Weapons
@@ -137,13 +322,99 @@ export function DesktopHeader() {
                 position={postionWeaponRef.current}>
                 <ul className="w-[17vw] top-0">
                   <li
+                    className="border-2 border-black"
                     onClick={() => {
                       setIsWeaponOpen(false);
                     }}>
                     <Link to="/weapons"> All Weapons </Link>
                   </li>
-
-                  <li>Sort by Path </li>
+                  <li className="border-2 border-black">
+                    <button
+                      ref={positionCharPath}
+                      onClick={() => setIsWeaponPathOpen(!isWeaponPathOpen)}>
+                      Sort by Path{' '}
+                    </button>
+                  </li>
+                  <Popup
+                    isOpen={isWeaponPathOpen}
+                    onClose={() => {
+                      setIsWeaponPathOpen(false);
+                      setIsWeaponOpen(false);
+                    }}
+                    position={positionCharPath.current}>
+                    <ul className="w-[17vw] bg-gray-600 ">
+                      <Link to="/weapons/path/Hunt">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsWeaponPathOpen(false);
+                            setIsWeaponOpen(false);
+                          }}>
+                          Hunt
+                        </li>
+                      </Link>
+                      <Link to="/weapons/path/Abundance">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsWeaponPathOpen(false);
+                            setIsWeaponOpen(false);
+                          }}>
+                          Abundance
+                        </li>
+                      </Link>
+                      <Link to="/weapons/path/Harmony">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsWeaponPathOpen(false);
+                            setIsWeaponOpen(false);
+                          }}>
+                          Harmony
+                        </li>
+                      </Link>
+                      <Link to="/weapons/path/Nihility">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsWeaponPathOpen(false);
+                            setIsWeaponOpen(false);
+                          }}>
+                          Nihility
+                        </li>
+                      </Link>
+                      <Link to="/weapons/path/Erudition">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsWeaponPathOpen(false);
+                            setIsWeaponOpen(false);
+                          }}>
+                          Erudition
+                        </li>
+                      </Link>
+                      <Link to="/weapons/path/Preservation">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsWeaponPathOpen(false);
+                            setIsWeaponOpen(false);
+                          }}>
+                          Preservation
+                        </li>
+                      </Link>
+                      <Link to="/weapons/path/Destruction">
+                        <li
+                          className="border-2 border-black"
+                          onClick={() => {
+                            setIsWeaponPathOpen(false);
+                            setIsWeaponOpen(false);
+                          }}>
+                          Destruction
+                        </li>
+                      </Link>
+                    </ul>
+                  </Popup>
                 </ul>
               </Popup>
             </div>
