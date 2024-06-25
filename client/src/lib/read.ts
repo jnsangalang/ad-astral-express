@@ -6,16 +6,28 @@ const authKey = 'um.auth';
 
 export function saveAuth(user: User, token: string): void {
   sessionStorage.setItem(authKey, JSON.stringify({ user, token }));
+  localStorage.setItem('user', JSON.stringify(user));
+  localStorage.setItem('token', token);
 }
 
 export function removeAuth(): void {
   sessionStorage.removeItem(authKey);
+  localStorage.removeItem('user');
+  localStorage.removeItem('token');
 }
 
 export function readToken(): string | undefined {
   const auth = sessionStorage.getItem(authKey);
   if (!auth) return undefined;
   return JSON.parse(auth).token;
+}
+export function getAuth() {
+  const user = localStorage.getItem('user');
+  const token = localStorage.getItem('token');
+  return {
+    user: user ? JSON.parse(user) : undefined,
+    token: token || undefined,
+  };
 }
 
 //retrieves all character data, if user clicks all characters from character menu
@@ -26,7 +38,45 @@ export async function readCharacters(): Promise<Character[]> {
   }
   return await response.json();
 }
+//retrieves all characters of a specific Path
+export async function readCharactersPath(
+  characterPath: string
+): Promise<Character[]> {
+  if (characterPath === undefined) {
+    throw new Error('Path cannot be undefined');
+  }
+  const response = await fetch(`/api/path/${characterPath}`);
+  if (!response) {
+    throw new Error('There was an error retrieving characters');
+  }
+  return await response.json();
+}
 
+//retrieves all characters of a specific Type
+export async function readCharactersType(
+  characterType: string
+): Promise<Character[]> {
+  if (characterType === undefined) {
+    throw new Error('Path cannot be undefined');
+  }
+  const response = await fetch(`/api/type/${characterType}`);
+  if (!response) {
+    throw new Error('There was an error retrieving characters');
+  }
+  return await response.json();
+}
+
+//retrieves all weapons of a specific Path
+export async function readWeaponsPath(weaponPath: string): Promise<Weapon[]> {
+  if (weaponPath === undefined) {
+    throw new Error('Path cannot be undefined');
+  }
+  const response = await fetch(`/api/weaponPath/${weaponPath}`);
+  if (!response) {
+    throw new Error('There was an error retrieving weapons');
+  }
+  return await response.json();
+}
 //retrieves 10 random characters and displays them on the home page whenever the home page loads
 export async function readHomeCharacters(): Promise<Character[]> {
   const response = await fetch('/api/home/characters');

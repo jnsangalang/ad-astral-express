@@ -66,6 +66,42 @@ app.get('/api/characters', async (req, res, next) => {
   }
 });
 
+app.get('/api/path/:characterPath', async (req, res, next) => {
+  const { characterPath } = req.params;
+  try {
+    const sql = `
+      select *
+        from "characters"
+        where "characterPath" = $1
+        `;
+    const result = await db.query(sql, [characterPath]);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    res.json(result.rows);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.get('/api/type/:characterType', async (req, res, next) => {
+  const { characterType } = req.params;
+  try {
+    const sql = `
+      select *
+        from "characters"
+        where "characterType" = $1
+        `;
+    const result = await db.query(sql, [characterType]);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    res.json(result.rows);
+  } catch (err) {
+    next(err);
+  }
+});
+
 app.get('/api/home/characters', async (req, res, next) => {
   try {
     const sql = `
@@ -157,6 +193,24 @@ app.get('/api/weapons/:weaponName', async (req, res, next) => {
     }
     fixWeapon(weapon);
     res.json(weapon);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.get('/api/weaponpath/:weaponPath', async (req, res, next) => {
+  const { weaponPath } = req.params;
+  try {
+    const sql = `
+      select *
+        from "weapons"
+        where "weaponPath" = $1
+        `;
+    const result = await db.query(sql, [weaponPath]);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    res.json(result.rows);
   } catch (err) {
     next(err);
   }
@@ -300,19 +354,62 @@ app.delete(
   }
 );
 
-// get middleware for searching through characters
+// get middleware for searching through characters and weapons
 
 app.get('/api/search', async (req, res, next) => {
   try {
-    const search = req.query.search;
+    const { search } = req.query;
     if (!search || typeof search !== 'string') {
       throw new ClientError(400, 'Invalid search');
     }
     const sql = `
-            SELECT 'character' AS type, c.*
-            FROM "characters" AS c
-            WHERE LOWER(c."characterName") LIKE LOWER($1);
-            `;
+  SELECT 'character' AS type,
+         c."characterId",
+         c."characterName",
+         c."characterPortrait",
+         c."rarity",
+         c."characterPath",
+         c."characterType",
+         c."characterDescription",
+         null as "weaponId",
+         null as "weaponName",
+         null as "weaponPath",
+         null as "weaponTitleEffect",
+         null as "weaponEffect",
+         null as "weaponImage",
+         null as "weaponLevel",
+         null as "weaponAttack",
+         null as "weaponDefense",
+         null as "weaponHealth",
+         null as "rarity"
+  FROM "characters" as c
+  WHERE c."characterName" ILIKE $1
+
+  UNION
+
+  SELECT 'weapon' AS type,
+         null as "characterId",
+         null as characterName,
+         null as characterPortrait,
+         null as rarity,
+         null as characterPath,
+         null as characterType,
+         null as characterDescription,
+         w."weaponId",
+         w."weaponName",
+         w."weaponPath",
+         w."weaponTitleEffect",
+         w."weaponEffect",
+         w."weaponImage",
+         w."weaponLevel",
+         w."weaponAttack",
+         w."weaponDefense",
+         w."weaponHealth",
+         w."rarity"
+  FROM "weapons" AS w
+  WHERE w."weaponName" ILIKE $1
+  LIMIT 5;
+`;
 
     const result = await db.query(sql, [`%${search}%`]);
     if (!result) {

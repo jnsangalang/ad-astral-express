@@ -1,19 +1,23 @@
 import { useEffect, useState } from 'react';
 import { Character } from '../lib/data';
-import { readCharacters } from '../lib/read';
+import { readCharactersType } from '../lib/read';
 import '../App.css';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { CharacterCard } from '../components/CharacterCard';
-import { PathButtonsCharacters } from '../components/PathButtonsCharacters';
-export function Characters() {
+
+export function CharactersType() {
   const [isLoading, setIsLoading] = useState(true);
   const [character, setCharacter] = useState<Character[]>();
   const [error, setError] = useState<unknown>();
 
+  const { characterType } = useParams<{ characterType: string }>();
   useEffect(() => {
     async function loadCharacters() {
+      if (characterType === undefined) {
+        throw new Error('Character Type must be defined');
+      }
       try {
-        const characters = await readCharacters();
+        const characters = await readCharactersType(characterType);
         setCharacter(characters);
       } catch (err) {
         setError(err);
@@ -22,7 +26,7 @@ export function Characters() {
       }
     }
     loadCharacters();
-  }, []);
+  }, [characterType]);
   if (isLoading) {
     return <div>Loading......</div>;
   }
@@ -42,7 +46,6 @@ export function Characters() {
         </h1>
       </div>
       <hr className="py-1 " />
-      <PathButtonsCharacters />
       <div className=" flex-col w-full">
         {character?.map((character) => (
           <div className="w-full h-[300px] mb-2" key={character.characterName}>

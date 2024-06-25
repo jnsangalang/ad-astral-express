@@ -5,21 +5,68 @@ import '../css/Header.css';
 import { GiSwitchWeapon } from 'react-icons/gi';
 import { MdOutlineFavorite } from 'react-icons/md';
 import { SiGooglegemini } from 'react-icons/si';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Popup } from '../components/Popup';
 import '../App.css';
 import { useUser } from '../components/useUser';
+import { throttle } from 'lodash';
+import { SearchResultPopup } from '../components/SearchPopup';
 
 export function DesktopHeader() {
   const [isCharacterOpen, setIsCharacterOpen] = useState(false);
   const [isWeaponOpen, setIsWeaponOpen] = useState(false);
   const postionChacracterRef = useRef<HTMLButtonElement>(null);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState<any[]>([]);
+  const [showPopup, setShowPopup] = useState(false);
+  const [error, setError] = useState<unknown>();
+  const postionSearch = useRef<HTMLInputElement>(null);
   const postionWeaponRef = useRef<HTMLButtonElement>(null);
-
   const navigate = useNavigate();
   const { user, handleSignOut } = useUser();
+
+  // const throttleResults = throttle(fetchSearch, 400);
+
+  useEffect(() => {
+    const fetchSearchResults = throttle(async () => {
+      if (searchTerm.length === 0) {
+        setSearchResults([]);
+        setShowPopup(false);
+        return;
+      }
+      try {
+        const response = await fetch(
+          `/api/search?search=${encodeURIComponent(searchTerm)}`
+        );
+        if (!response.ok) {
+          throw new Error('Error fetching search results');
+        }
+        const result = await response.json();
+        setSearchResults(result);
+        setShowPopup(true);
+      } catch (err) {
+        setError(err);
+      }
+    }, 400);
+    fetchSearchResults();
+    return () => {
+      fetchSearchResults.cancel();
+    };
+  }, [searchTerm]);
+
   function handleSearch(search: string) {
-    console.log('searched', search);
+    setSearchTerm(search);
+    console.log('search', search);
+    console.log('result:', searchResults);
+  }
+
+  if (error) {
+    return (
+      <div>
+        There was an error.{' '}
+        {error instanceof Error ? error.message : 'Unknown Error'}
+      </div>
+    );
   }
 
   return (
@@ -127,8 +174,18 @@ export function DesktopHeader() {
                 </button>
               )}
             </div>
-            <div className="w-1/3">
-              <SearchBar onSearch={handleSearch} />
+            <div className="w-1/3 relative" ref={postionSearch}>
+              <SearchBar value={searchTerm} onSearch={handleSearch} />
+              {showPopup && (
+                <SearchResultPopup
+                  position={postionSearch.current}
+                  isOpen={showPopup}
+                  results={searchResults}
+                  onClose={() => {
+                    setShowPopup(false);
+                  }}
+                />
+              )}
             </div>
           </div>
         </div>

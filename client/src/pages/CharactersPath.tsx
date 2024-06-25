@@ -1,19 +1,24 @@
 import { useEffect, useState } from 'react';
 import { Character } from '../lib/data';
-import { readCharacters } from '../lib/read';
+import { readCharactersPath } from '../lib/read';
 import '../App.css';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { CharacterCard } from '../components/CharacterCard';
 import { PathButtonsCharacters } from '../components/PathButtonsCharacters';
-export function Characters() {
+
+export function CharactersPath() {
   const [isLoading, setIsLoading] = useState(true);
   const [character, setCharacter] = useState<Character[]>();
   const [error, setError] = useState<unknown>();
 
+  const { characterPath } = useParams<{ characterPath: string }>();
   useEffect(() => {
     async function loadCharacters() {
+      if (characterPath === undefined) {
+        throw new Error('Character path must be defined');
+      }
       try {
-        const characters = await readCharacters();
+        const characters = await readCharactersPath(characterPath);
         setCharacter(characters);
       } catch (err) {
         setError(err);
@@ -22,7 +27,7 @@ export function Characters() {
       }
     }
     loadCharacters();
-  }, []);
+  }, [characterPath]);
   if (isLoading) {
     return <div>Loading......</div>;
   }

@@ -46,8 +46,11 @@ export function FavoriteProvider({ children }: Props) {
   async function readFaves() {
     setIsLoading(true);
     try {
+      if (!user) {
+        return;
+      }
       const faves = await readFavorites();
-      if (!faves) throw new Error(`Favorite of blah not found`);
+      if (!faves) throw new Error(`Favorite of ${user} not found`);
       const characters = faves.filter((fave) => fave.favoriteCharacter);
       const weapons = faves.filter((fave) => fave.favoriteWeapon);
 

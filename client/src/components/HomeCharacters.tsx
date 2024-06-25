@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Character } from '../lib/data';
 import { readHomeCharacters } from '../lib/read';
 import '../App.css';
+import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 export function HomeCharacters() {
   const [isLoading, setIsLoading] = useState(true);
@@ -41,9 +42,9 @@ export function HomeCharacters() {
           <div
             className="w-1/5 p-2 border border-gray-800 rounded-3xl velvet-background"
             key={character.characterName}>
-            {/* <Link to={`characters/${character.characterName}`}> */}
-            <CharacterCard character={character} />
-            {/* </Link> */}
+            <Link to={`characters/${character.characterName}`}>
+              <CharacterCard character={character} />
+            </Link>
           </div>
         ))}
       </div>
@@ -59,9 +60,9 @@ function CharacterCard({ character }: Props) {
   const { characterName, characterPortrait } = character;
 
   return (
-    <div className="w-full items-center m-2">
+    <div className="w-full items-center ">
       <img
-        className="object-cover w-full h-full"
+        className="object-contain w-full h-[25vh]"
         src={characterPortrait}
         alt={characterName}
       />

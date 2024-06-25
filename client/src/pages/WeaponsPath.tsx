@@ -1,18 +1,24 @@
 import { useEffect, useState } from 'react';
 import { Weapon } from '../lib/data';
-import { readWeapons } from '../lib/read';
+import { readWeaponsPath } from '../lib/read';
 import '../App.css';
 import { WeaponCard } from '../components/WeaponCard';
+import { useParams } from 'react-router-dom';
 import { PathButtonsWeapon } from '../components/PathButtonsWeapons';
-export function Weapons() {
+
+export function WeaponsPath() {
   const [isLoading, setIsLoading] = useState(true);
   const [weapon, setWeapon] = useState<Weapon[]>();
   const [error, setError] = useState<unknown>();
 
+  const { weaponPath } = useParams();
   useEffect(() => {
     async function loadWeapons() {
       try {
-        const weapons = await readWeapons();
+        if (weaponPath === undefined) {
+          throw new Error('weapon path must be defined');
+        }
+        const weapons = await readWeaponsPath(weaponPath);
         setWeapon(weapons);
       } catch (err) {
         setError(err);
@@ -21,7 +27,7 @@ export function Weapons() {
       }
     }
     loadWeapons();
-  }, []);
+  }, [weaponPath]);
   if (isLoading) {
     return <div>Loading......</div>;
   }
