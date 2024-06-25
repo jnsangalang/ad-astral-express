@@ -198,7 +198,6 @@ export function WeaponDetails() {
                 </div>
               </div>
             </div>
-            {/* <div className="w-full flex"></div> */}
             <div className="flex flex-wrap w-full">
               <div className="w-full text-2xl my-2">Ability</div>
               <div className="w-full">

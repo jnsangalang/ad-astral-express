@@ -25,7 +25,7 @@ export function DesktopHeader() {
   const [error, setError] = useState<unknown>();
 
   const postionSearch = useRef<HTMLInputElement>(null);
-  const postionWeaponRef = useRef<HTMLButtonElement>(null);
+  const positionWeaponRef = useRef<HTMLButtonElement>(null);
   const positionCharPath = useRef<HTMLButtonElement>(null);
   const positionCharType = useRef<HTMLButtonElement>(null);
   const positionWeaponPath = useRef<HTMLButtonElement>(null);
@@ -308,7 +308,7 @@ export function DesktopHeader() {
             </div>
             <div className="w-1/5">
               <button
-                ref={positionWeaponPath}
+                ref={positionWeaponRef}
                 onClick={() => setIsWeaponOpen(!isWeaponOpen)}
                 className="bg-yellow-300 prompt-extrabold button-weapons flex w-full items-center justify-evenly">
                 Weapons
@@ -319,7 +319,7 @@ export function DesktopHeader() {
                 onClose={() => {
                   setIsWeaponOpen(false);
                 }}
-                position={postionWeaponRef.current}>
+                position={positionWeaponRef.current}>
                 <ul className="w-[17vw] top-0">
                   <li
                     className="border-2 border-black"
@@ -330,7 +330,7 @@ export function DesktopHeader() {
                   </li>
                   <li className="border-2 border-black">
                     <button
-                      ref={positionCharPath}
+                      ref={positionWeaponPath}
                       onClick={() => setIsWeaponPathOpen(!isWeaponPathOpen)}>
                       Sort by Path{' '}
                     </button>
@@ -341,7 +341,7 @@ export function DesktopHeader() {
                       setIsWeaponPathOpen(false);
                       setIsWeaponOpen(false);
                     }}
-                    position={positionCharPath.current}>
+                    position={positionWeaponPath.current}>
                     <ul className="w-[17vw] bg-gray-600 ">
                       <Link to="/weapons/path/Hunt">
                         <li
