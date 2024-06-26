@@ -56,10 +56,10 @@ export function Carousel() {
 
   return (
     <div className="w-full text-center">
-      <div className="text-6xl text-center bebas-neue-regular marble mr-4 m-4 border border-gray-700 rounded-3xl p-5">
+      <div className="text-lg lg:text-6xl text-center bebas-neue-regular marble mx-2 my-4 border border-gray-700 rounded-3xl px-4 lg:p-5">
         Scheduled Events
       </div>
-      <div className="mr-4">
+      <div className="mx-2">
         <ImageCard carouselImage={carouselImages[currentIndex]} />
       </div>
       <div className="flex bg-none justify-center">
@@ -73,7 +73,7 @@ export function Carousel() {
         </div>
         <NextButton onClick={handleNextClick} />
       </div>
-      <div className="w-full bg-gray-800 prompt-extrabold text-white rounded-3xl">
+      <div className="w-full bg-gray-800 prompt-extrabold text-xs  lg:text-3xl text-white rounded-3xl">
         <h1>{carouselImages[currentIndex].alt}</h1>
       </div>
     </div>

@@ -1,5 +1,27 @@
 import { Favorite } from '../components/FavoriteContext';
+import { User } from '../components/UserContext';
 import { Character, DetailsCharacter, Weapon } from './data';
+
+export function saveAuth(user: User, token: string): void {
+  localStorage.setItem('user', JSON.stringify(user));
+  localStorage.setItem('token', token);
+}
+
+export function removeAuth(): void {
+  localStorage.removeItem('user');
+  localStorage.removeItem('token');
+}
+
+export function readToken(): string | undefined {
+  const token = localStorage.getItem('token');
+  if (!token) return undefined;
+  return token;
+}
+export function readUser(): User | undefined {
+  const user = localStorage.getItem('user');
+  if (!user) return undefined;
+  return JSON.parse(user);
+}
 
 //retrieves all character data, if user clicks all characters from character menu
 export async function readCharacters(): Promise<Character[]> {
@@ -9,7 +31,45 @@ export async function readCharacters(): Promise<Character[]> {
   }
   return await response.json();
 }
+//retrieves all characters of a specific Path
+export async function readCharactersPath(
+  characterPath: string
+): Promise<Character[]> {
+  if (characterPath === undefined) {
+    throw new Error('Path cannot be undefined');
+  }
+  const response = await fetch(`/api/path/${characterPath}`);
+  if (!response) {
+    throw new Error('There was an error retrieving characters');
+  }
+  return await response.json();
+}
 
+//retrieves all characters of a specific Type
+export async function readCharactersType(
+  characterType: string
+): Promise<Character[]> {
+  if (characterType === undefined) {
+    throw new Error('Path cannot be undefined');
+  }
+  const response = await fetch(`/api/type/${characterType}`);
+  if (!response) {
+    throw new Error('There was an error retrieving characters');
+  }
+  return await response.json();
+}
+
+//retrieves all weapons of a specific Path
+export async function readWeaponsPath(weaponPath: string): Promise<Weapon[]> {
+  if (weaponPath === undefined) {
+    throw new Error('Path cannot be undefined');
+  }
+  const response = await fetch(`/api/weaponPath/${weaponPath}`);
+  if (!response) {
+    throw new Error('There was an error retrieving weapons');
+  }
+  return await response.json();
+}
 //retrieves 10 random characters and displays them on the home page whenever the home page loads
 export async function readHomeCharacters(): Promise<Character[]> {
   const response = await fetch('/api/home/characters');
@@ -60,10 +120,13 @@ export async function readWeapon(
 
 // for adding Favorite Character to Favorite's List
 export async function addCharacter(characterId: number): Promise<Character> {
+  const token = readToken();
+
   const response = await fetch('/api/favorites/character', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
     },
     body: JSON.stringify({ characterId }),
   });
@@ -77,10 +140,13 @@ export async function addCharacter(characterId: number): Promise<Character> {
 
 //for adding weapon to favorite's list
 export async function addWeapon(weaponId: number): Promise<Weapon> {
+  const token = readToken();
+
   const response = await fetch('/api/favorites/weapon', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
     },
     body: JSON.stringify({ weaponId }),
   });
@@ -94,7 +160,14 @@ export async function addWeapon(weaponId: number): Promise<Weapon> {
 
 //for retrieving favorite's list
 export async function readFavorites(): Promise<Favorite[]> {
-  const response = await fetch('/api/myFavorites');
+  const token = readToken();
+  const response = await fetch('/api/myFavorites', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}`,
+    },
+  });
   if (!response) {
     throw new Error('There was an error retrieving favorite characters');
   }
@@ -114,7 +187,7 @@ export async function deleteFavoriteCharacter(
   }
 }
 
-//for deleting character from favorite's list
+//for deleting weapon from favorite's list
 export async function deleteFavoriteWeapon(weaponId: number): Promise<void> {
   const response = await fetch(`/api/favorites/weapon/${weaponId}`, {
     method: 'DELETE',

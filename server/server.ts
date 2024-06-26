@@ -2,49 +2,18 @@
 import 'dotenv/config';
 import express from 'express';
 import pg from 'pg';
-import { ClientError, errorMiddleware } from './lib/index.js';
+import argon2 from 'argon2';
+import jwt from 'jsonwebtoken';
+import { ClientError, authMiddleware, errorMiddleware } from './lib/index.js';
 
-type DetailsCharacter = {
-  characterId: number;
-  characterName: string;
-  characterLevel: number[];
-  characterImage: string;
-  characterPortrait: string;
-  characterPath: string;
-  characterType: string;
-  characterDescription: string;
-  rarity: number;
-  skill1Id: number;
-  skill2Id: number;
-  skill3Id: number;
-  talentId: number;
-  characterStatsId: number;
-  characterAttack: number[];
-  characterDefense: number[];
-  characterHealth: number[];
-  characterSpeed: number[];
-  skill1Level: string[];
-  skill2Level: string[];
-  skill3Level: string[];
-  skill1Name: string;
-  skill2Name: string;
-  skill3Name: string;
-  talentLevel: string[];
-  talentName: string;
+type User = {
+  userId: number;
+  username: string;
+  hashedPassword: string;
 };
-
-type Weapon = {
-  weaponId: number;
-  weaponLevel: number[];
-  weaponAttack: number[];
-  weaponDefense: number[];
-  weaponHealth: number[];
-  weaponImage: string;
-  weaponPath: string;
-  weaponName: string;
-  weaponTitleEffect: string;
-  weaponEffect: string[];
-  rarity: number;
+type Auth = {
+  username: string;
+  password: string;
 };
 
 const db = new pg.Pool({
@@ -53,6 +22,9 @@ const db = new pg.Pool({
     rejectUnauthorized: false,
   },
 });
+
+const hashKey = process.env.TOKEN_SECRET;
+if (!hashKey) throw new Error('TOKEN_SECRET not found in .env');
 
 const app = express();
 
@@ -85,6 +57,42 @@ app.get('/api/characters', async (req, res, next) => {
         from "characters"
         `;
     const result = await db.query(sql);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    res.json(result.rows);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.get('/api/path/:characterPath', async (req, res, next) => {
+  const { characterPath } = req.params;
+  try {
+    const sql = `
+      select *
+        from "characters"
+        where "characterPath" = $1
+        `;
+    const result = await db.query(sql, [characterPath]);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    res.json(result.rows);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.get('/api/type/:characterType', async (req, res, next) => {
+  const { characterType } = req.params;
+  try {
+    const sql = `
+      select *
+        from "characters"
+        where "characterType" = $1
+        `;
+    const result = await db.query(sql, [characterType]);
     if (!result) {
       throw new ClientError(400, 'result was invalid');
     }
@@ -190,7 +198,25 @@ app.get('/api/weapons/:weaponName', async (req, res, next) => {
   }
 });
 
-app.get('/api/myFavorites', async (req, res, next) => {
+app.get('/api/weaponpath/:weaponPath', async (req, res, next) => {
+  const { weaponPath } = req.params;
+  try {
+    const sql = `
+      select *
+        from "weapons"
+        where "weaponPath" = $1
+        `;
+    const result = await db.query(sql, [weaponPath]);
+    if (!result) {
+      throw new ClientError(400, 'result was invalid');
+    }
+    res.json(result.rows);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.get('/api/myFavorites', authMiddleware, async (req, res, next) => {
   try {
     const sql = `select "f". *,
                         "c".*,
@@ -208,8 +234,9 @@ app.get('/api/myFavorites', async (req, res, next) => {
                 left join "skills" as "s" on "s"."skillId" = "c"."skill1Id"
                 left join "skills" as "s2" on "s2"."skillId" = "c"."skill2Id"
                 left join "skills" as "s3" on "s3"."skillId" = "c"."skill3Id"
+                where "userId" =$1
               `;
-    const result = await db.query(sql);
+    const result = await db.query(sql, [req.user?.userId]);
     if (!result) {
       throw new ClientError(400, 'result invalid');
     }
@@ -230,8 +257,11 @@ app.get('/api/myFavorites', async (req, res, next) => {
   }
 });
 
-app.post('/api/favorites/character', async (req, res, next) => {
-  const { userId, characterId } = req.body;
+app.post('/api/favorites/character', authMiddleware, async (req, res, next) => {
+  const { characterId } = req.body;
+  if (!characterId) {
+    throw new ClientError(400, `${characterId} is invalid`);
+  }
   try {
     const sql = `
     insert into "favorites"
@@ -239,7 +269,7 @@ app.post('/api/favorites/character', async (req, res, next) => {
       values($1, $2)
       returning*;
        `;
-    const result = await db.query(sql, [userId, characterId]);
+    const result = await db.query(sql, [req.user?.userId, characterId]);
     if (!result) {
       throw new ClientError(400, 'invalid favorite');
     }
@@ -250,8 +280,11 @@ app.post('/api/favorites/character', async (req, res, next) => {
   }
 });
 
-app.post('/api/favorites/weapon', async (req, res, next) => {
-  const { userId, weaponId } = req.body;
+app.post('/api/favorites/weapon', authMiddleware, async (req, res, next) => {
+  const { weaponId } = req.body;
+  if (!weaponId) {
+    throw new ClientError(400, `${weaponId} is invalid`);
+  }
   try {
     const sql = `
     insert into "favorites"
@@ -259,7 +292,7 @@ app.post('/api/favorites/weapon', async (req, res, next) => {
       values($1, $2)
       returning*;
        `;
-    const result = await db.query(sql, [userId, weaponId]);
+    const result = await db.query(sql, [req.user?.userId, weaponId]);
     if (!result) {
       throw new ClientError(400, 'invalid favorite');
     }
@@ -270,43 +303,178 @@ app.post('/api/favorites/weapon', async (req, res, next) => {
   }
 });
 
-app.delete('/api/favorites/character/:characterId', async (req, res, next) => {
-  const { characterId } = req.params;
-  try {
-    const sql = `
+app.delete(
+  '/api/favorites/character/:characterId',
+  authMiddleware,
+  async (req, res, next) => {
+    try {
+      const { characterId } = req.params;
+      const sql = `
           delete from "favorites"
-          where "favoriteCharacter" = $1
+          where "favoriteCharacter" = $1 and "userId"=$2
           returning *;
           `;
-    const result = await db.query(sql, [characterId]);
-    if (!result) {
-      throw new ClientError(
-        400,
-        `character id: ${characterId} invalid within favorites`
-      );
+      const result = await db.query(sql, [characterId, req.user?.userId]);
+      if (!result) {
+        throw new ClientError(
+          400,
+          `character id: ${characterId} invalid within favorites`
+        );
+      }
+      res.sendStatus(204);
+    } catch (err) {
+      next(err);
     }
-    res.sendStatus(204);
+  }
+);
+
+app.delete(
+  '/api/favorites/weapon/:weaponId',
+  authMiddleware,
+  async (req, res, next) => {
+    try {
+      const { weaponId } = req.params;
+
+      const sql = `
+          delete from "favorites"
+          where "favoriteWeapon" = $1 and "userId"=$2
+          returning *;
+          `;
+      const result = await db.query(sql, [weaponId, req.user?.userId]);
+      if (!result) {
+        throw new ClientError(
+          400,
+          `character id: ${weaponId} invalid within favorites`
+        );
+      }
+      res.sendStatus(204);
+    } catch (err) {
+      next(err);
+    }
+  }
+);
+
+// get middleware for searching through characters and weapons
+
+app.get('/api/search', async (req, res, next) => {
+  try {
+    const { search } = req.query;
+    if (!search || typeof search !== 'string') {
+      throw new ClientError(400, 'Invalid search');
+    }
+    const sql = `
+  SELECT 'character' AS type,
+         c."characterId",
+         c."characterName",
+         c."characterPortrait",
+         c."rarity",
+         c."characterPath",
+         c."characterType",
+         c."characterDescription",
+         null as "weaponId",
+         null as "weaponName",
+         null as "weaponPath",
+         null as "weaponTitleEffect",
+         null as "weaponEffect",
+         null as "weaponImage",
+         null as "weaponLevel",
+         null as "weaponAttack",
+         null as "weaponDefense",
+         null as "weaponHealth",
+         null as "rarity"
+  FROM "characters" as c
+  WHERE c."characterName" ILIKE $1
+
+  UNION
+
+  SELECT 'weapon' AS type,
+         null as "characterId",
+         null as characterName,
+         null as characterPortrait,
+         null as rarity,
+         null as characterPath,
+         null as characterType,
+         null as characterDescription,
+         w."weaponId",
+         w."weaponName",
+         w."weaponPath",
+         w."weaponTitleEffect",
+         w."weaponEffect",
+         w."weaponImage",
+         w."weaponLevel",
+         w."weaponAttack",
+         w."weaponDefense",
+         w."weaponHealth",
+         w."rarity"
+  FROM "weapons" AS w
+  WHERE w."weaponName" ILIKE $1
+  LIMIT 5;
+`;
+
+    const result = await db.query(sql, [`%${search}%`]);
+    if (!result) {
+      throw new ClientError(404, 'could not find search');
+    }
+    const character = result.rows;
+    res.json(character);
   } catch (err) {
     next(err);
   }
 });
 
-app.delete('/api/favorites/weapon/:weaponId', async (req, res, next) => {
-  const { weaponId } = req.params;
+// USER endpoints start here
+
+app.post('/api/auth/sign-up', async (req, res, next) => {
   try {
-    const sql = `
-          delete from "favorites"
-          where "favoriteWeapon" = $1
-          returning *;
-          `;
-    const result = await db.query(sql, [weaponId]);
-    if (!result) {
-      throw new ClientError(
-        400,
-        `character id: ${weaponId} invalid within favorites`
-      );
+    const { username, password } = req.body;
+    if (!username || !password) {
+      throw new ClientError(400, 'username and password are required fields');
     }
-    res.sendStatus(204);
+    const hashedPassword = await argon2.hash(password);
+    const sql = `
+          insert into "users"
+          ("username", "hashedPassword")
+          values($1,$2)
+          returning "userId","username";
+          `;
+
+    const result = await db.query(sql, [username, hashedPassword]);
+
+    const [user] = result.rows;
+    res.status(201).send(user);
+  } catch (err) {
+    next(err);
+  }
+});
+
+app.post('/api/auth/sign-in', async (req, res, next) => {
+  try {
+    const { username, password } = req.body as Partial<Auth>;
+    if (!username || !password) {
+      throw new ClientError(401, 'Invalid login');
+    }
+    const sql = `
+          select "userId",
+                 "hashedPassword",
+                 "username"
+            from "users"
+            where "username"=$1
+          `;
+    const result = await db.query(sql, [username]);
+    const [user] = result.rows;
+    if (!user) {
+      throw new ClientError(401, 'Invalid login');
+    }
+    const matchedPassword = await argon2.verify(user.hashedPassword, password);
+    if (!matchedPassword) {
+      throw new ClientError(401, 'Invalid login');
+    }
+    const payload = {
+      userId: user.userId,
+      username: user.username,
+    };
+    const token = jwt.sign(payload, hashKey);
+    res.status(200).send({ user: payload, token });
   } catch (err) {
     next(err);
   }

@@ -2,20 +2,21 @@ import { ReactNode, createContext, useEffect, useState } from 'react';
 import { DetailsCharacter } from '../lib/data';
 import { Weapon } from '../lib/data';
 import { readFavorites } from '../lib/read';
+import { useUser } from './useUser';
 
 export type FavoriteValue = {
   favoriteCharacters: DetailsCharacter[];
   favoriteWeapons: Weapon[];
   addToFavorites: (favorite: Weapon | DetailsCharacter) => void;
-  setFavoriteCharacter: React.Dispatch<
-    React.SetStateAction<DetailsCharacter[]>
-  >;
-  setFavoriteWeapon: React.Dispatch<React.SetStateAction<Weapon[]>>;
+  removeFromFavorites: (favorite: Weapon | DetailsCharacter) => void;
+  setFavoriteCharacter: (character: DetailsCharacter[]) => void;
+  setFavoriteWeapon: (weapon: Weapon[]) => void;
 };
 export const defaultValue: FavoriteValue = {
   favoriteCharacters: [],
   favoriteWeapons: [],
   addToFavorites: () => {},
+  removeFromFavorites: () => {},
   setFavoriteCharacter: () => {},
   setFavoriteWeapon: () => {},
 };
@@ -40,25 +41,33 @@ export function FavoriteProvider({ children }: Props) {
   const [error, setError] = useState<unknown>();
   const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => {
-    async function readFaves() {
-      setIsLoading(true);
-      try {
-        const faves = await readFavorites();
-        if (!faves) throw new Error(`Favorite of blah not found`);
-        const characters = faves.filter((fave) => fave.favoriteCharacter);
-        const weapons = faves.filter((fave) => fave.favoriteWeapon);
+  const { user } = useUser();
 
-        setFavoriteCharacter(characters);
-        setFavoriteWeapon(weapons);
-      } catch (err) {
-        setError(err);
-      } finally {
-        setIsLoading(false);
+  async function readFaves() {
+    setIsLoading(true);
+    try {
+      if (!user) {
+        return;
       }
+      const faves = await readFavorites();
+      if (!faves) throw new Error(`Favorite of ${user} not found`);
+      const characters = faves.filter((fave) => fave.favoriteCharacter);
+      const weapons = faves.filter((fave) => fave.favoriteWeapon);
+
+      setFavoriteCharacter(characters);
+      setFavoriteWeapon(weapons);
+    } catch (err) {
+      setError(err);
+      console.log('err readFaves', err);
+    } finally {
+      setIsLoading(false);
     }
-    readFaves();
-  }, []);
+  }
+  useEffect(() => {
+    if (user) {
+      readFaves();
+    }
+  }, [user]);
 
   if (isLoading) {
     return <div>Loading....</div>;
@@ -79,6 +88,17 @@ export function FavoriteProvider({ children }: Props) {
       setFavoriteCharacter((prevFavorite) => [...prevFavorite, favorite]);
     }
   }
+  function removeFromFavorites(favorite: Weapon | DetailsCharacter) {
+    if ('weaponName' in favorite) {
+      setFavoriteWeapon((prevFavorite) =>
+        prevFavorite.filter((item) => item.weaponId !== favorite.weaponId)
+      );
+    } else {
+      setFavoriteCharacter((prevFavorite) =>
+        prevFavorite.filter((item) => item.characterId !== favorite.characterId)
+      );
+    }
+  }
 
   return (
     <FavoriteContext.Provider
@@ -88,6 +108,7 @@ export function FavoriteProvider({ children }: Props) {
         favoriteCharacters: favoriteCharacter,
         favoriteWeapons: favoriteWeapon,
         addToFavorites: addToFavorites,
+        removeFromFavorites: removeFromFavorites,
       }}>
       {children}
     </FavoriteContext.Provider>
