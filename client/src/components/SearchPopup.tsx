@@ -21,12 +21,12 @@ export function SearchResultPopup({
     ? positionRef.top + positionRef.height + window.scrollY
     : '50%';
   const left = positionRef
-    ? positionRef.left + positionRef.width / 30 + window.scrollX
+    ? positionRef.left + positionRef.width / 15 + window.scrollX
     : '50%';
 
   return createPortal(
     <div
-      className="w-1/4 bg-gray-700"
+      className=" w-[90vw] lg:w-[18vw] bg-gray-700"
       style={{ top, left, position: 'absolute' }}
       onClick={onClose}>
       {results.map((result) => (
@@ -38,7 +38,7 @@ export function SearchResultPopup({
               result.characterId ? result.characterName : result.weaponName
             }`}>
             <div className="w-full flex flex-wrap ">
-              <div className="w-2/5 ">
+              <div className=" w-full lg:w-2/5 ">
                 <img
                   src={
                     result.characterId
@@ -48,7 +48,7 @@ export function SearchResultPopup({
                   className="object-contain w-full h-[20vh]"
                 />
               </div>
-              <div className="3/5 text-white self-center">
+              <div className="w-full lg:3/5 text-white self-center">
                 {result.characterId ? result.characterName : result.weaponName}
               </div>
             </div>

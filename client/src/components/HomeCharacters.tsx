@@ -3,7 +3,6 @@ import { Character } from '../lib/data';
 import { readHomeCharacters } from '../lib/read';
 import '../App.css';
 import { Link } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
 export function HomeCharacters() {
   const [isLoading, setIsLoading] = useState(true);
   const [character, setCharacter] = useState<Character[]>();
@@ -35,12 +34,14 @@ export function HomeCharacters() {
   }
   return (
     <div className="m-4">
-      <h1 className="bebas-neue-regular text-6xl text-left">Characters:</h1>
+      <h1 className="bebas-neue-regular text-2xl lg:text-6xl text-left">
+        Characters:
+      </h1>
       <hr className="py-2" />
       <div className="flex flex-wrap w-full rounded-3xl bg-gray-700 ">
         {character?.map((character) => (
           <div
-            className="w-1/5 p-2 border border-gray-800 rounded-3xl velvet-background"
+            className="w-1/2 lg:w-1/5 h-[75px] lg:h-full p-2 border border-gray-800 rounded-3xl velvet-background"
             key={character.characterName}>
             <Link to={`characters/${character.characterName}`}>
               <CharacterCard character={character} />
@@ -62,11 +63,11 @@ function CharacterCard({ character }: Props) {
   return (
     <div className="w-full items-center ">
       <img
-        className="object-contain w-full h-[25vh]"
+        className="object-contain w-full h-[50px] lg:h-[25vh]"
         src={characterPortrait}
         alt={characterName}
       />
-      <h2 className="bebas-neue-regular text-white text-center text-3xl font-bold mt-4">
+      <h2 className="bebas-neue-regular text-white text-center text-xs md:text-lg lg:text-xl font-bold lg:mt-4">
         {characterName}
       </h2>
     </div>

@@ -38,7 +38,7 @@ export function Characters() {
   return (
     <div className="starry-bg p-4">
       <div>
-        <h1 className="mb-4 text-white text-6xl bebas-neue-regular">
+        <h1 className="mb-4 text-white text-3xl lg:text-6xl bebas-neue-regular">
           Characters:
         </h1>
       </div>

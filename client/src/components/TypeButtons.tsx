@@ -50,11 +50,11 @@ export function TypeButtons() {
         <NavLink
           key={index}
           to={`/characters/type/${type.type}`}
-          className=" self-center border-4 rounded-xl mx-2">
+          className=" self-center border rounded-lg lg:border-4 lg:rounded-xl mx-2">
           <img
             src={type.src}
             alt={type.alt}
-            className="w-[3vw] h-[5vh] object-contain"
+            className="w-[7vw] h-[3vh] lg:w-[3vw] lg:h-[5vh] object-contain"
           />
         </NavLink>
       ))}

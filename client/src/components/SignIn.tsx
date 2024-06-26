@@ -32,7 +32,7 @@ export function SignIn() {
     }
   }
   return (
-    <div className=" w-screen h-screen starry-registration flex">
+    <div className=" w-screen starry-registration flex">
       <div className="stars  w-screen h-screen"></div>
       <div className="rounded-3xl meteor"></div>
       <div className="rounded-3xl meteor"></div>
@@ -92,7 +92,7 @@ export function SignIn() {
         </div>
       </div>
       <img
-        className="h-[100px] pom-pom-run absolute bottom-0"
+        className="h-[200px] pom-pom-run absolute top-[40vh]"
         src="/images/pom-pom/sweeping.webp"
       />
     </div>

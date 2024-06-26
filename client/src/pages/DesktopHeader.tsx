@@ -2,7 +2,6 @@ import { Outlet, Link, useNavigate } from 'react-router-dom';
 import { SearchBar } from '../components/SearchBar';
 import { FaPersonRays } from 'react-icons/fa6';
 import '../css/Header.css';
-import { GiSwitchWeapon } from 'react-icons/gi';
 import { MdOutlineFavorite } from 'react-icons/md';
 import { SiGooglegemini } from 'react-icons/si';
 import { useEffect, useRef, useState } from 'react';
@@ -11,6 +10,7 @@ import '../App.css';
 import { useUser } from '../components/useUser';
 import { throttle } from 'lodash';
 import { SearchResultPopup } from '../components/SearchPopup';
+import { LuSword } from 'react-icons/lu';
 
 export function DesktopHeader() {
   const [isCharacterOpen, setIsCharacterOpen] = useState(false);
@@ -32,8 +32,6 @@ export function DesktopHeader() {
 
   const navigate = useNavigate();
   const { user, handleSignOut } = useUser();
-
-  // const throttleResults = throttle(fetchSearch, 400);
 
   useEffect(() => {
     const fetchSearchResults = throttle(async () => {
@@ -81,33 +79,33 @@ export function DesktopHeader() {
     <div className="w-full h-[400px]">
       <nav className="w-full overflow-hidden sticky">
         <div className="bg-gray-900 w-full">
-          <div className="border border-gray-700 starry-header justify-center text-center flex w-full">
+          <div className="border border-gray-700 starry-header justify-center text-center flex">
             <div className="stars"></div>
             <div className="position">
               <Link to="/">
                 <img
-                  className="w-40 absolute top-0 left-0 pom-pom"
+                  className="w-20 lg:w-40 absolute top-17 left-2 lg:top-0 lg:left-0 pom-pom"
                   src="/images/pom-pom/cheer.webp"
                 />
               </Link>
             </div>
             {user && (
-              <h1 className="londrina-outline-regular header-text">
+              <h1 className="text-4xl lg:text-7xl londrina-outline-regular header-text">
                 Welcome Back {user.username} !
               </h1>
             )}
             {!user && (
-              <h1 className="londrina-outline-regular header-text">
+              <h1 className="text-4xl lg:text-7xl londrina-outline-regular absolute text-white">
                 Welcome Aboard the Astral Express
               </h1>
             )}
           </div>
-          <div className="w-full flex justify-around items-center">
-            <div className="lg:w-1/5 sm:w-1/2">
+          <div className="w-full flex justify-around items-center flex-wrap text-xs lg:text-lg">
+            <div className="w-1/2 lg:w-1/5 ">
               <button
                 ref={postionChacracterRef}
                 onClick={() => setIsCharacterOpen(!isCharacterOpen)}
-                className="button-characters prompt-extrabold bg-gray-300 flex w-full items-center justify-evenly">
+                className="button-characters border-4 border-black prompt-extrabold bg-gray-300 flex w-full items-center justify-evenly">
                 Characters
                 <FaPersonRays />
               </button>
@@ -117,7 +115,7 @@ export function DesktopHeader() {
                   setIsCharacterOpen(false);
                 }}
                 position={postionChacracterRef.current}>
-                <ul className="w-[17vw]">
+                <ul className="w-full lg:w-[17vw]">
                   <li
                     className="border-2 border-black"
                     onClick={() => {
@@ -141,7 +139,7 @@ export function DesktopHeader() {
                       setIsCharacterOpen(false);
                     }}
                     position={positionCharPath.current}>
-                    <ul className="w-[17vw] bg-gray-600">
+                    <ul className="w-full lg:w-[17vw] bg-gray-600">
                       <Link to="/characters/path/Hunt">
                         <li
                           className="border-2 border-black"
@@ -230,7 +228,7 @@ export function DesktopHeader() {
                       setIsCharacterOpen(false);
                     }}
                     position={positionCharType.current}>
-                    <ul className="w-[17vw] bg-gray-600">
+                    <ul className="w-full lg:w-[17vw] bg-gray-600">
                       <Link to="/characters/type/Fire">
                         <li
                           className="border-2 border-black"
@@ -306,13 +304,13 @@ export function DesktopHeader() {
                 </ul>
               </Popup>
             </div>
-            <div className="w-1/5">
+            <div className="w-1/2 lg:w-1/5">
               <button
                 ref={positionWeaponRef}
                 onClick={() => setIsWeaponOpen(!isWeaponOpen)}
-                className="bg-yellow-300 prompt-extrabold button-weapons flex w-full items-center justify-evenly">
+                className="bg-yellow-300 border-2 border-black prompt-extrabold button-weapons flex w-full items-center justify-evenly">
                 Weapons
-                <GiSwitchWeapon />
+                <LuSword />
               </button>
               <Popup
                 isOpen={isWeaponOpen}
@@ -320,7 +318,7 @@ export function DesktopHeader() {
                   setIsWeaponOpen(false);
                 }}
                 position={positionWeaponRef.current}>
-                <ul className="w-[17vw] top-0">
+                <ul className="w-full lg:w-[17vw]  top-0">
                   <li
                     className="border-2 border-black"
                     onClick={() => {
@@ -342,7 +340,7 @@ export function DesktopHeader() {
                       setIsWeaponOpen(false);
                     }}
                     position={positionWeaponPath.current}>
-                    <ul className="w-[17vw] bg-gray-600 ">
+                    <ul className="w-full lg:w-[17vw] bg-gray-600 ">
                       <Link to="/weapons/path/Hunt">
                         <li
                           className="border-2 border-black"
@@ -418,25 +416,25 @@ export function DesktopHeader() {
                 </ul>
               </Popup>
             </div>
-            <div className="w-1/5">
+            <div className="w-1/2 lg:w-1/5">
               <Link to="/favorites">
-                <button className="button-favorites prompt-extrabold flex items-center justify-evenly bg-gray-300">
+                <button className="button-favorites prompt-extrabold border-2 border-black  flex items-center justify-evenly bg-gray-300">
                   Favorites
                   <MdOutlineFavorite />
                 </button>
               </Link>
             </div>
-            <div className="w-1/5">
+            <div className="w-1/2 lg:w-1/5">
               {!user && (
                 <Link to="sign-up">
-                  <button className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap">
+                  <button className="flex prompt-extrabold button-sign-up border-2 border-black  items-center justify-evenly bg-yellow-300 text-nowrap">
                     Sign Up <SiGooglegemini />
                   </button>
                 </Link>
               )}
               {user && (
                 <button
-                  className="flex prompt-extrabold button-sign-up items-center justify-evenly bg-yellow-300 text-nowrap"
+                  className="flex prompt-extrabold button-sign-up border-2 border-black  items-center justify-evenly bg-yellow-300 text-nowrap"
                   onClick={() => {
                     handleSignOut();
                     navigate('/');
@@ -445,7 +443,7 @@ export function DesktopHeader() {
                 </button>
               )}
             </div>
-            <div className="w-1/3 relative" ref={postionSearch}>
+            <div className="w-full lg:w-1/5 relative" ref={postionSearch}>
               <SearchBar value={searchTerm} onSearch={handleSearch} />
               {showPopup && (
                 <SearchResultPopup

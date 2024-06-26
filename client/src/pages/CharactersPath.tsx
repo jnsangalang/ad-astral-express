@@ -48,8 +48,8 @@ export function CharactersPath() {
         </h1>
       </div>
       <hr className="py-1 " />
-      <PathButtonsCharacters />
       <TypeButtons />
+      <PathButtonsCharacters />
       <div className=" flex-col w-full">
         {character?.map((character) => (
           <div className="w-full h-[300px] mb-2" key={character.characterName}>

@@ -1,5 +1,5 @@
 import { ReactNode, createContext, useEffect, useState } from 'react';
-import { removeAuth, saveAuth, getAuth } from '../lib/read';
+import { removeAuth, saveAuth, readUser, readToken } from '../lib/read';
 
 export type User = {
   userId: number;
@@ -27,7 +27,8 @@ export function UserProvider({ children }: Props) {
   const [token, setToken] = useState<string>();
 
   useEffect(() => {
-    const { user, token } = getAuth();
+    const token = readToken();
+    const user = readUser();
     if (user && token) {
       setUser(user);
       setToken(token);

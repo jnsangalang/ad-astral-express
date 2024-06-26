@@ -100,7 +100,7 @@ export function Registration() {
         </div>
       </div>
       <img
-        className="h-[100px] pom-pom-run absolute bottom-0"
+        className="h-[200px] pom-pom-run absolute top-[40vh]"
         src="/images/pom-pom/sweeping.webp"
       />
     </div>

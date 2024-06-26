@@ -58,6 +58,7 @@ export function FavoriteProvider({ children }: Props) {
       setFavoriteWeapon(weapons);
     } catch (err) {
       setError(err);
+      console.log('err readFaves', err);
     } finally {
       setIsLoading(false);
     }
