@@ -335,6 +335,37 @@
   }
 }
 
+.pom-pom-keyboard {
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-name: pom-pom-keyboard;
+}
+
+@keyframes pom-pom-keyboard {
+  0% {
+    animation-timing-function: ease-in;
+    transform: rotate(0deg);
+  }
+
+  33% {
+    animation-timing-function: ease-in;
+    transform: rotate(10deg);
+  }
+
+  66% {
+    animation-timing-function: ease-in;
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    animation-timing-function: ease-in;
+    transform: rotate(0deg);
+  }
+}
+
 @keyframes pom-pom-running {
   0% {
     animation-timing-function: ease-in;
@@ -370,8 +401,8 @@
 
 .meteor {
   position: absolute;
-  width: 1rem;
-  height: 0.5rem;
+  width: 0.5rem;
+  height: 0.25rem;
   background: linear-gradient(
     110deg,
     rgb(255, 255, 255),
@@ -506,22 +537,6 @@
   animation-delay: 3s;
 }
 
-.meteor2.shatter {
-  animation: shatter 0.5s forwards;
-}
-
-@keyframes shatter {
-  0% {
-    transform: scale(1) rotate(45deg);
-    opacity: 1;
-  }
-
-  100% {
-    transform: scale(0) rotate(90deg);
-    opacity: 0;
-  }
-}
-
 @keyframes meteor-shower {
   0% {
     transform: translate(-30vw) rotate(60deg);
@@ -599,7 +614,6 @@
 .registration-text {
   position: absolute;
   color: white;
-  font-size: 2rem;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 

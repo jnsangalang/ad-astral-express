@@ -5,6 +5,7 @@ import '../App.css';
 import { WeaponCard } from '../components/WeaponCard';
 import { useParams } from 'react-router-dom';
 import { PathButtonsWeapon } from '../components/PathButtonsWeapons';
+import { Loading } from '../components/Loading';
 
 export function WeaponsPath() {
   const [isLoading, setIsLoading] = useState(true);
@@ -29,7 +30,11 @@ export function WeaponsPath() {
     loadWeapons();
   }, [weaponPath]);
   if (isLoading) {
-    return <div>Loading......</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
   if (error) {
     return (

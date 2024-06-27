@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { CharacterCard } from '../components/CharacterCard';
 import { PathButtonsCharacters } from '../components/PathButtonsCharacters';
 import { TypeButtons } from '../components/TypeButtons';
+import { Loading } from '../components/Loading';
 export function Characters() {
   const [isLoading, setIsLoading] = useState(true);
   const [character, setCharacter] = useState<Character[]>();
@@ -25,7 +26,11 @@ export function Characters() {
     loadCharacters();
   }, []);
   if (isLoading) {
-    return <div>Loading......</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
   if (error) {
     return (

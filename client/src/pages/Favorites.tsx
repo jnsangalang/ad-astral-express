@@ -51,27 +51,27 @@ export function Favorites() {
       {!user && (
         <div className="w-full text-center w-screen h-screen velvet-background2 relative justify-center items-center">
           <div className="flex justify-center">
-            <div className="spotlight-background-favorites h-1/2 w-1/4 absolute  mt-[10vh] items-center flex justify-center prompt-extrabold">
+            <div className="spotlight-background-favorites h-1/3 lg:h-1/2 w-3/4 lg:w-1/4 absolute mt-[15vh]  lg:mt-[10vh] items-center flex justify-center prompt-extrabold">
               Log in to add to your favorites!
             </div>
             <img
               src="/images/pom-pom/magnifying-glass.webp"
               alt="pom pom with a magnifying glass"
-              className="absolute top-[15vh] h-[35vh] pom-pom-tilt"
+              className="absolute left-[22vw] lg:left-[42vw] top-[16vh] lg:top-[15vh] h-[28vh] lg:h-[35vh] pom-pom-tilt"
             />
           </div>
         </div>
       )}
       {user && (
-        <>
-          <div className="w-full lg:w-1/3 flex flex-col polygonal-pattern-background items-center  order-2 lg:order-1">
+        <div className="w-full flex flex-wrap">
+          <div className="w-1/2 lg:w-1/3 flex flex-col polygonal-pattern-background items-center  order-2 lg:order-1">
             <div className="text-white">Lightcones</div>
             {favoriteWeapons.map((weapon) => (
               <div
                 key={weapon.weaponId}
-                className="w-[25vw] flex rounded-[30%]  bg-yellow-200 m-6  py-2">
+                className="w-[175px] lg:w-[25vw] flex rounded-[30%] bg-yellow-200 m-6  py-2">
                 <div
-                  className="w-full lg:w-1/2 m-4 prompt-extrabold relative text-center text-xs lg:text-xl"
+                  className="w-full lg:w-1/2 m-4 prompt-extrabold relative text-center text-xs lg:text-xl truncate"
                   onClick={() => {
                     setWeapon(weapon);
                   }}>
@@ -84,7 +84,7 @@ export function Favorites() {
                     />
                   </div>
                   <button
-                    className="absolute right-0 top-0 shimmer"
+                    className="absolute left-15 top-1 right-0 top-0 shimmer"
                     onClick={() =>
                       handleRemoveWeaponFromFavorites(weapon.weaponId)
                     }>
@@ -103,7 +103,7 @@ export function Favorites() {
               </div>
             ))}
           </div>
-          <div className="w-1/2 lg:w-1/3  polygonal-pattern-background3 order-1 lg:order-2">
+          <div className="w-full lg:w-1/3  polygonal-pattern-background3 order-1 lg:order-2">
             <div className="w-full flex flex-wrap text-center prompt-extrabold">
               <div className="border-4 border-yellow-100  marble-favorite min-h-[250px] w-1/2 ">
                 {weapon?.weaponName}
@@ -138,7 +138,7 @@ export function Favorites() {
             {favoriteCharacters.map((char) => (
               <div
                 key={char.characterId}
-                className="w-[25vw] flex m-6 rounded-[30%] bg-yellow-200 text-center text-xs lg:text-lg">
+                className="w-[175px] lg:w-[25vw]  flex m-6 rounded-[30%] bg-yellow-200 text-center text-xs lg:text-lg">
                 <div
                   className="w-full lg:w-1/2 m-4 relative py-2 prompt-extrabold"
                   onClick={() => {
@@ -172,7 +172,7 @@ export function Favorites() {
               </div>
             ))}
           </div>
-        </>
+        </div>
       )}
     </div>
   );

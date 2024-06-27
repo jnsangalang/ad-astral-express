@@ -3,6 +3,7 @@ import { DetailsCharacter } from '../lib/data';
 import { Weapon } from '../lib/data';
 import { readFavorites } from '../lib/read';
 import { useUser } from './useUser';
+import { Loading } from './Loading';
 
 export type FavoriteValue = {
   favoriteCharacters: DetailsCharacter[];
@@ -70,7 +71,11 @@ export function FavoriteProvider({ children }: Props) {
   }, [user]);
 
   if (isLoading) {
-    return <div>Loading....</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
   if (error) {
     return (

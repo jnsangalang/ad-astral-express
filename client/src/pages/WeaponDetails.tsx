@@ -7,6 +7,7 @@ import { GiUpgrade } from 'react-icons/gi';
 import { FaRegHeart } from 'react-icons/fa';
 import { FavoriteContext } from '../components/FavoriteContext';
 import { MdOutlineFavorite } from 'react-icons/md';
+import { Loading } from '../components/Loading';
 
 export function WeaponDetails() {
   const [weapon, setWeapon] = useState<Weapon>();
@@ -52,7 +53,11 @@ export function WeaponDetails() {
   }, [weaponName]);
 
   if (isLoading) {
-    return <div>LOADING........</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
   if (error || !weapon) {
     return (

@@ -8,6 +8,7 @@ import { FaRegHeart } from 'react-icons/fa';
 import { addCharacter } from '../lib/read';
 import { MdOutlineFavorite } from 'react-icons/md';
 import { FavoriteContext } from '../components/FavoriteContext';
+import { Loading } from '../components/Loading';
 
 export function CharacterDetails() {
   const [character, setCharacter] = useState<DetailsCharacter>();
@@ -61,7 +62,11 @@ export function CharacterDetails() {
   }, [characterName]);
 
   if (isLoading) {
-    return <div>LOADING........</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
   if (error || !character) {
     return (

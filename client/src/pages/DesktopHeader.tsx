@@ -84,9 +84,12 @@ export function DesktopHeader() {
             <div className="position">
               <Link to="/">
                 <img
-                  className="w-20 lg:w-40 absolute top-17 left-2 lg:top-0 lg:left-0 pom-pom"
+                  className="w-20 lg:w-40 absolute position bottom-1 left-2 lg:top-12 lg:left-0 pom-pom"
                   src="/images/pom-pom/cheer.webp"
                 />
+                <div className="text-white text-lg lg:text-5xl prompt-extrabold w-20 lg:w-40 absolute bottom-15 left-2 lg:top-6 lg:left-0 pom-pom">
+                  HOME
+                </div>
               </Link>
             </div>
             {user && (
@@ -426,9 +429,9 @@ export function DesktopHeader() {
             </div>
             <div className="w-1/2 lg:w-1/5">
               {!user && (
-                <Link to="sign-up">
+                <Link to="sign-in">
                   <button className="flex prompt-extrabold button-sign-up border-2 border-black  items-center justify-evenly bg-yellow-300 text-nowrap">
-                    Sign Up <SiGooglegemini />
+                    Sign In <SiGooglegemini />
                   </button>
                 </Link>
               )}
@@ -452,6 +455,7 @@ export function DesktopHeader() {
                   results={searchResults}
                   onClose={() => {
                     setShowPopup(false);
+                    setSearchTerm('');
                   }}
                 />
               )}

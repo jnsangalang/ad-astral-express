@@ -4,6 +4,7 @@ import { readWeapons } from '../lib/read';
 import '../App.css';
 import { WeaponCard } from '../components/WeaponCard';
 import { PathButtonsWeapon } from '../components/PathButtonsWeapons';
+import { Loading } from '../components/Loading';
 export function Weapons() {
   const [isLoading, setIsLoading] = useState(true);
   const [weapon, setWeapon] = useState<Weapon[]>();
@@ -23,7 +24,11 @@ export function Weapons() {
     loadWeapons();
   }, []);
   if (isLoading) {
-    return <div>Loading......</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
   if (error) {
     return (

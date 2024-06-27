@@ -3,6 +3,7 @@ import { Character } from '../lib/data';
 import { readHomeCharacters } from '../lib/read';
 import '../App.css';
 import { Link } from 'react-router-dom';
+import { Loading } from './Loading';
 export function HomeCharacters() {
   const [isLoading, setIsLoading] = useState(true);
   const [character, setCharacter] = useState<Character[]>();
@@ -22,7 +23,11 @@ export function HomeCharacters() {
     load4Characters();
   }, []);
   if (isLoading) {
-    return <div>Loading......</div>;
+    return (
+      <div>
+        <Loading />
+      </div>
+    );
   }
   if (error) {
     return (
