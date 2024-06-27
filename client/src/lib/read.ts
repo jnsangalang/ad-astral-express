@@ -179,8 +179,12 @@ export async function readFavorites(): Promise<Favorite[]> {
 export async function deleteFavoriteCharacter(
   characterId: number
 ): Promise<void> {
+  const token = readToken();
   const response = await fetch(`/api/favorites/character/${characterId}`, {
     method: 'DELETE',
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
   });
   if (!response) {
     throw new Error('failed');
@@ -189,8 +193,12 @@ export async function deleteFavoriteCharacter(
 
 //for deleting weapon from favorite's list
 export async function deleteFavoriteWeapon(weaponId: number): Promise<void> {
+  const token = readToken();
   const response = await fetch(`/api/favorites/weapon/${weaponId}`, {
     method: 'DELETE',
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
   });
   if (!response) {
     throw new Error('failed');

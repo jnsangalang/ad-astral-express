@@ -63,21 +63,22 @@ export function Favorites() {
         </div>
       )}
       {user && (
-        <div className="w-full flex flex-wrap">
+        <div className="w-full flex flex-wrap h-screen">
           <div className="w-1/2 lg:w-1/3 flex flex-col polygonal-pattern-background items-center  order-2 lg:order-1">
-            <div className="text-white">Lightcones</div>
+            <div className="text-white prompt-extrabold text-lg lg:text-4xl underline">
+              Lightcones
+            </div>
             {favoriteWeapons.map((weapon) => (
               <div
                 key={weapon.weaponId}
                 className="w-[175px] lg:w-[25vw] flex rounded-[30%] bg-yellow-200 m-6  py-2">
-                <div
-                  className="w-full lg:w-1/2 m-4 prompt-extrabold relative text-center text-xs lg:text-xl truncate"
-                  onClick={() => {
-                    setWeapon(weapon);
-                  }}>
+                <div className="w-full lg:w-1/2 m-4 prompt-extrabold relative text-center text-xs lg:text-xl truncate">
                   {weapon.weaponName}
                   <div className="flex justify-center">
                     <img
+                      onClick={() => {
+                        setWeapon(weapon);
+                      }}
                       className="h-[100px] lg:h-[150px] object-cover "
                       src={weapon.weaponImage}
                       alt={weapon.weaponName}
@@ -85,9 +86,10 @@ export function Favorites() {
                   </div>
                   <button
                     className="absolute left-15 top-1 right-0 top-0 shimmer"
-                    onClick={() =>
-                      handleRemoveWeaponFromFavorites(weapon.weaponId)
-                    }>
+                    onClick={() => {
+                      setWeapon(undefined);
+                      handleRemoveWeaponFromFavorites(weapon.weaponId);
+                    }}>
                     <FaHeartCircleMinus />
                   </button>
                 </div>
@@ -134,19 +136,20 @@ export function Favorites() {
             </div>
           </div>
           <div className="w-1/2 lg:w-1/3 polygonal-pattern-background2 flex flex-col items-center order-3 lg:order-3">
-            <div className="text-center text-white">Characters</div>
+            <div className="text-center text-white prompt-extrabold text-lg lg:text-4xl underline">
+              Characters
+            </div>
             {favoriteCharacters.map((char) => (
               <div
                 key={char.characterId}
                 className="w-[175px] lg:w-[25vw]  flex m-6 rounded-[30%] bg-yellow-200 text-center text-xs lg:text-lg">
-                <div
-                  className="w-full lg:w-1/2 m-4 relative py-2 prompt-extrabold"
-                  onClick={() => {
-                    setCharacter(char);
-                  }}>
+                <div className="w-full lg:w-1/2 m-4 relative py-2 prompt-extrabold">
                   {char.characterName}
                   <div className="flex justify-center">
                     <img
+                      onClick={() => {
+                        setCharacter(char);
+                      }}
                       className="h-[100px] lg:h-[150px] object-cover"
                       src={char.characterImage}
                       alt={char.characterName}
@@ -154,9 +157,10 @@ export function Favorites() {
                   </div>
                   <button
                     className="absolute right-0 top-3 shimmer"
-                    onClick={() =>
-                      handleRemoveCharacterFromFavorites(char.characterId)
-                    }>
+                    onClick={() => {
+                      handleRemoveCharacterFromFavorites(char.characterId);
+                      setCharacter(undefined);
+                    }}>
                     <FaHeartCircleMinus />
                   </button>
                 </div>
