@@ -291,20 +291,26 @@ export function CharacterDetails() {
                   </div>
                 </div>
                 <div className="w-1/4 flex">
-                  <div className="pb-2 w-1/2 bebas-neue-regular">Attack:</div>
-                  <div className="w-1/2 prompt-extrabold">
+                  <div className="pb-2 w-1/2 bebas-neue-regular pr-2 ">
+                    Attack:
+                  </div>
+                  <div className="w-1/2 prompt-extrabold pl-2">
                     {characterAttack[level]}
                   </div>
                 </div>
                 <div className="w-1/4 flex">
-                  <div className="pb-2 w-1/2 bebas-neue-regular">Defense:</div>
-                  <div className="w-1/2 prompt-extrabold">
+                  <div className="pb-2 w-1/2 bebas-neue-regular pr-2">
+                    Defense:
+                  </div>
+                  <div className="w-1/2 prompt-extrabold pl-4">
                     {characterDefense[level]}
                   </div>
                 </div>
                 <div className="w-1/4 flex">
-                  <div className="pb-2 w-1/2 bebas-neue-regular">Health:</div>
-                  <div className="w-1/2 prompt-extrabold">
+                  <div className="pb-2 w-1/2 bebas-neue-regular pr-2">
+                    Health:
+                  </div>
+                  <div className="w-1/2 prompt-extrabold pl-2">
                     {characterHealth[level]}
                   </div>
                 </div>

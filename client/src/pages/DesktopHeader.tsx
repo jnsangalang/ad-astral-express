@@ -62,8 +62,6 @@ export function DesktopHeader() {
 
   function handleSearch(search: string) {
     setSearchTerm(search);
-    console.log('search', search);
-    console.log('result:', searchResults);
   }
 
   if (error) {
