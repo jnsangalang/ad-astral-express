@@ -84,6 +84,26 @@ export const rewardCodes = [
     reward: '50 Stellar Jades + EXP materials',
     release: 'Released on 29-05-2024',
   },
+  {
+    code: 'QBJTY77MN9T7',
+    reward: '50 Stellar Jades + EXP materials',
+    release: 'Released on 19-04-2023',
+  },
+  {
+    code: '5AJTZPPMN8VB',
+    reward: '50 Stellar Jades + EXP materials',
+    release: 'Released on 19-04-2023',
+  },
+  {
+    code: 'VAJEGY4MNMDK',
+    reward: '50 Stellar Jades + EXP materials',
+    release: 'Released on 08-05-2024',
+  },
+  {
+    code: 'FA2CU3P7P6QT',
+    reward: '50 Stellar Jades + EXP materials',
+    release: 'Released on 29-05-2024',
+  },
 ];
 
 export type Wish = {

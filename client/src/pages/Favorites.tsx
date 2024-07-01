@@ -85,7 +85,7 @@ export function Favorites() {
                     />
                   </div>
                   <button
-                    className="absolute left-15 top-1 right-0 top-0 shimmer"
+                    className="absolute left-15 top-1 right-0 top-8 shimmer"
                     onClick={() => {
                       setWeapon(undefined);
                       handleRemoveWeaponFromFavorites(weapon.weaponId);
@@ -156,7 +156,7 @@ export function Favorites() {
                     />{' '}
                   </div>
                   <button
-                    className="absolute right-0 top-3 shimmer"
+                    className="absolute left-15 top-1 right-0 top-8 shimmer"
                     onClick={() => {
                       handleRemoveCharacterFromFavorites(char.characterId);
                       setCharacter(undefined);

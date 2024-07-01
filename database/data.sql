@@ -2947,7 +2947,7 @@ insert into "weapons"
 
 insert into "weapons"
       ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/memories-of-the-past.webp', 'Harmony', 'Memories of the Past', 'Old Photo', '["Increases the wearer’s Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.",
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[18,90.9,202.5,314.1,396.9]', '[43,218,486,754,953]', '/images/weapons/memories-of-the-past.webp', 'Harmony', 'Memories Of The Past', 'Old Photo', '["Increases the wearer’s Break Effect by 28%. When the wearer attacks, additionally regenerates 4 Energy. This effect cannot be repeatedly triggered in a single turn.",
       "Increases the wearer’s Break Effect by 35%. When the wearer attacks, additionally regenerates 5 Energy. This effect cannot be repeatedly triggered in a single turn.",
       "Increases the wearer’s Break Effect by 42%. When the wearer attacks, additionally regenerates 6 Energy. This effect cannot be repeatedly triggered in a single turn.",
       "Increases the wearer’s Break Effect by 49%. When the wearer attacks, additionally regenerates 7 Energy. This effect cannot be repeatedly triggered in a single turn.",

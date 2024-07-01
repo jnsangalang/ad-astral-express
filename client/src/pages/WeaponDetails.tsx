@@ -111,7 +111,7 @@ export function WeaponDetails() {
               className="object-contain w-full h-[20vh] lg:h-[40vh] self-center mb-20"
             />
             <div
-              className="absolute right-[8vw] top-[15vh] weapon-like-heart"
+              className="absolute right-[25vw] lg:right-[5vw] top-[15vh] weapon-like-heart"
               onClick={handleToggleFavorite}>
               {favoriteWeapons.find(
                 (weap) => weap.weaponId === weapon.weaponId
