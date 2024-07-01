@@ -52,7 +52,7 @@ export function CharacterCard({ character }: Props) {
       <div className="w-4/12 lg:w-2/12 h-1/2 lg:h-full flex flex-col items-center justify-between ">
         <h1 className="lg:mb-6 p- prompt-extrabold underline">Path</h1>
         {characterPath === 'Harmony' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className=" object-cover w-full h-full"
               src="/images/paths/harmony.webp"
@@ -61,7 +61,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterPath === 'Abundance' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/paths/abundance.webp"
@@ -70,7 +70,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterPath === 'Destruction' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/paths/destruction.webp"
@@ -79,7 +79,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterPath === 'Erudition' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/paths/erudition.webp"
@@ -88,7 +88,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterPath === 'Hunt' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/paths/hunt.webp"
@@ -97,7 +97,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterPath === 'Nihility' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/paths/nihility.webp"
@@ -106,7 +106,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterPath === 'Preservation' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/paths/preservation.webp"
@@ -119,7 +119,7 @@ export function CharacterCard({ character }: Props) {
       <div className="w-4/12 lg:w-2/12 h-1/2 lg:h-full flex flex-col items-center justify-between ">
         <h1 className="lg:mb-6 prompt-extrabold underline ">Type</h1>
         {characterType === 'Fire' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/element-types/fire.webp"
@@ -128,7 +128,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterType === 'Ice' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/element-types/ice.webp"
@@ -137,7 +137,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterType === 'Imaginary' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/element-types/imaginary.webp"
@@ -146,7 +146,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterType === 'Lightning' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/element-types/lightning.webp"
@@ -155,7 +155,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterType === 'Physical' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/element-types/physical.webp"
@@ -164,7 +164,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterType === 'Quantum' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/element-types/quantum.webp"
@@ -173,7 +173,7 @@ export function CharacterCard({ character }: Props) {
           </div>
         )}
         {characterType === 'Wind' && (
-          <div className="h-[75px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className="object-cover w-full h-full"
               src="/images/element-types/wind.webp"
