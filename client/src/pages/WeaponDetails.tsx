@@ -100,8 +100,8 @@ export function WeaponDetails() {
   return (
     <div className="velvet-background2">
       <div className="w-full flex flex-wrap lg:pr-2">
-        <div className="w-full flex flex-wrap lg:flex-nowrap lg:h-[600px] my-4 ">
-          <div className="flex flex-wrap justify-center  w-full lg:w-1/3 object-fill spotlight-background-lightcone lg:m-8 relative">
+        <div className="w-full flex flex-wrap lg:flex-nowrap lg:h-[600px] my-4 justify-center">
+          <div className="flex flex-wrap justify-center  w-[7/8] lg:w-1/3 object-fill spotlight-background-lightcone lg:m-8 relative">
             <div className="w-full text-center text-lg lg:text-xl mt-20 prompt-extrabold ">
               {weaponName}
             </div>
