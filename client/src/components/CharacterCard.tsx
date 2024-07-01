@@ -52,7 +52,7 @@ export function CharacterCard({ character }: Props) {
       <div className="w-4/12 lg:w-2/12 h-1/2 lg:h-full flex flex-col items-center justify-between ">
         <h1 className="lg:mb-6 p- prompt-extrabold underline">Path</h1>
         {characterPath === 'Harmony' && (
-          <div className="h-[75px] lg:w-[200px] lg:h-[200px]">
+          <div className="w-[75px] h-[75px] lg:w-[200px] lg:h-[200px]">
             <img
               className=" object-cover w-full h-full"
               src="/images/paths/harmony.webp"
