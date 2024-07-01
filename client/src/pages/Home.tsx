@@ -19,7 +19,7 @@ export function Home() {
               </div>
             ))}
           </div>
-          <div className="marble flex h-[25vh] lg:h-2/5 m-4 border border-gray-700 rounded-3xl p-4 items-center overflow-auto">
+          <div className="marble flex h-[25vh] lg:h-2/5 p-2 border border-gray-700 rounded-3xl p-2 items-center overflow-auto">
             <div className="w-full">
               <div className="w-full">
                 <img

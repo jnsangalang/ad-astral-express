@@ -105,7 +105,9 @@ export function WeaponDetails() {
             <div className="w-full text-center text-lg lg:text-3xl mt-20 prompt-extrabold">
               {weaponName}
             </div>
-            <div className="weapon-like-heart" onClick={handleToggleFavorite}>
+            <div
+              className="absolute right-[8vw] top-[12vh] weapon-like-heart"
+              onClick={handleToggleFavorite}>
               {favoriteWeapons.find(
                 (weap) => weap.weaponId === weapon.weaponId
               ) ? (

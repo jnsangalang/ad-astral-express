@@ -17,16 +17,18 @@ export function CharacterCard({ character }: Props) {
 
   return (
     <div className="train gradient divide-x-6 lg:divide-x-4 lg:divide-black w-full flex flex-wrap border border-gray-700 rounded-3xl lg:p-4 h-full lg:h-full ">
-      <div className="window-container backdrop-blur-lg h-1/2 lg:h-full w-4/12 lg:w-2/12 flex">
-        <div className="w-[75px] h-[75px] self-center lg:w-full lg:h-full slight-transparency  bg-white bg-opacity-50 lg:rounded-3xl">
+      <div className="window-container backdrop-blur-lg  h-3/4 lg:h-full w-4/12 lg:w-2/12 flex flex-wrap justify-between">
+        <div className="w-[65px] h-[65px] self-center lg:w-full lg:h-4/5 slight-transparency h-4/5  bg-white bg-opacity-50 lg:rounded-3xl">
           <img
-            className="object-contain w-full h-full rounded-lg mb-4"
+            className="object-contain w-full h-full rounded-lg "
             src={characterPortrait}
             alt={characterName}
           />
-          <h5 className="text-center font-bold text-xs lg:text-md">
+        </div>
+        <div className="h-1/5">
+          <p className="font-bold text-xs lg:text-lg prompt-extrabold ">
             {characterName}
-          </h5>
+          </p>
         </div>
       </div>
       <div className="w-4/12 lg:w-1/12 h-1/2 lg:h-full flex flex-col items-center ">
