@@ -160,7 +160,6 @@
 .window-container {
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 8px;
-  padding: 20px;
   position: relative;
   overflow: hidden;
 }

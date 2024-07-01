@@ -102,11 +102,11 @@ export function WeaponDetails() {
       <div className="w-full flex flex-wrap lg:pr-2">
         <div className="w-full flex flex-wrap lg:flex-nowrap lg:h-[600px] my-4 ">
           <div className="flex flex-wrap justify-center  w-full lg:w-1/3 object-fill spotlight-background-lightcone lg:m-8">
-            <div className="w-full text-center text-lg lg:text-3xl mt-20 prompt-extrabold">
+            <div className="w-full text-center text-lg lg:text-xl mt-20 prompt-extrabold relative">
               {weaponName}
             </div>
             <div
-              className="absolute right-[8vw] top-[12vh] weapon-like-heart"
+              className="absolute right-[8vw] top-[15vh] weapon-like-heart"
               onClick={handleToggleFavorite}>
               {favoriteWeapons.find(
                 (weap) => weap.weaponId === weapon.weaponId
@@ -125,7 +125,7 @@ export function WeaponDetails() {
           <div className="flex flex-col w-full lg:w-2/3 border-4 lg:border-8 slight-transparency border-yellow-200 pt-4 lg:pl-8 mx-4">
             <div className="w-full flex flex-wrap">
               <div className="w-full flex flex-wrap text-center justify-center">
-                <div className="w-full text-lg lg:text-2xl prompt-extrabold">
+                <div className="w-full text-lg lg:text-xl prompt-extrabold">
                   Path: {weaponPath}
                 </div>
                 {weaponPath === 'Harmony' && (
@@ -193,7 +193,7 @@ export function WeaponDetails() {
                 )}
               </div>
               <div className="w-1/2">
-                <div className="pb-2 text-lg lg:text-2xl prompt-extrabold">
+                <div className="pb-2 text-lg lg:text-xl prompt-extrabold">
                   Stats
                 </div>
                 <div className="pb-2 bebas-neue-regular text-sm lg:text-lg">
@@ -220,7 +220,7 @@ export function WeaponDetails() {
               </div>
             </div>
             <div className="flex flex-wrap w-full">
-              <div className="w-full text-lg lg:text-2xl my-2 prompt-extrabold">
+              <div className="w-full text-lg lg:text-xl my-2 prompt-extrabold">
                 Ability
               </div>
               <div className="w-full">

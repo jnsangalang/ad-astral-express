@@ -7,7 +7,7 @@ export function Home() {
     <div className="w-full home-color">
       <div className="flex">
         <div className=" flex-col w-2/5 lg:w-1/5 flex ">
-          <div className="marble h-[75vh] lg:h-3/5 mx-2 mt-4 border border-gray-700 rounded-2xl p-2 text-xs lg:text-lg overflow-auto">
+          <div className="marble h-[75vh] lg:h-3/5 mx-2  my-4 border border-gray-700 rounded-2xl p-2 text-xs lg:text-lg overflow-auto">
             <h1 className="bebas-neue-regular text-2xl lg:text-4xl mb-4">
               Current Reward Codes
             </h1>
@@ -19,7 +19,7 @@ export function Home() {
               </div>
             ))}
           </div>
-          <div className="marble flex h-[25vh] lg:h-2/5 p-2 border border-gray-700 rounded-3xl p-2 items-center overflow-auto">
+          <div className="marble flex h-[25vh] lg:h-2/5 p-2 border border-gray-700 rounded-3xl p-2 items-center overflow-auto mt-4">
             <div className="w-full">
               <div className="w-full">
                 <img
@@ -28,7 +28,7 @@ export function Home() {
                   alt="symbol for express pass in honkai star rail"
                 />
               </div>
-              <p className="text-xs lg:text-lg ">
+              <p className="text-xs lg:text-lg">
                 The <strong>Express Supply Pass</strong> is a 30 day
                 subscription offer in Honkai: Star Rail.
               </p>

@@ -116,7 +116,7 @@ export function DesktopHeader() {
                   setIsCharacterOpen(false);
                 }}
                 position={postionChacracterRef.current}>
-                <ul className="w-full lg:w-[17vw]">
+                <ul className="w-full lg:w-[17vw] text-white">
                   <li
                     className="border-2 border-black"
                     onClick={() => {
@@ -140,7 +140,7 @@ export function DesktopHeader() {
                       setIsCharacterOpen(false);
                     }}
                     position={positionCharPath.current}>
-                    <ul className="w-full lg:w-[17vw] bg-gray-600">
+                    <ul className="w-full lg:w-[17vw] bg-gray-600 text-white">
                       <Link to="/characters/path/Hunt">
                         <li
                           className="border-2 border-black"
@@ -229,7 +229,7 @@ export function DesktopHeader() {
                       setIsCharacterOpen(false);
                     }}
                     position={positionCharType.current}>
-                    <ul className="w-full lg:w-[17vw] bg-gray-600">
+                    <ul className="w-full lg:w-[17vw] bg-gray-600 text-white">
                       <Link to="/characters/type/Fire">
                         <li
                           className="border-2 border-black"
@@ -319,7 +319,7 @@ export function DesktopHeader() {
                   setIsWeaponOpen(false);
                 }}
                 position={positionWeaponRef.current}>
-                <ul className="w-full lg:w-[17vw]  top-0">
+                <ul className="w-full lg:w-[17vw]  top-0 text-white">
                   <li
                     className="border-2 border-black"
                     onClick={() => {
@@ -341,7 +341,7 @@ export function DesktopHeader() {
                       setIsWeaponOpen(false);
                     }}
                     position={positionWeaponPath.current}>
-                    <ul className="w-full lg:w-[17vw] bg-gray-600 ">
+                    <ul className="w-full lg:w-[17vw] bg-gray-600 text-white">
                       <Link to="/weapons/path/Hunt">
                         <li
                           className="border-2 border-black"
