@@ -19,7 +19,7 @@ export function Home() {
               </div>
             ))}
           </div>
-          <div className="marble flex h-[20vh] lg:h-2/5 p-2 mx-2 border border-gray-700 rounded-3xl p-2 justify-center overflow-auto mt-4 ">
+          <div className="marble flex h-[20vh] lg:h-1/5 p-2 mx-2 border border-gray-700 rounded-3xl p-2 justify-center overflow-auto mt-4 ">
             <div className="w-full">
               <div className="w-full">
                 <img
@@ -46,7 +46,7 @@ export function Home() {
             </div>
           </div>
         </div>
-        <div className="w-3/5 lg:w-4/5">
+        <div className="w-3/5 lg:w-4/5 ">
           <Carousel />
           <div className="w-full">
             <HomeCharacters />

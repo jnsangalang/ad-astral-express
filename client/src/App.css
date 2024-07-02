@@ -128,7 +128,7 @@
 
 .train {
   position: ;
-  animation-duration: 2.5s;
+  animation-duration: 1s;
   animation-timing-function: ease;
   animation-delay: 0s;
   animation-direction: normal;
@@ -142,12 +142,12 @@
     transform: translateX(-100%);
   }
 
-  20% {
+  /* 20% {
     animation-timing-function: ease-in;
     transform: translateX(50vw);
-  }
+  } */
 
-  75% {
+  50% {
     animation-timing-function: ease-in;
     transform: translateX(80vw);
   }

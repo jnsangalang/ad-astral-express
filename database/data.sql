@@ -2915,7 +2915,7 @@ insert into "weapons"
 
 insert into "weapons"
       ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[15,75.75,168.75,261.75,330.75]', '[48,242,761,838,1058]','/images/weapons/post-op-conversation.webp', 'Abundance', 'Post-Op Conversation', 'Mutual Healing', '["Increases the wearer’s Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.",
+      values('[1,20,40,60,80]','[19.2,96.96,216,335.04,423.36]', '[15,75.75,168.75,261.75,330.75]', '[48,242,761,838,1058]','/images/weapons/post-op-conversation.webp', 'Abundance', 'Post Op Conversation', 'Mutual Healing', '["Increases the wearer’s Energy Regeneration Rate by 8% and increases Outgoing Healing when they use their Ultimate by 12%.",
       "Increases the wearer’s Energy Regeneration Rate by 10% and increases Outgoing Healing when they use their Ultimate by 15%.",
       "Increases the wearer’s Energy Regeneration Rate by 12% and increases Outgoing Healing when they use their Ultimate by 18%.",
       "Increases the wearer’s Energy Regeneration Rate by 14% and increases Outgoing Healing when they use their Ultimate by 21%.",
@@ -2931,7 +2931,7 @@ insert into "weapons"
 
 insert into "weapons"
       ("weaponLevel", "weaponAttack", "weaponDefense", "weaponHealth", "weaponImage","weaponPath", "weaponName", "weaponTitleEffect", "weaponEffect" ,"rarity" )
-      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/day-one-of-my-new-life.webp', 'Preservation', 'Day One of My New Life', 'At This Very Moment', '["Increases wearer’s DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Effects of the same type cannot stack.",
+      values('[1,20,40,60,80]', '[16.8,84.84,189,293.16,370.44]', '[21,106.05,236.25,366.45,463.05]', '[43,218,486,754,953]', '/images/weapons/day-one-of-my-new-life.webp', 'Preservation', 'Day One Of My New Life', 'At This Very Moment', '["Increases wearer’s DEF by 16%. After entering battle, increases All-Type RES of all allies by 8%. Effects of the same type cannot stack.",
       "Increases wearer’s DEF by 18%. After entering battle, increases All-Type RES of all allies by 9%. Effects of the same type cannot stack.",
       "Increases wearer’s DEF by 20%. After entering battle, increases All-Type RES of all allies by 10%. Effects of the same type cannot stack.",
       "Increases wearer’s DEF by 22%. After entering battle, increases All-Type RES of all allies by 11%. Effects of the same type cannot stack.",
