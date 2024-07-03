@@ -447,6 +447,33 @@ app.post('/api/auth/sign-up', async (req, res, next) => {
   }
 });
 
+// for sign in as guest
+app.post('/api/auth/guest-sign-up', async (req, res, next) => {
+  try {
+    const randomNumber = Math.floor(Math.random() * 10000);
+    const username = `Guest${randomNumber}`;
+    const hashedPassword = `guest${randomNumber}`;
+
+    const sql = `
+      insert into "users" ("username", "hashedPassword")
+      values ($1, $2)
+      returning *;
+    `;
+    const result = await db.query(sql, [username, hashedPassword]);
+    const [user] = result.rows;
+
+    const payload = {
+      userId: user.userId,
+      username,
+    };
+    const token = jwt.sign(payload, hashKey);
+
+    res.status(201).send({ user: payload, token });
+  } catch (err) {
+    next(err);
+  }
+});
+
 app.post('/api/auth/sign-in', async (req, res, next) => {
   try {
     const { username, password } = req.body as Partial<Auth>;

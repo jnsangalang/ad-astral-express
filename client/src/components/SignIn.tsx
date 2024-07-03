@@ -31,6 +31,32 @@ export function SignIn() {
       setIsLoading(false);
     }
   }
+
+  async function handleGuest() {
+    try {
+      setIsLoading(true);
+      const req = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+      const response = await fetch('/api/auth/guest-sign-up', req);
+      if (!response.ok) {
+        throw new Error(`failed to log in as guest`);
+      }
+      const user = await response.json();
+
+      localStorage.setItem('token', user.token);
+      handleSignIn(user, user.token);
+
+      navigate('/');
+    } catch (err) {
+      throw new Error(`Error registering user: ${err}`);
+    } finally {
+      setIsLoading(false);
+    }
+  }
   return (
     <div className=" w-screen starry-registration flex">
       <div className="stars  w-screen h-screen"></div>
@@ -95,6 +121,11 @@ export function SignIn() {
             <div className="shimmer">Need an account? Register here</div>
           </Link>
         </div>
+        <button
+          onClick={handleGuest}
+          className="text-black bg-yellow-300 rounded p-2 mt-2 lg:mt-6">
+          Log In As Guest
+        </button>
       </div>
       <img
         className="h-[150px] lg:h-[200px] pom-pom-run absolute top-[40vh]"
