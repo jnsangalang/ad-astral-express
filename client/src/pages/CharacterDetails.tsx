@@ -281,7 +281,9 @@ export function CharacterDetails() {
                 {characterDescription}
               </div>
             </div>
-            <div className="w-full prompt-extrabold pb-2">Stats</div>
+            <div className="w-full prompt-extrabold pb-2 overflow-auto">
+              Stats
+            </div>
             <div className="w-full flex">
               <div className="w-1/2 flex-col flex-wrap">
                 <div className="w-1/4 flex ">
