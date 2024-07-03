@@ -117,7 +117,7 @@ export function CharacterDetails() {
   }
   return (
     <div className="character-detail-bg">
-      <div className="w-full flex flex-col lg:flex-wrap">
+      <div className="w-full flex flex-col lg:flex-wrap ">
         <div className="w-full text-center text-3xl lg:text-6xl m-2 lg:my-6 prompt-extrabold">
           {characterName}
         </div>
@@ -141,7 +141,7 @@ export function CharacterDetails() {
             />
           </div>
           <div className="flex flex-col w-full lg:w-1/2 lg:m-8 my-2 border rounded-3xl sm:text-sm lg:text-lg character-detail-text-background pt-4 px-8 ">
-            <div className="w-full flex text-center">
+            <div className="w-full flex text-center ">
               <div className="w-1/2 flex flex-wrap justify-center items-center prompt-extrabold ">
                 <div className="w-full t">Path: {characterPath}</div>
                 {characterPath === 'Harmony' && (
@@ -275,15 +275,13 @@ export function CharacterDetails() {
                 )}
               </div>
             </div>
-            <div className=" prompt-extrabold pb-2">
+            <div className=" prompt-extrabold pb-2 overflow-auto">
               <div className="pb-4"> Description:</div>
               <div className="bebas-neue-regular text-lg">
                 {characterDescription}
               </div>
             </div>
-            <div className="w-full prompt-extrabold pb-2 overflow-auto">
-              Stats
-            </div>
+            <div className="w-full prompt-extrabold pb-2 ">Stats</div>
             <div className="w-full flex">
               <div className="w-1/2 flex-col flex-wrap">
                 <div className="w-1/4 flex ">
