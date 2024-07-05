@@ -23,6 +23,7 @@ View favorites list, and see how weapons could affect character stats
  - User can see how much a weapon affects a character's stats by clicking on one weapon and one character while on favorites page/
 
 ### Getting Started
+[Ad Astral Express](http://ec2-3-17-102-145.us-east-2.compute.amazonaws.com/)
 1. Click on the link above.
 2. User can sign up with a personal account, with their own username. Or user can simply click on 'Continues as Guest' which will create an account for user and log them in!
 3. Click on the 'Characters' or 'Weapons' buttons on the nav bar, and user will be provided with a list of filters or the 'All' option. Each choice will send user to a list of characters or weapons.
