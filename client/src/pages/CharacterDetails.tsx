@@ -286,7 +286,7 @@ export function CharacterDetails() {
               <div className="w-1/2 flex-col flex-wrap">
                 <div className="w-1/4 flex ">
                   <div className="pb-2 w-1/2 bebas-neue-regular">Level:</div>
-                  <div className="w-1/2 prompt-extrabold">
+                  <div className="w-1/2 prompt-extrabold pl-4">
                     {characterLevel[level]}
                   </div>
                 </div>
@@ -294,7 +294,7 @@ export function CharacterDetails() {
                   <div className="pb-2 w-1/2 bebas-neue-regular pr-2 ">
                     Attack:
                   </div>
-                  <div className="w-1/2 prompt-extrabold pl-2">
+                  <div className="w-1/2 prompt-extrabold pl-2 pl-6">
                     {characterAttack[level]}
                   </div>
                 </div>
@@ -302,7 +302,7 @@ export function CharacterDetails() {
                   <div className="pb-2 w-1/2 bebas-neue-regular pr-2">
                     Defense:
                   </div>
-                  <div className="w-1/2 prompt-extrabold pl-4">
+                  <div className="w-1/2 prompt-extrabold pl-8">
                     {characterDefense[level]}
                   </div>
                 </div>
@@ -310,19 +310,19 @@ export function CharacterDetails() {
                   <div className="pb-2 w-1/2 bebas-neue-regular pr-2">
                     Health:
                   </div>
-                  <div className="w-1/2 prompt-extrabold pl-2">
+                  <div className="w-1/2 prompt-extrabold pl-6">
                     {characterHealth[level]}
                   </div>
                 </div>
                 <div className="w-1/4 flex">
                   <div className="pb-2 w-1/2 bebas-neue-regular">Speed:</div>
-                  <div className="w-1/2 prompt-extrabold">
+                  <div className="w-1/2 prompt-extrabold pl-4">
                     {characterSpeed[level]}
                   </div>
                 </div>
               </div>
               <div className="w-1/2 flex items-center">
-                <div className="prompt-extrabold">
+                <div className="prompt-extrabold pl-4">
                   Current Level: {characterLevel[level]}
                 </div>
                 <div className="">
